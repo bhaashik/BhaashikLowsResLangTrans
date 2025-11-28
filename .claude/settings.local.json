@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(for dir in /mnt/d/projects/Bhaashik/BhaashikLowsResLangTrans/src/*/)",
+      "Bash(do [ ! -f \"$dir__init__.py\" ])",
+      "Bash(echo:*)",
+      "Bash(done)",
+      "Bash(tree:*)",
+      "Bash(chmod:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

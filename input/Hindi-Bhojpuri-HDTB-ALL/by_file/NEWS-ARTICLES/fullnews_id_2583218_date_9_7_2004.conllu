@@ -1,0 +1,423 @@
+# sent_id = fullnews_id_2583218_date_9_7_2004-s1
+# text = 
+1	विदेश	विदेश	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	मंत्री	मंत्री	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	नटवर	नटवर	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+4	सिंह	सिंह	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=40
+5	शुक्रवार	शुक्रवार	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	को	को	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	श्रीलंका	श्रीलंका	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	तीन	तीन	NUM	QC	NumType=Card	15	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	-	-	PUNCT	SYM	_	15	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	दिवसीय	दिवसीय	ADJ	JJ	Case=Acc	15	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	यात्रा	यात्रा	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=120
+13	पर	पर	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=4|ChunkType=NP|SpanStart=130
+14	रवाना	रवाना	ADJ	JJ	_	15	dep	_	ChunkId=5|ChunkType=JJP|SpanStart=140
+15	होने	हो	VERB	VM	Person=3|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=150
+16	वाले	वाला	AUX	VAUX	Gender=Masc|Mood=Imp|Number=Sing|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Tam=0|SpanStart=160
+17	हैं	है	AUX	VAUX	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=170
+18	।	।	PUNCT	SYM	_	15	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=180
+
+
+
+# sent_id = fullnews_id_2583218_date_9_7_2004-s2
+# text = 
+1	नटवर	नटवर	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	सिंह	सिंह	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	यह	यह	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	19	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	दौरा	दौरा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	दोनों	दो	NUM	QC	NumType=Card|Number=Plur	19	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	देशों	देश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	के	के	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	बीच	बीच	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	आर्थिक	आर्थिक	ADJ	JJ	Case=Acc	11	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=100
+11	एवं	एवं	CCONJ	CC	_	0	nmod	_	ChunkId=5|ChunkType=CCP|SpanStart=110
+12	राजनीतिक	राजनीतिक	ADJ	JJ	Case=Acc	11	dep	_	ChunkId=6|ChunkType=JJP|SpanStart=120
+13	सहयोग	सहयोग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=140
+15	दृष्टि	दृष्टि	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	से	से	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=8|ChunkType=NP|SpanStart=160
+17	काफी	काफी	DET	QF	PronType=Ind	19	dep	_	ChunkId=9|ChunkType=JJP|SpanStart=170
+18	महत्वपूर्ण	महत्वपूर्ण	ADJ	JJ	_	19	dep	_	ChunkId=9|ChunkType=JJP|SpanStart=180
+19	माना	मान	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=190
+20	जा	जा	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Tam=0|SpanStart=200
+21	रहा	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=210
+22	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=220
+23	।	।	PUNCT	SYM	_	19	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=230
+
+
+
+# sent_id = fullnews_id_2583218_date_9_7_2004-s3
+# text = 
+1	NULL	NULL	PRON	PRP	PronType=Prs	0	dep	_	ChunkId=1|ChunkType=NULL__NP
+2	गौरतलब	गौरतलब	ADJ	JJ	_	3	dep	_	ChunkId=2|ChunkType=JJP|SpanStart=10
+3	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=20
+4	कि	कि	SCONJ	CC	_	1	nmod	_	ChunkId=4|ChunkType=CCP|SpanStart=30
+5	श्रीलंका	श्रीलंका	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=40
+6	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=50
+7	सुनामी	सुनामी	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=60
+8	पुनर्निर्माण	पुनर्निर्माण	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=70
+9	परियोजना	परियोजना	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=80
+10	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=90
+11	भारत	भारत	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=100
+12	श्रीलंका	श्रीलंका	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=110
+13	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=120
+14	महत्वपूर्ण	महत्वपूर्ण	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=130
+15	रूप	रूप	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=140
+16	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=150
+17	मदद	मदद	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=160
+18	प्रदान	प्रदान	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=170
+19	कर	कर	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=12|ChunkType=VGF|Tam=0|SpanStart=180
+20	रहा	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	dep	_	ChunkId=12|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=190
+21	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=12|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=200
+22	।	।	PUNCT	SYM	_	3	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=210
+
+
+
+# sent_id = fullnews_id_2583218_date_9_7_2004-s4
+# text = 
+1	दौरे	दौरा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	के	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	दौरान	दौरान	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	नटवर	नटवर	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	सिंह	सिंह	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	भारत	भारत	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	-	-	PUNCT	SYM	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	श्रीलंका	श्रीलंका	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	संयुक्त	संयुक्त	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=90
+10	आयोग	आयोग	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=100
+11	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=110
+12	बैठक	बैठक	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=120
+13	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=130
+14	श्रीलंका	श्रीलंका	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=140
+15	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=150
+16	विदेश	विदेश	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=160
+17	मंत्री	मंत्री	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=170
+18	लक्ष्मण	लक्ष्मण	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	nmod	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=180
+19	कादिर	कादिर	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	nmod	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=190
+20	गमर	गमर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	nmod	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=200
+21	के	के	ADP	PSP	AdpType=Post	23	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=210
+22	साथ	साथ	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=220
+23	मिलकर	मिल	VERB	VM	VerbForm=Conv|Voice=Act	25	dep	_	ChunkId=8|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=230
+24	अध्यक्षता	अध्यक्षता	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=240
+25	करेंगे	कर	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=250
+26	।	।	PUNCT	SYM	_	25	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=260
+
+
+
+# sent_id = fullnews_id_2583218_date_9_7_2004-s5
+# text = 
+1	भारतीय	भारतीय	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	विदेश	विदेश	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	मंत्रालय	मंत्रालय	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+4	द्वारा	द्वारा	ADP	PSP	AdpType=Post	5	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	जारी	जारी	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=2|ChunkType=JJP|SpanStart=50
+6	बयान	बयान	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	में	में	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=80
+9	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=90
+10	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=100
+11	कि	कि	SCONJ	CC	_	8	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=110
+12	सिंह	सिंह	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	श्रीलंका	श्रीलंका	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=140
+15	राष्ट्रपति	राष्ट्रपति	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=160
+17	प्रधानमंत्री	प्रधानमंत्री	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=170
+18	तथा	तथा	CCONJ	CC	_	0	nmod	_	ChunkId=10|ChunkType=CCP|SpanStart=180
+19	अन्य	अन्य	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=190
+20	वरिष्ठ	वरिष्ठ	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=200
+21	नेताओं	नेता	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=210
+22	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=220
+23	साथ	साथ	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=230
+24	विभिन्न	विभिन्न	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=240
+25	मुद्दों	मुद्दा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=250
+26	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=260
+27	बात	बात	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=270
+28	-	-	PUNCT	SYM	_	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=280
+29	चीत	चीत	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=290
+30	भी	भी	PART	RP	_	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=300
+31	करेंगे	कर	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Fut|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=14|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=310
+32	।	।	PUNCT	SYM	_	8	dep	_	ChunkId=15|ChunkType=BLK|SpanStart=320
+
+
+
+# sent_id = fullnews_id_2583218_date_9_7_2004-s6
+# text = 
+1	NULL	NULL	PRON	PRP	PronType=Prs	0	dep	_	ChunkId=1|ChunkType=NULL__NP
+2	गौरतलब	गौरतलब	ADJ	JJ	_	3	dep	_	ChunkId=2|ChunkType=JJP|SpanStart=10
+3	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=20
+4	कि	कि	SCONJ	CC	_	1	nmod	_	ChunkId=4|ChunkType=CCP|SpanStart=30
+5	2003	2003	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=40
+6	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=50
+7	भारत	भारत	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=60
+8	-	-	PUNCT	SYM	_	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=70
+9	श्रीलंका	श्रीलंका	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=80
+10	संयुक्त	संयुक्त	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=90
+11	आयोग	आयोग	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=100
+12	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+13	बैठक	बैठक	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=120
+14	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=130
+15	बाद	बाद	NOUN	NST	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=140
+16	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=150
+17	ही	ही	PART	RP	_	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=160
+18	दोनों	दो	NUM	QC	NumType=Card|Number=Plur	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+19	देशों	देश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=180
+20	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=190
+21	बीच	बीच	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=200
+22	नए	नया	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=210
+23	सहयोग	सहयोग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=220
+24	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=230
+25	दौर	दौर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=240
+26	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=250
+27	शुरुआत	शुरुआत	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=260
+28	हुई	हो	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	4	dep	_	ChunkId=12|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=270
+29	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=12|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=280
+30	।	।	PUNCT	SYM	_	3	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=290
+
+
+
+# sent_id = fullnews_id_2583218_date_9_7_2004-s7
+# text = 
+1	भारतीय	भारतीय	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	विदेश	विदेश	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	मंत्रालय	मंत्रालय	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+4	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	15	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	अनुसार	अनुसार	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	15	dep	_	ChunkId=1|ChunkType=NP|SpanStart=50
+6	दोनों	दो	NUM	QC	NumType=Card|Number=Plur	15	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	देशों	देश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=70
+8	के	के	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=2|ChunkType=NP|SpanStart=80
+9	बीच	बीच	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	dep	_	ChunkId=2|ChunkType=NP|SpanStart=90
+10	व्यापार	व्यापार	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=100
+11	एवं	एवं	CCONJ	CC	_	15	dep	_	ChunkId=4|ChunkType=CCP|SpanStart=110
+12	निवेश	निवेश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	वृद्घि	वृद्घि	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=140
+15	हुई	हो	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	18	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=150
+16	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=160
+17	,	COMMA	PUNCT	SYM	_	18	dep	_	ChunkId=7|ChunkType=VGF|SpanStart=170
+18	NULL	NULL	CCONJ	CC	_	0	dep	_	ChunkId=8|ChunkType=NULL__CCP
+19	वहीं	वहीं	ADV	RB	_	0	dep	_	ChunkId=9|ChunkType=RBP|SpanStart=180
+20	सुरक्षा	सुरक्षा	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=190
+21	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=200
+22	क्षेत्र	क्षेत्र	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=210
+23	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=220
+24	भी	भी	PART	RP	_	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=230
+25	सहयोग	सहयोग	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=240
+26	बढ़ा	बढा	VERB	VM	Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=13|ChunkType=VGF|Tam=0|SpanStart=250
+27	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=260
+28	।	।	PUNCT	SYM	_	18	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=270
+
+
+
+# sent_id = fullnews_id_2583218_date_9_7_2004-s8
+# text = 
+1	सिंह	सिंह	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	श्रीलंका	श्रीलंका	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	दौरा	दौरा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	ऐसे	ऐसा	DET	DEM	Case=Acc|Gender=Masc|PronType=Dem	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	समय	समय	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	में	में	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Tam=0|SpanStart=80
+9	रहा	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=90
+10	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=100
+11	जब	जब	PRON	PRP	Case=Nom|PronType=Prs	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	सुनामी	सुनामी	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	पुनर्निर्माण	पुनर्निर्माण	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	योजना	योजना	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=140
+15	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=150
+16	श्रीलंका	श्रीलंका	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=170
+18	भारी	भारी	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=180
+19	अंतर्राष्ट्रीय	अंतर्राष्ट्रीय	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=190
+20	ऋण	ऋण	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=200
+21	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=210
+22	भी	भी	PART	RP	_	0	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=220
+23	सामना	सामना	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=230
+24	करना	कर	VERB	VM	Case=Nom|Gender=Masc|Number=Sing|Person=3|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=240
+25	पड़	पड	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Tam=0|SpanStart=250
+26	रहा	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=260
+27	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=270
+28	।	।	PUNCT	SYM	_	8	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=280
+
+
+
+# sent_id = fullnews_id_2583218_date_9_7_2004-s9
+# text = 
+1	श्रीलंका	श्रीलंका	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	यह	यह	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	12	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	पुनर्निर्माण	पुनर्निर्माण	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	योजना	योजना	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	पहले	पहले	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	ही	ही	PART	RP	_	12	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	विवाद	विवाद	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	केन्द्र	केंद्र	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	में	में	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	आ	आ	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Tam=0|SpanStart=120
+13	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=130
+14	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=140
+15	।	।	PUNCT	SYM	_	12	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=150
+
+
+
+# sent_id = fullnews_id_2583218_date_9_7_2004-s10
+# text = 
+1	श्रीलंका	श्रीलंका	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	सरकार	सरकार	PROPN	NNP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	यह	यह	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	चाहती	चाह	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=40
+5	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=50
+6	कि	कि	SCONJ	CC	_	0	nmod	_	ChunkId=4|ChunkType=CCP|SpanStart=60
+7	अरबों	अरब	NUM	QC	NumType=Card|Number=Plur	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=70
+8	रुपये	रुपया	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=100
+11	पुनर्निर्माण	पुनर्निर्माण	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	योजना	योजना	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=130
+14	तमिल	तमिल	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=140
+15	टाईगर	टाईगर	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=150
+16	भी	भी	PART	RP	_	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	सहयोग	सहयोग	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=170
+18	करे	कर	VERB	VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=एं|Tam=eM|SpanStart=180
+19	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=9|ChunkType=VGF|SpanStart=190
+20	लेकिन	लेकिन	CCONJ	CC	_	20	dep	_	ChunkId=10|ChunkType=CCP|SpanStart=200
+21	श्रीलंका	श्रीलंका	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=210
+22	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=220
+23	कई	कई	DET	QF	PronType=Ind	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=230
+24	प्रमुख	प्रमुख	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=240
+25	राजनीतिक	राजनीतिक	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=250
+26	दल	दल	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=260
+27	सरकार	सरकार	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=270
+28	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=280
+29	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	0	nmod	_	ChunkId=14|ChunkType=NP|SpanStart=290
+30	योजना	योजना	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=300
+31	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=14|ChunkType=NP|SpanStart=310
+32	भारी	भारी	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=320
+33	विरोध	विरोध	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=330
+34	कर	कर	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Tam=0|SpanStart=340
+35	रहे	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=350
+36	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=360
+37	।	।	PUNCT	SYM	_	4	dep	_	ChunkId=17|ChunkType=BLK|SpanStart=370
+
+
+
+# sent_id = fullnews_id_2583218_date_9_7_2004-s11
+# text = 
+1	सत्तारूढ़	सत्तारूढ़	ADJ	JJ	Case=Acc	4	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	गठबंधन	गठबंधन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	4	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	शामिल	शामिल	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=2|ChunkType=JJP|SpanStart=40
+5	जनता	जनता	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	विमुक्ति	विमुक्ति	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	पेरामुना	पेरामुना	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	ने	ने	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	धमकी	धमकी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	दी	दे	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=100
+11	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=110
+12	कि	कि	SCONJ	CC	_	10	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=120
+13	अगर	अगर	SCONJ	CC	_	0	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=130
+14	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=140
+15	योजना	योजना	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=160
+17	तमिल	तमिल	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=170
+18	टाईगर	टाईगर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=190
+20	शामिल	शामिल	ADJ	JJ	_	0	dep	_	ChunkId=10|ChunkType=JJP|SpanStart=200
+21	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=210
+22	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=220
+23	तो	तो	SCONJ	CC	_	23	dep	_	ChunkId=12|ChunkType=CCP|SpanStart=230
+24	वह	वह	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=240
+25	सरकार	सरकार	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=250
+26	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=260
+27	अलग	अलग	ADJ	JJ	_	0	dep	_	ChunkId=15|ChunkType=JJP|SpanStart=270
+28	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Tam=0|SpanStart=280
+29	जाएगी	जा	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=290
+30	।	।	PUNCT	SYM	_	10	dep	_	ChunkId=17|ChunkType=BLK|SpanStart=300
+
+
+
+# sent_id = fullnews_id_2583218_date_9_7_2004-s12
+# text = 
+1	भारत	भारत	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	श्रीलंका	श्रीलंका	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	क्षेत्रीय	क्षेत्रीय	ADJ	JJ	Case=Acc	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	अखंडता	अखंडता	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	को	को	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	महत्व	महत्व	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	देने	दे	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	23	nmod	_	ChunkId=5|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=80
+9	के	के	ADP	PSP	AdpType=Post	23	nmod	_	ChunkId=5|ChunkType=VGNN|SpanStart=90
+10	साथ	साथ	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	nmod	_	ChunkId=5|ChunkType=VGNN|SpanStart=100
+11	-	-	PUNCT	SYM	_	23	nmod	_	ChunkId=5|ChunkType=VGNN|SpanStart=110
+12	साथ	साथ	PART	RDP	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	nmod	_	ChunkId=5|ChunkType=VGNN|SpanStart=120
+13	श्रीलंका	श्रीलंका	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	जातीय	जातीय	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	विवाद	विवाद	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=170
+18	भी	भी	PART	RP	_	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=180
+19	मध्यस्थता	मध्यस्थता	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=190
+20	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=200
+21	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=9|ChunkType=VGNN|SpanStart=210
+22	प्रस्ताव	प्रस्ताव	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=220
+23	रख	रख	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Tam=0|SpanStart=230
+24	चुका	चुका	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Tam=0|SpanStart=240
+25	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=250
+26	।	।	PUNCT	SYM	_	23	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=260
+
+
+
+# sent_id = fullnews_id_2583218_date_9_7_2004-s13
+# text = 
+1	सिंह	सिंह	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	18	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	दौरे	दौरा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	के	के	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	दौरान	दौरान	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	दोनों	दो	NUM	QC	NumType=Card|Number=Plur	18	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	देशों	देश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	के	के	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	बीच	बीच	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	dep	_	ChunkId=3|ChunkType=NP|SpanStart=100
+11	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	18	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	मुद्दे	मुद्दा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=120
+13	पर	पर	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=4|ChunkType=NP|SpanStart=130
+14	भी	भी	PART	RP	_	18	dep	_	ChunkId=4|ChunkType=NP|SpanStart=140
+15	बात	बात	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=150
+16	-	-	PUNCT	SYM	_	18	dep	_	ChunkId=5|ChunkType=NP|SpanStart=160
+17	चीत	चीत	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=170
+18	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=180
+19	जाएगी	जा	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=190
+20	।	।	PUNCT	SYM	_	18	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=200
+
+
+
+# sent_id = fullnews_id_2583218_date_9_7_2004-s14
+# text = 
+1	श्रीलंका	श्रीलंका	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	सुनामी	सुनामी	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	पुनर्निर्माण	पुनर्निर्माण	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	योजना	योजना	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	के	के	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	लिए	लिए	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	ने	ने	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	लगभग	लगभग	PART	RP	_	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	3	3	NUM	QCC	NumType=Card	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	करोड़	करोड	NUM	QC	NumType=Card	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=120
+13	डॉलर	डॉलर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=130
+14	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=140
+15	मदद	मदद	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=150
+16	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=160
+17	प्रस्ताव	प्रस्ताव	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=170
+18	दिया	दे	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=180
+19	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=190
+20	।	।	PUNCT	SYM	_	18	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=200
+

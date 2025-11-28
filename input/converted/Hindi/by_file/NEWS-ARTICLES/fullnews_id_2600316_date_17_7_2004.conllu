@@ -1,0 +1,266 @@
+# sent_id = fullnews_id_2600316_date_17_7_2004-s1
+# text = 
+1	अमरनाथ	अमरनाथ	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	गुफा	गुफा	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	प्राकृतिक	प्राकृतिक	ADJ	JJ	Case=Acc	7	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	रूप	रूप	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	से	से	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	बने	बन	VERB	VM	Aspect=Perf|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=70
+8	हिमलिंग	हिमलिंग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	को	को	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	छह	छह	NUM	QC	NumType=Card	13	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	महीनों	महीना	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	तक	तक	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	सहेजने	सहेज	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	18	dep	_	ChunkId=6|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=130
+14	के	के	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=6|ChunkType=VGNN|SpanStart=140
+15	लिए	लिए	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=6|ChunkType=VGNN|SpanStart=150
+16	योजना	योजना	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	तैयार	तैयार	ADJ	JJ	_	18	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=170
+18	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=180
+19	जा	जा	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Tam=0|SpanStart=190
+20	रही	रह	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=200
+21	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=210
+22	।	।	PUNCT	SYM	_	18	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=220
+
+
+
+# sent_id = fullnews_id_2600316_date_17_7_2004-s2
+# text = 
+1	इसके	यह	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	dep	_	ChunkId=1|ChunkType=NP|Vib=के|Tam=ke|SpanStart=10
+2	साथ	साथ	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	ही	ही	PART	RP	_	24	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	तीर्थ	तीर्थ	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	-	-	PUNCT	SYM	_	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	यात्रियों	यात्री	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	को	को	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	बेहतर	बेहतर	ADJ	JJ	Case=Nom	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	सुविधा	सुविधा	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=90
+10	उपलब्ध	उपलब्ध	ADJ	JJ	_	11	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=100
+11	कराने	करा	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=110
+12	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=VGNN|SpanStart=120
+13	दिशा	दिशा	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	२०	२०	NUM	QCC	NumType=Card	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	करोड़	करोड	NUM	QC	NumType=Card	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	रुपये	रुपया	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=170
+18	खर्च	खर्च	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=180
+19	किए	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGNN|Vib=या|Tam=yA|SpanStart=190
+20	जाने	जा	AUX	VAUX	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=200
+21	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=9|ChunkType=VGNN|SpanStart=210
+22	भी	भी	PART	RP	_	0	dep	_	ChunkId=9|ChunkType=VGNN|SpanStart=220
+23	योजना	योजना	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=230
+24	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=240
+25	।	।	PUNCT	SYM	_	24	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=250
+
+
+
+# sent_id = fullnews_id_2600316_date_17_7_2004-s3
+# text = 
+1	श्री	श्री	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	अमरनाथ	अमरनाथ	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	श्राईन	श्राईन	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+4	बोर्ड	बोर्ड	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=40
+5	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=50
+6	अध्यक्ष	अध्यक्ष	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	और	और	CCONJ	CC	_	0	nmod	_	ChunkId=3|ChunkType=CCP|SpanStart=70
+8	जम्मू	जम्मू	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	-	-	PUNCT	SYM	_	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	कश्मीर	कश्मीर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	राज्यपाल	राज्यपाल	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	एस.	एस.	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	के.	के.	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=140
+15	सिन्हा	सिन्हा	PROPN	NNP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=150
+16	ने	ने	ADP	PSP	AdpType=Post	21	dep	_	ChunkId=6|ChunkType=NP|SpanStart=160
+17	शुक्रवार	शुक्रवार	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=170
+18	को	को	ADP	PSP	AdpType=Post	21	dep	_	ChunkId=7|ChunkType=NP|SpanStart=180
+19	पत्रकारों	पत्रकार	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=190
+20	को	को	ADP	PSP	AdpType=Post	21	dep	_	ChunkId=8|ChunkType=NP|SpanStart=200
+21	बताया	बता	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=210
+22	कि	कि	SCONJ	CC	_	21	dep	_	ChunkId=10|ChunkType=CCP|SpanStart=220
+23	रक्षा	रक्षा	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=230
+24	अनुसंधान	अनुसंधान	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=240
+25	एवं	एवं	PROPN	NNPC	_	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=250
+26	विकास	विकास	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=260
+27	संगठन	संगठन	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=270
+28	(	(	PUNCT	SYM	_	0	nmod	_	ChunkId=12|ChunkType=NP|SpanStart=280
+29	डीआरडीओ	डीआरडीओ	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=290
+30	)	)	PUNCT	SYM	_	0	nmod	_	ChunkId=12|ChunkType=NP|SpanStart=300
+31	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	dep	_	ChunkId=13|ChunkType=FRAGP|SpanStart=310
+32	वैज्ञानिक	वैज्ञानिक	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=320
+33	गुफा	गुफा	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	38	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=330
+34	के	के	ADP	PSP	AdpType=Post	38	dep	_	ChunkId=15|ChunkType=NP|SpanStart=340
+35	अंदर	अंदर	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	38	dep	_	ChunkId=15|ChunkType=NP|SpanStart=350
+36	बर्फ	बर्फ	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	38	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=360
+37	से	से	ADP	PSP	AdpType=Post	38	dep	_	ChunkId=16|ChunkType=NP|SpanStart=370
+38	बने	बन	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=380
+39	शिवलिंग	शिवलिंग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	42	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=390
+40	को	को	ADP	PSP	AdpType=Post	42	dep	_	ChunkId=18|ChunkType=NP|SpanStart=400
+41	सुरक्षित	सुरक्षित	ADJ	JJ	_	42	dep	_	ChunkId=19|ChunkType=JJP|SpanStart=410
+42	रखने	रख	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=20|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=420
+43	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	dep	_	ChunkId=20|ChunkType=VGNN|SpanStart=430
+44	तरीके	तरीका	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=NP|Tam=0|SpanStart=440
+45	खोज	खोज	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=22|ChunkType=VGF|Tam=0|SpanStart=450
+46	रहे	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=22|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=460
+47	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=22|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=470
+48	और	और	CCONJ	CC	_	0	dep	_	ChunkId=23|ChunkType=CCP|SpanStart=480
+49	इस	यह	PRON	PRP	Case=Acc|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=24|ChunkType=NP|Tam=0|SpanStart=490
+50	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=24|ChunkType=NP|SpanStart=500
+51	लगभग	लगभग	PART	RP	_	0	dep	_	ChunkId=25|ChunkType=NP|SpanStart=510
+52	५०	५०	NUM	QCC	NumType=Card	0	dep	_	ChunkId=25|ChunkType=NP|SpanStart=520
+53	लाख	लाख	NUM	QC	NumType=Card	0	dep	_	ChunkId=25|ChunkType=NP|SpanStart=530
+54	रुपये	रुपया	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=25|ChunkType=NP|Tam=0|SpanStart=540
+55	खर्च	खर्च	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=26|ChunkType=NP|Tam=0|SpanStart=550
+56	होने	हो	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=27|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=560
+57	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=27|ChunkType=VGNN|SpanStart=570
+58	अनुमान	अनुमान	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=28|ChunkType=NP|Tam=0|SpanStart=580
+59	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=29|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=590
+60	।	।	PUNCT	SYM	_	21	dep	_	ChunkId=30|ChunkType=BLK|SpanStart=600
+
+
+
+# sent_id = fullnews_id_2600316_date_17_7_2004-s4
+# text = 
+1	सिन्हा	सिन्हा	PROPN	NNP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	ने	ने	ADP	PSP	AdpType=Post	3	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=30
+4	कि	कि	SCONJ	CC	_	3	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=40
+5	हिमलिंग	हिमलिंग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+6	को	को	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	संरक्षित	संरक्षित	ADJ	JJ	_	8	dep	_	ChunkId=5|ChunkType=JJP|SpanStart=70
+8	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=6|ChunkType=VGNN|SpanStart=90
+10	तकनीक	तकनीक	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=100
+11	उसे	वह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	0	dep	_	ChunkId=8|ChunkType=NP|Vib=को|Tam=ko|SpanStart=110
+12	छह	छह	NUM	QC	NumType=Card	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=120
+13	महीने	महीना	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=130
+14	तक	तक	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=140
+15	दर्शन	दर्शन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=150
+16	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=160
+17	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=170
+18	उपलब्ध	उपलब्ध	ADJ	JJ	_	0	dep	_	ChunkId=11|ChunkType=JJP|SpanStart=180
+19	कराने	करा	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=190
+20	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=12|ChunkType=VGNN|SpanStart=200
+21	सहायक	सहायक	ADJ	JJ	_	0	dep	_	ChunkId=13|ChunkType=JJP|SpanStart=210
+22	होगी	हो	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=14|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=220
+23	।	।	PUNCT	SYM	_	3	dep	_	ChunkId=15|ChunkType=BLK|SpanStart=230
+
+
+
+# sent_id = fullnews_id_2600316_date_17_7_2004-s5
+# text = 
+1	उन्होंने	वह	PRON	PRP	Case=Acc|Number=Sing|PronType=Prs	2	dep	_	ChunkId=1|ChunkType=NP|Vib=ने|Tam=ne|SpanStart=10
+2	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=20
+3	कि	कि	SCONJ	CC	_	2	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=30
+4	वर्तमान	वर्तमान	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=40
+5	समय	समय	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+6	में	में	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	दो	दो	NUM	QC	NumType=Card	14	dep	_	ChunkId=5|ChunkType=NP|SpanStart=70
+8	तीन	तीन	NUM	QC	NumType=Card	14	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	सप्ताह	सप्ताह	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	के	के	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	लिए	लिए	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	ही	ही	PART	RP	_	14	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	दर्शन	दर्शन	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGNN|Tam=0|SpanStart=140
+15	पाने	पा	AUX	VAUX	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=150
+16	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=7|ChunkType=VGNN|SpanStart=160
+17	कारण	कारण	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=7|ChunkType=VGNN|SpanStart=170
+18	कई	कई	DET	QF	PronType=Ind	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=180
+19	बार	बार	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=190
+20	तीर्थ	तीर्थ	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=200
+21	-	-	PUNCT	SYM	_	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=210
+22	यात्रियों	यात्री	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=220
+23	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=230
+24	निराश	निराश	ADJ	JJ	_	25	dep	_	ChunkId=10|ChunkType=JJP|SpanStart=240
+25	होकर	हो	VERB	VM	VerbForm=Conv|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=250
+26	लौटना	लौट	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=260
+27	पड़ता	पड़	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=270
+28	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=280
+29	और	और	CCONJ	CC	_	29	dep	_	ChunkId=13|ChunkType=CCP|SpanStart=290
+30	कम	कम	DET	QF	PronType=Ind	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=300
+31	अवधि	अवधि	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=310
+32	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=320
+33	कारण	कारण	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=330
+34	यात्रा	यात्रा	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=340
+35	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=350
+36	भीड़	भीड़	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=360
+37	अचानक	अचानक	ADV	RB	_	0	dep	_	ChunkId=17|ChunkType=RBP|SpanStart=370
+38	बढ़	बढ़	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Tam=0|SpanStart=380
+39	जाती	जा	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=390
+40	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=400
+41	।	।	PUNCT	SYM	_	2	dep	_	ChunkId=19|ChunkType=BLK|SpanStart=410
+
+
+
+# sent_id = fullnews_id_2600316_date_17_7_2004-s6
+# text = 
+1	सिन्हा	सिन्हा	PROPN	NNP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	ने	ने	ADP	PSP	AdpType=Post	3	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=30
+4	कि	कि	SCONJ	CC	_	3	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=40
+5	तीर्थ	तीर्थ	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+6	यात्री	यात्री	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=60
+7	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	उपस्थिति	उपस्थिति	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	और	और	CCONJ	CC	_	13	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=90
+10	मौसम	मौसम	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=100
+11	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=110
+12	कारण	कारण	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=120
+13	उत्पन्न	उत्पन्न	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=8|ChunkType=JJP|SpanStart=130
+14	गर्मी	गर्मी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=140
+15	से	से	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=9|ChunkType=NP|SpanStart=150
+16	भी	भी	PART	RP	_	19	dep	_	ChunkId=9|ChunkType=NP|SpanStart=160
+17	हिमलिंग	हिमलिंग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=170
+18	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	19	dep	_	ChunkId=10|ChunkType=NP|SpanStart=180
+19	पिघलने	पिघल	VERB	VM	VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=190
+20	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	0	dep	_	ChunkId=11|ChunkType=VGNN|SpanStart=200
+21	वजह	वजह	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	0	dep	_	ChunkId=11|ChunkType=VGNN|SpanStart=210
+22	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=VGNN|SpanStart=220
+23	सभी	सब	DET	QF	PronType=Ind	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=230
+24	लोग	लोग	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=240
+25	दर्शन	दर्शन	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=250
+26	नहीं	नहीं	PART	NEG	_	4	dep	_	ChunkId=14|ChunkType=VGF|SpanStart=260
+27	कर	कर	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=14|ChunkType=VGF|Tam=0|SpanStart=270
+28	पाते	पा	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=14|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=280
+29	।	।	PUNCT	SYM	_	3	dep	_	ChunkId=15|ChunkType=BLK|SpanStart=290
+
+
+
+# sent_id = fullnews_id_2600316_date_17_7_2004-s7
+# text = 
+1	सिन्हा	सिन्हा	PROPN	NNP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	ने	ने	ADP	PSP	AdpType=Post	3	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=30
+4	कि	कि	SCONJ	CC	_	3	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=40
+5	उनकी	वह	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs	0	dep	_	ChunkId=4|ChunkType=NP|Vib=का|Tam=kA|SpanStart=50
+6	योजना	योजना	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=60
+7	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=70
+8	कि	कि	SCONJ	CC	_	0	nmod	_	ChunkId=7|ChunkType=CCP|SpanStart=80
+9	केंद्र	केंद्र	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=90
+10	या	या	CCONJ	CC	_	0	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=100
+11	राज्य	राज्य	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=110
+12	सरकार	सरकार	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=120
+13	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=130
+14	मदद	मदद	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=140
+15	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=150
+16	बिना	बिन	PART	RP	_	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=160
+17	हिमलिंग	हिमलिंग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=170
+18	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=180
+19	संरक्षा	संरक्षा	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=190
+20	और	और	CCONJ	CC	_	0	dep	_	ChunkId=15|ChunkType=CCP|SpanStart=200
+21	तीर्थ	तीर्थ	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=210
+22	-	-	PUNCT	SYM	_	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=220
+23	यात्रियों	यात्री	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=230
+24	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=240
+25	सुविधा	सुविधा	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=250
+26	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=260
+27	२०	२०	NUM	QCC	NumType=Card	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=270
+28	करोड़	करोड	NUM	QC	NumType=Card	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=280
+29	रुपये	रुपया	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=290
+30	खर्च	खर्च	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=300
+31	किए	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=20|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=310
+32	जाएँ	जा	AUX	VAUX	Mood=Sub|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=VGF|Vib=एं|Tam=eM|SpanStart=320
+33	।	।	PUNCT	SYM	_	3	dep	_	ChunkId=21|ChunkType=BLK|SpanStart=330
+

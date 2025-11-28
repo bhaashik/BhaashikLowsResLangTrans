@@ -1,0 +1,541 @@
+# sent_id = fullnews_id_2554874_date_27_6_2004-s1
+# text = 
+1	सुप्रीम	सुप्रीम	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	26	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	कोर्ट	कोर्ट	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	26	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	ने	ने	ADP	PSP	AdpType=Post	26	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	भागकर	भाग	VERB	VM	VerbForm=Conv|Voice=Act	6	dep	_	ChunkId=2|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=40
+5	शादी	शादी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=60
+7	वाले	वाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=4|ChunkType=VGNN|SpanStart=70
+8	अल्प	अल्प	ADJ	JJC	Case=Acc	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	वयस्क	वयस्क	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	युगलों	युगल	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	खिलाफ	खिलाफ	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	कार्रवाई	कार्रवाई	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=140
+15	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=VGNN|SpanStart=150
+16	इनकार	इनकार	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=170
+18	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=9|ChunkType=VGNN|SpanStart=180
+19	दिल्ली	दिल्ली	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=190
+20	हाईकोर्ट	हाईकोर्ट	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	विवादास्पद	विवादास्पद	ADJ	JJ	Case=Acc	26	dep	_	ChunkId=11|ChunkType=NP|SpanStart=220
+23	फैसले	फैसला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	26	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=230
+24	पर	पर	ADP	PSP	AdpType=Post	26	dep	_	ChunkId=11|ChunkType=NP|SpanStart=240
+25	रोक	रोक	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	26	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=250
+26	लगा	लगा	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Tam=0|SpanStart=260
+27	दी	दे	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=270
+28	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=280
+29	।	।	PUNCT	SYM	_	26	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=290
+
+
+
+# sent_id = fullnews_id_2554874_date_27_6_2004-s2
+# text = 
+1	अदालत	अदालत	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	ने	ने	ADP	PSP	AdpType=Post	29	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	हाईकोर्ट	हाईकोर्ट	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	फैसले	फैसला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	के	के	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	खिलाफ	खिलाफ	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	दायर	दायर	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=4|ChunkType=JJP|SpanStart=80
+9	याचिकाओं	याचिका	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	पर	पर	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	विचार	विचार	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	करते	कर	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=7|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=120
+13	हुए	हो	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	29	dep	_	ChunkId=7|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=130
+14	केंद्र	केंद्र	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=140
+15	सरकार	सरकार	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	,	COMMA	PUNCT	SYM	_	19	dep	_	ChunkId=8|ChunkType=NP|SpanStart=160
+17	दिल्ली	दिल्ली	PROPN	NNP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=170
+18	सरकार	सरकार	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	और	और	CCONJ	CC	_	29	dep	_	ChunkId=10|ChunkType=CCP|SpanStart=190
+20	बालिका	बालिका	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=200
+21	शरणगृह	शरणगृह	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=210
+22	'	SINGLE_QUOTE	PUNCT	SYM	_	19	dep	_	ChunkId=11|ChunkType=NP|SpanStart=220
+23	निर्मल	निर्मल	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=230
+24	छाया	छाया	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=240
+25	'	SINGLE_QUOTE	PUNCT	SYM	_	19	dep	_	ChunkId=11|ChunkType=NP|SpanStart=250
+26	को	को	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=11|ChunkType=NP|SpanStart=260
+27	नोटिस	नोटिस	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=270
+28	जारी	जारी	ADJ	JJ	_	29	dep	_	ChunkId=13|ChunkType=JJP|SpanStart=280
+29	किए	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=290
+30	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=300
+31	।	।	PUNCT	SYM	_	29	dep	_	ChunkId=15|ChunkType=BLK|SpanStart=310
+
+
+
+# sent_id = fullnews_id_2554874_date_27_6_2004-s3
+# text = 
+1	विधि	विधि	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	आयोग	आयोग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	से	से	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	भी	भी	PART	RP	_	6	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	मदद	मदद	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	मांगी	मांग	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=60
+7	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=70
+8	।	।	PUNCT	SYM	_	6	dep	_	ChunkId=4|ChunkType=BLK|SpanStart=80
+
+
+
+# sent_id = fullnews_id_2554874_date_27_6_2004-s4
+# text = 
+1	याचिकाओं	याचिका	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	में	में	ADP	PSP	AdpType=Post	4	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	मांग	मांग	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=40
+5	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=या१|Tam=yA1|SpanStart=50
+6	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=60
+7	कि	कि	SCONJ	CC	_	4	dep	_	ChunkId=4|ChunkType=CCP|SpanStart=70
+8	विवाह	विवाह	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	न्यूनतम	न्यूनतम	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=100
+11	आयु	आयु	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	बाल	बाल	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	परिभाषा	परिभाषा	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=140
+15	और	और	CCONJ	CC	_	21	dep	_	ChunkId=8|ChunkType=CCP|SpanStart=150
+16	शारीरिक	शारीरिक	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=160
+17	संबंध	संबंध	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=170
+18	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=180
+19	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=190
+20	सहमति	सहमति	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	दे	दे	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGNN|Tam=0|SpanStart=210
+22	सकने	सक	AUX	VAUX	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=220
+23	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=11|ChunkType=VGNN|SpanStart=230
+24	आयु	आयु	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=240
+25	स्पष्ट	स्पष्ट	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=250
+26	रूप	रूप	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=260
+27	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=270
+28	निर्धारित	निर्धारित	ADJ	JJ	_	0	dep	_	ChunkId=14|ChunkType=JJP|SpanStart=280
+29	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	7	dep	_	ChunkId=15|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=290
+30	जानी	जाना	AUX	VAUX	Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=15|ChunkType=VGF|Tam=0|SpanStart=300
+31	चाहिए	चाहिए	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=15|ChunkType=VGF|Tam=0|SpanStart=310
+32	।	।	PUNCT	SYM	_	4	dep	_	ChunkId=16|ChunkType=BLK|SpanStart=320
+
+
+
+# sent_id = fullnews_id_2554874_date_27_6_2004-s5
+# text = 
+1	चीफ	चीफ	NOUN	NNC	Case=Nom	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	जस्टिस	जस्टिस	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	वाई.	वाई.	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+4	के.	के.	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=40
+5	सब्बरवाल	सब्बरवाल	PROPN	NNP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=50
+6	,	COMMA	PUNCT	SYM	_	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=60
+7	जस्टिस	जस्टिस	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=70
+8	सी.	सी.	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=80
+9	के.	के.	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=90
+10	ठक्कर	ठक्कर	PROPN	NNP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=100
+11	और	और	CCONJ	CC	_	0	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=110
+12	जस्टिस	जस्टिस	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=120
+13	आर.	आर.	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=130
+14	वी.	वी.	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=140
+15	रवींद्रन	रवींद्रन	PROPN	NNP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=150
+16	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	11	dep	_	ChunkId=4|ChunkType=NP|SpanStart=160
+17	खंडपीठ	खंडपीठ	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	43	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=170
+18	ने	ने	ADP	PSP	AdpType=Post	43	dep	_	ChunkId=5|ChunkType=NP|SpanStart=180
+19	सोमवार	सोमवार	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	43	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=190
+20	को	को	ADP	PSP	AdpType=Post	43	dep	_	ChunkId=6|ChunkType=NP|SpanStart=200
+21	राष्ट्रीय	राष्ट्रीय	PROPN	NNPC	Case=Nom	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=10
+22	महिला	महिला	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=220
+23	आयोग	आयोग	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=230
+24	और	और	CCONJ	CC	_	0	dep	_	ChunkId=8|ChunkType=CCP|SpanStart=240
+25	दिल्ली	दिल्ली	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=250
+26	महिला	महिला	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=260
+27	आयोग	आयोग	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=270
+28	तथा	तथा	CCONJ	CC	_	0	dep	_	ChunkId=10|ChunkType=CCP|SpanStart=280
+29	अन्य	अन्य	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=270
+30	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=300
+31	दो	दो	NUM	QC	NumType=Card	35	dep	_	ChunkId=12|ChunkType=NP|SpanStart=310
+32	याचिकाओं	याचिका	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	35	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=320
+33	पर	पर	ADP	PSP	AdpType=Post	35	dep	_	ChunkId=12|ChunkType=NP|SpanStart=330
+34	सुनवाई	सुनवाई	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	35	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=340
+35	करते	कर	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	43	dep	_	ChunkId=14|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=350
+36	हुए	हो	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	43	dep	_	ChunkId=14|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=360
+37	दिल्ली	दिल्ली	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=370
+38	हाईकोर्ट	हाईकोर्ट	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=380
+39	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=390
+40	आदेश	आदेश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	43	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=400
+41	पर	पर	ADP	PSP	AdpType=Post	43	dep	_	ChunkId=16|ChunkType=NP|SpanStart=410
+42	रोक	रोक	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	43	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=420
+43	लगा	लगा	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Tam=0|SpanStart=430
+44	दी	दे	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=440
+45	।	।	PUNCT	SYM	_	43	dep	_	ChunkId=19|ChunkType=BLK|SpanStart=450
+
+
+
+# sent_id = fullnews_id_2554874_date_27_6_2004-s6
+# text = 
+1	सुप्रीम	सुप्रीम	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	कोर्ट	कोर्ट	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	21	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	पूरे	पूरा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	21	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	मामले	मामला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	में	में	ADP	PSP	AdpType=Post	21	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	देश	देश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	भर	भर	PART	RP	_	10	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	में	में	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	प्रचलित	प्रचलित	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=4|ChunkType=JJP|SpanStart=100
+11	विवाह	विवाह	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	परंपराओं	परंपरा	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	और	और	CCONJ	CC	_	18	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=130
+14	पद्धतिओं	पद्धति	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=140
+15	को	को	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	ध्यान	ध्यान	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	में	में	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	रखते	रख	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=9|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=180
+19	हुए	हो	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	21	dep	_	ChunkId=9|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=190
+20	विचार	विचार	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	करेगी	कर	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=210
+22	।	।	PUNCT	SYM	_	21	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=220
+
+
+
+# sent_id = fullnews_id_2554874_date_27_6_2004-s7
+# text = 
+1	दिल्ली	दिल्ली	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	हाईकोर्ट	हाईकोर्ट	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	पांच	पांच	PROPN	NNPC	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	अक्टूबर	अक्टूबर	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	२००५	२००५	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=70
+8	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=80
+9	फैसले	फैसला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=90
+10	और	और	CCONJ	CC	_	21	dep	_	ChunkId=4|ChunkType=CCP|SpanStart=100
+11	आंध्र	आंध्र	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	प्रदेश	प्रदेश	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	हाईकोर्ट	हाईकोर्ट	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=130
+14	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	पिछले	पिछला	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=150
+16	महीने	महीना	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=160
+17	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=170
+18	आदेशों	आदेश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=180
+19	के	के	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=7|ChunkType=NP|SpanStart=190
+20	खिलाफ	खिलाफ	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=7|ChunkType=NP|SpanStart=200
+21	दायर	दायर	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=8|ChunkType=JJP|SpanStart=210
+22	याचिकाओं	याचिका	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	37	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=220
+23	में	में	ADP	PSP	AdpType=Post	37	dep	_	ChunkId=9|ChunkType=NP|SpanStart=230
+24	बाल	बाल	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=240
+25	विवाह	विवाह	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=250
+26	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=260
+27	समस्या	समस्या	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=270
+28	और	और	CCONJ	CC	_	37	dep	_	ChunkId=12|ChunkType=CCP|SpanStart=280
+29	कन्या	कन्या	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=290
+30	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=300
+31	विवाह	विवाह	ADJ	JJC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=310
+32	योग्य	योग्य	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=320
+33	न्यूनतम	न्यूनतम	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=330
+34	आयु	आयु	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=340
+35	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=350
+36	मसला	मसला	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=360
+37	उठाते	उठा	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	66	dep	_	ChunkId=16|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=370
+38	हुए	हो	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	66	dep	_	ChunkId=16|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=380
+39	बाल	बाल	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=390
+40	विवाह	विवाह	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=400
+41	निरोधक	निरोधक	PROPN	NNPC	Case=Acc	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=410
+42	कानून	कानून	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=420
+43	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=430
+44	भारतीय	भारतीय	PROPN	NNPC	Case=Nom	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=410
+45	दंड	दंड	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=450
+46	संहिता	संहिता	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=460
+47	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=470
+48	शरीयत	शरीयत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=480
+49	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=490
+50	हिंदू	हिंदू	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=500
+51	विवाह	विवाह	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=510
+52	कानून	कानून	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=520
+53	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=530
+54	किशोरवय	किशोरवय	PROPN	NNPC	Case=Nom	0	dep	_	ChunkId=21|ChunkType=NP|SpanStart=410
+55	न्याय	न्याय	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=NP|Tam=0|SpanStart=550
+56	कानून	कानून	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=NP|Tam=0|SpanStart=560
+57	और	और	CCONJ	CC	_	0	dep	_	ChunkId=22|ChunkType=CCP|SpanStart=570
+58	तलाक	तलाक	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=23|ChunkType=NP|Tam=0|SpanStart=580
+59	कानून	कानून	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=23|ChunkType=NP|Tam=0|SpanStart=590
+60	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=23|ChunkType=NP|SpanStart=600
+61	परस्पर	परस्पर	PRON	PRP	PronType=Prs	0	nmod	_	ChunkId=24|ChunkType=NP|SpanStart=610
+62	विरोधाभासी	विरोधाभासी	ADJ	JJ	Case=Acc	66	dep	_	ChunkId=25|ChunkType=NP|SpanStart=620
+63	प्रावधानों	प्रावधान	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	66	dep	_	ChunkId=25|ChunkType=NP|Tam=0|SpanStart=630
+64	को	को	ADP	PSP	AdpType=Post	66	dep	_	ChunkId=25|ChunkType=NP|SpanStart=640
+65	चुनौती	चुनौती	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	66	dep	_	ChunkId=26|ChunkType=NP|Tam=0|SpanStart=650
+66	दी	दे	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=27|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=660
+67	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=27|ChunkType=VGF|Vib=या१|Tam=yA1|SpanStart=670
+68	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=27|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=680
+69	।	।	PUNCT	SYM	_	66	dep	_	ChunkId=28|ChunkType=BLK|SpanStart=690
+
+
+
+# sent_id = fullnews_id_2554874_date_27_6_2004-s8
+# text = 
+1	दिल्ली	दिल्ली	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	हाईकोर्ट	हाईकोर्ट	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	ने	ने	ADP	PSP	AdpType=Post	21	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	भाग	भाग	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=VGNF|Tam=0|SpanStart=40
+5	कर	कर	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=VGNF|Tam=0|SpanStart=50
+6	शादी	शादी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=70
+8	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=4|ChunkType=VGNN|SpanStart=80
+9	मामले	मामला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	अवयस्क	अवयस्क	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+12	पतियों	पति	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=130
+14	खिलाफ	खिलाफ	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	कार्रवाई	कार्रवाई	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=150
+16	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	21	dep	_	ChunkId=8|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=160
+17	में	में	ADP	PSP	AdpType=Post	21	dep	_	ChunkId=8|ChunkType=VGNN|SpanStart=170
+18	अपनी	अपना	PRON	PRP	Case=Nom|Gender=Fem|Mood=Imp|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	अक्षमता	अक्षमता	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=190
+20	व्यक्त	व्यक्त	ADJ	JJ	_	21	dep	_	ChunkId=11|ChunkType=JJP|SpanStart=200
+21	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=210
+22	थी	था	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=220
+23	।	।	PUNCT	SYM	_	21	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=230
+
+
+
+# sent_id = fullnews_id_2554874_date_27_6_2004-s9
+# text = 
+1	इन	यह	DET	DEM	Case=Acc|Number=Plur|Person=3|PronType=Dem	18	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	मामलों	मामला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	बाल	बाल	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	विवाह	विवाह	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	कानून	कानून	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	,	COMMA	PUNCT	SYM	_	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	हिंदू	हिंदू	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	विवाह	विवाह	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=90
+10	कानून	कानून	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=100
+11	और	और	CCONJ	CC	_	18	dep	_	ChunkId=4|ChunkType=CCP|SpanStart=110
+12	किशोरवय	किशोरवय	PROPN	NNPC	Case=Acc	11	dep	_	ChunkId=5|ChunkType=NP|SpanStart=410
+13	न्याय	न्याय	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=130
+14	कानून	कानून	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=140
+15	के	के	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=5|ChunkType=NP|SpanStart=150
+16	तहत	तहत	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=5|ChunkType=NP|SpanStart=160
+17	आरोप	आरोप	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=170
+18	थे	था	VERB	VM	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=180
+19	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=7|ChunkType=VGF|SpanStart=190
+20	जिसमें	जो	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	0	dep	_	ChunkId=8|ChunkType=NP|Vib=में|Tam=meM|SpanStart=200
+21	बाल	बाल	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=210
+22	विवाह	विवाह	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=220
+23	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=230
+24	अवैध	अवैध	ADJ	JJ	_	0	dep	_	ChunkId=10|ChunkType=JJP|SpanStart=240
+25	माना	मान	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=250
+26	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=या१|Tam=yA1|SpanStart=260
+27	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=270
+28	।	।	PUNCT	SYM	_	18	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=280
+
+
+
+# sent_id = fullnews_id_2554874_date_27_6_2004-s10
+# text = 
+1	दिल्ली	दिल्ली	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	हाईकोर्ट	हाईकोर्ट	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	ने	ने	ADP	PSP	AdpType=Post	4	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=40
+5	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=50
+6	कि	कि	SCONJ	CC	_	4	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=60
+7	कानूनी	कानूनी	ADJ	JJ	Case=Acc	13	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	प्रावधानों	प्रावधान	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	में	में	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	कमी	कमी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	को	को	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	दूर	दूर	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=130
+14	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=VGNN|SpanStart=140
+15	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=VGNN|SpanStart=150
+16	संसद	संसद	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	उचित	उचित	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=180
+19	कदम	कदम	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=190
+20	उठाने	उठा	VERB	VM	Gender=Masc|Number=Plur|VerbForm=Inf|Voice=Act	6	dep	_	ChunkId=10|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=200
+21	चाहिए	चाहिए	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=10|ChunkType=VGF|Tam=0|SpanStart=210
+22	।	।	PUNCT	SYM	_	4	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=220
+
+
+
+# sent_id = fullnews_id_2554874_date_27_6_2004-s11
+# text = 
+1	हाईकोर्ट	हाईकोर्ट	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	ने	ने	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	१५	१५	NUM	QC	NumType=Card	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	वर्ष	वर्ष	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	से	से	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अधिक	अधिक	DET	QF	PronType=Ind	0	nmod	_	ChunkId=3|ChunkType=JJP|SpanStart=60
+7	आयु	आयु	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	अवयस्क	अवयस्क	ADJ	JJ	Case=Acc	17	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	लड़कियों	लड़की	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	द्वारा	द्वारा	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	भागकर	भाग	VERB	VM	VerbForm=Conv|Voice=Act	17	dep	_	ChunkId=6|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=120
+13	अपनी	अपना	PRON	PRP	Case=Acc|Gender=Fem|Mood=Imp|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	पसंद	पसंद	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=140
+15	से	से	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+16	शादी	शादी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=160
+17	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=170
+18	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=10|ChunkType=VGNN|SpanStart=180
+19	तीन	तीन	NUM	QC	NumType=Card	0	nmod	_	ChunkId=11|ChunkType=NP|SpanStart=190
+20	मामलों	मामला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=200
+21	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=11|ChunkType=NP|SpanStart=210
+22	सुनवाई	सुनवाई	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=220
+23	करते	कर	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=13|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=230
+24	हुए	हो	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	25	dep	_	ChunkId=13|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=240
+25	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=250
+26	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=260
+27	कि	कि	SCONJ	CC	_	25	dep	_	ChunkId=15|ChunkType=CCP|SpanStart=270
+28	१५	१५	NUM	QC	NumType=Card	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=280
+29	साल	साल	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=290
+30	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=300
+31	अधिक	अधिक	DET	QF	PronType=Ind	0	nmod	_	ChunkId=17|ChunkType=JJP|SpanStart=310
+32	आयु	आयु	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=320
+33	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=330
+34	अवयस्क	अवयस्क	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=340
+35	लड़की	लड़की	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=350
+36	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=360
+37	शादी	शादी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=370
+38	गैरकानूनी	गैरकानूनी	ADJ	JJ	_	0	dep	_	ChunkId=21|ChunkType=JJP|SpanStart=380
+39	नहीं	नहीं	PART	NEG	_	27	dep	_	ChunkId=22|ChunkType=VGF|SpanStart=390
+40	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	dep	_	ChunkId=22|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=400
+41	,	COMMA	PUNCT	SYM	_	27	dep	_	ChunkId=22|ChunkType=VGF|SpanStart=410
+42	यदि	यदि	SCONJ	CC	_	0	dep	_	ChunkId=23|ChunkType=CCP|SpanStart=420
+43	यह	यह	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=24|ChunkType=NP|Tam=0|SpanStart=430
+44	उसकी	वह	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	dep	_	ChunkId=25|ChunkType=NP|Vib=का|Tam=kA|SpanStart=440
+45	अपनी	अपना	PRON	PRP	Case=Acc|Gender=Fem|Mood=Imp|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=26|ChunkType=NP|Tam=0|SpanStart=450
+46	इच्छा	इच्छा	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=27|ChunkType=NP|Tam=0|SpanStart=460
+47	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=27|ChunkType=NP|SpanStart=470
+48	हुई	हो	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=28|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=480
+49	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=28|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=490
+50	और	और	CCONJ	CC	_	0	dep	_	ChunkId=29|ChunkType=CCP|SpanStart=500
+51	ऐसे	ऐसा	DET	DEM	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	0	dep	_	ChunkId=30|ChunkType=NP|SpanStart=510
+52	मामले	मामला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=30|ChunkType=NP|Tam=0|SpanStart=520
+53	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=30|ChunkType=NP|SpanStart=530
+54	लड़की	लड़की	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=31|ChunkType=NP|Tam=0|SpanStart=540
+55	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=31|ChunkType=NP|SpanStart=550
+56	जबरदस्ती	जबरदस्ती	ADV	RB	_	0	dep	_	ChunkId=32|ChunkType=RBP|SpanStart=560
+57	नारी	नारी	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=33|ChunkType=NP|Tam=0|SpanStart=570
+58	निकेतन	निकेतन	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=33|ChunkType=NP|Tam=0|SpanStart=580
+59	नहीं	नहीं	PART	NEG	_	0	dep	_	ChunkId=34|ChunkType=VGF|SpanStart=590
+60	भेजा	भेज	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=34|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=600
+61	जा	जा	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=34|ChunkType=VGF|Tam=0|SpanStart=610
+62	सकता	सक	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=34|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=620
+63	।	।	PUNCT	SYM	_	25	dep	_	ChunkId=35|ChunkType=BLK|SpanStart=630
+
+
+
+# sent_id = fullnews_id_2554874_date_27_6_2004-s12
+# text = 
+1	हाईकोर्ट	हाईकोर्ट	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	के	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	मुताबिक	मुताबिक	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	,	COMMA	PUNCT	SYM	_	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	शादी	शादी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	को	को	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	कारण	कारण	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	से	से	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	अवैध	अवैध	ADJ	JJ	_	11	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=100
+11	नहीं	नहीं	PART	NEG	_	0	dep	_	ChunkId=5|ChunkType=VGF|SpanStart=110
+12	माना	मान	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=120
+13	जा	जा	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Tam=0|SpanStart=130
+14	सकता	सक	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=140
+15	कि	कि	SCONJ	CC	_	0	nmod	_	ChunkId=6|ChunkType=CCP|SpanStart=150
+16	उसका	वह	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	dep	_	ChunkId=7|ChunkType=NP|Vib=का|Tam=kA|SpanStart=160
+17	पति	पति	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=170
+18	१८	१८	NUM	QC	NumType=Card	0	nmod	_	ChunkId=9|ChunkType=NP|SpanStart=180
+19	साल	साल	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=190
+20	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=9|ChunkType=NP|SpanStart=200
+21	कम	कम	DET	QF	PronType=Ind	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	आयु	आयु	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=220
+23	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=230
+24	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=240
+25	और	और	CCONJ	CC	_	25	dep	_	ChunkId=12|ChunkType=CCP|SpanStart=250
+26	वह	वह	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=260
+27	१५	१५	NUM	QC	NumType=Card	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=270
+28	साल	साल	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=280
+29	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=290
+30	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=300
+31	।	।	PUNCT	SYM	_	11	dep	_	ChunkId=16|ChunkType=BLK|SpanStart=310
+
+
+
+# sent_id = fullnews_id_2554874_date_27_6_2004-s13
+# text = 
+1	दिल्ली	दिल्ली	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	हाईकोर्ट	हाईकोर्ट	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	ने	ने	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	मामलों	मामला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	में	में	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	एफआईआर	एफआईआर	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	निरस्त	निरस्त	ADJ	JJ	_	8	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=70
+8	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	9	dep	_	ChunkId=5|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=80
+9	और	और	CCONJ	CC	_	0	nmod	_	ChunkId=6|ChunkType=CCP|SpanStart=90
+10	तीनों	तीन	NUM	QC	NumType=Card|Number=Plur	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=100
+11	पतियों	पति	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=110
+12	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=120
+13	रिहा	रिहा	ADJ	JJ	_	0	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=130
+14	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	9	dep	_	ChunkId=9|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=140
+15	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	9	dep	_	ChunkId=9|ChunkType=VGNN|SpanStart=150
+16	आदेश	आदेश	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=160
+17	देते	दे	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=11|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=170
+18	हुए	हो	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	19	dep	_	ChunkId=11|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=180
+19	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=190
+20	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=200
+21	कि	कि	SCONJ	CC	_	19	dep	_	ChunkId=13|ChunkType=CCP|SpanStart=210
+22	इन	यह	DET	DEM	Case=Acc|Number=Plur|Person=3|PronType=Dem	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=220
+23	मामलों	मामला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=230
+24	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=240
+25	अपहरण	अपहरण	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=250
+26	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=260
+27	अपराध	अपराध	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=270
+28	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=280
+29	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=290
+30	आवश्यक	आवश्यक	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=300
+31	तथ्य	तथ्य	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=310
+32	मौजूद	मौजूद	ADJ	JJ	_	0	dep	_	ChunkId=18|ChunkType=JJP|SpanStart=320
+33	नहीं	नहीं	PART	NEG	_	0	dep	_	ChunkId=19|ChunkType=VGF|SpanStart=330
+34	हैं	है	VERB	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=340
+35	।	।	PUNCT	SYM	_	19	dep	_	ChunkId=20|ChunkType=BLK|SpanStart=350
+
+
+
+# sent_id = fullnews_id_2554874_date_27_6_2004-s14
+# text = 
+1	अदालत	अदालत	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	ने	ने	ADP	PSP	AdpType=Post	21	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	लड़कियों	लड़की	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	को	को	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	नारी	नारी	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	निकेतन	निकेतन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	से	से	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	मुक्त	मुक्त	ADJ	JJ	_	9	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=80
+9	कर	कर	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=5|ChunkType=VGNF|Tam=0|SpanStart=90
+10	उन्हें	वह	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	dep	_	ChunkId=6|ChunkType=NP|Vib=को|Tam=ko|SpanStart=100
+11	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|Mood=Imp|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=110
+12	पतियों	पति	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	15	nmod	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=120
+13	के	के	ADP	PSP	AdpType=Post	15	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=130
+14	साथ	साथ	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=140
+15	रहने	रह	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	nmod	_	ChunkId=9|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=150
+16	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=9|ChunkType=VGNN|SpanStart=160
+17	इजाजत	इजाजत	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=170
+18	देने	दे	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	nmod	_	ChunkId=11|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=180
+19	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=11|ChunkType=VGNN|SpanStart=190
+20	आदेश	आदेश	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=200
+21	दिए	दे	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=210
+22	थे	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=220
+23	।	।	PUNCT	SYM	_	21	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=230
+
+
+
+# sent_id = fullnews_id_2554874_date_27_6_2004-s15
+# text = 
+1	इनमें	यह	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	dep	_	ChunkId=1|ChunkType=NP|Vib=में|Tam=meM|SpanStart=10
+2	से	से	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	एक	एक	NUM	QC	NumType=Card	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	लड़की	लड़की	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	गर्भवती	गर्भवती	ADJ	JJ	_	6	dep	_	ChunkId=3|ChunkType=JJP|SpanStart=50
+6	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=60
+7	।	।	PUNCT	SYM	_	6	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=70
+

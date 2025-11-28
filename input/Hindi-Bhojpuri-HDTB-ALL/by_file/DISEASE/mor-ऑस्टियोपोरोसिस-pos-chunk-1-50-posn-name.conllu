@@ -1,0 +1,1757 @@
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s1
+# text = 
+1	रीनलेट	रीनलेट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	प्रकार	प्रकार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	फ्रांस	फ्रांस	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	सरवियर	सरवियर	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	कंपनी	कंपनी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	द्वारा	द्वारा	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	आविष्कृत	आविष्कृत	ADJ	JJ	Case=Nom	0	nmod	_	ChunkId=4|ChunkType=JJP|SpanStart=80
+9	केवल	केवल	PART	RP_RPD	_	12	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	एक	एक	NUM	QT_QTC	NumType=Card	12	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	साधन	साधन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=120
+13	,	&comma	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=6|ChunkType=VGF|SpanStart=130
+14	ताकि	ताकि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=140
+15	वे	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	स्ट्रॉन्शियम	स्ट्रॉन्शियम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=160
+17	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=170
+18	अपने	अपना	PRON	PR_PRF	Case=Acc|Gender=Masc|Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=180
+19	संस्करण	संस्करण	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=190
+20	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=200
+21	पेटेंट	पेटेंट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=210
+22	कर	कर	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=13|ChunkType=VGF|Tam=0|SpanStart=220
+23	सकें	सक	AUX	V_VAUX	Mood=Sub|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=13|ChunkType=VGF|Vib=एं|Tam=eM|SpanStart=230
+24	।	।	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=240
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s2
+# text = 
+1	स्ट्रोंटियम	स्ट्रोंटियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	,	&comma	PUNCT	RD_PUNC	_	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	चाहे	चाहे	PART	RP_RPD	_	0	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	उसका	वह	PRON	PR_PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	nmod	_	ChunkId=2|ChunkType=NP|Vib=का|Tam=kA|SpanStart=40
+5	कोई	कोई	DM_DMI	DM_DMI	Case=Nom|Number=Sing|Person=3	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	भी	भी	PART	RP_RPD	_	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	रूप	रूप	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=4|ChunkType=VGF|Tam=0|SpanStart=80
+9	,	&comma	PUNCT	RD_PUNC	_	15	dep	_	ChunkId=4|ChunkType=VGF|SpanStart=90
+10	पानी	पानी	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	में	में	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	घुलने	घुल	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	13	dep	_	ChunkId=6|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=120
+13	योग्य	योग्य	ADJ	JJ	_	14	dep	_	ChunkId=7|ChunkType=JJP|SpanStart=130
+14	NULL	NULL	VERB	V_VM	_	0	dep	_	ChunkId=8|ChunkType=NULL__VGF
+15	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=140
+16	उदर	उदर	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=150
+17	अम्ल	अम्ल	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=160
+18	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=170
+19	आयनित	आयनित	ADJ	JJ	_	0	dep	_	ChunkId=11|ChunkType=JJP|SpanStart=180
+20	होना	हो	VERB	V_VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	15	dep	_	ChunkId=12|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=190
+21	चाहिए	चाहिए	AUX	V_VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=12|ChunkType=VGF|Tam=0|SpanStart=200
+22	।	।	PUNCT	RD_PUNC	_	15	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=210
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s3
+# text = 
+1	स्ट्रॉन्शियम	स्ट्रॉन्शियम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	को	को	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	तब	तब	PRON	PR_PRP	Case=Nom	16	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	आंत्र	आंत्र	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	नली	नली	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	से	से	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	रक्त	रक्त	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	प्रवाह	प्रवाह	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	में	में	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	वहन	वहन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	के	के	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	लिए	लिए	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	प्रोटीन	प्रोटीन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=6|ChunkType=JJP|Tam=0|SpanStart=130
+14	-	-	PUNCT	RD_SYM	_	16	dep	_	ChunkId=6|ChunkType=JJP|SpanStart=140
+15	बद्ध	बद्ध	ADJ	JJ	_	16	dep	_	ChunkId=6|ChunkType=JJP|SpanStart=150
+16	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=160
+17	जाता	जा	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=170
+18	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=180
+19	।	।	PUNCT	RD_PUNC	_	16	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=190
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s4
+# text = 
+1	सोडियम	सोडियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	एलेनड्रोनेट	एलेनड्रोनेट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	(	(	PUNCT	RD_SYM	_	3	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	फ़ोसामैक्स	फ़ोसामैक्स	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	)	)	PUNCT	RD_SYM	_	3	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	जैसी	जैसा	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	औषधियों	औषधि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	के	के	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	विपरीत	विपरीत	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	,	&comma	PUNCT	RD_PUNC	_	16	dep	_	ChunkId=3|ChunkType=NP|SpanStart=100
+11	स्ट्रॉन्शियम	स्ट्रॉन्शियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=110
+12	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	पुनःचालन	पुनःचालन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	को	को	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	बाधित	बाधित	ADJ	JJ	_	16	dep	_	ChunkId=7|ChunkType=JJP|SpanStart=150
+16	नहीं	नहीं	PART	RP_NEG	_	18	dep	_	ChunkId=8|ChunkType=VGF|SpanStart=160
+17	करता	कर	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=8|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=170
+18	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=180
+19	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=190
+20	वास्तव	वास्तव	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=220
+23	मजबूत	मजबूत	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=11|ChunkType=NP|SpanStart=230
+24	हड्डियों	हड्डी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=240
+25	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=11|ChunkType=NP|SpanStart=250
+26	उत्पादन	उत्पादन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=260
+27	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=13|ChunkType=VGF|Tam=0|SpanStart=270
+28	सकता	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=13|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=280
+29	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=290
+30	।	।	PUNCT	RD_PUNC	_	18	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=300
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s5
+# text = 
+1	अध्ययनों	अध्ययन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	से	से	ADP	PSP	AdpType=Post	4	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	पता	पता	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	चला	चल	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=40
+5	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=50
+6	कि	कि	SCONJ	CC_CCS	_	0	nmod	_	ChunkId=4|ChunkType=CCP|SpanStart=60
+7	पांच	पांच	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=70
+8	साल	साल	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	बाद	बाद	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	एलेनड्रोनेट	एलेनड्रोनेट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=120
+13	क्षय	क्षय	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=140
+15	कारक	कारक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	भी	भी	PART	RP_RPD	_	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=160
+17	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Tam=0|SpanStart=170
+18	सकता	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=180
+19	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=190
+20	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=9|ChunkType=VGF|SpanStart=200
+21	जबकि	जबकि	SCONJ	CC_CCS	_	21	dep	_	ChunkId=10|ChunkType=CCP|SpanStart=210
+22	स्ट्रॉन्शियम	स्ट्रॉन्शियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=220
+23	जीवन	जीवन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=230
+24	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=240
+25	काल	काल	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=250
+26	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=260
+27	दौरान	दौरान	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=270
+28	प्रयुक्ति	प्रयुक्ति	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=280
+29	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=290
+30	हड्डी	हड्डी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=300
+31	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=310
+32	निर्माण	निर्माण	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=320
+33	जारी	जारी	ADJ	JJ	_	0	dep	_	ChunkId=16|ChunkType=JJP|SpanStart=330
+34	रखता	रख	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=340
+35	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=350
+36	।	।	PUNCT	RD_PUNC	_	4	dep	_	ChunkId=18|ChunkType=BLK|SpanStart=360
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s6
+# text = 
+1	स्ट्रॉन्शियम	स्ट्रॉन्शियम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	को	को	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	आहार	आहार	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	या	या	CCONJ	CC_CCD	_	10	nmod	_	ChunkId=3|ChunkType=CCP|SpanStart=40
+5	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=JJP|Tam=0|SpanStart=50
+6	युक्त	युक्त	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=4|ChunkType=JJP|SpanStart=60
+7	व्यंजनों	व्यंजन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=70
+8	के	के	ADP	PSP	AdpType=Post	4	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	साथ	साथ	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=6|ChunkType=VGF|SpanStart=100
+11	लेना	ले	VERB	V_VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=110
+12	चाहिए	चाहिए	AUX	V_VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Tam=0|SpanStart=120
+13	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=6|ChunkType=VGF|SpanStart=130
+14	क्योंकि	क्योंकि	SCONJ	CC_CCS	_	10	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=140
+15	उदग्रहण	उदग्रहण	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=160
+17	दौरान	दौरान	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=9|ChunkType=NP|SpanStart=190
+20	प्रतिस्पर्धा	प्रतिस्पर्धा	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	स्ट्रॉन्शियम	स्ट्रॉन्शियम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=210
+22	के	के	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=11|ChunkType=NP|SpanStart=220
+23	साथ	साथ	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	nmod	_	ChunkId=11|ChunkType=NP|SpanStart=230
+24	होती	हो	VERB	V_VM	Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=240
+25	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=250
+26	।	।	PUNCT	RD_PUNC	_	10	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=260
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s7
+# text = 
+1	फिर	फिर	ADV	RB	_	6	dep	_	ChunkId=1|ChunkType=RBP|SpanStart=10
+2	भी	भी	PART	RP_RPD	_	6	dep	_	ChunkId=1|ChunkType=RBP|SpanStart=20
+3	,	&comma	PUNCT	RD_PUNC	_	6	dep	_	ChunkId=1|ChunkType=RBP|SpanStart=30
+4	यह	यह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	ज़रूरी	जरूरी	ADJ	JJ	Case=Acc	6	dep	_	ChunkId=3|ChunkType=JJP|SpanStart=50
+6	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=60
+7	कि	कि	SCONJ	CC_CCS	_	4	nmod	_	ChunkId=5|ChunkType=CCP|SpanStart=70
+8	हर	हर	DET	QT_QTF	_	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=80
+9	रोज़	रोज़	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=90
+10	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=100
+11	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=110
+12	मैग्नीशियम	मैग्नीशियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=120
+13	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=130
+14	चिकित्सीय	चिकित्सीय	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=140
+15	मात्रा	मात्रा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=150
+16	में	में	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=160
+17	विटामिन	विटामिन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=170
+18	डी	डी	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=180
+19	लेना	ले	VERB	V_VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=190
+20	चाहिए	चाहिए	AUX	V_VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Tam=0|SpanStart=200
+21	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=12|ChunkType=VGF|SpanStart=210
+22	लेकिन	लेकिन	CCONJ	CC_CCD	_	22	dep	_	ChunkId=13|ChunkType=CCP|SpanStart=220
+23	स्ट्रॉन्शियम	स्ट्रॉन्शियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=230
+24	लेते	ले	VERB	V_VM	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=240
+25	समय	समय	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	27	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=250
+26	में	में	ADP	PSP	AdpType=Post	27	dep	_	ChunkId=16|ChunkType=NP|SpanStart=260
+27	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=17|ChunkType=NEGP|SpanStart=270
+28	।	।	PUNCT	RD_PUNC	_	6	dep	_	ChunkId=18|ChunkType=BLK|SpanStart=280
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s8
+# text = 
+1	स्ट्रॉन्शियम	स्ट्रॉन्शियम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	को	को	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	रात	रात	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	में	में	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	खाली	खाली	ADJ	JJ	Case=Nom	7	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	पेट	पेट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	लेना	ले	VERB	V_VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=70
+8	चाहिए	चाहिए	AUX	V_VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Tam=0|SpanStart=80
+9	।	।	PUNCT	RD_PUNC	_	7	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=90
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s9
+# text = 
+1	ऑस्टियोपोरोसिस	ऑस्टियोपोरोसिस	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	रोकथाम	रोकथाम	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	के	के	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	लिए	लिए	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	एस्ट्रोजेन	एस्ट्रोजेन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	प्रतिस्थापन	प्रतिस्थापन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	उपचार	उपचार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	एक	एक	NUM	QT_QTC	NumType=Card	12	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	अच्छा	अच्छा	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	12	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	इलाज	इलाज	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=110
+12	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=120
+13	,	&comma	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=5|ChunkType=VGF|SpanStart=130
+14	लेकिन	लेकिन	CCONJ	CC_CCD	_	0	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=140
+15	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	समय	समय	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=170
+18	जब	जब	PR_PRL	PR_PRL	Case=Acc	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=180
+19	तक	तक	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=190
+20	कि	कि	PART	RP_RPD	_	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=200
+21	उसके	वह	PRON	PR_PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=9|ChunkType=NP|Vib=का|Tam=kA|SpanStart=210
+22	इस्तेमाल	इस्तेमाल	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=220
+23	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=230
+24	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=240
+25	अन्य	अन्य	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=250
+26	संकेत	संकेत	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=260
+27	उपलब्ध	उपलब्ध	ADJ	JJ	_	0	dep	_	ChunkId=12|ChunkType=JJP|SpanStart=270
+28	ना	ना	PART	RP_NEG	_	0	dep	_	ChunkId=13|ChunkType=VGF|SpanStart=280
+29	हों	है	VERB	V_VM	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=290
+30	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=13|ChunkType=VGF|SpanStart=300
+31	उसकी	वह	PRON	PR_PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	0	nmod	_	ChunkId=14|ChunkType=NP|Vib=का|Tam=kA|SpanStart=310
+32	सिफ़ारिश	सिफ़ारिश	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=320
+33	नहीं	नहीं	PART	RP_NEG	_	14	dep	_	ChunkId=16|ChunkType=VGF|SpanStart=330
+34	की	कर	VERB	V_VM	Aspect=Perf|Gender=Fem|VerbForm=Part|Voice=Act	14	dep	_	ChunkId=16|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=340
+35	जाती	जा	AUX	V_VAUX	Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=16|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=350
+36	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=16|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=360
+37	।	।	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=17|ChunkType=BLK|SpanStart=370
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s10
+# text = 
+1	महिलाओं	महिला	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	में	में	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	रजोनिवृत्ति	रजोनिवृत्ति	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	के	के	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	बाद	बाद	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	पहले	पहला	ADJ	QT_QTO	Case=Acc|Gender=Masc|Number=Sing	19	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	दशक	दशक	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	में	में	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	एस्ट्रोजन	एस्ट्रोजन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	सिफ़ारिश	सिफ़ारिश	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	के	के	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	बारे	बारे	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	में	में	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	अनिश्चितता	अनिश्चितता	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=150
+16	और	और	CCONJ	CC_CCD	_	19	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=160
+17	विवाद	विवाद	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=170
+18	मौजूद	मौजूद	ADJ	JJ	_	19	dep	_	ChunkId=9|ChunkType=JJP|SpanStart=180
+19	हैं	है	VERB	V_VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=190
+20	।	।	PUNCT	RD_PUNC	_	19	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=200
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s11
+# text = 
+1	अल्पजननग्रंथि	अल्पजननग्रंथि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	वाले	वाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	पुरुषों	पुरुष	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	में	में	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	टेस्टोस्टेरोन	टेस्टोस्टेरोन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	से	से	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	अस्थि	अस्थि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	मात्रा	मात्रा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	और	और	CCONJ	CC_CCD	_	14	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=100
+11	गुणवत्ता	गुणवत्ता	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=110
+12	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=120
+13	सुधार	सुधार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=130
+14	दिखाई	दिखा	VERB	V_VM	Aspect=Perf|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=140
+15	दिया	दे	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=150
+16	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=160
+17	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=9|ChunkType=VGF|SpanStart=170
+18	लेकिन	लेकिन	CCONJ	CC_CCD	_	0	dep	_	ChunkId=10|ChunkType=CCP|SpanStart=180
+19	यथा	यथा	PART	RP_RPD	_	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=190
+20	2008	2008	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=200
+21	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=210
+22	फ़्रैक्चर	फ्रैक्चर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=220
+23	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=13|ChunkType=CCP|SpanStart=230
+24	पुरुषों	पुरुष	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=240
+25	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=250
+26	टेस्टोस्टेरोन	टेस्टोस्टेरोन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=260
+27	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=270
+28	एक	एक	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=280
+29	सामान्य	सामान्य	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=290
+30	स्तर	स्तर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=300
+31	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=310
+32	साथ	साथ	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=320
+33	प्रभाव	प्रभाव	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=330
+34	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=17|ChunkType=NP|SpanStart=340
+35	कोई	कोई	DM_DMI	DM_DMI	Case=Nom|Number=Sing|Person=3	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=350
+36	अध्ययन	अध्ययन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=360
+37	कर	कर	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=VGF|Tam=0|SpanStart=370
+38	रहे	रह	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=19|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=380
+39	हैं	है	AUX	V_VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=390
+40	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=20|ChunkType=BLK|SpanStart=400
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s12
+# text = 
+1	SERM	सर्म	RD_RDF	RD_RDF	_	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	दवाओं	दवा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	एक	एक	NUM	QT_QTC	NumType=Card	6	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	वर्ग	वर्ग	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=60
+7	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=4|ChunkType=VGF|SpanStart=70
+8	जो	जो	PR_PRL	PR_PRL	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	पूरे	पूरा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=90
+10	शरीर	शरीर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=100
+11	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+12	एस्ट्रोजन	एस्ट्रोजन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=120
+13	ग्राहियों	ग्राही	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=140
+15	एक	एक	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+16	चयनात्मक	चयनात्मक	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=160
+17	तरीके	तरीका	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=170
+18	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=180
+19	काम	काम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=190
+20	करता	कर	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=200
+21	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=210
+22	।	।	PUNCT	RD_PUNC	_	6	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=220
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s13
+# text = 
+1	आम	आम	ADJ	JJ	Case=Acc	25	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	तौर	तौर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	पर	पर	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	,	&comma	PUNCT	RD_PUNC	_	25	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	खनिज	खनिज	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	घनत्व	घनत्व	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=70
+8	(	(	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=3|ChunkType=BLK|SpanStart=80
+9	BMD	BMD	RD_RDF	RD_RDF	_	0	nmod	_	ChunkId=3|ChunkType=BLK|SpanStart=90
+10	)	)	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=3|ChunkType=BLK|SpanStart=100
+11	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=4|ChunkType=FRAGP|SpanStart=110
+12	ट्रेबिकुलार	ट्रेबिकुलार	ADJ	JJ	Case=Acc	25	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	अस्थि	अस्थि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=130
+14	में	में	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	अस्थिकोरक	अस्थिकोरक	ADJ	JJ	Case=Nom	16	dep	_	ChunkId=6|ChunkType=JJP|SpanStart=150
+16	और	और	CCONJ	CC_CCD	_	0	nmod	_	ChunkId=7|ChunkType=CCP|SpanStart=160
+17	अस्थिशोषक	अस्थिशोषक	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=170
+18	गतिविधि	गतिविधि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	के	के	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=9|ChunkType=NP|SpanStart=190
+20	बीच	बीच	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	dep	_	ChunkId=9|ChunkType=NP|SpanStart=200
+21	एक	एक	NUM	QT_QTC	NumType=Card	25	dep	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	संतुलन	संतुलन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=220
+23	द्वारा	द्वारा	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=10|ChunkType=NP|SpanStart=230
+24	नियंत्रित	नियंत्रित	ADJ	JJ	_	25	dep	_	ChunkId=11|ChunkType=JJP|SpanStart=240
+25	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=250
+26	जाता	जा	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=260
+27	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=270
+28	।	।	PUNCT	RD_PUNC	_	25	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=280
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s14
+# text = 
+1	एस्ट्रोजेन	एस्ट्रोजेन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	गठन	गठन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अवशोषण	अवशोषण	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	संतुलन	संतुलन	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=70
+8	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=80
+9	नियमन	नियमन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=90
+10	में	में	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=3|ChunkType=NP|SpanStart=100
+11	प्रमुख	प्रमुख	ADJ	JJ	Case=Nom	13	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	भूमिका	भूमिका	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=120
+13	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=130
+14	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=5|ChunkType=VGF|SpanStart=140
+15	क्योंकि	क्योंकि	SCONJ	CC_CCS	_	13	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=150
+16	यह	यह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	अस्थिकोरक	अस्थिकोरक	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	गतिविधियों	गतिविधि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=180
+19	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=190
+20	बढ़ावा	बढावा	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=200
+21	देता	दे	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=10|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=210
+22	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=220
+23	।	।	PUNCT	RD_PUNC	_	13	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=230
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s15
+# text = 
+1	रेलॉक्सिफीन	रेलॉक्सिफीन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	जैसे	जैसा	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	कुछ	कुछ	DET	QT_QTF	_	0	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	SERM	SERM	RD_RDF	RD_RDF	_	0	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	,	&comma	PUNCT	RD_PUNC	_	0	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अस्थिशोषकों	अस्थिशोषक	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	द्वारा	द्वारा	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	हड्डी	हड्डी	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	अवशोषण	अवशोषण	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	को	को	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	धीमा	धीमा	ADJ	JJ	Gender=Masc|Number=Sing	12	dep	_	ChunkId=5|ChunkType=JJP|SpanStart=110
+12	करते	कर	VERB	V_VM	Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=6|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=120
+13	हुए	हो	AUX	V_VAUX	Aspect=Perf|Gender=Masc|VerbForm=Part|Voice=Act	17	dep	_	ChunkId=6|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=130
+14	अस्थियों	अस्थि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=140
+15	पर	पर	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	प्रभाव	प्रभाव	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	डालते	डाल	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=170
+18	हैं	है	AUX	V_VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=180
+19	।	।	PUNCT	RD_PUNC	_	17	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=190
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s16
+# text = 
+1	नैदानिक	नैदानिक	ADJ	JJ	Case=Acc	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	परीक्षणों	परीक्षण	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	SERM	SERM	RD_RDF	RD_RDF	_	8	dep	_	ChunkId=2|ChunkType=BLK|SpanStart=40
+5	को	को	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=2|ChunkType=BLK|SpanStart=50
+6	प्रभावी	प्रभावी	ADJ	JJ	_	8	dep	_	ChunkId=3|ChunkType=JJP|SpanStart=60
+7	साबित	साबित	ADJ	JJ	_	8	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=70
+8	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=80
+9	गया	जा	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=90
+10	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=100
+11	।	।	PUNCT	RD_PUNC	_	8	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=110
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s17
+# text = 
+1	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	विकास	विकास	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	,	&comma	PUNCT	RD_PUNC	_	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	रोग	रोग	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	-	-	PUNCT	RD_SYM	_	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	निदान	निदान	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=70
+8	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=80
+9	अस्थि	अस्थि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	शक्ति	शक्ति	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	बनाए	बना	VERB	V_VM	Aspect=Perf|VerbForm=Part|Voice=Act	13	dep	_	ChunkId=6|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=120
+13	रखने	रख	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	8	dep	_	ChunkId=7|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=130
+14	के	के	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=7|ChunkType=VGNN|SpanStart=140
+15	लिए	लिए	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=7|ChunkType=VGNN|SpanStart=150
+16	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	आवश्यकता	आवश्यकता	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=190
+20	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=11|ChunkType=CCP|SpanStart=200
+21	यह	यह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=210
+22	हड्डियों	हड्डी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=220
+23	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=230
+24	कमज़ोरी	कमज़ोरी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=240
+25	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=250
+26	इलाज	इलाज	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=260
+27	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=270
+28	एक	एक	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=280
+29	पहलू	पहलू	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=290
+30	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=300
+31	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=18|ChunkType=BLK|SpanStart=310
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s18
+# text = 
+1	देश	देश	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	और	और	CCONJ	CC_CCD	_	14	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=20
+3	उम्र	उम्र	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=30
+4	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	आधार	आधार	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	खाने	खाना	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	में	में	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	सिफारिशों	सिफारिश	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	में	में	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	भिन्नता	भिन्नता	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=140
+15	।	।	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=150
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s19
+# text = 
+1	जिन	जो	DM_DMR	DM_DMR	Case=Acc|Number=Plur|Person=3	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	लोगों	लोग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	को	को	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	ऑस्टियोपोरोसिस	ऑस्टियोपोरोसिस	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अधिक	अधिक	DET	QT_QTF	_	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	ख़तरा	ख़तरा	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=80
+9	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	पचास	पचास	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	साल	साल	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	उम्र	उम्र	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	बाद	बाद	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=150
+16	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=160
+17	उनके	वह	PRON	PR_PRP	Case=Acc|Number=Plur|Person=3	0	dep	_	ChunkId=7|ChunkType=NP|Vib=के|Tam=ke|SpanStart=170
+18	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=180
+19	अमेरिकी	अमेरिकी	ADJ	JJ	Case=Acc	23	dep	_	ChunkId=8|ChunkType=NP|SpanStart=190
+20	स्वास्थ्य	स्वास्थ्य	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=200
+21	एजेंसियों	एजेंसी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=210
+22	द्वारा	द्वारा	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=8|ChunkType=NP|SpanStart=220
+23	सुझाई	सुझा	VERB	V_VM	Aspect=Perf|Gender=Fem|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=230
+24	गई	जा	AUX	V_VAUX	Aspect=Perf|Gender=Fem|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGNF|Vib=या1|Tam=yA1|SpanStart=240
+25	मात्रा	मात्रा	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=250
+26	1200	1200	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=260
+27	एमजी	एमजी	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=270
+28	प्रति	प्रति	PART	RP_RPD	_	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=280
+29	दिन	दिन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=290
+30	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=300
+31	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=310
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s20
+# text = 
+1	आहार	आहार	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	सेवन	सेवन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	बढ़ाने	बढ़ा	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	10	dep	_	ChunkId=3|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=40
+5	के	के	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=3|ChunkType=VGNN|SpanStart=50
+6	लिए	लिए	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=3|ChunkType=VGNN|SpanStart=60
+7	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	पूरक	पूरक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	इस्तेमाल	इस्तेमाल	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	किए	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	14	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=100
+11	जा	जा	AUX	V_VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=6|ChunkType=VGF|Tam=0|SpanStart=110
+12	सकते	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=6|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=120
+13	हैं	है	AUX	V_VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=130
+14	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=140
+15	पूरे	पूरा	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+16	दिन	दिन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	कई	कई	DET	QT_QTF	_	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=170
+18	छोटी	छोटा	ADJ	JJ	Case=Nom|Gender=Fem|Number=Plur	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=180
+19	ख़ुराकें	खुराक	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=190
+20	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=200
+21	500	500	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	mg	mg	RD_RDF	RD_RDF	_	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=220
+23	या	या	CCONJ	CC_CCD	_	0	nmod	_	ChunkId=11|ChunkType=CCP|SpanStart=230
+24	उससे	वह	PRON	PR_PRP	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=12|ChunkType=NP|Vib=से|Tam=se|SpanStart=240
+25	कम	कम	DET	QT_QTF	_	0	dep	_	ChunkId=13|ChunkType=JJP|SpanStart=250
+26	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=13|ChunkType=JJP|SpanStart=260
+27	लेने	ले	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=270
+28	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=14|ChunkType=VGNN|SpanStart=280
+29	माध्यम	माध्यम	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=14|ChunkType=VGNN|SpanStart=290
+30	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=14|ChunkType=VGNN|SpanStart=300
+31	अवशोषण	अवशोषण	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=310
+32	अनुकूलित	अनुकूलित	ADJ	JJ	_	0	dep	_	ChunkId=16|ChunkType=JJP|SpanStart=320
+33	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	14	dep	_	ChunkId=17|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=330
+34	जा	जा	AUX	V_VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=17|ChunkType=VGF|Tam=0|SpanStart=340
+35	सकता	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=17|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=350
+36	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=17|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=360
+37	।	।	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=18|ChunkType=BLK|SpanStart=370
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s21
+# text = 
+1	ऑस्टियोपोरोसिस	ऑस्टियोपोरोसिस	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	को	को	ADP	PSP	AdpType=Post	3	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	रोकने	रोक	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	4	dep	_	ChunkId=2|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=30
+4	और	और	CCONJ	CC_CCD	_	12	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=40
+5	इसके	यह	PRON	PR_PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=4|ChunkType=NP|Vib=का|Tam=kA|SpanStart=50
+6	इलाज	इलाज	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=60
+7	में	में	ADP	PSP	AdpType=Post	4	dep	_	ChunkId=5|ChunkType=NP|SpanStart=70
+8	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=90
+10	भूमिका	भूमिका	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=100
+11	अस्पष्ट	अस्पष्ट	ADJ	JJ	_	12	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=110
+12	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=120
+13	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=9|ChunkType=VGF|SpanStart=130
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s22
+# text = 
+1	बहुत	बहुत	DET	QT_QTF	_	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=140
+2	कम	कम	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=150
+3	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=160
+4	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=170
+5	मात्रा	मात्रा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=180
+6	वाली	वाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	0	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=190
+7	कुछ	कुछ	DET	QT_QTF	_	18	dep	_	ChunkId=3|ChunkType=NP|SpanStart=200
+8	आबादियों	आबादी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=210
+9	में	में	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=3|ChunkType=NP|SpanStart=220
+10	भी	भी	PART	RP_RPD	_	18	dep	_	ChunkId=3|ChunkType=NP|SpanStart=230
+11	हड्डियों	हड्डी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=240
+12	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=250
+13	फ्रैक्चर	फ्रैक्चर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=260
+14	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=270
+15	दर	दर	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=280
+16	अत्यंत	अत्यंत	ADV	RP_INTF	AdvType=Deg	18	dep	_	ChunkId=7|ChunkType=JJP|SpanStart=290
+17	कम	कम	DET	QT_QTF	_	18	dep	_	ChunkId=7|ChunkType=JJP|SpanStart=300
+18	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=310
+19	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=320
+20	दूध	दूध	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=330
+21	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=11|ChunkType=CCP|SpanStart=340
+22	दुग्ध	दुग्ध	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=350
+23	उत्पादों	उत्पाद	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=360
+24	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=370
+25	माध्यम	माध्यम	NOUN	N_NN	Case=Acc|Gender=Masc	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=380
+26	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=390
+27	खाने	खाना	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=400
+28	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=410
+29	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=420
+30	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=430
+31	उच्च	उच्च	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=15|ChunkType=NP|SpanStart=440
+32	दर	दर	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=450
+33	वाले	वाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=15|ChunkType=NP|SpanStart=460
+34	अन्य	अन्य	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=470
+35	लोगों	लोग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=480
+36	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=490
+37	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=500
+38	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=510
+39	भंग	भंग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=520
+40	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=530
+41	दर	दर	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=540
+42	उच्च	उच्च	ADJ	JJ	_	0	dep	_	ChunkId=19|ChunkType=JJP|SpanStart=550
+43	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=20|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=560
+44	।	।	PUNCT	RD_PUNC	_	19	dep	_	ChunkId=21|ChunkType=BLK|SpanStart=570
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s23
+# text = 
+1	ऑस्टियोपोरोसिस	ऑस्टियोपोरोसिस	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	विकास	विकास	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	में	में	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	कई	कई	DET	QT_QTF	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	अन्य	अन्य	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	कारकों	कारक	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	बीच	बीच	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	खाने	खाना	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	में	में	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	को	को	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	एक	एक	NUM	QT_QTC	NumType=Card	16	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	कारक	कारक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=150
+16	बनाते	बना	VERB	V_VM	Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	44	dep	_	ChunkId=7|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=160
+17	हुए	हो	AUX	V_VAUX	Aspect=Perf|Gender=Masc|VerbForm=Part|Voice=Act	44	dep	_	ChunkId=7|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=170
+18	,	&comma	PUNCT	RD_PUNC	_	44	dep	_	ChunkId=7|ChunkType=VGNF|SpanStart=180
+19	प्रोटीन	प्रोटीन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=190
+20	,	&comma	PUNCT	RD_PUNC	_	22	dep	_	ChunkId=8|ChunkType=NP|SpanStart=200
+21	नमक	नमक	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=210
+22	और	और	CCONJ	CC_CCD	_	44	dep	_	ChunkId=10|ChunkType=CCP|SpanStart=220
+23	विटामिन	विटामिन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=230
+24	D	D	RD_RDF	RD_RDF	_	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=240
+25	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=250
+26	सेवन	सेवन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=260
+27	,	&comma	PUNCT	RD_PUNC	_	22	dep	_	ChunkId=12|ChunkType=NP|SpanStart=270
+28	व्यायाम	व्यायाम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=280
+29	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=14|ChunkType=CCP|SpanStart=290
+30	सूर्य	सूर्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=300
+31	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=310
+32	प्रकाश	प्रकाश	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=320
+33	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=16|ChunkType=NP|SpanStart=330
+34	संपर्क	संपर्क	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=340
+35	जैसे	जैसा	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=17|ChunkType=NP|SpanStart=350
+36	अन्य	अन्य	ADJ	JJ	Case=Nom	22	dep	_	ChunkId=18|ChunkType=NP|SpanStart=360
+37	सभी	सभी	DET	QT_QTF	_	22	dep	_	ChunkId=18|ChunkType=NP|SpanStart=370
+38	कारक	कारक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=380
+39	,	&comma	PUNCT	RD_PUNC	_	22	dep	_	ChunkId=18|ChunkType=NP|SpanStart=390
+40	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	44	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=400
+41	खनिज	खनिज	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	44	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=410
+42	को	को	ADP	PSP	AdpType=Post	44	dep	_	ChunkId=19|ChunkType=NP|SpanStart=420
+43	प्रभावित	प्रभावित	ADJ	JJ	_	44	dep	_	ChunkId=20|ChunkType=JJP|SpanStart=430
+44	कर	कर	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=VGF|Tam=0|SpanStart=440
+45	सकते	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=450
+46	हैं	है	AUX	V_VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=460
+47	।	।	PUNCT	RD_PUNC	_	44	dep	_	ChunkId=22|ChunkType=BLK|SpanStart=470
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s24
+# text = 
+1	2007	2007	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	में	में	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	,	&comma	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	WHO	WHO	RD_RDF	RD_RDF	_	0	dep	_	ChunkId=2|ChunkType=BLK|SpanStart=40
+5	(	(	PUNCT	RD_SYM	_	4	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	विश्व	विश्व	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	nmod	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	स्वास्थ्य	स्वास्थ्य	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	nmod	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	संगठन	संगठन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	nmod	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	)	)	PUNCT	RD_SYM	_	4	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	4	dep	_	ChunkId=4|ChunkType=FRAGP|SpanStart=100
+11	एक	एक	NUM	QT_QTC	NumType=Card	14	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	रिपोर्ट	रिपोर्ट	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	में	में	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	कहा	कह	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=140
+15	गया	जा	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=150
+16	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=160
+17	कि	कि	SCONJ	CC_CCS	_	14	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=170
+18	आहार	आहार	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=180
+19	के	के	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=190
+20	साथ	साथ	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=200
+21	अम्लीय	अम्लीय	ADJ	JJ	Case=Acc	26	nmod	_	ChunkId=9|ChunkType=NP|SpanStart=210
+22	मिलावट	मिलावट	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	26	nmod	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=220
+23	के	के	ADP	PSP	AdpType=Post	26	nmod	_	ChunkId=9|ChunkType=NP|SpanStart=230
+24	साथ	साथ	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	26	nmod	_	ChunkId=9|ChunkType=NP|SpanStart=240
+25	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	26	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=250
+26	खाने	खाना	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=260
+27	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	0	dep	_	ChunkId=11|ChunkType=VGNN|SpanStart=270
+28	वजह	वजह	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	0	dep	_	ChunkId=11|ChunkType=VGNN|SpanStart=280
+29	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=VGNN|SpanStart=290
+30	वह	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=300
+31	हड्डियों	हड्डी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=310
+32	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=320
+33	कमज़ोरी	कमज़ोरी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=330
+34	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=340
+35	प्रभावित	प्रभावित	ADJ	JJ	_	0	dep	_	ChunkId=15|ChunkType=JJP|SpanStart=350
+36	करता	कर	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=16|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=360
+37	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=16|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=370
+38	।	।	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=17|ChunkType=BLK|SpanStart=380
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s25
+# text = 
+1	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	और	और	CCONJ	CC_CCD	_	7	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=20
+3	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=30
+4	व	व	CCONJ	CC_CCD	_	4	dep	_	ChunkId=4|ChunkType=CCP|SpanStart=40
+5	विटामिन	विटामिन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=50
+6	D	डी	RD_RDF	RD_RDF	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=60
+7	शामिल	शामिल	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=6|ChunkType=JJP|SpanStart=70
+8	यादृच्छिक	यादृच्छिक	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=80
+9	नियंत्रित	नियंत्रित	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=90
+10	परीक्षणों	परीक्षण	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=100
+11	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=110
+12	एक	एक	NUM	QT_QTC	NumType=Card	41	dep	_	ChunkId=8|ChunkType=NP|SpanStart=120
+13	मध्य	मध्य	ADJ	JJ	Case=Acc	41	dep	_	ChunkId=8|ChunkType=NP|SpanStart=130
+14	-	-	PUNCT	RD_SYM	_	41	dep	_	ChunkId=8|ChunkType=NP|SpanStart=140
+15	विश्लेषण	विश्लेषण	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	41	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	ने	ने	ADP	PSP	AdpType=Post	41	dep	_	ChunkId=8|ChunkType=NP|SpanStart=160
+17	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=170
+18	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=180
+19	उच्च	उच्च	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=190
+20	स्तरों	स्तर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	उपयोग	उपयोग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=220
+23	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=230
+24	1,200	1200	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=240
+25	mg	mg	RD_RDF	RD_RDF	_	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=250
+26	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=13|ChunkType=CCP|SpanStart=260
+27	उससे	वह	PRON	PR_PRP	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=14|ChunkType=NP|Vib=से|Tam=se|SpanStart=270
+28	अधिक	अधिक	DET	QT_QTF	_	0	nmod	_	ChunkId=15|ChunkType=JJP|SpanStart=280
+29	)	)	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=15|ChunkType=JJP|SpanStart=290
+30	और	और	CCONJ	CC_CCD	_	0	nmod	_	ChunkId=16|ChunkType=CCP|SpanStart=300
+31	विटामिन	विटामिन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=310
+32	डी	डी	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=320
+33	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=330
+34	800	800	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=340
+35	IU	IU	RD_RDF	RD_RDF	_	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=350
+36	या	या	CCONJ	CC_CCD	_	0	nmod	_	ChunkId=19|ChunkType=CCP|SpanStart=360
+37	अधिक	अधिक	DET	QT_QTF	_	0	dep	_	ChunkId=20|ChunkType=JJP|SpanStart=370
+38	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=20|ChunkType=JJP|SpanStart=380
+39	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=21|ChunkType=FRAGP|SpanStart=390
+40	समर्थन	समर्थन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	41	dep	_	ChunkId=22|ChunkType=NP|Tam=0|SpanStart=400
+41	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=23|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=410
+42	।	।	PUNCT	RD_PUNC	_	41	dep	_	ChunkId=24|ChunkType=BLK|SpanStart=420
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s26
+# text = 
+1	हालांकि	हालांकि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	स्वास्थ्य	स्वास्थ्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	अस्थियों	अस्थि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	फ़्रैक्चर	फ्रैक्चर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	के	के	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	प्रति	प्रति	PART	RP_RPD	_	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	क्षति	क्षति	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	)	)	PUNCT	RD_SYM	_	10	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	2	dep	_	ChunkId=6|ChunkType=FRAGP|SpanStart=130
+14	आकलन	आकलन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=140
+15	के	के	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	लिए	लिए	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	प्रयुक्त	प्रयुक्त	ADJ	JJ	Case=Acc	25	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	मापदंड	मापदंड	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=180
+19	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	25	dep	_	ChunkId=8|ChunkType=NP|SpanStart=190
+20	आधार	आधार	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	25	dep	_	ChunkId=8|ChunkType=NP|SpanStart=200
+21	पर	पर	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=8|ChunkType=NP|SpanStart=210
+22	परिणामों	परिणाम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=220
+23	में	में	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=9|ChunkType=NP|SpanStart=230
+24	विभिन्नता	विभिन्नता	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=240
+25	रही	रह	VERB	V_VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	1	dep	_	ChunkId=11|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=250
+26	।	।	PUNCT	RD_PUNC	_	1	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=260
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s27
+# text = 
+1	एक	एक	NUM	QT_QTC	NumType=Card	26	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	अन्य	अन्य	ADJ	JJ	Case=Acc	26	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	अध्ययन	अध्ययन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	26	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+4	के	के	ADP	PSP	AdpType=Post	26	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	साथ	साथ	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	26	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=50
+6	मध्य	मध्य	ADJ	JJ	Case=Acc	26	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	-	-	PUNCT	RD_SYM	_	26	dep	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	विश्लेषण	विश्लेषण	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	26	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=80
+9	ने	ने	ADP	PSP	AdpType=Post	26	dep	_	ChunkId=2|ChunkType=NP|SpanStart=90
+10	इलाज	इलाज	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=100
+11	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=110
+12	प्रोटोकॉल	प्रोटोकॉल	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=120
+13	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=130
+14	श्रेष्ठ	श्रेष्ठ	ADJ	JJ	Case=Nom	16	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	अनुपालन	अनुपालन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=150
+16	करने	कर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=160
+17	वाले	वाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=6|ChunkType=VGNN|SpanStart=170
+18	रोगियों	रोगी	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	26	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=180
+19	के	के	ADP	PSP	AdpType=Post	26	dep	_	ChunkId=7|ChunkType=NP|SpanStart=190
+20	लिए	लिए	ADP	PSP	AdpType=Post	26	dep	_	ChunkId=7|ChunkType=NP|SpanStart=200
+21	काफी	काफी	DET	QT_QTF	_	0	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=210
+22	बेहतर	बेहतर	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=220
+23	परिणामों	परिणाम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=230
+24	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=240
+25	समर्थन	समर्थन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	26	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=250
+26	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=260
+27	।	।	PUNCT	RD_PUNC	_	26	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=270
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s28
+# text = 
+1	इसके	यह	PRON	PR_PRP	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=1|ChunkType=NP|Vib=के|Tam=ke|SpanStart=10
+2	विपरीत	विपरीत	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	पूरकों	पूरक	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	में	में	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	उन्नत	उन्नत	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=3|ChunkType=JJP|SpanStart=70
+8	उच्च	उच्च	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	लेपोप्रोटीन	लेपोप्रोटीन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	सघनता	सघनता	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	(	(	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	HDL	HDL	RD_RDF	RD_RDF	_	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=130
+14	,	&comma	PUNCT	RD_PUNC	_	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	"	"	PUNCT	RD_PUNC	_	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	अच्छा	अच्छा	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	कोलेस्ट्रॉल	कोलेस्ट्रॉल	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=170
+18	"	"	PUNCT	RD_PUNC	_	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=180
+19	)	)	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=190
+20	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=8|ChunkType=FRAGP|SpanStart=200
+21	पिछली	पिछला	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=210
+22	रिपोर्ट	रिपोर्ट	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=220
+23	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=230
+24	बावजूद	बावजूद	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=240
+25	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=250
+26	(	(	PUNCT	RD_SYM	_	29	dep	_	ChunkId=10|ChunkType=NP|SpanStart=260
+27	न्यूजीलैंड	न्यूजीलैंड	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=270
+28	में	में	ADP	PSP	AdpType=Post	29	dep	_	ChunkId=10|ChunkType=NP|SpanStart=280
+29	किए	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=290
+30	गए	जा	AUX	V_VAUX	Aspect=Perf|Gender=Masc|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGNF|Vib=या1|Tam=yA1|SpanStart=300
+31	एक	एक	NUM	QT_QTC	NumType=Card	40	dep	_	ChunkId=12|ChunkType=NP|SpanStart=310
+32	अध्ययन	अध्ययन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	40	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=320
+33	में	में	ADP	PSP	AdpType=Post	40	dep	_	ChunkId=12|ChunkType=NP|SpanStart=330
+34	,	&comma	PUNCT	RD_PUNC	_	40	dep	_	ChunkId=12|ChunkType=NP|SpanStart=340
+35	जिसमें	जो	PR_PRL	PR_PRL	Case=Acc|Number=Sing|Person=3	0	nmod	_	ChunkId=13|ChunkType=NP|Vib=में|Tam=meM|SpanStart=350
+36	1471	1471	NUM	QT_QTC	NumType=Card	40	dep	_	ChunkId=14|ChunkType=NP|SpanStart=360
+37	महिलाओं	महिला	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	40	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=370
+38	ने	ने	ADP	PSP	AdpType=Post	40	dep	_	ChunkId=14|ChunkType=NP|SpanStart=380
+39	भाग	भाग	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	40	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=390
+40	लिया	ले	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	nmod	_	ChunkId=16|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=400
+41	,	&comma	PUNCT	RD_PUNC	_	0	nmod	_	ChunkId=16|ChunkType=VGF|SpanStart=410
+42	हृद्पेशीय	हृद्पेशीय	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=420
+43	रोधगलन	रोधगलन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=430
+44	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=440
+45	दिल	दिल	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=450
+46	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=460
+47	दौरा	दौरा	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=470
+48	)	)	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=19|ChunkType=NP|SpanStart=480
+49	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=20|ChunkType=FRAGP|SpanStart=490
+50	दर	दर	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=NP|Tam=0|SpanStart=500
+51	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=21|ChunkType=NP|SpanStart=510
+52	संभावित	संभावित	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=22|ChunkType=NP|SpanStart=520
+53	वृद्धि	वृद्धि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=22|ChunkType=NP|Tam=0|SpanStart=530
+54	पाई	पा	VERB	V_VM	Aspect=Perf|Gender=Fem|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=23|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=540
+55	गई	जा	AUX	V_VAUX	Aspect=Perf|Gender=Fem|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=23|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=550
+56	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=24|ChunkType=BLK|SpanStart=560
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s29
+# text = 
+1	यदि	यदि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	पुष्टि	पुष्टि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	1	dep	_	ChunkId=3|ChunkType=VGF|Tam=0|SpanStart=30
+4	,	&comma	PUNCT	RD_PUNC	_	1	dep	_	ChunkId=3|ChunkType=VGF|SpanStart=40
+5	NULL	NULL	SCONJ	CC_CCS	_	0	dep	_	ChunkId=4|ChunkType=NULL__CCP
+6	यह	यह	DET	DM_DMD	Case=Nom|Number=Sing|Person=3	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=50
+7	संकेत	संकेत	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=60
+8	देता	दे	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=6|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=70
+9	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=80
+10	कि	कि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=90
+11	फ़्रैक्चर	फ्रैक्चर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=100
+12	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=110
+13	कम	कम	DET	QT_QTF	_	0	nmod	_	ChunkId=9|ChunkType=NP|SpanStart=120
+14	जोखिम	जोखिम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=130
+15	वाली	वाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	0	nmod	_	ChunkId=9|ChunkType=NP|SpanStart=140
+16	महिलाओं	महिला	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=150
+17	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=160
+18	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=170
+19	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=180
+20	पूरकता	पूरकता	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=190
+21	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=200
+22	अच्छे	अच्छा	NOUN	N_NN	Case=Acc|Gender=Masc|Number=Sing	24	dep	_	ChunkId=13|ChunkType=NP|SpanStart=210
+23	से	से	ADP	PSP	AdpType=Post	24	dep	_	ChunkId=13|ChunkType=NP|SpanStart=220
+24	ज्यादा	ज्यादा	DET	QT_QTF	_	0	nmod	_	ChunkId=14|ChunkType=JJP|SpanStart=230
+25	नुकसान	नुकसान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=240
+26	ही	ही	PART	RP_RPD	_	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=250
+27	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Tam=0|SpanStart=260
+28	सकता	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=270
+29	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=280
+30	।	।	PUNCT	RD_PUNC	_	5	dep	_	ChunkId=17|ChunkType=BLK|SpanStart=290
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s30
+# text = 
+1	कुछ	कुछ	DET	QT_QTF	_	5	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	अध्ययनों	अध्ययन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	से	से	ADP	PSP	AdpType=Post	5	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	पता	पता	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	चला	चल	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=50
+6	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=60
+7	कि	कि	SCONJ	CC_CCS	_	0	nmod	_	ChunkId=4|ChunkType=CCP|SpanStart=70
+8	विटामिन	विटामिन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	D	D	RD_RDF	RD_RDF	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	अधिक	अधिक	DET	QT_QTF	_	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+12	मात्रा	मात्रा	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	बुज़ुर्गों	बुजुर्ग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=140
+15	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=160
+17	भंग	भंग	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=170
+18	कम	कम	DET	QT_QTF	_	0	dep	_	ChunkId=9|ChunkType=JJP|SpanStart=180
+19	कर	कर	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=10|ChunkType=VGF|Tam=0|SpanStart=190
+20	देती	दे	AUX	V_VAUX	Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=10|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=200
+21	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=210
+22	,	&comma	PUNCT	RD_PUNC	_	7	dep	_	ChunkId=10|ChunkType=VGF|SpanStart=220
+23	हालांकि	हालांकि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=11|ChunkType=CCP|SpanStart=230
+24	महिलाओं	महिला	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=240
+25	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=250
+26	स्वास्थ्य	स्वास्थ्य	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=260
+27	पहल	पहल	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=270
+28	ने	ने	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=280
+29	पाया	पा	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=290
+30	कि	कि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=15|ChunkType=CCP|SpanStart=300
+31	यद्यपि	यद्यपि	CCONJ	CC_CCD	_	0	dep	_	ChunkId=16|ChunkType=CCP|SpanStart=310
+32	कैल्शियम	कैल्शियम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=320
+33	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=18|ChunkType=CCP|SpanStart=330
+34	विटामिन	विटामिन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=340
+35	D	D	RD_RDF	RD_RDF	_	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=350
+36	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=360
+37	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=370
+38	घनत्व	घनत्व	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=380
+39	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=390
+40	1	1	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=21|ChunkType=NP|SpanStart=400
+41	%	%	PUNCT	RD_SYM	_	0	dep	_	ChunkId=21|ChunkType=NP|SpanStart=410
+42	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=21|ChunkType=NP|SpanStart=420
+43	वृद्धि	वृद्धि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=22|ChunkType=NP|Tam=0|SpanStart=430
+44	हुई	हो	VERB	V_VM	Aspect=Perf|Gender=Fem|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=23|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=440
+45	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=23|ChunkType=VGF|SpanStart=450
+46	तथापि	तथापि	CCONJ	CC_CCD	_	0	dep	_	ChunkId=24|ChunkType=CCP|SpanStart=460
+47	इसने	यह	PRON	PR_PRP	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=25|ChunkType=NP|Vib=ने|Tam=ne|SpanStart=470
+48	कूल्हे	कूल्हा	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=26|ChunkType=NP|Tam=0|SpanStart=480
+49	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=26|ChunkType=NP|SpanStart=490
+50	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=27|ChunkType=NP|Tam=0|SpanStart=500
+51	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=27|ChunkType=NP|SpanStart=510
+52	भंग	भंग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=27|ChunkType=NP|Tam=0|SpanStart=520
+53	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=27|ChunkType=NP|SpanStart=530
+54	प्रभावित	प्रभावित	ADJ	JJ	_	0	dep	_	ChunkId=28|ChunkType=JJP|SpanStart=540
+55	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=29|ChunkType=VGF|SpanStart=550
+56	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=29|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=560
+57	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=29|ChunkType=VGF|SpanStart=570
+58	पर	पर	CCONJ	CC_CCD	_	0	dep	_	ChunkId=30|ChunkType=CCP|SpanStart=580
+59	गुर्दे	गुर्दा	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=31|ChunkType=NP|Tam=0|SpanStart=590
+60	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=31|ChunkType=NP|SpanStart=600
+61	पथरी	पथरी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=32|ChunkType=NP|Tam=0|SpanStart=610
+62	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=32|ChunkType=NP|SpanStart=620
+63	निर्माण	निर्माण	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=33|ChunkType=NP|Tam=0|SpanStart=630
+64	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=33|ChunkType=NP|SpanStart=640
+65	17	17	NUM	QT_QTC	Case=Acc|NumType=Card	0	nmod	_	ChunkId=34|ChunkType=NP|SpanStart=650
+66	%	%	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=34|ChunkType=NP|SpanStart=660
+67	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=34|ChunkType=NP|SpanStart=670
+68	वृद्धि	वृद्धि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=35|ChunkType=NP|Tam=0|SpanStart=680
+69	की	कर	VERB	V_VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=36|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=690
+70	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=37|ChunkType=BLK|SpanStart=700
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s31
+# text = 
+1	कई	कई	DET	QT_QTF	_	5	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	अध्ययनों	अध्ययन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	से	से	ADP	PSP	AdpType=Post	5	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	पता	पता	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	चला	चल	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=50
+6	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=60
+7	कि	कि	SCONJ	CC_CCS	_	0	nmod	_	ChunkId=4|ChunkType=CCP|SpanStart=70
+8	एयरोबिक	एयरोबिक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	भार	भार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=100
+11	सहन	सहन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=120
+13	प्रतिरोध	प्रतिरोध	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=130
+14	अभ्यास	अभ्यास	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=140
+15	सभी	सभी	DET	QT_QTF	_	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=150
+16	रजोनिवृतोत्तर	रजोनिवृतोत्तर	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=160
+17	महिलाओं	महिला	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=170
+18	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=180
+19	BMD	BMD	RD_RDF	RD_RDF	_	0	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=190
+20	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=200
+21	बनाए	बना	VERB	V_VM	Aspect=Perf|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=210
+22	रख	रख	AUX	V_VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Tam=0|SpanStart=220
+23	सकते	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=230
+24	हैं	है	AUX	V_VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=240
+25	या	या	CCONJ	CC_CCD	_	25	dep	_	ChunkId=12|ChunkType=CCP|SpanStart=250
+26	बढ़ा	बढ़ा	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Tam=0|SpanStart=260
+27	सकते	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=270
+28	हैं	है	AUX	V_VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=280
+29	।	।	PUNCT	RD_PUNC	_	5	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=290
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s32
+# text = 
+1	कई	कई	DET	QT_QTF	_	9	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	शोधकर्ताओं	शोधकर्ता	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	ने	ने	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	यह	यह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	इंगित	इंगित	ADJ	JJ	_	6	dep	_	ChunkId=3|ChunkType=JJP|SpanStart=50
+6	करने	कर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=60
+7	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=4|ChunkType=VGNN|SpanStart=70
+8	प्रयास	प्रयास	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=90
+10	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=100
+11	कि	कि	SCONJ	CC_CCS	_	9	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=110
+12	BMD	BMD	RD_RDF	RD_RDF	_	0	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=120
+13	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=130
+14	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=140
+15	गुणवत्ता	गुणवत्ता	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=150
+16	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=160
+17	अन्य	अन्य	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=170
+18	मैट्रिक्स	मैट्रिक्स	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=180
+19	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=190
+20	सुधार	सुधार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=200
+21	लाने	ला	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=210
+22	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=13|ChunkType=VGNN|SpanStart=220
+23	कौन	कौन	PR_PRQ	PR_PRQ	Case=Acc	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=230
+24	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=240
+25	व्यायाम	व्यायाम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=250
+26	सबसे	सबसे	ADV	RP_INTF	AdvType=Deg	0	dep	_	ChunkId=16|ChunkType=JJP|SpanStart=260
+27	प्रभावशाली	प्रभावशाली	ADJ	JJ	_	0	dep	_	ChunkId=16|ChunkType=JJP|SpanStart=270
+28	हैं	है	VERB	V_VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=280
+29	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=17|ChunkType=VGF|SpanStart=290
+30	लेकिन	लेकिन	CCONJ	CC_CCD	_	30	dep	_	ChunkId=18|ChunkType=CCP|SpanStart=300
+31	परिणामों	परिणाम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=310
+32	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=320
+33	भिन्नता	भिन्नता	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=330
+34	रही	रह	VERB	V_VM	Aspect=Perf|Gender=Fem|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=21|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=340
+35	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=350
+36	।	।	PUNCT	RD_PUNC	_	9	dep	_	ChunkId=22|ChunkType=BLK|SpanStart=360
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s33
+# text = 
+1	रजोनिवृतोत्तर	रजोनिवृतोत्तर	ADJ	JJ	Case=Acc	25	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	महिलाओं	महिला	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	नियमित	नियमित	ADJ	JJ	Case=Acc	25	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	रूप	रूप	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	से	से	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	एक	एक	NUM	QT_QTC	NumType=Card	25	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	साल	साल	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	के	के	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	लिए	लिए	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=3|ChunkType=NP|SpanStart=100
+11	कूद	कूद	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=110
+12	अभ्यास	अभ्यास	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=120
+13	से	से	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=4|ChunkType=NP|SpanStart=130
+14	BMD	BMD	RD_RDF	RD_RDF	_	15	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=140
+15	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=150
+16	सन्निकट	सन्निकट	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	टिबिया	टिबिया	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=170
+18	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=180
+19	निष्क्रियता	निष्क्रियता	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=190
+20	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=200
+21	क्षण	क्षण	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=210
+22	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	15	dep	_	ChunkId=9|ChunkType=NP|SpanStart=220
+23	वृद्धि	वृद्धि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=230
+24	प्रतीत	प्रतीत	ADJ	JJ	_	25	dep	_	ChunkId=11|ChunkType=JJP|SpanStart=240
+25	होती	हो	VERB	V_VM	Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=250
+26	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=260
+27	।	।	PUNCT	RD_PUNC	_	25	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=270
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s34
+# text = 
+1	ट्रेडमिल	ट्रेडमिल	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	वॉकिंग	वॉकिंग	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	,	&comma	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	व्यायाम	व्यायाम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	प्रशिक्षण	प्रशिक्षण	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	,	&comma	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	क़दम	कदम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	-	-	PUNCT	RD_SYM	_	14	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	चालन	चालन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=90
+10	,	&comma	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=3|ChunkType=NP|SpanStart=100
+11	कूद	कूद	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=110
+12	,	&comma	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=4|ChunkType=NP|SpanStart=120
+13	सहनशीलता	सहनशीलता	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=130
+14	और	और	CCONJ	CC_CCD	_	0	nmod	_	ChunkId=6|ChunkType=CCP|SpanStart=140
+15	शक्ति	शक्ति	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=150
+16	अभ्यास	अभ्यास	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	सभी	सभी	PRON	PR_PRP	Case=Acc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	31	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=170
+18	के	के	ADP	PSP	AdpType=Post	31	dep	_	ChunkId=8|ChunkType=NP|SpanStart=180
+19	परिणामस्वरूप	परिणामस्वरूप	ADP	PSP	AdpType=Post	31	dep	_	ChunkId=8|ChunkType=NP|SpanStart=190
+20	ऑस्टियोपीनिक	ऑस्टियोपीनिक	ADJ	JJ	Case=Acc	31	dep	_	ChunkId=9|ChunkType=NP|SpanStart=200
+21	रजोनिवृतोत्तर	रजोनिवृतोत्तर	ADJ	JJ	Case=Acc	31	dep	_	ChunkId=9|ChunkType=NP|SpanStart=210
+22	महिलाओं	महिला	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	31	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=220
+23	में	में	ADP	PSP	AdpType=Post	31	dep	_	ChunkId=9|ChunkType=NP|SpanStart=230
+24	L2	L2	NUM	QT_QTC	NumType=Card	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=240
+25	-	-	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=250
+26	L4	L4	NUM	QT_QTC	NumType=Card	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=260
+27	BMD	BMD	RD_RDF	RD_RDF	_	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=270
+28	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=280
+29	महत्वपूर्ण	महत्वपूर्ण	ADJ	JJ	Case=Nom	31	dep	_	ChunkId=11|ChunkType=NP|SpanStart=290
+30	वृद्धि	वृद्धि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	31	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=300
+31	हुई	हो	VERB	V_VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=310
+32	।	।	PUNCT	RD_PUNC	_	31	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=320
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s35
+# text = 
+1	शक्ति	शक्ति	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	प्रशिक्षण	प्रशिक्षण	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	से	से	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	,	&comma	PUNCT	RD_PUNC	_	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	विशेषतः	विशेषतः	ADV	RB	_	15	dep	_	ChunkId=2|ChunkType=RBP|SpanStart=50
+6	दूरस्थ	दूरस्थ	ADJ	JJ	Case=Acc	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	त्रिज्या	त्रिज्या	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	और	और	CCONJ	CC_CCD	_	15	dep	_	ChunkId=4|ChunkType=CCP|SpanStart=80
+9	कूल्हे	कूल्हा	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	9	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	BMD	BMD	RD_RDF	RD_RDF	_	15	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=110
+12	में	में	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=120
+13	सुधार	सुधार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	हासिल	हासिल	ADJ	JJ	_	15	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=140
+15	हुआ	हो	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=150
+16	।	।	PUNCT	RD_PUNC	_	15	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=160
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s36
+# text = 
+1	हार्मोन	हार्मोन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	प्रतिस्थापन	प्रतिस्थापन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	उपचार	उपचार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+4	(	(	PUNCT	RD_SYM	_	4	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	HRT	HRT	RD_RDF	RD_RDF	_	4	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	)	)	PUNCT	RD_SYM	_	4	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	जैसे	जैसा	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	1	dep	_	ChunkId=3|ChunkType=FRAGP|SpanStart=70
+8	अन्य	अन्य	ADJ	JJ	Case=Acc	23	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	औषधीय	औषधीय	ADJ	JJ	Case=Acc	23	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	उपचार	उपचार	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	से	से	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	संयुक्त	संयुक्त	ADJ	JJ	Case=Acc	23	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	व्यायाम	व्यायाम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=130
+14	से	से	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	अकेले	अकेला	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	ChunkId=6|ChunkType=JJP|SpanStart=150
+16	HRT	HRT	RD_RDF	RD_RDF	_	23	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=160
+17	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	23	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=170
+18	जगह	जगह	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	23	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=180
+19	BMD	BMD	RD_RDF	RD_RDF	_	23	dep	_	ChunkId=8|ChunkType=NP|SpanStart=190
+20	वृद्धि	वृद्धि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=200
+21	अधिक	अधिक	DET	QT_QTF	_	23	dep	_	ChunkId=9|ChunkType=NP|SpanStart=210
+22	दृष्टिगोचर	दृष्टिगोचर	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=220
+23	हुई	हो	VERB	V_VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=230
+24	।	।	PUNCT	RD_PUNC	_	23	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=240
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s37
+# text = 
+1	ऑस्टियोपोरोटिक	ऑस्टियोपोरोटिक	ADJ	JJ	Case=Acc	23	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	रोगियों	रोगी	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	BMD	BMD	NOUN	N_NN	_	23	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	वृद्धि	वृद्धि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	के	के	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	अलावा	अलावा	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	संतुलन	संतुलन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	,	&comma	PUNCT	RD_PUNC	_	13	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	चाल	चाल	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	में	में	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	सुधार	सुधार	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	तथा	तथा	CCONJ	CC_CCD	_	0	nmod	_	ChunkId=6|ChunkType=CCP|SpanStart=130
+14	गिरने	गिरना	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=140
+15	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=7|ChunkType=VGNN|SpanStart=150
+16	जोखिम	जोखिम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	में	में	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	कमी	कमी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	जैसे	जैसा	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	13	dep	_	ChunkId=9|ChunkType=NP|SpanStart=190
+20	अतिरिक्त	अतिरिक्त	ADJ	JJ	Case=Nom	23	dep	_	ChunkId=10|ChunkType=NP|SpanStart=200
+21	लाभ	लाभ	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=210
+22	शामिल	शामिल	ADJ	JJ	_	23	dep	_	ChunkId=11|ChunkType=JJP|SpanStart=220
+23	हैं	है	VERB	V_VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=230
+24	।	।	PUNCT	RD_PUNC	_	23	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=240
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s38
+# text = 
+1	हालांकि	हालांकि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	ऑस्टियोपोरोसिस	ऑस्टियोपोरोसिस	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	रोगियों	रोगी	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	में	में	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	भंग	भंग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	जटिलताओं	जटिलता	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	12	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	कारण	कारण	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	12	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	वर्धित	वर्धित	ADJ	JJ	Case=Nom	0	nmod	_	ChunkId=5|ChunkType=JJP|SpanStart=120
+13	मृत्यु	मृत्यु	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	-	-	PUNCT	RD_SYM	_	16	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	दर	दर	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=150
+16	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=160
+17	,	&comma	PUNCT	RD_PUNC	_	18	dep	_	ChunkId=7|ChunkType=VGF|SpanStart=170
+18	NULL	NULL	CCONJ	CC_CCD	_	1	dep	_	ChunkId=8|ChunkType=NULL__CCP
+19	अधिकांश	अधिकांश	DET	QT_QTF	_	35	dep	_	ChunkId=9|ChunkType=NP|SpanStart=180
+20	मरीज़	मरीज	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	35	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=190
+21	रोग	रोग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	35	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+22	"	"	PUNCT	RD_PUNC	_	35	dep	_	ChunkId=10|ChunkType=NP|SpanStart=210
+23	के	के	ADP	PSP	AdpType=Post	35	dep	_	ChunkId=10|ChunkType=NP|SpanStart=220
+24	साथ	साथ	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	35	dep	_	ChunkId=10|ChunkType=NP|SpanStart=230
+25	"	"	PUNCT	RD_PUNC	_	35	dep	_	ChunkId=10|ChunkType=NP|SpanStart=240
+26	मरते	मर	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=250
+27	हैं	है	AUX	V_VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=260
+28	ना	ना	PART	RP_NEG	_	18	dep	_	ChunkId=12|ChunkType=CCP|SpanStart=270
+29	कि	कि	SCONJ	CC_CCD	_	18	dep	_	ChunkId=12|ChunkType=CCP|SpanStart=280
+30	उसकी	वह	PRON	PR_PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	0	dep	_	ChunkId=13|ChunkType=NP|Vib=का|Tam=kA|SpanStart=290
+31	वजह	वजह	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=300
+32	"	"	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=310
+33	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=320
+34	"	"	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=330
+35	NULL	NULL	VERB	V_VM	_	0	dep	_	ChunkId=14|ChunkType=NULL__VGF
+36	।	।	PUNCT	RD_PUNC	_	1	dep	_	ChunkId=15|ChunkType=BLK|SpanStart=340
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s39
+# text = 
+1	कूल्हों	कूल्हा	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	फ़ैक्चर	फ़ैक्चर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	30	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	30	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	वजह	वजह	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	30	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	से	से	ADP	PSP	AdpType=Post	30	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	गतिशीलता	गतिशीलता	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	कमी	कमी	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=100
+11	कई	कई	DET	QT_QTF	_	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+12	जटिलताओं	जटिलता	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=130
+14	एक	एक	NUM	QT_QTC	NumType=Card	30	dep	_	ChunkId=7|ChunkType=NP|SpanStart=140
+15	अतिरिक्त	अतिरिक्त	ADJ	JJ	Case=Nom	30	dep	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	जोखिम	जोखिम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	30	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	जैसे	जैसे	PART	RP_RPD	_	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=180
+19	गहरी	गहरा	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=190
+20	शिरापरक	शिरापरक	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=200
+21	घनास्त्रता	घनास्त्रता	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=210
+22	और	और	CCONJ	CC_CCD	_	0	nmod	_	ChunkId=9|ChunkType=CCP|SpanStart=220
+23	/	/	PUNCT	RD_PUNC	_	0	nmod	_	ChunkId=9|ChunkType=CCP|SpanStart=230
+24	या	या	CCONJ	CC_CCD	_	0	nmod	_	ChunkId=9|ChunkType=CCP|SpanStart=240
+25	फुफ्फुसीय	फुफ्फुसीय	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=250
+26	अंतःशल्यता	अंतःशल्यता	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=260
+27	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=270
+28	न्यूमोनिया	न्यूमोनिया	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=280
+29	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=290
+30	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Tam=0|SpanStart=300
+31	सकता	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=310
+32	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=320
+33	।	।	PUNCT	RD_PUNC	_	30	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=330
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s40
+# text = 
+1	कूल्हे	कूल्हा	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	फ़्रैक्चर	फ्रैक्चर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	बाद	बाद	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	6	6	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	महीने	महीना	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	मृत्यु	मृत्यु	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	-	-	PUNCT	RD_SYM	_	15	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	दर	दर	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=110
+12	लगभग	लगभग	PART	RP_RPD	_	15	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	13.5	13.5	NUM	QT_QTC	NumType=Card	15	dep	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	%	%	PUNCT	RD_SYM	_	15	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	बनती	बन	VERB	V_VM	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=6|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=150
+16	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=160
+17	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=170
+18	ऐसे	ऐसा	DET	DM_DMD	Case=Acc|Gender=Masc|Number=Plur|Person=3	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=180
+19	लोगों	लोग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=190
+20	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=200
+21	पर्याप्त	पर्याप्त	ADJ	JJ	Case=Acc	17	dep	_	ChunkId=9|ChunkType=NP|SpanStart=210
+22	अनुपात	अनुपात	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=220
+23	(	(	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=230
+24	लगभग	लगभग	PART	RP_RPD	_	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=240
+25	13	13	NUM	QT_QTC	NumType=Card	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=250
+26	%	%	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=260
+27	)	)	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=270
+28	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=FRAGP|SpanStart=280
+29	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=11|ChunkType=FRAGP|SpanStart=290
+30	जिन्हें	जो	PR_PRL	PR_PRL	Case=Acc|Number=Plur|Person=3	0	dep	_	ChunkId=12|ChunkType=NP|Vib=को|Tam=ko|SpanStart=300
+31	कूल्हे	कूल्हा	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=310
+32	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=13|ChunkType=NP|SpanStart=320
+33	फ़्रैक्चर	फ्रैक्चर	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=330
+34	हुआ	हो	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=340
+35	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=350
+36	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=15|ChunkType=VGF|SpanStart=360
+37	कूल्हा	कूल्हा	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=370
+38	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=380
+39	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=390
+40	भंग	भंग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=400
+41	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=410
+42	बाद	बाद	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=420
+43	चलने	चलना	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=430
+44	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=17|ChunkType=VGNN|SpanStart=440
+45	फिरने	फिर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=450
+46	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=17|ChunkType=VGNN|SpanStart=460
+47	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=17|ChunkType=VGNN|SpanStart=470
+48	पूरी	पूरा	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=18|ChunkType=NP|SpanStart=480
+49	मदद	मदद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=490
+50	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=18|ChunkType=NP|SpanStart=500
+51	ज़रूरत	जरूरत	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=510
+52	होती	हो	VERB	V_VM	Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=20|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=520
+53	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=20|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=530
+54	।	।	PUNCT	RD_PUNC	_	17	dep	_	ChunkId=21|ChunkType=BLK|SpanStart=540
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s41
+# text = 
+1	कशेरुकी	कशेरुकी	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	भंग	भंग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=40
+5	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=50
+6	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=60
+7	जिसका	जो	PR_PRL	PR_PRL	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=2|ChunkType=NP|Vib=का|Tam=kA|SpanStart=70
+8	मृत्यु	मृत्यु	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	-	-	PUNCT	RD_SYM	_	14	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	दर	दर	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=100
+11	पर	पर	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=3|ChunkType=NP|SpanStart=110
+12	कम	कम	DET	QT_QTF	_	14	dep	_	ChunkId=4|ChunkType=NP|SpanStart=120
+13	असर	असर	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=130
+14	होता	हो	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	dep	_	ChunkId=5|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=140
+15	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=150
+16	,	&comma	PUNCT	RD_PUNC	_	1	dep	_	ChunkId=5|ChunkType=VGF|SpanStart=160
+17	तंत्रिकाजन्य	तंत्रिकाजन्य	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=170
+18	मूल	मूल	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=180
+19	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=190
+20	चिरकालिक	चिरकालिक	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=200
+21	दर्द	दर्द	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=210
+22	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Tam=0|SpanStart=220
+23	सकता	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=230
+24	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=240
+25	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=8|ChunkType=VGF|SpanStart=250
+26	जिसे	जो	PR_PRL	PR_PRL	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=9|ChunkType=NP|Vib=को|Tam=ko|SpanStart=260
+27	क़ाबू	काबू	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=270
+28	में	में	ADP	PSP	AdpType=Post	29	dep	_	ChunkId=10|ChunkType=NP|SpanStart=280
+29	करना	कर	VERB	V_VM	Case=Nom|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=290
+30	मुश्किल	मुश्किल	ADJ	JJ	_	0	dep	_	ChunkId=12|ChunkType=JJP|SpanStart=300
+31	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	34	dep	_	ChunkId=13|ChunkType=VGF|Tam=0|SpanStart=310
+32	सकता	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	34	dep	_	ChunkId=13|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=320
+33	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=330
+34	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=14|ChunkType=CCP|SpanStart=340
+35	अंग	अंग	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=350
+36	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=360
+37	विकृति	विकृति	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=370
+38	भी	भी	PART	RP_RPD	_	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=380
+39	संभव	संभव	ADJ	JJ	_	0	dep	_	ChunkId=16|ChunkType=JJP|SpanStart=390
+40	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	dep	_	ChunkId=17|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=400
+41	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=18|ChunkType=BLK|SpanStart=410
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s42
+# text = 
+1	हालांकि	हालांकि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	दुर्लभ	दुर्लभ	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=2|ChunkType=JJP|SpanStart=20
+3	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=2|ChunkType=JJP|SpanStart=30
+4	पर	पर	CCONJ	CC_CCD	_	6	nmod	_	ChunkId=3|ChunkType=CCP|SpanStart=40
+5	एकाधिक	एकाधिक	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=50
+6	कशेरुकी	कशेरुकी	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=60
+7	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=70
+8	-	-	PUNCT	RD_SYM	_	18	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	भंग	भंग	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	ऐसे	ऐसा	DET	DM_DMD	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	dep	_	ChunkId=6|ChunkType=NP|SpanStart=100
+11	गंभीर	गंभीर	ADJ	JJ	Case=Acc	18	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+12	कूबड़	कूबड	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	(	(	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=130
+14	कुब्जता	कुब्जता	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=140
+15	)	)	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=FRAGP|SpanStart=160
+17	जन्म	जन्म	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=170
+18	दे	दे	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	1	dep	_	ChunkId=10|ChunkType=VGF|Tam=0|SpanStart=180
+19	सकता	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	dep	_	ChunkId=10|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=190
+20	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=200
+21	कि	कि	SCONJ	CC_CCS	_	18	dep	_	ChunkId=11|ChunkType=CCP|SpanStart=210
+22	परिणामी	परिणामी	ADJ	JJ	Case=Acc	29	dep	_	ChunkId=12|ChunkType=NP|SpanStart=220
+23	आंतरिक	आंतरिक	ADJ	JJ	Case=Acc	29	dep	_	ChunkId=12|ChunkType=NP|SpanStart=230
+24	अंगों	अंग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=240
+25	पर	पर	ADP	PSP	AdpType=Post	29	dep	_	ChunkId=12|ChunkType=NP|SpanStart=250
+26	दबाव	दबाव	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=260
+27	से	से	ADP	PSP	AdpType=Post	29	dep	_	ChunkId=13|ChunkType=NP|SpanStart=270
+28	सांस	सांस	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=280
+29	लेने	ले	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=290
+30	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=15|ChunkType=VGNN|SpanStart=300
+31	क्षमता	क्षमता	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=310
+32	ख़राब	ख़राब	ADJ	JJ	_	0	dep	_	ChunkId=17|ChunkType=JJP|SpanStart=320
+33	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Tam=0|SpanStart=330
+34	सकती	सक	AUX	V_VAUX	Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=340
+35	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=350
+36	।	।	PUNCT	RD_PUNC	_	18	dep	_	ChunkId=19|ChunkType=BLK|SpanStart=360
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s43
+# text = 
+1	मौत	मौत	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	और	और	CCONJ	CC_CCD	_	21	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=20
+3	अन्य	अन्य	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=30
+4	जटिलताओं	जटिलता	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	जोखिम	जोखिम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=60
+7	के	के	ADP	PSP	AdpType=Post	2	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	अलावा	अलावा	ADP	PSP	AdpType=Post	2	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	,	&comma	PUNCT	RD_PUNC	_	2	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	ऑस्टियोपोरोटिक	ऑस्टियोपोरोटिक	ADJ	JJ	Case=Nom	21	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	फ़्रैक्चर	फ्रैक्चर	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	निम्नतर	निम्नतर	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=6|ChunkType=JJP|SpanStart=120
+13	स्वास्थ्य	स्वास्थ्य	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=JJP|Tam=0|SpanStart=130
+14	-	-	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=6|ChunkType=JJP|SpanStart=140
+15	संबंधी	संबंधी	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=6|ChunkType=JJP|SpanStart=150
+16	जीवन	जीवन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	nmod	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	-	-	PUNCT	RD_SYM	_	21	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=170
+18	गुणवत्ता	गुणवत्ता	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	nmod	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=180
+19	के	के	ADP	PSP	AdpType=Post	21	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=190
+20	साथ	साथ	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=200
+21	जुड़े	जुड़	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=210
+22	हैं	है	AUX	V_VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=220
+23	।	।	PUNCT	RD_PUNC	_	21	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=230
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s44
+# text = 
+1	यह	यह	DET	DM_DMD	Case=Nom|Number=Sing|Person=3	3	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	अनुमान	अनुमान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=30
+4	कि	कि	SCONJ	CC_CCS	_	1	nmod	_	ChunkId=3|ChunkType=CCP|SpanStart=40
+5	दुनिया	दुनिया	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+6	भर	भर	PART	RP_RPD	_	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	50	50	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	वर्ष	वर्ष	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	आयु	आयु	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	ऊपर	ऊपर	NOUN	N_NST	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=130
+14	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	3	3	NUM	QT_QTC	NumType=Card	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	महिलाओं	महिला	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	में	में	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=170
+18	1	1	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=180
+19	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=190
+20	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=200
+21	12	12	NUM	QT_QTC	NumType=Card	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	पुरुषों	पुरुष	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=220
+23	में	में	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=230
+24	1	1	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=240
+25	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=250
+26	हड्डियों	हड्डी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=260
+27	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=12|ChunkType=NP|SpanStart=270
+28	कमज़ोरी	कमज़ोरी	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=280
+29	होती	हो	VERB	V_VM	Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=14|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=290
+30	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=14|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=300
+31	।	।	PUNCT	RD_PUNC	_	3	dep	_	ChunkId=15|ChunkType=BLK|SpanStart=310
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s45
+# text = 
+1	सालाना	सालाना	ADV	RB	_	10	dep	_	ChunkId=1|ChunkType=RBP|SpanStart=10
+2	यह	यह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	लाखों	लाख	NUM	QT_QTC	NumType=Card|Number=Plur	10	dep	_	ChunkId=3|ChunkType=NP|SpanStart=30
+4	अस्थि	अस्थि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	-	-	PUNCT	RD_SYM	_	10	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	भंग	भंग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	के	के	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	लिए	लिए	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	जिम्मेदार	जिम्मेदार	ADJ	JJ	_	10	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=90
+10	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=100
+11	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=5|ChunkType=VGF|SpanStart=110
+12	जिनमें	जो	PR_PRL	PR_PRL	Case=Acc|Number=Plur|Person=3	0	dep	_	ChunkId=6|ChunkType=NP|Vib=में|Tam=meM|SpanStart=120
+13	ज़्यादातर	ज्यादातर	DET	QT_QTF	_	0	nmod	_	ChunkId=7|ChunkType=JJP|SpanStart=130
+14	कटिपरक	कटिपरक	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=140
+15	कशेरुकी	कशेरुकी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=160
+17	कूल्हे	कूल्हा	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=170
+18	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=10|ChunkType=CCP|SpanStart=180
+19	कलाई	कलाई	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=190
+20	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=200
+21	जुड़े	जुड़	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=210
+22	हैं	है	AUX	V_VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=220
+23	।	।	PUNCT	RD_PUNC	_	10	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=230
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s46
+# text = 
+1	पसलियों	पसली	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	नाज़ुक	नाजुक	ADJ	JJ	Case=Nom	9	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	फ़्रैक्चर	फ्रैक्चर	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	भी	भी	PART	RP_RPD	_	9	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	पुरुषों	पुरुष	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	में	में	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	सामान्य	सामान्य	ADJ	JJ	_	9	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=80
+9	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=90
+10	।	।	PUNCT	RD_PUNC	_	9	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=100
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s47
+# text = 
+1	कूल्हे	कूल्हा	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	फ़्रैक्चर	फ्रैक्चर	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	,	&comma	PUNCT	RD_PUNC	_	13	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	ऑस्टियोपोरोसिस	ऑस्टियोपोरोसिस	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	सबसे	सबसे	ADV	RP_INTF	AdvType=Deg	13	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	गंभीर	गंभीर	ADJ	JJ	Case=Acc	13	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	परिणामों	परिणाम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	के	के	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	लिए	लिए	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	जिम्मेदार	जिम्मेदार	ADJ	JJ	_	13	dep	_	ChunkId=5|ChunkType=JJP|SpanStart=120
+13	हैं	है	VERB	V_VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=130
+14	।	।	PUNCT	RD_PUNC	_	13	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=140
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s48
+# text = 
+1	संयुक्त	संयुक्त	ADJ	JJ	Case=Acc	16	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	राज्य	राज्य	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	अमेरिका	अमेरिका	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+4	में	में	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	सालाना	सालाना	ADV	RB	_	16	dep	_	ChunkId=2|ChunkType=RBP|SpanStart=50
+6	250,000	250000	NUM	QT_QTC	Case=Acc|NumType=Card	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	से	से	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	अधिक	अधिक	DET	QT_QTF	_	0	nmod	_	ChunkId=4|ChunkType=JJP|SpanStart=80
+9	कूल्हे	कूल्हा	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	फ़्रैक्चरों	फ्रैक्चर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	के	के	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	लिए	लिए	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=6|ChunkType=NP|SpanStart=130
+14	ऑस्टियोपोरोसिस	ऑस्टियोपोरोसिस	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=140
+15	जिम्मेदार	जिम्मेदार	ADJ	JJ	_	16	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=150
+16	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=160
+17	।	।	PUNCT	RD_PUNC	_	16	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=170
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s49
+# text = 
+1	यह	यह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	अनुमान	अनुमान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=30
+4	कि	कि	SCONJ	CC_CCS	_	1	nmod	_	ChunkId=4|ChunkType=CCP|SpanStart=40
+5	एक	एक	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=50
+6	50	50	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=60
+7	वर्षीय	वर्षीय	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=70
+8	श्वेत	श्वेत	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	महिला	महिला	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	सन्निकट	सन्निकट	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	जाँघ	जाँघ	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	हड्डी	हड्डी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=150
+16	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	फ़्रैक्चर	फ्रैक्चर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=170
+18	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=180
+19	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=190
+20	17.5	17.5	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=200
+21	%	%	PUNCT	RD_SYM	_	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=210
+22	आजीवन	आजीवन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=220
+23	जोखिम	जोखिम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=230
+24	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=240
+25	।	।	PUNCT	RD_PUNC	_	3	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=250
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s50
+# text = 
+1	सभी	सभी	DET	QT_QTF	_	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	आबादियों	आबादी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	पुरुष	पुरुष	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	और	और	CCONJ	CC_CCD	_	0	nmod	_	ChunkId=3|ChunkType=CCP|SpanStart=50
+6	महिलाएं	महिला	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=60
+7	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	दोनों	दो	NOUN	N_NN	Case=Acc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	के	के	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	लिए	लिए	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	साठ	साठ	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	नब्बे	नब्बे	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=140
+15	हर	हर	DET	QT_QTF	_	23	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+16	दशक	दशक	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	में	में	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	कूल्हे	कूल्हा	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=190
+20	फ़्रैक्चरों	फ्रैक्चर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Plur	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	घटनाएं	घटना	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=220
+23	बढ़ती	बढ़	VERB	V_VM	Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=230
+24	रहती	रह	AUX	V_VAUX	Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=240
+25	हैं	है	AUX	V_VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=250
+26	।	।	PUNCT	RD_PUNC	_	23	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=260
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s51
+# text = 
+1	सबसे	सबसे	ADV	RP_INTF	AdvType=Deg	9	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	ज्यादा	ज्यादा	DET	QT_QTF	_	9	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	घटनाएं	घटना	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+4	उन	वह	DET	DM_DMD	Case=Acc|Number=Plur|Person=3	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	पुरुषों	पुरुष	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	और	और	CCONJ	CC_CCD	_	9	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=60
+7	महिलाओं	महिला	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	पाई	पा	VERB	V_VM	Aspect=Perf|Gender=Fem|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=90
+10	गई	जा	AUX	V_VAUX	Aspect=Perf|Gender=Fem|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=100
+11	हैं	है	AUX	V_VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=110
+12	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=5|ChunkType=VGF|SpanStart=120
+13	जिनकी	जो	PR_PRL	PR_PRL	Case=Acc|Gender=Fem|Number=Plur|Person=3	0	dep	_	ChunkId=6|ChunkType=NP|Vib=का|Tam=kA|SpanStart=130
+14	उम्र	उम्र	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=140
+15	80	80	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+16	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=160
+17	अधिक	अधिक	DET	QT_QTF	_	0	dep	_	ChunkId=10|ChunkType=JJP|SpanStart=170
+18	रही	रह	VERB	V_VM	Aspect=Perf|Gender=Fem|VerbForm=Part|Voice=Act	6	dep	_	ChunkId=11|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=180
+19	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=11|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=190
+20	।	।	PUNCT	RD_PUNC	_	9	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=200
+
+
+
+# sent_id = mor-ऑस्टियोपोरोसिस-pos-chunk-1-50-posn-name-s52
+# text = 
+1	50	50	NUM	QT_QTC	Case=Acc|NumType=Card	3	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	से	से	ADP	PSP	AdpType=Post	3	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	अधिक	अधिक	DET	QT_QTF	_	0	nmod	_	ChunkId=2|ChunkType=JJP|SpanStart=30
+4	उम्र	उम्र	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	वाली	वाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	0	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	35	35	NUM	QT_QTC	NumType=Card	19	dep	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	-	-	PUNCT	RD_SYM	_	19	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	50	50	NUM	QT_QTC	NumType=Card	19	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	%	%	PUNCT	RD_SYM	_	19	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	सभी	सभी	DET	QT_QTF	_	19	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	महिलाओं	महिला	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=110
+12	को	को	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=4|ChunkType=NP|SpanStart=120
+13	कम	कम	DET	QT_QTF	_	19	dep	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	से	से	PART	RP_RPD	_	19	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	कम	कम	DET	QT_QTF	_	19	dep	_	ChunkId=5|ChunkType=NP|SpanStart=150
+16	एक	एक	NUM	QT_QTC	NumType=Card	19	dep	_	ChunkId=5|ChunkType=NP|SpanStart=160
+17	कशेरुकी	कशेरुकी	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=170
+18	फ्रैक्चर	फ्रैक्चर	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=180
+19	हुआ	हो	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=190
+20	था	था	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=200
+21	।	।	PUNCT	RD_PUNC	_	19	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=210
+

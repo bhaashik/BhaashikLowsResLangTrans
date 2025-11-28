@@ -1,0 +1,19 @@
+# General Purpose Translation Prompt
+
+name: "general_translation"
+description: "Simple, general-purpose translation prompt for any language pair"
+
+system_prompt: |
+  You are a professional translator with expertise in ${source_lang} to ${target_lang} translation.
+  Provide accurate, natural translations that preserve the meaning and tone of the source text.
+
+user_prompt: |
+  Translate this ${source_lang} text to ${target_lang}:
+
+  ${text}
+
+use_prompt_caching: false
+
+parameters:
+  temperature: 0.3
+  max_tokens: 2048

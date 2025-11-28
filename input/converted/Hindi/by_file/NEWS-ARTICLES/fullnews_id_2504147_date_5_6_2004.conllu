@@ -1,0 +1,184 @@
+# sent_id = fullnews_id_2504147_date_5_6_2004-s1
+# text = 
+1	सात	सात	NUM	QC	NumType=Card	3	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	महीनों	महीना	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	लम्बी	लंबा	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=2|ChunkType=JJP|SpanStart=30
+4	जद्दोजहद	जद्दोजहद	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	और	और	CCONJ	CC	_	38	dep	_	ChunkId=4|ChunkType=CCP|SpanStart=50
+6	हजारों	हजार	NUM	QC	NumType=Card|Number=Plur	10	dep	_	ChunkId=5|ChunkType=NP|SpanStart=60
+7	प्रतिभागियों	प्रतिभागी	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=70
+8	से	से	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	पार	पार	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=90
+10	पाने	पा	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	5	dep	_	ChunkId=7|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=100
+11	के	के	ADP	PSP	AdpType=Post	5	dep	_	ChunkId=7|ChunkType=VGNN|SpanStart=110
+12	बाद	बाद	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	dep	_	ChunkId=7|ChunkType=VGNN|SpanStart=120
+13	शनिवार	शनिवार	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=130
+14	को	को	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=8|ChunkType=NP|SpanStart=140
+15	हुए	हो	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=150
+16	देश	देश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=160
+17	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=170
+18	सबसे	सबसे	ADV	INTF	AdvType=Deg	0	dep	_	ChunkId=11|ChunkType=JJP|SpanStart=180
+19	बड़े	बडा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=11|ChunkType=JJP|SpanStart=190
+20	और	और	CCONJ	CC	_	0	nmod	_	ChunkId=12|ChunkType=CCP|SpanStart=200
+21	सर्वाधिक	सर्वाधिक	ADV	INTF	_	0	dep	_	ChunkId=13|ChunkType=JJP|SpanStart=210
+22	लोकप्रिय	लोकप्रिय	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=13|ChunkType=JJP|SpanStart=220
+23	टेलेंट	टेलेंट	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=230
+24	हंट	हंट	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=240
+25	कार्यक्रम	कार्यक्रम	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=250
+26	(	(	PUNCT	SYM	_	0	nmod	_	ChunkId=15|ChunkType=NP|SpanStart=260
+27	इंडियन	इंडियन	PROPN	NNPC	Case=Acc	0	nmod	_	ChunkId=15|ChunkType=NP|SpanStart=70
+28	ऑइडल	ऑइडल	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=280
+29	)	)	PUNCT	SYM	_	0	nmod	_	ChunkId=15|ChunkType=NP|SpanStart=290
+30	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=16|ChunkType=FRAGP|SpanStart=300
+31	ताज	ताज	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	38	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=310
+32	आख़िरकार	आखिरकार	ADV	RB	_	38	dep	_	ChunkId=18|ChunkType=RBP|SpanStart=320
+33	महाराष्ट्र	महाराष्ट्र	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=330
+34	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=340
+35	अभिजीत	अभिजीत	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	38	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=350
+36	सांवत	सांवत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	38	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=360
+37	ने	ने	ADP	PSP	AdpType=Post	38	dep	_	ChunkId=20|ChunkType=NP|SpanStart=370
+38	जीत	जीत	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=VGF|Tam=0|SpanStart=380
+39	लिया	ले	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=21|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=390
+40	।	।	PUNCT	SYM	_	38	dep	_	ChunkId=22|ChunkType=BLK|SpanStart=400
+
+
+
+# sent_id = fullnews_id_2504147_date_5_6_2004-s2
+# text = 
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	प्रतियोगिता	प्रतियोगिता	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	फाइनल	फाइनल	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	को	को	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	लेकर	ले	VERB	VM	VerbForm=Conv|Voice=Act	14	dep	_	ChunkId=3|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=60
+7	देशभर	देशभर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	करोंड़ों	करोंड़	NUM	QC	NumType=Card|Number=Plur	14	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	लोगों	लोग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	में	में	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	ज़बरदस्त	जबरदस्त	ADJ	JJ	Case=Nom	14	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	उत्साह	उत्साह	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	था	था	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=140
+15	।	।	PUNCT	SYM	_	14	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=150
+
+
+
+# sent_id = fullnews_id_2504147_date_5_6_2004-s3
+# text = 
+1	फाइनल	फाइनल	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	आयोजन	आयोजन	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	दक्षिण	दक्षिण	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	मुबंई	मुबंई	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	महालक्ष्मी	महालक्ष्मी	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	स्टूडियो	स्टूडियो	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	में	में	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=100
+11	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या१|Tam=yA1|SpanStart=110
+12	।	।	PUNCT	SYM	_	10	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=120
+
+
+
+# sent_id = fullnews_id_2504147_date_5_6_2004-s4
+# text = 
+1	टेलिविजन	टेलिविजन	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	इतिहास	इतिहास	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	सर्वाधिक	सर्वाधिक	ADV	INTF	_	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	लोकप्रिय	लोकप्रिय	ADJ	JJ	Case=Acc	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	कार्यक्रमों	कार्यक्रम	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	अपना	अपना	PRON	PRP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	नाम	नाम	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	दर्ज	दर्ज	ADJ	JJ	_	11	dep	_	ChunkId=5|ChunkType=JJP|SpanStart=100
+11	करा	कर	VERB	VM	Aspect=Perf|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=110
+12	चुके	चुक	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=120
+13	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=130
+14	शो	शो	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=140
+15	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	फाइनल	फाइनल	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	मुबंई	मुबंई	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=190
+20	अभिजीत	अभिजीत	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	सांवत	सांवत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=210
+22	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=220
+23	मुक़ाबला	मुकाबला	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=230
+24	भिलाई	भिलाई	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=240
+25	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=250
+26	अमित	अमित	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=260
+27	साना	साना	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=270
+28	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=13|ChunkType=NP|SpanStart=280
+29	था	था	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=290
+30	।	।	PUNCT	SYM	_	0	dep	_	ChunkId=15|ChunkType=BLK|SpanStart=300
+
+
+
+# sent_id = fullnews_id_2504147_date_5_6_2004-s5
+# text = 
+1	हालाँकि	हालाँकि	CCONJ	CC	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	दोनों	दो	NUM	QC	NumType=Card	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	ही	ही	PART	RP	_	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	गायक	गायक	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	प्रतियोगिता	प्रतियोगिता	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	फाइनल	फाइनल	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	दौर	दौर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	गाना	गाना	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	गा	गा	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Tam=0|SpanStart=110
+12	चुके	चुक	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=120
+13	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=130
+14	लेकिन	लेकिन	CCONJ	CC	_	14	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=140
+15	इन	यह	PRON	PRP	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=160
+17	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	वोटिंग	वोटिंग	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	शनिवार	शनिवार	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=190
+20	यानि	यानि	CCONJ	CC	_	0	nmod	_	ChunkId=11|ChunkType=CCP|SpanStart=200
+21	५	५	PROPN	NNPC	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=210
+22	मार्च	मार्च	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=220
+23	तक	तक	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=230
+24	होनी	हो	VERB	VM	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=240
+25	थी	था	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=250
+26	।	।	PUNCT	SYM	_	1	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=260
+
+
+
+# sent_id = fullnews_id_2504147_date_5_6_2004-s6
+# text = 
+1	प्रतियोगिता	प्रतियोगिता	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	के	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	लिए	लिए	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	स्टूडियो	स्टूडियो	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	स्टेज	स्टेज	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	को	को	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	बेहद	बेहद	ADJ	JJ	Case=Acc	11	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	खूबसूरती	खूबसूरती	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	से	से	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	सजाया	सजा	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=110
+12	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या१|Tam=yA1|SpanStart=120
+13	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=130
+14	।	।	PUNCT	SYM	_	11	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=140
+
+
+
+# sent_id = fullnews_id_2504147_date_5_6_2004-s7
+# text = 
+1	स्टेज	स्टेज	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	के	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	सामने	सामने	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	दर्शकों	दर्शक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	में	में	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	सामने	सामने	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	बैठे	बैठ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=70
+8	थे	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=80
+9	दोनों	दो	NUM	QC	NumType=Card|Number=Plur	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	गायकों	गायक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	समर्थक	समर्थक	ADJ	JJ	Case=Nom	7	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	दर्शक	दर्शक	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	।	।	PUNCT	SYM	_	7	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=140
+

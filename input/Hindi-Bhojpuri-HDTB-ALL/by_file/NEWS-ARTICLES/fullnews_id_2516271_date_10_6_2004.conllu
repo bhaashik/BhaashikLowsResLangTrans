@@ -1,0 +1,310 @@
+# sent_id = fullnews_id_2516271_date_10_6_2004-s1
+# text = 
+1	सुनामी	सुनामी	PROPN	NNP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	पीड़ितों	पीड़ित	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	4	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	सहायतार्थ	सहायतार्थ	ADV	RB	_	22	dep	_	ChunkId=2|ChunkType=RBP|SpanStart=40
+5	सीरीज	सीरीज	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	पहले	पहला	ADJ	QO	Case=Acc|Gender=Masc|Number=Sing	22	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	मुकाबले	मुकाबला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	में	में	ADP	PSP	AdpType=Post	22	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	भले	भला	PART	RP	_	22	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=100
+11	ही	ही	PART	RP	_	22	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=110
+12	आईसीसी	आईसीसी	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	एकादश	एकादश	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	ने	ने	ADP	PSP	AdpType=Post	22	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	एशियाई	एशियाई	PROPN	NNPC	Case=Acc	22	dep	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	एकादश	एकादश	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	को	को	ADP	PSP	AdpType=Post	22	dep	_	ChunkId=7|ChunkType=NP|SpanStart=170
+18	११२	११२	NUM	QC	NumType=Card	22	dep	_	ChunkId=8|ChunkType=NP|SpanStart=180
+19	रनों	रन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=190
+20	से	से	ADP	PSP	AdpType=Post	22	dep	_	ChunkId=8|ChunkType=NP|SpanStart=200
+21	पराजित	पराजित	ADJ	JJ	_	22	dep	_	ChunkId=9|ChunkType=JJP|SpanStart=210
+22	कर	कर	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Tam=0|SpanStart=220
+23	दिया	दे	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=230
+24	।	।	PUNCT	SYM	_	22	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=240
+
+
+
+# sent_id = fullnews_id_2516271_date_10_6_2004-s2
+# text = 
+1	लेकिन	लेकिन	CCONJ	CC	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	मुकाबले	मुकाबला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	से	से	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	पचास	पचास	NUM	QCC	NumType=Card	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	करोड़	करोड	NUM	QC	Case=Acc|NumType=Card	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	(	(	PUNCT	SYM	_	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	१.११	१.११	NUM	QCC	NumType=Card	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	करोड़	करोड	NUM	QC	NumType=Card	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	डॉलर	डॉलर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	)	)	PUNCT	SYM	_	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=FRAGP|SpanStart=110
+12	राशि	राशि	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	जुटाकर	जुटा	VERB	VM	VerbForm=Conv|Voice=Act	19	dep	_	ChunkId=7|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=130
+14	क्रिकेटर	क्रिकेटर	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=140
+15	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|Mood=Imp|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=150
+16	मकसद	मकसद	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=160
+17	में	में	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=10|ChunkType=NP|SpanStart=170
+18	कामयाब	कामयाब	ADJ	JJ	_	19	dep	_	ChunkId=11|ChunkType=NP|SpanStart=180
+19	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	1	dep	_	ChunkId=12|ChunkType=VGF|Tam=0|SpanStart=190
+20	गए	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	1	dep	_	ChunkId=12|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=200
+21	।	।	PUNCT	SYM	_	1	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=210
+
+
+
+# sent_id = fullnews_id_2516271_date_10_6_2004-s3
+# text = 
+1	हार	हार	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	-	-	PUNCT	SYM	_	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	जीत	जीत	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+4	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	परे	परे	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=50
+6	मानव	मानव	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	हित	हित	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=70
+8	में	में	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=2|ChunkType=NP|SpanStart=80
+9	खेले	खेल	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=90
+10	गए	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGNF|Vib=या१|Tam=yA1|SpanStart=100
+11	मैच	मैच	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=110
+12	में	में	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=4|ChunkType=NP|SpanStart=120
+13	७०,१०१	७०१०१	NUM	QC	NumType=Card	25	dep	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	दर्शकों	दर्शक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=140
+15	ने	ने	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=5|ChunkType=NP|SpanStart=150
+16	स्टेडियम	स्टेडियम	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=160
+17	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=170
+18	पहुंचकर	पहुंच	VERB	VM	VerbForm=Conv|Voice=Act	25	dep	_	ChunkId=7|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=180
+19	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	25	dep	_	ChunkId=8|ChunkType=NP|SpanStart=190
+20	नेक	नेक	ADJ	JJ	Case=Acc	25	dep	_	ChunkId=8|ChunkType=NP|SpanStart=200
+21	काम	काम	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=210
+22	में	में	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=8|ChunkType=NP|SpanStart=220
+23	अपना	अपना	PRON	PRP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|PronType=Prs|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=230
+24	सहयोग	सहयोग	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=240
+25	दिया	दे	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=250
+26	।	।	PUNCT	SYM	_	25	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=260
+
+
+
+# sent_id = fullnews_id_2516271_date_10_6_2004-s4
+# text = 
+1	आईसीसी	आईसीसी	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	43	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	एकादश	एकादश	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	43	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	ने	ने	ADP	PSP	AdpType=Post	43	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	पहले	पहले	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	खेलते	खेल	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=50
+6	हुए	हो	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=60
+7	कप्तान	कप्तान	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	रिकी	रिकी	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	पोंटिंग	पोंटिंग	PROPN	NNP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	(	(	PUNCT	SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	११५	११५	NUM	QC	NumType=Card	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	)	)	PUNCT	SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	,	COMMA	PUNCT	SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	क्रिस	क्रिस	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=140
+15	गेयन्र्स	गेयन्र्स	PROPN	NNP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=150
+16	(	(	PUNCT	SYM	_	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	६९	६९	NUM	QC	NumType=Card	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=170
+18	)	)	PUNCT	SYM	_	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=180
+19	और	और	CCONJ	CC	_	0	dep	_	ChunkId=8|ChunkType=CCP|SpanStart=190
+20	ब्रायन	ब्रायन	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=200
+21	लारा	लारा	PROPN	NNP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=210
+22	(	(	PUNCT	SYM	_	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=220
+23	५०	५०	NUM	QC	NumType=Card	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=230
+24	)	)	PUNCT	SYM	_	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=240
+25	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	0	dep	_	ChunkId=11|ChunkType=FRAGP|SpanStart=250
+26	शानदार	शानदार	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=260
+27	पारियों	पारी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=270
+28	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=280
+29	मदद	मदद	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	43	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=290
+30	से	से	ADP	PSP	AdpType=Post	43	dep	_	ChunkId=13|ChunkType=NP|SpanStart=300
+31	निर्धारित	निर्धारित	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=14|ChunkType=JJP|SpanStart=310
+32	पचास	पचास	NUM	QC	NumType=Card	43	dep	_	ChunkId=15|ChunkType=NP|SpanStart=320
+33	ओवरों	ओवर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	43	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=330
+34	में	में	ADP	PSP	AdpType=Post	43	dep	_	ChunkId=15|ChunkType=NP|SpanStart=340
+35	आठ	आठ	NUM	QC	NumType=Card	43	dep	_	ChunkId=16|ChunkType=NP|SpanStart=350
+36	विकेट	विकेट	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	43	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=360
+37	पर	पर	ADP	PSP	AdpType=Post	43	dep	_	ChunkId=16|ChunkType=NP|SpanStart=370
+38	३४४	३४४	NUM	QC	NumType=Card	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=380
+39	रन	रन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=390
+40	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=400
+41	विशाल	विशाल	ADJ	JJ	Case=Nom	43	dep	_	ChunkId=18|ChunkType=NP|SpanStart=410
+42	स्कोर	स्कोर	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	43	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=420
+43	बनाया	बना	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=19|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=430
+44	।	।	PUNCT	SYM	_	43	dep	_	ChunkId=20|ChunkType=BLK|SpanStart=440
+
+
+
+# sent_id = fullnews_id_2516271_date_10_6_2004-s5
+# text = 
+1	एशियाई	एशियाई	PROPN	NNPC	Case=Acc	9	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	एकादश	एकादश	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	के	के	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	लिए	लिए	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	मुथैया	मुथैया	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	मुरलीधरन	मुरलीधरन	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	ने	ने	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	तीन	तीन	NUM	QC	NumType=Card	9	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=4|ChunkType=NULL__VGF
+10	और	और	CCONJ	CC	_	0	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=90
+11	जहीर	जहीर	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=100
+12	खान	खान	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+13	व	व	CCONJ	CC	_	21	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=120
+14	अनिल	अनिल	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=130
+15	कुंबले	कुंबले	PROPN	NNP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=140
+16	ने	ने	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+17	दो	दो	NUM	QC	NumType=Card	0	nmod	_	ChunkId=9|ChunkType=NP|SpanStart=160
+18	-	-	PUNCT	SYM	_	0	nmod	_	ChunkId=9|ChunkType=NP|SpanStart=170
+19	दो	दो	PART	RDP	_	0	nmod	_	ChunkId=9|ChunkType=NP|SpanStart=180
+20	विकेट	विकेट	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=190
+21	झटके	झटक	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	10	dep	_	ChunkId=11|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=200
+22	।	।	PUNCT	SYM	_	10	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=210
+
+
+
+# sent_id = fullnews_id_2516271_date_10_6_2004-s6
+# text = 
+1	विकेटकीपर	विकेटकीपर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	कुमार	कुमार	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	संगकारा	संगकारा	PROPN	NNP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	ने	ने	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	पांच	पांच	NUM	QC	NumType=Card	7	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	शिकार	शिकार	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	बनाए	बना	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=70
+8	।	।	PUNCT	SYM	_	7	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=80
+
+
+
+# sent_id = fullnews_id_2516271_date_10_6_2004-s7
+# text = 
+1	जवाब	जवाब	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	में	में	ADP	PSP	AdpType=Post	20	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	एशियाई	एशियाई	PROPN	NNPC	Case=Acc	20	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	एकादश	एकादश	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	को	को	ADP	PSP	AdpType=Post	20	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	सनत	सनत	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	जयसूर्या	जयसूर्या	PROPN	NNP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	(	(	PUNCT	SYM	_	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	२८	२८	NUM	QC	NumType=Card	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	)	)	PUNCT	SYM	_	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	और	और	CCONJ	CC	_	20	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=110
+12	वीरेंद्र	वीरेंद्र	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	सहवाग	सहवाग	PROPN	NNP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	(	(	PUNCT	SYM	_	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=140
+15	४५	४५	NUM	QC	NumType=Card	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	)	)	PUNCT	SYM	_	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	ने	ने	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=FRAGP|SpanStart=170
+18	अच्छी	अच्छा	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	20	dep	_	ChunkId=9|ChunkType=NP|SpanStart=180
+19	शुरुआत	शुरुआत	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=190
+20	दी	दे	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=200
+21	।	।	PUNCT	SYM	_	20	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=210
+
+
+
+# sent_id = fullnews_id_2516271_date_10_6_2004-s8
+# text = 
+1	लेकिन	लेकिन	CCONJ	CC	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	बाकी	बाकी	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	बल्लेबाज	बल्लेबाज	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	'	SINGLE_QUOTE	PUNCT	SYM	_	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=50
+6	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=60
+7	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	दीवार	दीवार	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	'	SINGLE_QUOTE	PUNCT	SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	राहुल	राहुल	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=100
+11	द्रविड़	द्रविड	PROPN	NNP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	(	(	PUNCT	SYM	_	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=120
+13	७५	७५	NUM	QC	NumType=Card	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=130
+14	नाबाद	नाबाद	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=8|ChunkType=JJP|SpanStart=140
+15	)	)	PUNCT	SYM	_	0	nmod	_	ChunkId=8|ChunkType=JJP|SpanStart=150
+16	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=9|ChunkType=FRAGP|SpanStart=160
+17	साथ	साथ	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	dep	_	ChunkId=10|ChunkType=NP|SpanStart=170
+18	नहीं	नहीं	PART	NEG	_	1	dep	_	ChunkId=11|ChunkType=VGF|SpanStart=180
+19	दे	दे	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	1	dep	_	ChunkId=11|ChunkType=VGF|Tam=0|SpanStart=190
+20	सके	सक	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Part|Voice=Act	1	dep	_	ChunkId=11|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=200
+21	।	।	PUNCT	SYM	_	1	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=210
+
+
+
+# sent_id = fullnews_id_2516271_date_10_6_2004-s9
+# text = 
+1	एशियाई	एशियाई	PROPN	NNPC	Case=Nom	13	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	टीम	टीम	PROPN	NNP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	३९.५	३९.५	NUM	QC	NumType=Card	13	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	ओवर	ओवर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	में	में	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	२३२	२३२	NUM	QC	NumType=Card	7	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	बनाकर	बना	VERB	VM	Case=Acc|Gender=Masc|Number=Sing|Person=3|VerbForm=Conv|Voice=Act	13	dep	_	ChunkId=4|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=70
+8	मुकाबले	मुकाबला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	को	को	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	११२	११२	NUM	QC	NumType=Card	13	dep	_	ChunkId=6|ChunkType=NP|SpanStart=100
+11	रनों	रन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	से	से	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	हार	हार	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Tam=0|SpanStart=130
+14	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=140
+15	।	।	PUNCT	SYM	_	13	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=150
+
+
+
+# sent_id = fullnews_id_2516271_date_10_6_2004-s10
+# text = 
+1	आईसीसी	आईसीसी	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	एकादश	एकादश	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	डेनियल	डेनियल	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	विटोरी	विटोरी	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	ने	ने	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	तीन	तीन	NUM	QC	NumType=Card	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=4|ChunkType=NULL__VGF
+9	व	व	CCONJ	CC	_	0	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=80
+10	शेन	शेन	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=90
+11	वार्न	वार्न	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=100
+12	ने	ने	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+13	दो	दो	NUM	QC	NumType=Card	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=120
+14	विकेट	विकेट	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=130
+15	चटकाए	चटका	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	9	dep	_	ChunkId=9|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=140
+16	।	।	PUNCT	SYM	_	9	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=150
+
+
+
+# sent_id = fullnews_id_2516271_date_10_6_2004-s11
+# text = 
+1	प्रायोजकों	प्रायोजक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	ने	ने	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	मैच	मैच	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	प्रत्येक	प्रत्येक	DET	QF	PronType=Ind	10	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	रन	रन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	पर	पर	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	७६०	७६०	NUM	QC	NumType=Card	10	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	डॉलर	डॉलर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=5|ChunkType=NULL__VGF
+11	और	और	CCONJ	CC	_	0	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=100
+12	छक्के	छक्का	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=110
+13	पर	पर	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=7|ChunkType=NP|SpanStart=120
+14	३८,०००	३८०००	NUM	QC	NumType=Card	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=130
+15	डॉलर	डॉलर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=140
+16	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+17	राशि	राशि	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=160
+18	रखी	रख	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	11	dep	_	ChunkId=10|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=170
+19	थी	था	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=10|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=180
+20	।	।	PUNCT	SYM	_	11	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=190
+
+
+
+# sent_id = fullnews_id_2516271_date_10_6_2004-s12
+# text = 
+1	इससे	यह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	dep	_	ChunkId=1|ChunkType=NP|Vib=से|Tam=se|SpanStart=10
+2	४३७,०००	४३७०००	NUM	QC	NumType=Card	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	डॉलर	डॉलर	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	रन	रन	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	बनाकर	बना	VERB	VM	Case=Acc|Gender=Masc|Number=Sing|Person=3|VerbForm=Conv|Voice=Act	6	dep	_	ChunkId=4|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=50
+6	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=5|ChunkType=NULL__VGF
+7	और	और	CCONJ	CC	_	0	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=60
+8	२६६,०००	२६६०००	NUM	QC	NumType=Card	13	dep	_	ChunkId=7|ChunkType=NP|SpanStart=70
+9	डॉलर	डॉलर	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=80
+10	छक्के	छक्का	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=90
+11	मारकर	मार	VERB	VM	VerbForm=Conv|Voice=Act	13	dep	_	ChunkId=9|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=100
+12	एकत्र	एकत्र	ADV	RB	_	13	dep	_	ChunkId=10|ChunkType=RBP|SpanStart=110
+13	हुए	हो	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	7	dep	_	ChunkId=11|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=120
+14	।	।	PUNCT	SYM	_	7	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=130
+

@@ -1,0 +1,226 @@
+# sent_id = fullnews_id_2485529_date_29_5_2004-s1
+# text = 
+1	बैंक	बैंक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	से	से	ADP	PSP	AdpType=Post	8	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	अधिक	अधिक	DET	QF	PronType=Ind	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	से	से	PART	RP	Mood=Imp|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	अधिक	अधिक	DET	QF	PronType=Ind	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	लोगों	लोग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	को	को	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	जोड़ने	जोड	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	14	dep	_	ChunkId=3|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=80
+9	के	के	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=3|ChunkType=VGNN|SpanStart=90
+10	लिए	लिए	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=3|ChunkType=VGNN|SpanStart=90
+11	एसबीआई	एसबीआई	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=110
+12	ने	ने	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=4|ChunkType=NP|SpanStart=120
+13	लांच	लांच	X	UNK	_	14	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=130
+14	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=140
+15	रिच	रिच	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=150
+16	सेविंग	सेविंग	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	एकाउंट	एकाउंट	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=170
+18	स्कीम	स्कीम	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=180
+19	.	.	PUNCT	SYM	_	14	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=190
+
+
+
+# sent_id = fullnews_id_2485529_date_29_5_2004-s2
+# text = 
+1	इसके	यह	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	dep	_	ChunkId=1|ChunkType=NP|Vib=के|Tam=ke|SpanStart=10
+2	तहत	तहत	ADP	PSP	AdpType=Post	4	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	एकाउंट	एकाउंट	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	खुलवाने	खुलवा	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=40
+5	वाले	वाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=3|ChunkType=VGNN|SpanStart=50
+6	उपभोक्ताओं	उपभोक्ता	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	28	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=60
+7	को	को	ADP	PSP	AdpType=Post	28	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	बैंक	बैंक	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	गोल्ड	गोल्ड	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	डेबिट	डेबिट	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	कार्ड	कार्ड	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	के	के	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	साथ	साथ	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	ही	ही	PART	RP	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	ड्राफ़्ट	ड्राफ्ट	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=150
+16	बनवाने	बनवा	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	17	dep	_	ChunkId=7|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=160
+17	और	और	CCONJ	CC	_	28	dep	_	ChunkId=8|ChunkType=CCP|SpanStart=170
+18	चेक	चेक	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	क्लेक्शन	क्लेक्शन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=190
+20	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=200
+21	कमीशन	कमीशन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=210
+22	पर	पर	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=10|ChunkType=NP|SpanStart=220
+23	पचास	पचास	NUM	QC	NumType=Card	0	nmod	_	ChunkId=11|ChunkType=NP|SpanStart=230
+24	प्रतिशत	प्रतिशत	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=240
+25	तक	तक	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=11|ChunkType=NP|SpanStart=250
+26	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=11|ChunkType=NP|SpanStart=260
+27	छूट	छूट	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	28	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=240
+28	दी	दे	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=280
+29	जाएगी	जा	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=290
+30	.	.	PUNCT	SYM	_	28	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=300
+
+
+
+# sent_id = fullnews_id_2485529_date_29_5_2004-s3
+# text = 
+1	खाते	खाता	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	में	में	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	पच्चीस	पच्चीस	NUM	QCC	NumType=Card	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=170
+4	हजार	हजार	NUM	QC	Case=Acc|NumType=Card	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=170
+5	से	से	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अधिक	अधिक	DET	QF	PronType=Ind	0	nmod	_	ChunkId=3|ChunkType=JJP|SpanStart=60
+7	जमा	जमा	ADJ	JJ	Case=Nom	9	dep	_	ChunkId=4|ChunkType=NP|SpanStart=170
+8	राशि	राशि	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	होते	हो	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=5|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=90
+10	ही	ही	PART	RP	_	18	dep	_	ChunkId=5|ChunkType=VGNF|SpanStart=100
+11	टर्म	टर्म	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	डिपाज़िट	डिपाज़िट	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	के	के	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=6|ChunkType=NP|SpanStart=130
+14	मुताबिक	मुताबिक	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	ब्याज	ब्याज	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=150
+16	दरें	दर	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	लागू	लागू	ADJ	JJ	_	18	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=170
+18	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Tam=0|SpanStart=180
+19	जाएंगी	जा	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=190
+20	.	.	PUNCT	SYM	_	18	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=200
+
+
+
+# sent_id = fullnews_id_2485529_date_29_5_2004-s4
+# text = 
+1	स्कीम	स्कीम	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	मध्यम	मध्यम	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	आय	आय	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	वर्ग	वर्ग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	उपभोक्ताओं	उपभोक्ता	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	को	को	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	ध्यान	ध्यान	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	में	में	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	रखकर	रख	VERB	VM	VerbForm=Conv|Voice=Act	12	dep	_	ChunkId=5|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=100
+11	लांच	लांच	X	UNK	_	12	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=110
+12	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=120
+13	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या१|Tam=yA1|SpanStart=130
+14	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=140
+15	.	.	PUNCT	SYM	_	12	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=150
+
+
+
+# sent_id = fullnews_id_2485529_date_29_5_2004-s5
+# text = 
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	स्कीम	स्कीम	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	लाभ	लाभ	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	न्यूनतम	न्यूनतम	ADJ	JJ	Case=Nom	10	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	पच्चीस	पच्चीस	NUM	QCC	NumType=Card	10	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	हजार	हजार	NUM	QC	NumType=Card	10	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	रुपया	रुपया	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	बैलेंस	बैलेंस	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=90
+10	रखने	रख	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=100
+11	वाले	वाला	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	dep	_	ChunkId=4|ChunkType=VGNN|SpanStart=110
+12	उपभोक्ता	उपभोक्ता	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	ही	ही	PART	RP	_	14	dep	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	उठा	उठा	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Tam=0|SpanStart=140
+15	सकते	सक	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=150
+16	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=160
+17	.	.	PUNCT	SYM	_	14	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=170
+
+
+
+# sent_id = fullnews_id_2485529_date_29_5_2004-s6
+# text = 
+1	निर्धारित	निर्धारित	ADJ	JJ	Case=Acc	4	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	राशि	राशि	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	से	से	ADP	PSP	AdpType=Post	4	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	अधिक	अधिक	DET	QF	PronType=Ind	0	dep	_	ChunkId=2|ChunkType=JJP|SpanStart=40
+5	जमा	जमा	ADJ	JJ	_	6	dep	_	ChunkId=3|ChunkType=JJP|SpanStart=50
+6	होने	हो	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	15	dep	_	ChunkId=4|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=60
+7	पर	पर	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=4|ChunkType=VGNN|SpanStart=70
+8	एक	एक	NUM	QCC	NumType=Card	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=170
+9	हजार	हजार	NUM	QC	Case=Acc|NumType=Card	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=170
+10	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	गुणज	गुणज	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	पर	पर	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	विशेष	विशेष	ADJ	JJ	Case=Nom	15	dep	_	ChunkId=7|ChunkType=NP|SpanStart=130
+14	ब्याज	ब्याज	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=140
+15	दिया	दे	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=150
+16	जाएगा	जा	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=160
+17	.	.	PUNCT	SYM	_	15	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=170
+
+
+
+# sent_id = fullnews_id_2485529_date_29_5_2004-s7
+# text = 
+1	दूसरी	दूसरा	ADJ	QO	Case=Nom|Gender=Fem|Number=Sing	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	तरफ़	तरफ	NOUN	NST	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	तिमाही	तिमाही	ADJ	JJ	Case=Nom	5	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	बैलेंस	बैलेंस	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	बिगड़ने	बिगड	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	11	dep	_	ChunkId=3|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=50
+6	पर	पर	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=3|ChunkType=VGNN|SpanStart=60
+7	उपभोक्ताओं	उपभोक्ता	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	को	को	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	चपत	चपत	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	भी	भी	PART	RP	_	11	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	लगेगी	लग	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=110
+12	.	.	PUNCT	SYM	_	11	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=120
+
+
+
+# sent_id = fullnews_id_2485529_date_29_5_2004-s8
+# text = 
+1	बैंक	बैंक	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	इसके	यह	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	dep	_	ChunkId=2|ChunkType=NP|Vib=के|Tam=ke|SpanStart=20
+3	लिए	लिए	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=100
+4	पांच	पांच	NUM	QCC	NumType=Card	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	सौ	सौ	NUM	QC	NumType=Card	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	रुपया	रुपया	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	कमीशन	कमीशन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	11	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	रूप	रूप	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	11	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+10	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	काट	काट	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Tam=0|SpanStart=110
+12	लेगा	ले	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=120
+13	.	.	PUNCT	SYM	_	11	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=130
+
+
+
+# sent_id = fullnews_id_2485529_date_29_5_2004-s9
+# text = 
+1	उपभोक्ता	उपभोक्ता	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	को	को	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	ड्राफ़्ट	ड्राफ्ट	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	बनवाने	बन	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	5	dep	_	ChunkId=3|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=40
+5	और	और	CCONJ	CC	_	17	dep	_	ChunkId=4|ChunkType=CCP|SpanStart=50
+6	आउट	आउट	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+7	स्टेशन	स्टेशन	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+8	चेक	चेक	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	कलेक्शन	कलेक्शन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	कमीशन	कमीशन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	पर	पर	ADP	PSP	AdpType=Post	5	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	अब	अब	PRON	PRP	Case=Nom|PronType=Prs	17	dep	_	ChunkId=7|ChunkType=NP|SpanStart=130
+14	पचास	पचास	NUM	QC	NumType=Card	17	dep	_	ChunkId=8|ChunkType=NP|SpanStart=140
+15	फ़ीसदी	फ़ीसदी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	छूट	छूट	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+17	दी	दे	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=170
+18	जाएगी	जा	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=180
+19	.	.	PUNCT	SYM	_	17	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=190
+
+
+
+# sent_id = fullnews_id_2485529_date_29_5_2004-s10
+# text = 
+1	साथ	साथ	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	ही	ही	PART	RP	_	14	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	२५	२५	NUM	QC	NumType=Card	14	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	मल्टी	मल्टी	NOUN	NNC	Case=Acc	14	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=100
+5	सिटी	सिटी	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	चेक	चेक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	के	के	ADP	PSP	AdpType=Post	14	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	साथ	साथ	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=80
+9	सौ	सौ	NUM	QC	NumType=Card	14	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	सामान्य	सामान्य	ADJ	JJ	Case=Nom	14	dep	_	ChunkId=3|ChunkType=NP|SpanStart=100
+11	चेक	चेक	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=110
+12	भी	भी	PART	RP	_	14	dep	_	ChunkId=3|ChunkType=NP|SpanStart=120
+13	फ्री	फ्री	ADJ	JJ	_	14	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=130
+14	दिए	दे	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=140
+15	जाएंगे	जा	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=150
+16	.	.	PUNCT	SYM	_	14	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=160
+

@@ -1,0 +1,1990 @@
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s1
+# text = 
+1	परन्तु	परन्तु	CCONJ	CC_CCD	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	साठ	साठ	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	दिन	दिन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	उक्त	उक्त	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	अवधि	अवधि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	संगणना	संगणना	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	करने	कर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	17	dep	_	ChunkId=5|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=90
+10	में	में	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=5|ChunkType=VGNN|SpanStart=100
+11	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	17	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+12	ऐसी	ऐसा	DET	DM_DMD	Case=Acc|Gender=Fem|Person=3	17	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	अवधि	अवधि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	को	को	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	हिसाब	हिसाब	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=150
+16	में	में	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	नहीं	नहीं	PART	RP_NEG	_	1	dep	_	ChunkId=8|ChunkType=VGF|SpanStart=170
+18	लिया	ले	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	1	dep	_	ChunkId=8|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=180
+19	जाएगा	जा	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	dep	_	ChunkId=8|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=190
+20	जिसके	जो	PR_PRL	PR_PRL	Case=Acc|Number=Sing|Person=3	24	dep	_	ChunkId=9|ChunkType=NP|Vib=के|Tam=ke|SpanStart=200
+21	दौरान	दौरान	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	dep	_	ChunkId=9|ChunkType=NP|SpanStart=210
+22	सदन	सदन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=220
+23	सत्रावसित	सत्रावसित	ADJ	JJ	_	24	dep	_	ChunkId=11|ChunkType=JJP|SpanStart=230
+24	NULL	NULL	VERB	V_VM	_	0	dep	_	ChunkId=12|ChunkType=NULL__VGF
+25	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=13|ChunkType=CCP|SpanStart=240
+26	निरंतर	निरंतर	ADV	RB	_	0	dep	_	ChunkId=14|ChunkType=RBP|SpanStart=250
+27	चार	चार	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=260
+28	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=270
+29	अधिक	अधिक	DET	QT_QTF	_	0	nmod	_	ChunkId=16|ChunkType=JJP|SpanStart=280
+30	दिनों	दिन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=290
+31	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=300
+32	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=310
+33	स्थगित	स्थगित	ADJ	JJ	_	0	dep	_	ChunkId=18|ChunkType=JJP|SpanStart=320
+34	रहता	रह	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=330
+35	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=VGF|Tam=0|SpanStart=340
+36	।	।	PUNCT	RD_PUNC	_	1	dep	_	ChunkId=20|ChunkType=BLK|SpanStart=350
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s2
+# text = 
+1	102.	102.	X	RD_UNK	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	सदस्यता	सदस्यता	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	निरर्हताएं	निरर्हता	VERB	V_VM	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Tam=0|SpanStart=50
+6	|	|	PUNCT	RD_PUNC	_	5	dep	_	ChunkId=4|ChunkType=BLK
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s3
+# text = 
+1	(	(	PUNCT	RD_SYM	_	22	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	1	1	X	RD_UNK	_	22	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	22	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	कोई	कोई	DM_DMI	DM_DMI	Case=Nom|Number=Sing|Person=3	22	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	व्यक्ति	व्यक्ति	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	सदन	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	सदस्य	सदस्य	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	चुने	चुन	VERB	V_VM	Aspect=Perf|Gender=Masc|VerbForm=Part|Voice=Act	16	dep	_	ChunkId=6|ChunkType=VGNN|Vib=या|Tam=yA|SpanStart=120
+13	जाने	जा	AUX	V_VAUX	Case=Acc|VerbForm=Inf|Voice=Act	16	dep	_	ChunkId=6|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=130
+14	के	के	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=6|ChunkType=VGNN|SpanStart=140
+15	लिए	लिए	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=6|ChunkType=VGNN|SpanStart=150
+16	और	और	CCONJ	CC_CCD	_	22	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=160
+17	सदस्य	सदस्य	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=170
+18	होने	हो	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	16	dep	_	ChunkId=9|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=180
+19	के	के	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=9|ChunkType=VGNN|SpanStart=190
+20	लिए	लिए	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=9|ChunkType=VGNN|SpanStart=200
+21	निरर्हित	निरार्हित	ADJ	JJ	_	22	dep	_	ChunkId=10|ChunkType=JJP|SpanStart=210
+22	होगा	हो	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=220
+23	|	|	PUNCT	RD_PUNC	_	22	dep	_	ChunkId=12|ChunkType=BLK
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s4
+# text = 
+1	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	क	क	X	RD_UNK	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	यदि	यदि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=40
+5	वह	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	भारत	भारत	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=60
+7	सरकार	सरकार	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=90
+10	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=100
+11	राज्य	राज्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	सरकार	सरकार	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=140
+15	अधीन	अधीन	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	ऐसे	ऐसा	DET	DM_DMD	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	पद	पद	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=180
+19	को	को	ADP	PSP	AdpType=Post	20	dep	_	ChunkId=8|ChunkType=NP|SpanStart=190
+20	छोड़कर	छोड़	VERB	V_VM	VerbForm=Conv|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=200
+21	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=9|ChunkType=VGNF|SpanStart=210
+22	जिसको	जो	PR_PRL	PR_PRL	Case=Acc|Number=Sing|Person=3	24	dep	_	ChunkId=10|ChunkType=NP|Vib=को|Tam=ko|SpanStart=220
+23	धारण	धारण	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=230
+24	करने	कर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=240
+25	वाले	वाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=12|ChunkType=VGNN|SpanStart=250
+26	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=12|ChunkType=VGNN|SpanStart=260
+27	निरर्हित	निरार्हित	ADJ	JJ	_	0	dep	_	ChunkId=13|ChunkType=JJP|SpanStart=270
+28	न	न	PART	RP_NEG	_	35	dep	_	ChunkId=14|ChunkType=VGNN|SpanStart=280
+29	होना	हो	VERB	V_VM	Case=Nom|VerbForm=Inf|Voice=Act	35	dep	_	ChunkId=14|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=290
+30	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	35	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=300
+31	ने	ने	ADP	PSP	AdpType=Post	35	dep	_	ChunkId=15|ChunkType=NP|SpanStart=310
+32	विधि	विधि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	35	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=320
+33	द्वारा	द्वारा	ADP	PSP	AdpType=Post	35	dep	_	ChunkId=16|ChunkType=NP|SpanStart=330
+34	घोषित	घोषित	ADJ	JJ	_	35	dep	_	ChunkId=17|ChunkType=JJP|SpanStart=340
+35	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=350
+36	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Tam=0|SpanStart=360
+37	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=18|ChunkType=VGF|SpanStart=370
+38	कोई	कोई	DM_DMI	DM_DMI	Case=Nom|Number=Sing|Person=3	0	dep	_	ChunkId=19|ChunkType=FRAGP|SpanStart=380
+39	लाभ	लाभ	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=390
+40	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=400
+41	पद	पद	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=NP|Tam=0|SpanStart=410
+42	धारण	धारण	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=22|ChunkType=NP|Tam=0|SpanStart=420
+43	करता	कर	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=23|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=430
+44	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=23|ChunkType=VGF|Tam=0|SpanStart=440
+45	;	;	PUNCT	RD_PUNC	_	4	dep	_	ChunkId=23|ChunkType=VGF|SpanStart=450
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s5
+# text = 
+1	(	(	PUNCT	RD_SYM	_	7	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	ख	ख	X	RD_UNK	_	7	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	7	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	यदि	यदि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=40
+5	वह	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	विकॄतचित्त	विकृतचित्त	ADJ	JJ	_	7	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=60
+7	है	है	VERB	V_VM	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Tam=0|SpanStart=70
+8	और	और	CCONJ	CC_CCD	_	8	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=80
+9	सक्षम	सक्षम	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=90
+10	न्यायालय	न्यायालय	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=100
+11	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=110
+12	ऐसी	ऐसा	DET	DM_DMD	Case=Nom|Gender=Fem|Person=3	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=120
+13	घोषणा	घोषणा	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=130
+14	विद्यमान	विद्यमान	ADJ	JJ	_	0	dep	_	ChunkId=9|ChunkType=JJP|SpanStart=140
+15	है	है	VERB	V_VM	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Tam=0|SpanStart=150
+16	;	;	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=10|ChunkType=VGF|SpanStart=160
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s6
+# text = 
+1	(	(	PUNCT	RD_SYM	_	8	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	ग	ग	X	RD_UNK	_	8	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	8	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	यदि	यदि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=40
+5	वह	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	अनुन्मोचित	अनुन्मोचित	ADJ	JJ	_	8	dep	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	दिवालिया	दिवालिया	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	है	है	VERB	V_VM	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=5|ChunkType=VGF|Tam=0|SpanStart=80
+9	;	;	PUNCT	RD_PUNC	_	4	dep	_	ChunkId=5|ChunkType=VGF|SpanStart=90
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s7
+# text = 
+1	(	(	PUNCT	RD_SYM	_	9	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	घ	घ	X	RD_UNK	_	9	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	9	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	यदि	यदि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=40
+5	वह	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	भारत	भारत	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=60
+7	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	नागरिक	नागरिक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=6|ChunkType=VGF|SpanStart=90
+10	है	है	VERB	V_VM	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Tam=0|SpanStart=100
+11	या	या	CCONJ	CC_CCD	_	11	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=110
+12	उसने	वह	PRON	PR_PRP	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=8|ChunkType=NP|Vib=ने|Tam=ne|SpanStart=120
+13	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=130
+14	विदेशी	विदेशी	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=140
+15	राज्य	राज्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=150
+16	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=160
+17	नागरिकता	नागरिकता	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=170
+18	स्वेच्छा	स्वेच्छा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=180
+19	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=190
+20	अर्जित	अर्जित	ADJ	JJ	_	0	dep	_	ChunkId=12|ChunkType=JJP|SpanStart=200
+21	कर	कर	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Tam=0|SpanStart=210
+22	ली	ले	AUX	V_VAUX	Aspect=Perf|Gender=Fem|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=220
+23	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Tam=0|SpanStart=230
+24	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=14|ChunkType=CCP|SpanStart=240
+25	वह	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=250
+26	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=260
+27	विदेशी	विदेशी	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=270
+28	राज्य	राज्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=280
+29	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=290
+30	प्रति	प्रति	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=300
+31	निष्ठा	निष्ठा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=310
+32	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=18|ChunkType=CCP|SpanStart=320
+33	अनुषक्ति	अनुषक्ति	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=330
+34	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=340
+35	अभिस्वीकार	अभिस्वीकार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=350
+36	किए	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=21|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=360
+37	हुए	हो	AUX	V_VAUX	Aspect=Perf|Gender=Masc|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=21|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=370
+38	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=VGF|Tam=0|SpanStart=380
+39	;	;	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=21|ChunkType=VGF|SpanStart=390
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s8
+# text = 
+1	(	(	PUNCT	RD_SYM	_	19	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	ङ	ङ	X	RD_UNK	_	19	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	19	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	यदि	यदि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=40
+5	वह	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=60
+7	द्वारा	द्वारा	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	बनाई	बना	VERB	V_VM	Aspect=Perf|Case=Acc|Gender=Fem|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=80
+9	गई	जा	AUX	V_VAUX	Aspect=Perf|Gender=Fem|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGNF|Vib=या1|Tam=yA1|SpanStart=90
+10	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=100
+11	विधि	विधि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	द्वारा	द्वारा	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	या	या	CCONJ	CC_CCD	_	19	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=130
+14	उसके	वह	PRON	PR_PRP	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=8|ChunkType=NP|Vib=के|Tam=ke|SpanStart=140
+15	अधीन	अधीन	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+16	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	19	dep	_	ChunkId=9|ChunkType=NP|SpanStart=160
+17	प्रकार	प्रकार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=170
+18	निरर्हित	निरार्हित	ADJ	JJ	_	19	dep	_	ChunkId=10|ChunkType=JJP|SpanStart=180
+19	कर	कर	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=11|ChunkType=VGF|Tam=0|SpanStart=190
+20	दिया	दे	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	dep	_	ChunkId=11|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=200
+21	जाता	जा	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=11|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=210
+22	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=11|ChunkType=VGF|Tam=0|SpanStart=220
+23	।	।	PUNCT	RD_PUNC	_	4	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=230
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s9
+# text = 
+1	[	[	PUNCT	RD_SYM	_	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	स्पष्टीकरण	स्पष्टीकरण	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	खंड	खंड	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	प्रयोजनों	प्रयोजन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=100
+11	]	]	PUNCT	RD_SYM	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=110
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s10
+# text = 
+1	कोई	कोई	DM_DMI	DM_DMI	Case=Nom|Number=Sing|Person=3	22	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	व्यक्ति	व्यक्ति	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	केवल	केवल	PART	RP_RPD	_	22	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	उस	वह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	22	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	कारण	कारण	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	भारत	भारत	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	सरकार	सरकार	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	के	के	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	या	या	CCONJ	CC_CCD	_	22	dep	_	ChunkId=4|ChunkType=CCP|SpanStart=90
+10	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	राज्य	राज्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	सरकार	सरकार	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	के	के	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	अधीन	अधीन	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=6|ChunkType=NP|SpanStart=150
+16	लाभ	लाभ	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=170
+18	पद	पद	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=180
+19	धारण	धारण	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=190
+20	करने	कर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	22	dep	_	ChunkId=10|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=200
+21	वाला	वाला	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	22	dep	_	ChunkId=10|ChunkType=VGNN|SpanStart=210
+22	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=11|ChunkType=VGF|SpanStart=220
+23	समझा	समझ	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=230
+24	जाएगा	जा	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=240
+25	कि	कि	SCONJ	CC_CCS	_	0	nmod	_	ChunkId=12|ChunkType=CCP|SpanStart=250
+26	वह	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=260
+27	संघ	संघ	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=270
+28	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=280
+29	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=15|ChunkType=CCP|SpanStart=290
+30	ऐसे	ऐसा	DET	DM_DMD	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=300
+31	राज्य	राज्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=310
+32	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=320
+33	मंत्री	मंत्री	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=330
+34	है	है	VERB	V_VM	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Tam=0|SpanStart=340
+35	।	।	PUNCT	RD_PUNC	_	22	dep	_	ChunkId=19|ChunkType=BLK|SpanStart=350
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s11
+# text = 
+1	[	[	PUNCT	RD_SYM	_	17	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	(	(	PUNCT	RD_SYM	_	17	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	2	2	X	RD_UNK	_	17	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	)	)	PUNCT	RD_SYM	_	17	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=40
+5	कोई	कोई	DM_DMI	DM_DMI	Case=Nom|Number=Sing|Person=3	17	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	व्यक्ति	व्यक्ति	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	सदन	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	सदस्य	सदस्य	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	होने	हो	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	17	dep	_	ChunkId=6|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=130
+14	के	के	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=6|ChunkType=VGNN|SpanStart=140
+15	लिए	लिए	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=6|ChunkType=VGNN|SpanStart=150
+16	निरर्हित	निरार्हित	ADJ	JJ	_	17	dep	_	ChunkId=7|ChunkType=JJP|SpanStart=160
+17	होगा	हो	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=170
+18	यदि	यदि	SCONJ	CC_CCS	_	17	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=180
+19	वह	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=190
+20	दसवीं	दसवाँ	ADJ	QT_QTO	Case=Acc|Gender=Masc	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=200
+21	अनुसूची	अनुसूची	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=210
+22	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=220
+23	अधीन	अधीन	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=230
+24	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=240
+25	प्रकार	प्रकार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=250
+26	निरर्हित	निरार्हित	ADJ	JJ	_	0	dep	_	ChunkId=13|ChunkType=JJP|SpanStart=260
+27	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=14|ChunkType=VGF|Tam=0|SpanStart=270
+28	जाता	जा	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=14|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=280
+29	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=14|ChunkType=VGF|Tam=0|SpanStart=290
+30	।	।	PUNCT	RD_PUNC	_	17	dep	_	ChunkId=15|ChunkType=BLK|SpanStart=300
+31	]	]	PUNCT	RD_SYM	_	17	dep	_	ChunkId=15|ChunkType=BLK|SpanStart=310
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s12
+# text = 
+1	103.	103.	X	RD_UNK	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	सदस्यों	सदस्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	निरर्हताओं	निरर्हता	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	से	से	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	संबंधित	संबंधित	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=4|ChunkType=JJP|SpanStart=60
+7	प्रश्नों	प्रश्न	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=70
+8	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	विनिश्चय	विनिश्चय	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=90
+10	|	|	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=7|ChunkType=BLK
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s13
+# text = 
+1	(	(	PUNCT	RD_SYM	_	7	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	1	1	X	RD_UNK	_	7	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	7	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	यदि	यदि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=40
+5	यह	यह	DET	DM_DMD	Case=Nom|Number=Sing|Person=3	7	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	प्रश्न	प्रश्न	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	उठता	उठ	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=4|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=70
+8	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=4|ChunkType=VGF|Tam=0|SpanStart=80
+9	कि	कि	SCONJ	CC_CCS	_	5	nmod	_	ChunkId=5|ChunkType=CCP|SpanStart=90
+10	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=100
+11	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+12	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=120
+13	सदन	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=140
+15	कोई	कोई	DM_DMI	DM_DMI	Case=Nom|Number=Sing|Person=3	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+16	सदस्य	सदस्य	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	अनुच्छेद	अनुच्छेद	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=170
+18	102	102	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=180
+19	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=190
+20	खंड	खंड	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	(	(	PUNCT	RD_SYM	_	25	dep	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	1	1	NUM	QT_QTC	Case=Acc|NumType=Card	25	dep	_	ChunkId=10|ChunkType=NP|SpanStart=220
+23	)	)	PUNCT	RD_SYM	_	25	dep	_	ChunkId=10|ChunkType=NP|SpanStart=230
+24	में	में	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=10|ChunkType=NP|SpanStart=240
+25	वार्णित	वार्णित	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=11|ChunkType=JJP|SpanStart=250
+26	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=260
+27	निरर्हता	निरर्हता	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=270
+28	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=280
+29	ग्रस्त	ग्रस्त	ADJ	JJ	_	0	dep	_	ChunkId=13|ChunkType=JJP|SpanStart=290
+30	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGF|Tam=0|SpanStart=300
+31	गया	जा	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=310
+32	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGF|Tam=0|SpanStart=320
+33	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=15|ChunkType=CCP|SpanStart=330
+34	नहीं	नहीं	PART	RP_NEG	_	35	dep	_	ChunkId=16|ChunkType=NEGP|SpanStart=340
+35	NULL	NULL	VERB	V_VM	_	0	dep	_	ChunkId=17|ChunkType=NULL__VGF
+36	तो	तो	SCONJ	CC_CCD	_	0	dep	_	ChunkId=18|ChunkType=CCP|SpanStart=350
+37	वह	वह	DET	DM_DMD	Case=Nom|Number=Sing|Person=3	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=360
+38	प्रश्न	प्रश्न	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=370
+39	राष्ट्रपति	राष्ट्रपति	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=380
+40	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=390
+41	विनिश्चय	विनिश्चय	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=NP|Tam=0|SpanStart=400
+42	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=21|ChunkType=NP|SpanStart=410
+43	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=21|ChunkType=NP|SpanStart=420
+44	निर्देशित	निर्देशित	ADJ	JJ	_	0	dep	_	ChunkId=22|ChunkType=JJP|SpanStart=430
+45	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=23|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=440
+46	जाएगा	जा	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=23|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=450
+47	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=24|ChunkType=CCP|SpanStart=460
+48	उसका	वह	PRON	PR_PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=25|ChunkType=NP|Vib=का|Tam=kA|SpanStart=470
+49	विनिश्चय	विनिश्चय	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=26|ChunkType=NP|Tam=0|SpanStart=480
+50	अंतिम	अंतिम	ADJ	JJ	_	0	dep	_	ChunkId=27|ChunkType=JJP|SpanStart=490
+51	होगा	हो	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=28|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=500
+52	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=29|ChunkType=BLK|SpanStart=510
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s14
+# text = 
+1	संविधान	संविधान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	(	(	PUNCT	RD_SYM	_	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	सातवां	सातवाँ	ADJ	QT_QTO	Case=Nom|Gender=Masc	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	संशोधन	संशोधन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	)	)	PUNCT	RD_SYM	_	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अधिनियम	अधिनियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	1956	1956	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	धारा	धारा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	29	29	NUM	QT_QTC	Case=Acc|NumType=Card	12	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	और	और	CCONJ	CC_CCD	_	32	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=120
+13	अनुसूची	अनुसूची	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	द्वारा	द्वारा	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	"	"	PUNCT	RD_SYM	_	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	पहली	पहला	ADJ	QT_QTO	Case=Acc|Gender=Fem	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	अनुसूची	अनुसूची	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=170
+18	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=180
+19	भाग	भाग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=190
+20	क	क	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=200
+21	या	या	CCONJ	CC_CCD	_	25	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=210
+22	भाग	भाग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=220
+23	ख	ख	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=230
+24	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=240
+25	विनिर्दिष्ट	विनिर्दिष्ट	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=11|ChunkType=JJP|SpanStart=250
+26	"	"	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=11|ChunkType=JJP|SpanStart=260
+27	शब्द	शब्द	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=270
+28	और	और	CCONJ	CC_CCD	_	0	nmod	_	ChunkId=13|ChunkType=CCP|SpanStart=280
+29	अक्षरों	अक्षर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=290
+30	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=300
+31	लोप	लोप	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	32	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=310
+32	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=320
+33	गया	जा	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=330
+34	।	।	PUNCT	RD_PUNC	_	32	dep	_	ChunkId=17|ChunkType=BLK|SpanStart=340
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s15
+# text = 
+1	संविधान	संविधान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	(	(	PUNCT	RD_SYM	_	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	सातवां	सातवाँ	ADJ	QT_QTO	Case=Nom|Gender=Masc	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	संशोधन	संशोधन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	)	)	PUNCT	RD_SYM	_	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अधिनियम	अधिनियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	1956	1956	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	धारा	धारा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	29	29	NUM	QT_QTC	Case=Acc|NumType=Card	12	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=120
+13	अनुसूची	अनुसूची	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	द्वारा	द्वारा	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	"	"	PUNCT	RD_SYM	_	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	ऐसे	ऐसा	DET	DM_DMD	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=170
+18	राज्य	राज्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=180
+19	"	"	PUNCT	RD_SYM	_	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=190
+20	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=200
+21	स्थान	स्थान	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=210
+22	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=220
+23	प्रतिस्थापित	प्रतिस्थापित	ADJ	JJ	_	0	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=230
+24	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=240
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s16
+# text = 
+1	देखिए	देख	VERB	V_VM	Mood=Sub|Number=Sing|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=VGF|Vib=ए|Tam=e|SpanStart=10
+2	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=1|ChunkType=VGF|SpanStart=20
+3	विधि	विधि	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	मंत्रालय	मंत्रालय	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अधिसूचना	अधिसूचना	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	संख्या	संख्या	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	एप.46	एप.46	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	/	/	PUNCT	RD_SYM	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	50	50	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=100
+11	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=110
+12	सी	सी	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=120
+13	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=130
+14	तारीख	तारीख	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=140
+15	26	26	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=150
+16	जनवरी	जनवरी	PROPN	N_NNP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=160
+17	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=170
+18	1950	1950	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=180
+19	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=190
+20	भारत	भारत	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=200
+21	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=210
+22	राजपत्र	राजपत्र	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=220
+23	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=230
+24	असाधारण	असाधारण	ADJ	JJ	_	0	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=240
+25	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=250
+26	पॄष्ठ	पृष्ठ	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=260
+27	678	678	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=270
+28	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=280
+29	प्रकाशित	प्रकाशित	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=10|ChunkType=JJP|SpanStart=290
+30	समसामयिक	समसामयिक	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=300
+31	सदस्यता	सदस्यता	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=310
+32	प्रतिषेध	प्रतिषेध	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=320
+33	नियम	नियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=330
+34	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=340
+35	1950	1950	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=350
+36	।	।	PUNCT	RD_PUNC	_	1	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=360
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s17
+# text = 
+1	संविधान	संविधान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	(	(	PUNCT	RD_SYM	_	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	बावनवां	बावनवाँ	ADJ	QT_QTO	Case=Nom|Gender=Masc	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	संशोधन	संशोधन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	)	)	PUNCT	RD_SYM	_	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अधिनियम	अधिनियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	1985	1985	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	धारा	धारा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	2	2	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	द्वारा	द्वारा	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=120
+13	(	(	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	1	1	NUM	QT_QTC	NumType=Card	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	-	-	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=150
+16	3	3	NUM	QT_QTC	NumType=Card	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=160
+17	-	-	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=170
+18	1985	1985	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=180
+19	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=190
+20	)	)	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=200
+21	"	"	PUNCT	RD_SYM	_	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=210
+22	अनुच्छेद	अनुच्छेद	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=220
+23	102	102	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=230
+24	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=240
+25	खंड	खंड	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=250
+26	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=260
+27	1	1	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=270
+28	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=280
+29	"	"	PUNCT	RD_SYM	_	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=290
+30	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=300
+31	स्थान	स्थान	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=310
+32	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=320
+33	प्रतिस्थापित	प्रतिस्थापित	ADJ	JJ	_	0	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=330
+34	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=340
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s18
+# text = 
+1	संविधान	संविधान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	(	(	PUNCT	RD_SYM	_	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	तैंतीसवां	तैंतीसवाँ	ADJ	QT_QTO	Case=Nom|Gender=Masc	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	संशोधन	संशोधन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	)	)	PUNCT	RD_SYM	_	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अधिनियम	अधिनियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	1974	1974	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	धारा	धारा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	2	2	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	द्वारा	द्वारा	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=120
+13	उपखंड	उपखंड	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=130
+14	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	ख	ख	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=150
+16	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=160
+17	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=170
+18	स्थान	स्थान	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=180
+19	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=190
+20	प्रतिस्थापित	प्रतिस्थापित	ADJ	JJ	_	0	dep	_	ChunkId=6|ChunkType=JJP|SpanStart=200
+21	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=210
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s19
+# text = 
+1	संविधान	संविधान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	(	(	PUNCT	RD_SYM	_	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	तैंतीसवां	तैंतीसवाँ	ADJ	QT_QTO	Case=Nom|Gender=Masc	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	संशोधन	संशोधन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	)	)	PUNCT	RD_SYM	_	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अधिनियम	अधिनियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	1974	1974	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	धारा	धारा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	2	2	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	द्वारा	द्वारा	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=120
+13	अंतःस्थापित	अंतःस्थापित	ADJ	JJ	_	0	dep	_	ChunkId=5|ChunkType=JJP|SpanStart=130
+14	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=140
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s20
+# text = 
+1	संविधान	संविधान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	(	(	PUNCT	RD_SYM	_	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	बावनवां	बावनवाँ	ADJ	QT_QTO	Case=Nom|Gender=Masc	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	संशोधन	संशोधन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	)	)	PUNCT	RD_SYM	_	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अधिनियम	अधिनियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	1985	1985	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	धारा	धारा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	3	3	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	द्वारा	द्वारा	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=120
+13	(	(	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	1	1	NUM	QT_QTC	NumType=Card	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	-	-	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=150
+16	3	3	NUM	QT_QTC	NumType=Card	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=160
+17	-	-	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=170
+18	1985	1985	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=180
+19	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=190
+20	)	)	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=200
+21	"	"	PUNCT	RD_SYM	_	0	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=210
+22	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=220
+23	2	2	X	RD_UNK	_	0	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=230
+24	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=240
+25	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=250
+26	अनुच्छेद	अनुच्छेद	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=260
+27	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=270
+28	प्रयोजनों	प्रयोजन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=280
+29	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=290
+30	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=300
+31	"	"	PUNCT	RD_SYM	_	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=310
+32	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=9|ChunkType=FRAGP|SpanStart=320
+33	स्थान	स्थान	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=9|ChunkType=FRAGP|SpanStart=330
+34	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=FRAGP|SpanStart=340
+35	प्रतिस्थापित	प्रतिस्थापित	ADJ	JJ	_	0	dep	_	ChunkId=10|ChunkType=JJP|SpanStart=350
+36	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=360
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s21
+# text = 
+1	संविधान	संविधान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	(	(	PUNCT	RD_SYM	_	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	बावनवां	बावनवाँ	ADJ	QT_QTO	Case=Nom|Gender=Masc	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	संशोधन	संशोधन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	)	)	PUNCT	RD_SYM	_	2	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अधिनियम	अधिनियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	1985	1985	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	धारा	धारा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	3	3	NUM	QT_QTC	Case=Acc|NumType=Card	21	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	द्वारा	द्वारा	ADP	PSP	AdpType=Post	21	dep	_	ChunkId=4|ChunkType=NP|SpanStart=120
+13	(	(	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	1	1	NUM	QT_QTC	NumType=Card	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	-	-	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=150
+16	3	3	NUM	QT_QTC	NumType=Card	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=160
+17	-	-	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=170
+18	1985	1985	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=180
+19	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=190
+20	)	)	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=200
+21	अंतःस्थापित	अंतःस्थापित	ADJ	JJ	_	0	dep	_	ChunkId=6|ChunkType=JJP|SpanStart=210
+22	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=220
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s22
+# text = 
+1	अनुच्छेद	अनुच्छेद	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	51	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	103	103	NUM	QT_QTC	NumType=Card	51	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	,	&comma	PUNCT	RD_PUNC	_	51	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	संविधान	संविधान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	(	(	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	बयालीसवां	बयालीसवाँ	ADJ	QT_QTO	Case=Nom|Gender=Masc	0	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	संशोधन	संशोधन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	)	)	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	अधिनियम	अधिनियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	1976	1976	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=110
+12	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=120
+13	धारा	धारा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=130
+14	20	20	NUM	QT_QTC	Case=Acc|NumType=Card	24	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	द्वारा	द्वारा	ADP	PSP	AdpType=Post	24	dep	_	ChunkId=5|ChunkType=NP|SpanStart=150
+16	(	(	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=160
+17	3	3	NUM	QT_QTC	NumType=Card	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=170
+18	-	-	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=180
+19	1	1	NUM	QT_QTC	NumType=Card	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=190
+20	-	-	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=200
+21	1977	1977	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=210
+22	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=220
+23	)	)	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=230
+24	और	और	CCONJ	CC_CCD	_	46	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=240
+25	तत्पश्चात्	तत्पश्चात्	ADV	RB	_	51	dep	_	ChunkId=8|ChunkType=RBP|SpanStart=250
+26	संविधान	संविधान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=260
+27	(	(	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=270
+28	चवालीसवां	चवालीसवाँ	ADJ	QT_QTO	Case=Nom|Gender=Masc	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=280
+29	संशोधन	संशोधन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=290
+30	)	)	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=300
+31	अधिनियम	अधिनियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=310
+32	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=320
+33	1978	1978	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=330
+34	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=340
+35	धारा	धारा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=350
+36	14	14	NUM	QT_QTC	Case=Acc|NumType=Card	24	dep	_	ChunkId=12|ChunkType=NP|SpanStart=360
+37	द्वारा	द्वारा	ADP	PSP	AdpType=Post	24	dep	_	ChunkId=12|ChunkType=NP|SpanStart=370
+38	(	(	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=13|ChunkType=NP|SpanStart=380
+39	20	20	NUM	QT_QTC	NumType=Card	0	nmod	_	ChunkId=13|ChunkType=NP|SpanStart=390
+40	-	-	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=13|ChunkType=NP|SpanStart=400
+41	6	6	NUM	QT_QTC	NumType=Card	0	nmod	_	ChunkId=13|ChunkType=NP|SpanStart=410
+42	-	-	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=13|ChunkType=NP|SpanStart=420
+43	1979	1979	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=430
+44	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=13|ChunkType=NP|SpanStart=440
+45	)	)	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=13|ChunkType=NP|SpanStart=450
+46	संशोधित	संशोधित	ADJ	JJ	_	47	dep	_	ChunkId=14|ChunkType=JJP|SpanStart=460
+47	होकर	हो	VERB	V_VM	VerbForm=Conv|Voice=Act	51	dep	_	ChunkId=15|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=470
+48	उपरोक्त	उपरोक्त	ADJ	JJ	Case=Acc	51	dep	_	ChunkId=16|ChunkType=NP|SpanStart=480
+49	रूप	रूप	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	51	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=490
+50	में	में	ADP	PSP	AdpType=Post	51	dep	_	ChunkId=16|ChunkType=NP|SpanStart=500
+51	आया	आ	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=510
+52	।	।	PUNCT	RD_PUNC	_	51	dep	_	ChunkId=18|ChunkType=BLK|SpanStart=520
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s23
+# text = 
+1	(	(	PUNCT	RD_SYM	_	17	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	2	2	X	RD_UNK	_	17	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	17	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	ऐसे	ऐसा	DET	DM_DMD	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	9	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	प्रश्न	प्रश्न	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	पर	पर	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	विनिश्चय	विनिश्चय	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	करने	कर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	17	dep	_	ChunkId=4|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=90
+10	के	के	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=4|ChunkType=VGNN|SpanStart=100
+11	पहले	पहले	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	dep	_	ChunkId=4|ChunkType=VGNN|SpanStart=110
+12	राष्ट्रपति	राष्ट्रपति	PROPN	N_NNP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	निर्वाचन	निर्वाचन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	आयोग	आयोग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=140
+15	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=150
+16	राय	राय	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	लेगा	ले	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=8|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=170
+18	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=180
+19	ऐसी	ऐसा	DET	DM_DMD	Case=Acc|Gender=Fem|Person=3	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=190
+20	राय	राय	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	अनुसार	अनुसार	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=220
+23	कार्य	कार्य	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=230
+24	करेगा	कर	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=12|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=240
+25	।	।	PUNCT	RD_PUNC	_	18	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=250
+26	]	]	PUNCT	RD_SYM	_	18	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=260
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s24
+# text = 
+1	104.	104.	X	RD_UNK	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	अनुच्छेद	अनुच्छेद	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	99	99	NUM	QT_QTC	Case=Acc|NumType=Card	7	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	के	के	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	अधीन	अधीन	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	शपथ	शपथ	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	लेने	ले	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	8	dep	_	ChunkId=4|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=70
+8	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=80
+9	प्रतिज्ञान	प्रतिज्ञान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=90
+10	करने	कर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	8	dep	_	ChunkId=7|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=100
+11	से	से	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=7|ChunkType=VGNN|SpanStart=110
+12	पहले	पहले	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	dep	_	ChunkId=7|ChunkType=VGNN|SpanStart=120
+13	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=8|ChunkType=CCP|SpanStart=130
+14	अर्हित	अर्हित	ADJ	JJ	_	15	dep	_	ChunkId=9|ChunkType=JJP|SpanStart=140
+15	न	न	PART	RP_NEG	_	0	dep	_	ChunkId=10|ChunkType=VGNF|SpanStart=150
+16	होते	हो	VERB	V_VM	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=160
+17	हुए	हो	AUX	V_VAUX	Aspect=Perf|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=170
+18	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=11|ChunkType=CCP|SpanStart=180
+19	निरर्हित	निरार्हित	ADJ	JJ	_	0	dep	_	ChunkId=12|ChunkType=JJP|SpanStart=190
+20	किए	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGNN|Vib=या|Tam=yA|SpanStart=200
+21	जाने	जा	AUX	V_VAUX	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=210
+22	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=13|ChunkType=VGNN|SpanStart=220
+23	बैठने	बैठना	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=230
+24	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=15|ChunkType=CCP|SpanStart=240
+25	मत	मत	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=250
+26	देने	दे	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=260
+27	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=17|ChunkType=VGNN|SpanStart=270
+28	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=17|ChunkType=VGNN|SpanStart=280
+29	शास्ति	शास्ति	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=290
+30	|	|	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=19|ChunkType=BLK
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s25
+# text = 
+1	यदि	यदि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	सदन	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	कोई	कोई	DM_DMI	DM_DMI	Case=Nom|Number=Sing|Person=3	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	व्यक्ति	व्यक्ति	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	अनुच्छेद	अनुच्छेद	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	99	99	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	अपेक्षाओं	अपेक्षा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=130
+14	अनुपालन	अनुपालन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=140
+15	करने	कर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=150
+16	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=VGNN|SpanStart=160
+17	पहले	पहले	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=8|ChunkType=VGNN|SpanStart=170
+18	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=8|ChunkType=VGNN|SpanStart=180
+19	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=190
+20	वह	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	जानते	जान	VERB	V_VM	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=210
+22	हुए	हो	AUX	V_VAUX	Aspect=Perf|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=220
+23	कि	कि	SCONJ	CC_CCS	_	0	nmod	_	ChunkId=12|ChunkType=CCP|SpanStart=230
+24	मैं	मैं	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	30	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=240
+25	उसकी	वह	PRON	PR_PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	0	dep	_	ChunkId=14|ChunkType=NP|Vib=का|Tam=kA|SpanStart=250
+26	सदस्यता	सदस्यता	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	30	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=260
+27	के	के	ADP	PSP	AdpType=Post	30	dep	_	ChunkId=15|ChunkType=NP|SpanStart=270
+28	लिए	लिए	ADP	PSP	AdpType=Post	30	dep	_	ChunkId=15|ChunkType=NP|SpanStart=280
+29	अर्हित	अर्हित	ADJ	JJ	_	30	dep	_	ChunkId=16|ChunkType=JJP|SpanStart=290
+30	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=17|ChunkType=VGF|SpanStart=300
+31	हूं	है	VERB	V_VM	Number=Sing|Person=1	0	dep	_	ChunkId=17|ChunkType=VGF|Vib=ऊं|Tam=UM|SpanStart=310
+32	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=18|ChunkType=CCP|SpanStart=320
+33	निरर्हित	निरार्हित	ADJ	JJ	_	0	dep	_	ChunkId=19|ChunkType=JJP|SpanStart=330
+34	कर	कर	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=VGF|Tam=0|SpanStart=340
+35	दिया	दे	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=20|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=350
+36	गया	जा	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=20|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=360
+37	हूं	है	AUX	V_VAUX	Number=Sing|Person=1	0	dep	_	ChunkId=20|ChunkType=VGF|Vib=ऊं|Tam=UM|SpanStart=370
+38	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=21|ChunkType=CCP|SpanStart=380
+39	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=22|ChunkType=NP|Tam=0|SpanStart=390
+40	द्वारा	द्वारा	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=22|ChunkType=NP|SpanStart=400
+41	बनाई	बना	VERB	V_VM	Aspect=Perf|Case=Acc|Gender=Fem|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=23|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=410
+42	गई	जा	AUX	V_VAUX	Aspect=Perf|Gender=Fem|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=23|ChunkType=VGNF|Vib=या1|Tam=yA1|SpanStart=420
+43	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=24|ChunkType=NP|SpanStart=430
+44	विधि	विधि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=24|ChunkType=NP|Tam=0|SpanStart=440
+45	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=24|ChunkType=NP|SpanStart=450
+46	उपबंधों	उपबंध	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=25|ChunkType=NP|Tam=0|SpanStart=460
+47	द्वारा	द्वारा	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=25|ChunkType=NP|SpanStart=470
+48	ऐसा	ऐसा	PRON	PR_PRP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=26|ChunkType=NP|Tam=0|SpanStart=480
+49	करने	कर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=27|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=490
+50	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=27|ChunkType=VGNN|SpanStart=500
+51	प्रतिषिद्ध	प्रतिषिद्ध	ADJ	JJ	_	0	dep	_	ChunkId=28|ChunkType=JJP|SpanStart=510
+52	कर	कर	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=29|ChunkType=VGF|Tam=0|SpanStart=520
+53	दिया	दे	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=29|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=530
+54	गया	जा	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=29|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=540
+55	हूं	है	AUX	V_VAUX	Number=Sing|Person=1	0	dep	_	ChunkId=29|ChunkType=VGF|Vib=ऊं|Tam=UM|SpanStart=550
+56	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=29|ChunkType=VGF|SpanStart=560
+57	सदस्य	सदस्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=30|ChunkType=NP|Tam=0|SpanStart=570
+58	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=30|ChunkType=NP|SpanStart=580
+59	रूप	रूप	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=30|ChunkType=NP|SpanStart=590
+60	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=30|ChunkType=NP|SpanStart=600
+61	बैठता	बैठ	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=31|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=610
+62	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=31|ChunkType=VGF|Tam=0|SpanStart=620
+63	या	या	CCONJ	CC_CCD	_	63	dep	_	ChunkId=32|ChunkType=CCP|SpanStart=630
+64	मत	मत	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=33|ChunkType=NP|Tam=0|SpanStart=640
+65	देता	दे	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=34|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=650
+66	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=34|ChunkType=VGF|Tam=0|SpanStart=660
+67	तो	तो	SCONJ	CC_CCS	_	0	dep	_	ChunkId=35|ChunkType=CCP|SpanStart=670
+68	NULL	NULL	PRON	PR_PRP	_	0	dep	_	ChunkId=36|ChunkType=NULL__NP
+69	वह	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=37|ChunkType=NP|Tam=0|SpanStart=680
+70	प्रत्येक	प्रत्येक	DET	QT_QTF	_	0	dep	_	ChunkId=38|ChunkType=NP|SpanStart=690
+71	दिन	दिन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=38|ChunkType=NP|Tam=0|SpanStart=700
+72	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=38|ChunkType=NP|SpanStart=710
+73	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=38|ChunkType=NP|SpanStart=720
+74	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=38|ChunkType=NP|SpanStart=730
+75	जब	जब	PR_PRL	PR_PRL	Case=Nom	0	dep	_	ChunkId=39|ChunkType=NP|SpanStart=740
+76	वह	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=40|ChunkType=NP|Tam=0|SpanStart=750
+77	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=41|ChunkType=NP|SpanStart=760
+78	प्रकार	प्रकार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=41|ChunkType=NP|Tam=0|SpanStart=770
+79	बैठता	बैठ	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=42|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=780
+80	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=42|ChunkType=VGF|Tam=0|SpanStart=790
+81	या	या	CCONJ	CC_CCD	_	68	dep	_	ChunkId=43|ChunkType=CCP|SpanStart=800
+82	मत	मत	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=44|ChunkType=NP|Tam=0|SpanStart=810
+83	देता	दे	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=45|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=820
+84	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=45|ChunkType=VGF|Tam=0|SpanStart=830
+85	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=45|ChunkType=VGF|SpanStart=840
+86	पांच	पांच	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=46|ChunkType=NP|SpanStart=850
+87	सौ	सौ	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=46|ChunkType=NP|SpanStart=860
+88	रुपए	रुपया	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=46|ChunkType=NP|Tam=0|SpanStart=870
+89	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=46|ChunkType=NP|SpanStart=880
+90	शास्ति	शास्ति	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=47|ChunkType=NP|Tam=0|SpanStart=890
+91	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=47|ChunkType=NP|SpanStart=900
+92	भागी	भागी	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=48|ChunkType=NP|Tam=0|SpanStart=910
+93	होगा	हो	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=49|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=920
+94	जो	जो	PR_PRL	PR_PRL	Case=Nom|Mood=Imp|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=50|ChunkType=NP|Tam=0|SpanStart=930
+95	संघ	संघ	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=51|ChunkType=NP|Tam=0|SpanStart=940
+96	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=51|ChunkType=NP|SpanStart=950
+97	देय	देय	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=52|ChunkType=JJP|SpanStart=960
+98	ऋण	ऋण	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=53|ChunkType=NP|Tam=0|SpanStart=970
+99	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=53|ChunkType=NP|SpanStart=980
+100	रूप	रूप	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=53|ChunkType=NP|SpanStart=990
+101	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=53|ChunkType=NP|SpanStart=1000
+102	वसूल	वसूल	ADJ	JJ	_	0	dep	_	ChunkId=54|ChunkType=JJP|SpanStart=1010
+103	की	कर	VERB	V_VM	Aspect=Perf|Gender=Fem|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=55|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=1020
+104	जाएगी	जा	AUX	V_VAUX	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=55|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=1030
+105	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=56|ChunkType=BLK|SpanStart=1040
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s26
+# text = 
+1	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=20
+3	उसके	वह	PRON	PR_PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=3|ChunkType=NP|Vib=का|Tam=kA|SpanStart=30
+4	सदस्यों	सदस्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=40
+5	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Plur	2	dep	_	ChunkId=4|ChunkType=NP|SpanStart=50
+6	शक्तियां	शक्ति	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=60
+7	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=70
+8	विशेषाधिकार	विशेषाधिकार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=80
+9	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=90
+10	उन्मुक्तियां	उन्मुक्ति	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=100
+11	|	|	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=9|ChunkType=BLK
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s27
+# text = 
+1	105.	105.	X	RD_UNK	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	सदनों	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Plur	6	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	तथा	तथा	CCONJ	CC_CCD	_	0	dep	_	ChunkId=4|ChunkType=CCP|SpanStart=60
+7	उनके	वह	PRON	PR_PRP	Case=Acc|Gender=Masc|Number=Plur|Person=3	6	dep	_	ChunkId=5|ChunkType=NP|Vib=का|Tam=kA|SpanStart=70
+8	सदस्यों	सदस्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=80
+9	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=90
+10	समितियों	समिति	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=100
+11	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Plur	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=110
+12	शक्तियां	शक्ति	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=120
+13	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=130
+14	विशेषाधिकार	विशेषाधिकार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=140
+15	आदि	आदि	PART	RP_RPD	_	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=150
+16	|	|	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=11|ChunkType=BLK
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s28
+# text = 
+1	(	(	PUNCT	RD_SYM	_	30	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	1	1	X	RD_UNK	_	30	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	30	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	संविधान	संविधान	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	उपबंधों	उपबंध	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	और	और	CCONJ	CC_CCD	_	0	nmod	_	ChunkId=4|ChunkType=CCP|SpanStart=80
+9	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	प्रक्रिया	प्रक्रिया	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	8	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	विनियमन	विनियमन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	करने	कर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	nmod	_	ChunkId=8|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=140
+15	वाले	वाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=8|ChunkType=VGNN|SpanStart=150
+16	नियमों	नियम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=160
+17	और	और	CCONJ	CC_CCD	_	22	dep	_	ChunkId=10|ChunkType=CCP|SpanStart=170
+18	स्थायी	स्थायी	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=180
+19	आदेशों	आदेश	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=190
+20	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=200
+21	अधीन	अधीन	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=210
+22	रहते	रह	VERB	V_VM	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	30	dep	_	ChunkId=12|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=220
+23	हुए	हो	AUX	V_VAUX	Aspect=Perf|VerbForm=Part|Voice=Act	30	dep	_	ChunkId=12|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=230
+24	,	&comma	PUNCT	RD_PUNC	_	30	dep	_	ChunkId=12|ChunkType=VGNF|SpanStart=240
+25	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	30	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=250
+26	में	में	ADP	PSP	AdpType=Post	30	dep	_	ChunkId=13|ChunkType=NP|SpanStart=260
+27	वाक्	वाक्	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	30	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=270
+28	-	-	PUNCT	RD_SYM	_	30	dep	_	ChunkId=14|ChunkType=NP|SpanStart=280
+29	स्वातंत्र्य	स्वातंत्र्य	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	30	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=290
+30	होगा	हो	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=300
+31	।	।	PUNCT	RD_PUNC	_	30	dep	_	ChunkId=16|ChunkType=BLK|SpanStart=310
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s29
+# text = 
+1	(	(	PUNCT	RD_SYM	_	35	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	2	2	X	RD_UNK	_	35	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	35	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	में	में	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	या	या	CCONJ	CC_CCD	_	16	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=60
+7	उसकी	वह	PRON	PR_PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	0	dep	_	ChunkId=4|ChunkType=NP|Vib=का|Tam=kA|SpanStart=70
+8	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	6	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	समिति	समिति	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	में	में	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	16	dep	_	ChunkId=7|ChunkType=NP|SpanStart=130
+14	सदस्य	सदस्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=140
+15	द्वारा	द्वारा	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	कही	कह	VERB	V_VM	Aspect=Perf|Case=Acc|Gender=Fem|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=160
+17	गई	जा	AUX	V_VAUX	Aspect=Perf|Gender=Fem|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGNF|Vib=या1|Tam=yA1|SpanStart=170
+18	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=180
+19	बात	बात	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=190
+20	या	या	CCONJ	CC_CCD	_	35	dep	_	ChunkId=10|ChunkType=CCP|SpanStart=200
+21	दिए	दे	VERB	V_VM	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=210
+22	गए	जा	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGNF|Vib=या1|Tam=yA1|SpanStart=220
+23	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=230
+24	मत	मत	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=240
+25	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=250
+26	संबंध	संबंध	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=260
+27	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=270
+28	उसके	वह	PRON	PR_PRP	Case=Acc|Number=Sing|Person=3	35	dep	_	ChunkId=13|ChunkType=NP|Vib=के|Tam=ke|SpanStart=280
+29	विरूद्ध	विरूद्ध	ADP	PSP	AdpType=Post	35	dep	_	ChunkId=13|ChunkType=NP|SpanStart=290
+30	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	35	dep	_	ChunkId=14|ChunkType=NP|SpanStart=300
+31	न्यायालय	न्यायालय	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	35	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=310
+32	में	में	ADP	PSP	AdpType=Post	35	dep	_	ChunkId=14|ChunkType=NP|SpanStart=320
+33	कोई	कोई	DM_DMI	DM_DMI	Case=Nom|Number=Sing|Person=3	35	dep	_	ChunkId=15|ChunkType=NP|SpanStart=330
+34	कार्यवाही	कार्यवाही	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	35	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=340
+35	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=16|ChunkType=VGF|SpanStart=350
+36	की	कर	VERB	V_VM	Aspect=Perf|Gender=Fem|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=360
+37	जाएगी	जा	AUX	V_VAUX	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=370
+38	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=17|ChunkType=CCP|SpanStart=380
+39	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=390
+40	व्यक्ति	व्यक्ति	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=400
+41	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=410
+42	विरूद्ध	विरूद्ध	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=420
+43	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=430
+44	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=440
+45	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=450
+46	सदन	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=460
+47	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=470
+48	प्राधिकार	प्राधिकार	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=NP|Tam=0|SpanStart=480
+49	द्वारा	द्वारा	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=21|ChunkType=NP|SpanStart=490
+50	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=22|ChunkType=CCP|SpanStart=500
+51	उसके	वह	PRON	PR_PRP	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=23|ChunkType=NP|Vib=के|Tam=ke|SpanStart=510
+52	अधीन	अधीन	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=23|ChunkType=NP|SpanStart=520
+53	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=24|ChunkType=NP|SpanStart=530
+54	प्रतिवेदन	प्रतिवेदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=24|ChunkType=NP|Tam=0|SpanStart=540
+55	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=24|ChunkType=NP|SpanStart=550
+56	पत्र	पत्र	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=25|ChunkType=NP|Tam=0|SpanStart=560
+57	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=25|ChunkType=NP|SpanStart=570
+58	मतों	मत	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=26|ChunkType=NP|Tam=0|SpanStart=580
+59	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=27|ChunkType=CCP|SpanStart=590
+60	कार्यवाहियों	कार्यवाही	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=28|ChunkType=NP|Tam=0|SpanStart=600
+61	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=28|ChunkType=NP|SpanStart=610
+62	प्रकाशन	प्रकाशन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=29|ChunkType=NP|Tam=0|SpanStart=620
+63	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=29|ChunkType=NP|SpanStart=630
+64	संबंध	संबंध	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=29|ChunkType=NP|SpanStart=640
+65	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=29|ChunkType=NP|SpanStart=650
+66	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	0	nmod	_	ChunkId=30|ChunkType=NP|SpanStart=660
+67	प्रकार	प्रकार	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=30|ChunkType=NP|Tam=0|SpanStart=670
+68	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=30|ChunkType=NP|SpanStart=680
+69	कोई	कोई	DM_DMI	DM_DMI	Case=Nom|Number=Sing|Person=3	0	dep	_	ChunkId=31|ChunkType=NP|SpanStart=690
+70	कार्यवाही	कार्यवाही	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=31|ChunkType=NP|Tam=0|SpanStart=700
+71	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=32|ChunkType=VGF|SpanStart=710
+72	की	कर	VERB	V_VM	Aspect=Perf|Gender=Fem|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=32|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=720
+73	जाएगी	जा	AUX	V_VAUX	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=32|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=730
+74	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=33|ChunkType=BLK|SpanStart=740
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s30
+# text = 
+1	(	(	PUNCT	RD_SYM	_	26	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	3	3	X	RD_UNK	_	26	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	26	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	अन्य	अन्य	ADJ	JJ	Case=Acc	26	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	बातों	बात	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	26	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	में	में	ADP	PSP	AdpType=Post	26	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	प्रत्येक	प्रत्येक	DET	QT_QTF	_	12	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	सदन	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Plur	12	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=120
+13	प्रत्येक	प्रत्येक	DET	QT_QTF	_	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=130
+14	सदन	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=140
+15	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=150
+16	सदस्यों	सदस्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	और	और	CCONJ	CC_CCD	_	17	dep	_	ChunkId=8|ChunkType=CCP|SpanStart=170
+18	समितियों	समिति	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=190
+20	शक्तियां	शक्ति	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	विशेषाधिकार	विशेषाधिकार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=220
+23	और	और	CCONJ	CC_CCD	_	26	dep	_	ChunkId=12|ChunkType=CCP|SpanStart=230
+24	उन्मुक्तियां	उन्मुक्ति	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=240
+25	ऐसी	ऐसा	PRON	PR_PRP	Case=Nom|Gender=Fem|Mood=Imp|Person=3|VerbForm=Fin|Voice=Act	26	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=250
+26	होंगी	हो	VERB	V_VM	Gender=Fem|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=260
+27	जो	जो	PR_PRL	PR_PRL	Case=Nom|Mood=Imp|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=270
+28	संसद	संसद	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=280
+29	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=290
+30	समय	समय	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=300
+31	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=310
+32	समय	समय	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=320
+33	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=330
+34	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=340
+35	विधि	विधि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=350
+36	द्वारा	द्वारा	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=360
+37	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=370
+38	परिनिश्चित	परिनिश्चित	ADJ	JJ	_	0	dep	_	ChunkId=20|ChunkType=JJP|SpanStart=380
+39	करे	कर	VERB	V_VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=VGF|Vib=ए|Tam=e|SpanStart=390
+40	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=22|ChunkType=CCP|SpanStart=400
+41	जब	जब	PR_PRL	PR_PRL	Case=Acc	0	dep	_	ChunkId=23|ChunkType=NP|SpanStart=410
+42	तक	तक	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=23|ChunkType=NP|SpanStart=420
+43	वे	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=24|ChunkType=NP|Tam=0|SpanStart=430
+44	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=25|ChunkType=NP|SpanStart=440
+45	प्रकार	प्रकार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=25|ChunkType=NP|Tam=0|SpanStart=450
+46	परिनिश्चित	परिनिश्चित	ADJ	JJ	_	0	dep	_	ChunkId=26|ChunkType=JJP|SpanStart=460
+47	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=27|ChunkType=VGF|SpanStart=470
+48	की	कर	VERB	V_VM	Aspect=Perf|Gender=Fem|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=27|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=480
+49	जाती	जा	AUX	V_VAUX	Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=27|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=490
+50	हैं	है	AUX	V_VAUX	Mood=Imp|Number=Plur|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=27|ChunkType=VGF|Tam=0|SpanStart=500
+51	तब	तब	PRON	PR_PRP	Case=Acc	0	dep	_	ChunkId=28|ChunkType=NP|SpanStart=510
+52	तक	तक	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=28|ChunkType=NP|SpanStart=520
+53	वही	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=29|ChunkType=NP|Tam=0|SpanStart=530
+54	होंगी	हो	VERB	V_VM	Gender=Fem|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=30|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=540
+55	जो	जो	PR_PRL	PR_PRL	Case=Nom|Mood=Imp|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=31|ChunkType=NP|Tam=0|SpanStart=550
+56	संविधान	संविधान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=32|ChunkType=NP|Tam=0|SpanStart=560
+57	(	(	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=33|ChunkType=NP|SpanStart=570
+58	चवालीसंवां	चवालीसंवां	ADJ	QT_QTO	Case=Nom|Gender=Masc	0	nmod	_	ChunkId=33|ChunkType=NP|SpanStart=580
+59	संशोधन	संशोधन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=33|ChunkType=NP|Tam=0|SpanStart=590
+60	)	)	PUNCT	RD_SYM	_	0	nmod	_	ChunkId=33|ChunkType=NP|SpanStart=600
+61	अधिनियम	अधिनियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=34|ChunkType=NP|Tam=0|SpanStart=610
+62	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=34|ChunkType=NP|SpanStart=620
+63	1978	1978	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=34|ChunkType=NP|Tam=0|SpanStart=630
+64	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=34|ChunkType=NP|SpanStart=640
+65	धारा	धारा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	69	dep	_	ChunkId=35|ChunkType=NP|Tam=0|SpanStart=650
+66	15	15	NUM	QT_QTC	Case=Acc|NumType=Card	69	dep	_	ChunkId=35|ChunkType=NP|SpanStart=660
+67	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	69	dep	_	ChunkId=35|ChunkType=NP|SpanStart=670
+68	प्रवॄत्त	प्रवृत्त	ADJ	JJ	_	69	dep	_	ChunkId=36|ChunkType=JJP|SpanStart=680
+69	होने	हो	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=37|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=690
+70	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=37|ChunkType=VGNN|SpanStart=700
+71	ठीक	ठीक	PART	RP_RPD	_	0	dep	_	ChunkId=37|ChunkType=VGNN|SpanStart=710
+72	पहले	पहले	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=37|ChunkType=VGNN|SpanStart=720
+73	उस	वह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=38|ChunkType=NP|SpanStart=730
+74	सदन	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=38|ChunkType=NP|Tam=0|SpanStart=740
+75	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Plur	0	dep	_	ChunkId=38|ChunkType=NP|SpanStart=750
+76	और	और	CCONJ	CC_CCD	_	82	dep	_	ChunkId=39|ChunkType=CCP|SpanStart=760
+77	उसके	वह	PRON	PR_PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=40|ChunkType=NP|Vib=का|Tam=kA|SpanStart=770
+78	सदस्यों	सदस्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=41|ChunkType=NP|Tam=0|SpanStart=780
+79	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=42|ChunkType=CCP|SpanStart=790
+80	समितियों	समिति	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=43|ChunkType=NP|Tam=0|SpanStart=800
+81	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Plur	0	dep	_	ChunkId=43|ChunkType=NP|SpanStart=810
+82	NULL	NULL	NOUN	N_NN	_	0	dep	_	ChunkId=44|ChunkType=NULL__NP
+83	थीं	था	VERB	V_VM	Gender=Fem|Mood=Imp|Number=Plur|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=45|ChunkType=VGF|Tam=0|SpanStart=820
+84	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=46|ChunkType=BLK|SpanStart=830
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s31
+# text = 
+1	(	(	PUNCT	RD_SYM	_	32	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	4	4	X	RD_UNK	_	32	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	32	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	जिन	जो	DM_DMR	DM_DMR	Case=Acc|Number=Plur|Person=3	32	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	व्यक्तियों	व्यक्ति	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	32	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	को	को	ADP	PSP	AdpType=Post	32	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	32	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	संविधान	संविधान	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	32	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	32	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	आधार	आधार	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	32	dep	_	ChunkId=3|ChunkType=NP|SpanStart=100
+11	पर	पर	ADP	PSP	AdpType=Post	32	dep	_	ChunkId=3|ChunkType=NP|SpanStart=110
+12	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=120
+13	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=130
+14	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	16	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	सदन	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=150
+16	या	या	CCONJ	CC_CCD	_	21	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=160
+17	उसकी	वह	PRON	PR_PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	0	dep	_	ChunkId=7|ChunkType=NP|Vib=का|Tam=kA|SpanStart=170
+18	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	16	dep	_	ChunkId=8|ChunkType=NP|SpanStart=180
+19	समिति	समिति	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=190
+20	में	में	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=8|ChunkType=NP|SpanStart=200
+21	बोलने	बोल	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=210
+22	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=9|ChunkType=VGNN|SpanStart=220
+23	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=10|ChunkType=CCP|SpanStart=230
+24	उसकी	वह	PRON	PR_PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	0	dep	_	ChunkId=11|ChunkType=NP|Vib=का|Tam=kA|SpanStart=240
+25	कार्यवाहियों	कार्यवाही	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=250
+26	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=260
+27	अन्यथा	अन्यथा	ADV	RB	_	0	dep	_	ChunkId=13|ChunkType=RBP|SpanStart=270
+28	भाग	भाग	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=280
+29	लेने	ले	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=290
+30	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=15|ChunkType=VGNN|SpanStart=300
+31	अधिकार	अधिकार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	32	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=310
+32	है	है	VERB	V_VM	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGF|Tam=0|SpanStart=320
+33	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=17|ChunkType=VGF|SpanStart=330
+34	उनके	वह	PRON	PR_PRP	Case=Acc|Number=Plur|Person=3	0	dep	_	ChunkId=18|ChunkType=NP|Vib=के|Tam=ke|SpanStart=340
+35	संबंध	संबंध	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=350
+36	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=360
+37	खंड	खंड	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=370
+38	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=380
+39	1	1	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=390
+40	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=400
+41	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=410
+42	खंड	खंड	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=420
+43	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=430
+44	2	2	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=440
+45	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=450
+46	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=21|ChunkType=CCP|SpanStart=460
+47	खंड	खंड	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=22|ChunkType=NP|Tam=0|SpanStart=470
+48	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=22|ChunkType=NP|SpanStart=480
+49	3	3	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=22|ChunkType=NP|SpanStart=490
+50	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=22|ChunkType=NP|SpanStart=500
+51	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	dep	_	ChunkId=22|ChunkType=NP|SpanStart=510
+52	उपबंध	उपबंध	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=23|ChunkType=NP|Tam=0|SpanStart=520
+53	उसी	वह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=24|ChunkType=NP|SpanStart=530
+54	प्रकार	प्रकार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=24|ChunkType=NP|Tam=0|SpanStart=540
+55	लागू	लागू	ADJ	JJ	_	0	dep	_	ChunkId=25|ChunkType=JJP|SpanStart=550
+56	होंगे	हो	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=26|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=560
+57	जिस	जो	DM_DMR	DM_DMR	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=27|ChunkType=NP|SpanStart=570
+58	प्रकार	प्रकार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=27|ChunkType=NP|Tam=0|SpanStart=580
+59	वे	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=28|ChunkType=NP|Tam=0|SpanStart=590
+60	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=29|ChunkType=NP|Tam=0|SpanStart=600
+61	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=29|ChunkType=NP|SpanStart=610
+62	सदस्यों	सदस्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=30|ChunkType=NP|Tam=0|SpanStart=620
+63	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=30|ChunkType=NP|SpanStart=630
+64	संबंध	संबंध	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=30|ChunkType=NP|SpanStart=640
+65	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=30|ChunkType=NP|SpanStart=650
+66	लागू	लागू	ADJ	JJ	_	0	dep	_	ChunkId=31|ChunkType=JJP|SpanStart=660
+67	होते	हो	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=32|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=670
+68	हैं	है	AUX	V_VAUX	Mood=Imp|Number=Plur|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=32|ChunkType=VGF|Tam=0|SpanStart=680
+69	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=33|ChunkType=BLK|SpanStart=690
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s32
+# text = 
+1	106.	106.	X	RD_UNK	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	सदस्यों	सदस्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	वेतन	वेतन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=4|ChunkType=CCP|SpanStart=50
+6	भत्ते	भत्ता	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=60
+7	|	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=6|ChunkType=BLK
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s33
+# text = 
+1	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	प्रत्येक	प्रत्येक	DET	QT_QTF	_	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	सदन	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	सदस्य	सदस्य	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	ऐसे	ऐसा	DET	DM_DMD	Case=Nom|Gender=Masc|Number=Plur|Person=3	9	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	वेतन	वेतन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=90
+10	भत्ते	भत्ता	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=100
+11	,	&comma	PUNCT	RD_PUNC	_	9	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+12	जिन्हें	जो	PR_PRL	PR_PRL	Case=Acc|Number=Plur|Person=3	24	dep	_	ChunkId=7|ChunkType=NP|Vib=को|Tam=ko|SpanStart=120
+13	संसद	संसद	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=130
+14	,	&comma	PUNCT	RD_PUNC	_	24	dep	_	ChunkId=8|ChunkType=NP|SpanStart=140
+15	समय	समय	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=150
+16	-	-	PUNCT	RD_SYM	_	24	dep	_	ChunkId=9|ChunkType=NP|SpanStart=160
+17	समय	समय	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=170
+18	पर	पर	ADP	PSP	AdpType=Post	24	dep	_	ChunkId=9|ChunkType=NP|SpanStart=180
+19	,	&comma	PUNCT	RD_PUNC	_	24	dep	_	ChunkId=9|ChunkType=NP|SpanStart=190
+20	विधि	विधि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	द्वारा	द्वारा	ADP	PSP	AdpType=Post	24	dep	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	,	&comma	PUNCT	RD_PUNC	_	24	dep	_	ChunkId=10|ChunkType=NP|SpanStart=220
+23	अवधारित	अवधारित	ADJ	JJ	_	24	dep	_	ChunkId=11|ChunkType=JJP|SpanStart=230
+24	करे	कर	VERB	V_VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=ए|Tam=e|SpanStart=240
+25	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=13|ChunkType=CCP|SpanStart=250
+26	जब	जब	PR_PRL	PR_PRL	Case=Acc	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=260
+27	तक	तक	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=270
+28	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=280
+29	संबंध	संबंध	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=290
+30	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=300
+31	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=310
+32	प्रकार	प्रकार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=320
+33	उपबंध	उपबंध	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=330
+34	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=18|ChunkType=VGF|SpanStart=340
+35	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=350
+36	जाता	जा	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=360
+37	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Tam=0|SpanStart=370
+38	तब	तब	PRON	PR_PRP	Case=Acc	71	dep	_	ChunkId=19|ChunkType=NP|SpanStart=380
+39	तक	तक	ADP	PSP	AdpType=Post	71	dep	_	ChunkId=19|ChunkType=NP|SpanStart=390
+40	ऐसे	ऐसा	DET	DM_DMD	Case=Nom|Gender=Masc|Number=Plur|Person=3	71	dep	_	ChunkId=20|ChunkType=NP|SpanStart=400
+41	भत्ते	भत्ता	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	71	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=410
+42	,	&comma	PUNCT	RD_PUNC	_	71	dep	_	ChunkId=20|ChunkType=NP|SpanStart=420
+43	ऐसी	ऐसा	DET	DM_DMD	Case=Acc|Gender=Fem|Person=3	0	dep	_	ChunkId=21|ChunkType=NP|SpanStart=430
+44	दरों	दर	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=NP|Tam=0|SpanStart=440
+45	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=21|ChunkType=NP|SpanStart=450
+46	और	और	CCONJ	CC_CCD	_	71	dep	_	ChunkId=22|ChunkType=CCP|SpanStart=460
+47	ऐसी	ऐसा	DET	DM_DMD	Case=Acc|Gender=Fem|Person=3	0	dep	_	ChunkId=23|ChunkType=NP|SpanStart=470
+48	शर्तों	शर्त	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=23|ChunkType=NP|Tam=0|SpanStart=480
+49	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=23|ChunkType=NP|SpanStart=490
+50	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=23|ChunkType=NP|SpanStart=500
+51	जो	जो	PR_PRL	PR_PRL	Case=Nom|Mood=Imp|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=24|ChunkType=NP|Tam=0|SpanStart=510
+52	भारत	भारत	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=25|ChunkType=NP|Tam=0|SpanStart=520
+53	डोमिनियन	डोमिनियन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=25|ChunkType=NP|Tam=0|SpanStart=530
+54	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=25|ChunkType=NP|SpanStart=540
+55	संविधान	संविधान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=26|ChunkType=NP|Tam=0|SpanStart=550
+56	सभा	सभा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=26|ChunkType=NP|Tam=0|SpanStart=560
+57	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=26|ChunkType=NP|SpanStart=570
+58	सदस्यों	सदस्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=27|ChunkType=NP|Tam=0|SpanStart=580
+59	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=27|ChunkType=NP|SpanStart=590
+60	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=28|ChunkType=NP|SpanStart=600
+61	संविधान	संविधान	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=28|ChunkType=NP|Tam=0|SpanStart=610
+62	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=28|ChunkType=NP|SpanStart=620
+63	प्रारंभ	प्रारंभ	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=29|ChunkType=NP|Tam=0|SpanStart=630
+64	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=29|ChunkType=NP|SpanStart=640
+65	ठीक	ठीक	ADJ	JJ	_	0	dep	_	ChunkId=29|ChunkType=NP|SpanStart=650
+66	पहले	पहले	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=29|ChunkType=NP|SpanStart=660
+67	लागू	लागू	ADJ	JJ	_	0	dep	_	ChunkId=30|ChunkType=JJP|SpanStart=670
+68	थीं	था	VERB	V_VM	Gender=Fem|Mood=Imp|Number=Plur|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=31|ChunkType=VGF|Tam=0|SpanStart=680
+69	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=31|ChunkType=VGF|SpanStart=690
+70	प्राप्त	प्राप्त	ADJ	JJ	_	71	dep	_	ChunkId=32|ChunkType=JJP|SpanStart=700
+71	करने	कर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	nmod	_	ChunkId=33|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=710
+72	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=33|ChunkType=VGNN|SpanStart=720
+73	हकदार	हकदार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=34|ChunkType=NP|Tam=0|SpanStart=730
+74	होंगे	हो	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=35|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=740
+75	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=36|ChunkType=BLK|SpanStart=750
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s34
+# text = 
+1	विधायी	विधायी	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	प्रक्रिया	प्रक्रिया	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s35
+# text = 
+1	107.	107.	X	RD_UNK	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	विधेयकों	विधेयक	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	पुरःस्थापन	पुरःस्थापन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=4|ChunkType=CCP|SpanStart=50
+6	पारित	पारित	ADJ	JJ	_	7	dep	_	ChunkId=5|ChunkType=JJP|SpanStart=60
+7	किए	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|VerbForm=Part|Voice=Act	5	dep	_	ChunkId=6|ChunkType=VGNN|Vib=या|Tam=yA|SpanStart=70
+8	जाने	जा	AUX	V_VAUX	Case=Acc|VerbForm=Inf|Voice=Act	5	dep	_	ChunkId=6|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=80
+9	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	5	dep	_	ChunkId=6|ChunkType=VGNN|SpanStart=90
+10	संबंध	संबंध	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	5	dep	_	ChunkId=6|ChunkType=VGNN|SpanStart=100
+11	में	में	ADP	PSP	AdpType=Post	5	dep	_	ChunkId=6|ChunkType=VGNN|SpanStart=110
+12	उपबंध	उपबंध	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=120
+13	|	|	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=8|ChunkType=BLK
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s36
+# text = 
+1	(	(	PUNCT	RD_SYM	_	34	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	1	1	X	RD_UNK	_	34	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	34	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	धन	धन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	विधेयकों	विधेयक	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	और	और	CCONJ	CC_CCD	_	22	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=60
+7	अन्य	अन्य	ADJ	JJ	Case=Acc	6	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	वित्त	वित्त	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	विधेयकों	विधेयक	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	6	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	संबंध	संबंध	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	6	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	में	में	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=4|ChunkType=NP|SpanStart=120
+13	अनुच्छेद	अनुच्छेद	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=130
+14	109	109	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=150
+16	अनुच्छेद	अनुच्छेद	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	117	117	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=170
+18	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=180
+19	उपबंधों	उपबंध	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=190
+20	के	के	ADP	PSP	AdpType=Post	22	dep	_	ChunkId=8|ChunkType=NP|SpanStart=200
+21	अधीन	अधीन	ADP	PSP	AdpType=Post	22	dep	_	ChunkId=8|ChunkType=NP|SpanStart=210
+22	रहते	रह	VERB	V_VM	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	34	dep	_	ChunkId=9|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=220
+23	हुए	हो	AUX	V_VAUX	Aspect=Perf|VerbForm=Part|Voice=Act	34	dep	_	ChunkId=9|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=230
+24	,	&comma	PUNCT	RD_PUNC	_	34	dep	_	ChunkId=9|ChunkType=VGNF|SpanStart=240
+25	कोई	कोई	DM_DMI	DM_DMI	Case=Nom|Number=Sing|Person=3	34	dep	_	ChunkId=10|ChunkType=NP|SpanStart=250
+26	विधेयक	विधेयक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	34	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=260
+27	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=270
+28	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=280
+29	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	34	dep	_	ChunkId=12|ChunkType=NP|SpanStart=290
+30	भी	भी	PART	RP_RPD	_	34	dep	_	ChunkId=12|ChunkType=NP|SpanStart=300
+31	सदन	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	34	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=310
+32	में	में	ADP	PSP	AdpType=Post	34	dep	_	ChunkId=12|ChunkType=NP|SpanStart=320
+33	आरंभ	आरंभ	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	34	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=330
+34	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGF|Tam=0|SpanStart=340
+35	सकेगा	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=350
+36	।	।	PUNCT	RD_PUNC	_	34	dep	_	ChunkId=15|ChunkType=BLK|SpanStart=360
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s37
+# text = 
+1	(	(	PUNCT	RD_SYM	_	27	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	2	2	X	RD_UNK	_	27	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	27	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	अनुच्छेद	अनुच्छेद	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	108	108	NUM	QT_QTC	Case=Acc|NumType=Card	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=60
+7	अनुच्छेद	अनुच्छेद	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	109	109	NUM	QT_QTC	Case=Acc|NumType=Card	6	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	6	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	उपबंधों	उपबंध	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	के	के	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	अधीन	अधीन	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	रहते	रह	VERB	V_VM	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	27	dep	_	ChunkId=6|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=130
+14	हुए	हो	AUX	V_VAUX	Aspect=Perf|VerbForm=Part|Voice=Act	27	dep	_	ChunkId=6|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=140
+15	,	&comma	PUNCT	RD_PUNC	_	27	dep	_	ChunkId=6|ChunkType=VGNF|SpanStart=150
+16	कोई	कोई	DM_DMI	DM_DMI	Case=Nom|Number=Sing|Person=3	27	dep	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	विधेयक	विधेयक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	27	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=170
+18	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=180
+19	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=190
+20	सदनों	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=200
+21	द्वारा	द्वारा	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=210
+22	तब	तब	PRON	PR_PRP	Case=Acc	27	dep	_	ChunkId=10|ChunkType=NP|SpanStart=220
+23	तक	तक	ADP	PSP	AdpType=Post	27	dep	_	ChunkId=10|ChunkType=NP|SpanStart=230
+24	पारित	पारित	ADJ	JJ	_	0	dep	_	ChunkId=11|ChunkType=JJP|SpanStart=240
+25	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	27	dep	_	ChunkId=12|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=250
+26	गया	जा	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	27	dep	_	ChunkId=12|ChunkType=VGNF|Vib=या1|Tam=yA1|SpanStart=260
+27	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=13|ChunkType=VGF|SpanStart=270
+28	समझा	समझ	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=280
+29	जाएगा	जा	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=290
+30	जब	जब	PR_PRL	PR_PRL	Case=Acc	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=300
+31	तक	तक	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=310
+32	संशोधन	संशोधन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=320
+33	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=330
+34	बिना	बिना	PART	RP_NEG	_	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=340
+35	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=16|ChunkType=CCP|SpanStart=350
+36	केवल	केवल	PART	RP_RPD	_	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=360
+37	ऐसे	ऐसा	DET	DM_DMD	Case=Acc|Gender=Masc|Number=Plur|Person=3	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=370
+38	संशोधनों	संशोधन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=380
+39	सहित	सहित	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=390
+40	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=400
+41	जिन	जो	PR_PRL	PR_PRL	Case=Acc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=410
+42	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=420
+43	दोनों	दो	NUM	QT_QTC	Case=Nom|NumType=Card|Number=Plur	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=430
+44	सदन	सदन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=440
+45	सहमत	सहमत	ADJ	JJ	_	0	dep	_	ChunkId=20|ChunkType=JJP|SpanStart=450
+46	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=VGF|Tam=0|SpanStart=460
+47	गए	जा	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=21|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=470
+48	हैं	है	AUX	V_VAUX	Mood=Imp|Number=Plur|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=VGF|Tam=0|SpanStart=480
+49	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=21|ChunkType=VGF|SpanStart=490
+50	उस	वह	PRON	PR_PRP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=22|ChunkType=NP|Tam=0|SpanStart=500
+51	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=22|ChunkType=NP|SpanStart=510
+52	दोनों	दो	NUM	QT_QTC	Case=Nom|NumType=Card|Number=Plur	0	dep	_	ChunkId=23|ChunkType=NP|SpanStart=520
+53	सदन	सदन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=23|ChunkType=NP|Tam=0|SpanStart=530
+54	सहमत	सहमत	ADJ	JJ	_	0	dep	_	ChunkId=24|ChunkType=JJP|SpanStart=540
+55	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=25|ChunkType=VGF|SpanStart=550
+56	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=25|ChunkType=VGF|Tam=0|SpanStart=560
+57	जाते	जा	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=25|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=570
+58	हैं	है	AUX	V_VAUX	Mood=Imp|Number=Plur|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=25|ChunkType=VGF|Tam=0|SpanStart=580
+59	।	।	PUNCT	RD_PUNC	_	27	dep	_	ChunkId=26|ChunkType=BLK|SpanStart=590
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s38
+# text = 
+1	(	(	PUNCT	RD_SYM	_	14	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	3	3	X	RD_UNK	_	14	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	14	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	संसद	संसद	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	में	में	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	लंबित	लंबित	ADJ	JJ	Case=Acc	14	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	विधेयक	विधेयक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	सदनों	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	सत्रावसान	सत्रावसान	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	14	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	कारण	कारण	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	14	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	व्यपगत	व्यपगत	ADJ	JJ	_	14	dep	_	ChunkId=6|ChunkType=JJP|SpanStart=130
+14	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=7|ChunkType=VGF|SpanStart=140
+15	होगा	हो	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=150
+16	।	।	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=160
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s39
+# text = 
+1	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	4	4	X	RD_UNK	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	राज्यसभा	राज्यसभा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	लंबित	लंबित	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	विधेयक	विधेयक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	जिसको	जो	PR_PRL	PR_PRL	Case=Acc|Number=Sing|Person=3	13	dep	_	ChunkId=4|ChunkType=NP|Vib=को|Tam=ko|SpanStart=90
+10	लोकसभा	लोकसभा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	ने	ने	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	पारित	पारित	ADJ	JJ	_	13	dep	_	ChunkId=6|ChunkType=JJP|SpanStart=120
+13	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=7|ChunkType=VGF|SpanStart=130
+14	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=140
+15	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Tam=0|SpanStart=150
+16	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=7|ChunkType=VGF|SpanStart=160
+17	लोकसभा	लोकसभा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=170
+18	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=180
+19	विघटन	विघटन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=190
+20	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=200
+21	व्यपगत	व्यपगत	ADJ	JJ	_	0	dep	_	ChunkId=10|ChunkType=JJP|SpanStart=210
+22	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=11|ChunkType=VGF|SpanStart=220
+23	होगा	हो	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=230
+24	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=240
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s40
+# text = 
+1	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	5	5	X	RD_UNK	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	कोई	कोई	DM_DMI	DM_DMI	Case=Nom|Number=Sing|Person=3	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	विधेयक	विधेयक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	जो	जो	PR_PRL	PR_PRL	Case=Nom|Mood=Imp|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	लोकसभा	लोकसभा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	लंबित	लंबित	ADJ	JJ	_	11	dep	_	ChunkId=5|ChunkType=JJP|SpanStart=100
+11	है	है	VERB	V_VM	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=6|ChunkType=VGF|Tam=0|SpanStart=110
+12	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=120
+13	जो	जो	PR_PRL	PR_PRL	Case=Nom|Mood=Imp|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=130
+14	लोकसभा	लोकसभा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=140
+15	द्वारा	द्वारा	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=150
+16	पारित	पारित	ADJ	JJ	_	0	dep	_	ChunkId=10|ChunkType=JJP|SpanStart=160
+17	कर	कर	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=11|ChunkType=VGF|Tam=0|SpanStart=170
+18	दिया	दे	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	dep	_	ChunkId=11|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=180
+19	गया	जा	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	dep	_	ChunkId=11|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=190
+20	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=11|ChunkType=VGF|Tam=0|SpanStart=200
+21	और	और	CCONJ	CC_CCD	_	4	dep	_	ChunkId=12|ChunkType=CCP|SpanStart=210
+22	राज्यसभा	राज्यसभा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=220
+23	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=230
+24	लंबित	लंबित	ADJ	JJ	_	0	dep	_	ChunkId=14|ChunkType=JJP|SpanStart=240
+25	है	है	VERB	V_VM	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Tam=0|SpanStart=250
+26	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=15|ChunkType=VGF|SpanStart=260
+27	अनुच्छेद	अनुच्छेद	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=270
+28	108	108	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=280
+29	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=290
+30	उपबंधों	उपबंध	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	33	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=300
+31	के	के	ADP	PSP	AdpType=Post	33	dep	_	ChunkId=17|ChunkType=NP|SpanStart=310
+32	अधीन	अधीन	ADP	PSP	AdpType=Post	33	dep	_	ChunkId=17|ChunkType=NP|SpanStart=320
+33	रहते	रह	VERB	V_VM	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=330
+34	हुए	हो	AUX	V_VAUX	Aspect=Perf|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=340
+35	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=18|ChunkType=VGNF|SpanStart=350
+36	लोकसभा	लोकसभा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=360
+37	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=370
+38	विघटन	विघटन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=380
+39	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=390
+40	व्यपगत	व्यपगत	ADJ	JJ	_	0	dep	_	ChunkId=21|ChunkType=JJP|SpanStart=400
+41	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=22|ChunkType=VGF|Tam=0|SpanStart=410
+42	जाएगा	जा	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=22|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=420
+43	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=23|ChunkType=BLK|SpanStart=430
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s41
+# text = 
+1	108.	108.	X	RD_UNK	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	कुछ	कुछ	DET	QT_QTF	_	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	दशाओं	दशा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	दोनों	दो	NUM	QT_QTC	Case=Acc|NumType=Card|Number=Plur	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	सदनों	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	संयुक्त	संयुक्त	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	बैठक	बैठक	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	|	|	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=5|ChunkType=BLK
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s42
+# text = 
+1	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	1	1	X	RD_UNK	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	यदि	यदि	SCONJ	CC_CCS	_	134	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=40
+5	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	विधेयक	विधेयक	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	एक	एक	NUM	QT_QTC	NumType=Card	12	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	सदन	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	द्वारा	द्वारा	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	पारित	पारित	ADJ	JJ	_	12	dep	_	ChunkId=5|ChunkType=JJP|SpanStart=110
+12	किए	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGNN|Vib=या|Tam=yA|SpanStart=120
+13	जाने	जा	AUX	V_VAUX	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=130
+14	और	और	CCONJ	CC_CCD	_	31	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=140
+15	दूसरे	दूसरा	ADJ	QT_QTO	Case=Acc|Gender=Masc	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+16	सदन	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	पारेषित	पारेषित	ADJ	JJ	_	0	dep	_	ChunkId=9|ChunkType=JJP|SpanStart=180
+19	किए	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGNN|Vib=या|Tam=yA|SpanStart=190
+20	जाने	जा	AUX	V_VAUX	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=200
+21	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=VGNN|SpanStart=210
+22	पश्चात	पश्चात	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=10|ChunkType=VGNN|SpanStart=220
+23	(	(	PUNCT	RD_SYM	_	31	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=10
+24	क	क	X	RD_UNK	_	31	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=20
+25	)	)	PUNCT	RD_SYM	_	31	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=30
+26	दूसरे	दूसरा	ADJ	QT_QTO	Case=Acc|Gender=Masc	31	dep	_	ChunkId=12|ChunkType=NP|SpanStart=40
+27	सदन	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	31	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=50
+28	द्वारा	द्वारा	ADP	PSP	AdpType=Post	31	dep	_	ChunkId=12|ChunkType=NP|SpanStart=60
+29	विधेयक	विधेयक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	31	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=70
+30	अस्वीकार	अस्वीकर	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	31	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=80
+31	कर	कर	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Tam=0|SpanStart=90
+32	दिया	दे	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=100
+33	गया	जा	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=110
+34	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Tam=0|SpanStart=120
+35	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=15|ChunkType=VGF|SpanStart=130
+36	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=16|ChunkType=CCP|SpanStart=140
+37	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=17|ChunkType=BLK|SpanStart=10
+38	ख	ख	X	RD_UNK	_	0	dep	_	ChunkId=17|ChunkType=BLK|SpanStart=20
+39	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=17|ChunkType=BLK|SpanStart=30
+40	विधेयक	विधेयक	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=40
+41	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=50
+42	किए	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|VerbForm=Part|Voice=Act	0	nmod	_	ChunkId=19|ChunkType=VGNN|Vib=या|Tam=yA|SpanStart=60
+43	जाने	जा	AUX	V_VAUX	Case=Acc|VerbForm=Inf|Voice=Act	0	nmod	_	ChunkId=19|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=70
+44	वाले	वाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=19|ChunkType=VGNN|SpanStart=80
+45	संशोधनों	संशोधन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=90
+46	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=100
+47	बारे	बारे	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=110
+48	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=120
+49	दोनों	दो	NUM	QT_QTC	Case=Nom|NumType=Card|Number=Plur	0	dep	_	ChunkId=21|ChunkType=NP|SpanStart=130
+50	सदन	सदन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=NP|Tam=0|SpanStart=140
+51	अंतिम	अंतिम	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=22|ChunkType=NP|SpanStart=150
+52	रूप	रूप	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=22|ChunkType=NP|Tam=0|SpanStart=160
+53	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=22|ChunkType=NP|SpanStart=170
+54	असहमत	असहमत	ADJ	JJ	_	0	dep	_	ChunkId=23|ChunkType=JJP|SpanStart=180
+55	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=24|ChunkType=VGF|Tam=0|SpanStart=190
+56	गए	जा	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=24|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=200
+57	हैं	है	AUX	V_VAUX	Mood=Imp|Number=Plur|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=24|ChunkType=VGF|Tam=0|SpanStart=210
+58	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=24|ChunkType=VGF|SpanStart=220
+59	या	या	CCONJ	CC_CCD	_	59	dep	_	ChunkId=25|ChunkType=CCP|SpanStart=230
+60	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=26|ChunkType=BLK|SpanStart=10
+61	ग	ग	X	RD_UNK	_	0	dep	_	ChunkId=26|ChunkType=BLK|SpanStart=20
+62	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=26|ChunkType=BLK|SpanStart=30
+63	दूसरे	दूसरा	ADJ	QT_QTO	Case=Acc|Gender=Masc	0	dep	_	ChunkId=27|ChunkType=NP|SpanStart=40
+64	सदन	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=27|ChunkType=NP|Tam=0|SpanStart=50
+65	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=27|ChunkType=NP|SpanStart=60
+66	विधेयक	विधेयक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=28|ChunkType=NP|Tam=0|SpanStart=70
+67	प्राप्त	प्राप्त	ADJ	JJ	_	0	dep	_	ChunkId=29|ChunkType=JJP|SpanStart=80
+68	होने	हो	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=30|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=90
+69	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=30|ChunkType=VGNN|SpanStart=100
+70	तारीख	तारीख	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=31|ChunkType=NP|Tam=0|SpanStart=110
+71	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=31|ChunkType=NP|SpanStart=120
+72	उसके	वह	PRON	PR_PRP	Case=Acc|Number=Sing|Person=3	76	dep	_	ChunkId=32|ChunkType=NP|Vib=के|Tam=ke|SpanStart=130
+73	द्वारा	द्वारा	ADP	PSP	AdpType=Post	76	dep	_	ChunkId=32|ChunkType=NP|SpanStart=140
+74	विधेयक	विधेयक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	76	dep	_	ChunkId=33|ChunkType=NP|Tam=0|SpanStart=150
+75	पारित	पारित	ADJ	JJ	_	76	dep	_	ChunkId=34|ChunkType=JJP|SpanStart=160
+76	किए	कर	VERB	V_VM	Aspect=Perf|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=35|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=170
+77	बिना	बिना	PART	RP_NEG	_	0	dep	_	ChunkId=35|ChunkType=VGNF|SpanStart=180
+78	छह	छह	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=36|ChunkType=NP|SpanStart=190
+79	मास	मास	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=36|ChunkType=NP|Tam=0|SpanStart=200
+80	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=36|ChunkType=NP|SpanStart=210
+81	अधिक	अधिक	DET	QT_QTF	_	0	dep	_	ChunkId=37|ChunkType=JJP|SpanStart=220
+82	बीत	बीत	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=38|ChunkType=VGF|Tam=0|SpanStart=230
+83	गए	जा	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=38|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=240
+84	हैं	है	AUX	V_VAUX	Mood=Imp|Number=Plur|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=38|ChunkType=VGF|Tam=0|SpanStart=250
+85	तो	तो	PUNCT	RD_PUNC	_	135	dep	_	ChunkId=39|ChunkType=CCP|SpanStart=260
+86	उस	वह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	134	dep	_	ChunkId=40|ChunkType=NP|SpanStart=20
+87	दशा	दशा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	134	dep	_	ChunkId=40|ChunkType=NP|Tam=0|SpanStart=30
+88	के	के	ADP	PSP	AdpType=Post	134	dep	_	ChunkId=40|ChunkType=NP|SpanStart=40
+89	सिवाय	सिवाय	ADP	PSP	AdpType=Post	134	dep	_	ChunkId=40|ChunkType=NP|SpanStart=50
+90	जिसमें	जो	PR_PRL	PR_PRL	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=41|ChunkType=NP|Vib=में|Tam=meM|SpanStart=60
+91	लोकसभा	लोकसभा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=42|ChunkType=NP|Tam=0|SpanStart=70
+92	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=42|ChunkType=NP|SpanStart=80
+93	विघटन	विघटन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=43|ChunkType=NP|Tam=0|SpanStart=90
+94	होने	हो	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=44|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=100
+95	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=44|ChunkType=VGNN|SpanStart=110
+96	कारण	कारण	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=44|ChunkType=VGNN|SpanStart=120
+97	विधेयक	विधेयक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=45|ChunkType=NP|Tam=0|SpanStart=130
+98	व्यपगत	व्यपगत	ADJ	JJ	_	0	dep	_	ChunkId=46|ChunkType=JJP|SpanStart=140
+99	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=47|ChunkType=VGF|Tam=0|SpanStart=150
+100	गया	जा	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=47|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=160
+101	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=47|ChunkType=VGF|Tam=0|SpanStart=170
+102	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=47|ChunkType=VGF|SpanStart=180
+103	राष्ट्रपति	राष्ट्रपति	PROPN	N_NNP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	134	dep	_	ChunkId=48|ChunkType=NP|Tam=0|SpanStart=190
+104	विधेयक	विधेयक	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=49|ChunkType=NP|Tam=0|SpanStart=200
+105	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=49|ChunkType=NP|SpanStart=210
+106	विचार	विचार	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=50|ChunkType=NP|Tam=0|SpanStart=220
+107	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=50|ChunkType=NP|SpanStart=230
+108	विमर्श	विमर्श	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=50|ChunkType=NP|Tam=0|SpanStart=240
+109	करने	कर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=51|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=250
+110	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=52|ChunkType=CCP|SpanStart=260
+111	मत	मत	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=53|ChunkType=NP|Tam=0|SpanStart=270
+112	देने	दे	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=54|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=280
+113	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=54|ChunkType=VGNN|SpanStart=290
+114	प्रयोजन	प्रयोजन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=55|ChunkType=NP|Tam=0|SpanStart=300
+115	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=55|ChunkType=NP|SpanStart=310
+116	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=55|ChunkType=NP|SpanStart=320
+117	सदनों	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=56|ChunkType=NP|Tam=0|SpanStart=330
+118	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=56|ChunkType=NP|SpanStart=340
+119	संयुक्त	संयुक्त	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=57|ChunkType=NP|SpanStart=350
+120	बैठक	बैठक	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=57|ChunkType=NP|Tam=0|SpanStart=360
+121	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=57|ChunkType=NP|SpanStart=370
+122	अधिवेशित	अधिवेशित	ADJ	JJ	_	0	dep	_	ChunkId=58|ChunkType=JJP|SpanStart=380
+123	होने	हो	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=59|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=390
+124	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=59|ChunkType=VGNN|SpanStart=400
+125	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=59|ChunkType=VGNN|SpanStart=410
+126	आहूत	आहूत	ADJ	JJ	_	0	dep	_	ChunkId=60|ChunkType=JJP|SpanStart=420
+127	करने	कर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=61|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=430
+128	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=61|ChunkType=VGNN|SpanStart=440
+129	अपने	अपना	PRON	PR_PRF	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=62|ChunkType=NP|Tam=0|SpanStart=450
+130	आशय	आशय	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=63|ChunkType=NP|Tam=0|SpanStart=460
+131	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=63|ChunkType=NP|SpanStart=470
+132	सूचना	सूचना	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	134	dep	_	ChunkId=64|ChunkType=NP|Tam=0|SpanStart=480
+133	,	&comma	PUNCT	RD_PUNC	_	134	dep	_	ChunkId=64|ChunkType=NP|SpanStart=490
+134	NULL	NULL	VERB	V_VM	_	0	dep	_	ChunkId=65|ChunkType=NULL__VGF
+135	NULL	NULL	CCONJ	CC_CCD	_	0	dep	_	ChunkId=66|ChunkType=NULL__CCP
+136	यदि	यदि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=67|ChunkType=CCP|SpanStart=500
+137	वे	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=68|ChunkType=NP|Tam=0|SpanStart=510
+138	बैठक	बैठक	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=69|ChunkType=NP|Tam=0|SpanStart=520
+139	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=69|ChunkType=NP|SpanStart=530
+140	हैं	है	VERB	V_VM	Mood=Imp|Number=Sing|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=70|ChunkType=VGF|Tam=0|SpanStart=540
+141	तो	तो	SCONJ	CC_CCS	_	0	dep	_	ChunkId=71|ChunkType=CCP|SpanStart=550
+142	संदेश	संदेश	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=72|ChunkType=NP|Tam=0|SpanStart=560
+143	द्वारा	द्वारा	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=72|ChunkType=NP|SpanStart=570
+144	NULL	NULL	VERB	V_VM	_	0	dep	_	ChunkId=73|ChunkType=NULL__VGF
+145	या	या	CCONJ	CC_CCD	_	135	dep	_	ChunkId=74|ChunkType=CCP|SpanStart=580
+146	यदि	यदि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=75|ChunkType=CCP|SpanStart=590
+147	वे	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=76|ChunkType=NP|Tam=0|SpanStart=600
+148	बैठक	बैठक	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=77|ChunkType=NP|Tam=0|SpanStart=610
+149	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=77|ChunkType=NP|SpanStart=620
+150	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=78|ChunkType=VGF|SpanStart=630
+151	हैं	है	VERB	V_VM	Mood=Imp|Number=Sing|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=78|ChunkType=VGF|Tam=0|SpanStart=640
+152	तो	तो	SCONJ	CC_CCS	_	0	dep	_	ChunkId=79|ChunkType=CCP|SpanStart=650
+153	लोक	लोक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=80|ChunkType=NP|Tam=0|SpanStart=660
+154	अधिसूचना	अधिसूचना	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=80|ChunkType=NP|Tam=0|SpanStart=670
+155	द्वारा	द्वारा	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=80|ChunkType=NP|SpanStart=680
+156	देगा	दे	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=81|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=690
+157	।	।	PUNCT	RD_PUNC	_	135	dep	_	ChunkId=82|ChunkType=BLK|SpanStart=700
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s43
+# text = 
+1	संविधान	संविधान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	चवालीसवां	चवालीसवाँ	ADJ	QT_QTO	Case=Nom|Gender=Masc	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	संशोधन	संशोधन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अधिनियम	अधिनियम	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	1978	1978	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	धारा	धारा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	15	15	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	द्वारा	द्वारा	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=120
+13	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	20	20	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=150
+16	6	6	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=160
+17	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=170
+18	1979	1979	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=180
+19	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=190
+20	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=200
+21	कुछ	कुछ	DET	QT_QTF	_	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=210
+22	शब्दों	शब्द	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=220
+23	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=230
+24	स्थान	स्थान	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=240
+25	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=250
+26	प्रतिस्थापित	प्रतिस्थापित	ADJ	JJ	_	0	dep	_	ChunkId=7|ChunkType=JJP|SpanStart=260
+27	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=270
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s44
+# text = 
+1	परन्तु	परन्तु	CCONJ	CC_CCD	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	उस	वह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	खंड	खंड	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	कोई	कोई	DM_DMI	DM_DMI	Case=Nom|Number=Sing|Person=3	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	बात	बात	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	धन	धन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	विधेयक	विधेयक	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	को	को	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	लागू	लागू	ADJ	JJ	_	11	dep	_	ChunkId=5|ChunkType=JJP|SpanStart=100
+11	नहीं	नहीं	PART	RP_NEG	_	1	dep	_	ChunkId=6|ChunkType=VGF|SpanStart=110
+12	होगी	हो	VERB	V_VM	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	dep	_	ChunkId=6|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=120
+13	।	।	PUNCT	RD_PUNC	_	1	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=130
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s45
+# text = 
+1	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	2	2	X	RD_UNK	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	छह	छह	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	मास	मास	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	उसी	वह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	0	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	अवधि	अवधि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	गणना	गणना	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	करने	कर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=110
+12	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=VGNN|SpanStart=120
+13	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=5|ChunkType=VGNN|SpanStart=130
+14	जो	जो	PR_PRL	PR_PRL	Case=Nom|Mood=Imp|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=140
+15	खंड	खंड	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=150
+16	(	(	PUNCT	RD_SYM	_	21	dep	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	1	1	NUM	QT_QTC	Case=Acc|NumType=Card	21	dep	_	ChunkId=7|ChunkType=NP|SpanStart=170
+18	)	)	PUNCT	RD_SYM	_	21	dep	_	ChunkId=7|ChunkType=NP|SpanStart=180
+19	में	में	ADP	PSP	AdpType=Post	21	dep	_	ChunkId=7|ChunkType=NP|SpanStart=190
+20	निर्दिष्ट	निर्दिष्ट	ADJ	JJ	_	21	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=200
+21	है	है	VERB	V_VM	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Tam=0|SpanStart=210
+22	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=9|ChunkType=VGF|SpanStart=220
+23	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=230
+24	ऐसी	ऐसा	DET	DM_DMD	Case=Acc|Gender=Fem|Person=3	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=240
+25	अवधि	अवधि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=250
+26	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=260
+27	हिसाब	हिसाब	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=270
+28	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=280
+29	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=12|ChunkType=VGF|SpanStart=290
+30	लिया	ले	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=300
+31	जाएगा	जा	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=310
+32	जिसमें	जो	PR_PRL	PR_PRL	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=13|ChunkType=NP|Vib=में|Tam=meM|SpanStart=320
+33	उक्त	उक्त	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=330
+34	खंड	खंड	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=340
+35	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=350
+36	उपखंड	उपखंड	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=360
+37	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=370
+38	ग	ग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=380
+39	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=390
+40	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=400
+41	निर्दिष्ट	निर्दिष्ट	ADJ	JJ	Case=Nom	0	nmod	_	ChunkId=16|ChunkType=JJP|SpanStart=410
+42	सदन	सदन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	44	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=420
+43	सत्रावसित	सत्रावसित	ADJ	JJ	_	44	dep	_	ChunkId=18|ChunkType=JJP|SpanStart=430
+44	NULL	NULL	VERB	V_VM	_	0	dep	_	ChunkId=19|ChunkType=NULL__VGF
+45	या	या	CCONJ	CC_CCD	_	0	dep	_	ChunkId=20|ChunkType=CCP|SpanStart=440
+46	निरंतर	निरंतर	ADV	RB	_	0	dep	_	ChunkId=21|ChunkType=RBP|SpanStart=450
+47	चार	चार	NUM	QT_QTC	Case=Acc|NumType=Card	0	dep	_	ChunkId=22|ChunkType=NP|SpanStart=460
+48	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=22|ChunkType=NP|SpanStart=470
+49	अधिक	अधिक	DET	QT_QTF	_	0	nmod	_	ChunkId=23|ChunkType=JJP|SpanStart=480
+50	दिनों	दिन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=24|ChunkType=NP|Tam=0|SpanStart=490
+51	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=24|ChunkType=NP|SpanStart=500
+52	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=24|ChunkType=NP|SpanStart=510
+53	स्थगित	स्थगित	ADJ	JJ	_	0	dep	_	ChunkId=25|ChunkType=JJP|SpanStart=520
+54	कर	कर	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	45	dep	_	ChunkId=26|ChunkType=VGF|Tam=0|SpanStart=530
+55	दिया	दे	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	45	dep	_	ChunkId=26|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=540
+56	जाता	जा	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	45	dep	_	ChunkId=26|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=550
+57	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	45	dep	_	ChunkId=26|ChunkType=VGF|Tam=0|SpanStart=560
+58	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=27|ChunkType=BLK|SpanStart=570
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s46
+# text = 
+1	(	(	PUNCT	RD_SYM	_	29	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=10
+2	3	3	X	RD_UNK	_	29	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	29	dep	_	ChunkId=1|ChunkType=BLK|SpanStart=30
+4	यदि	यदि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=40
+5	राष्ट्रपति	राष्ट्रपति	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	ने	ने	ADP	PSP	AdpType=Post	29	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	खंड	खंड	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	(	(	PUNCT	RD_SYM	_	29	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	1	1	NUM	QT_QTC	Case=Acc|NumType=Card	29	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	)	)	PUNCT	RD_SYM	_	29	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	के	के	ADP	PSP	AdpType=Post	29	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	अधीन	अधीन	ADP	PSP	AdpType=Post	29	dep	_	ChunkId=4|ChunkType=NP|SpanStart=120
+13	सदनों	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=130
+14	को	को	ADP	PSP	AdpType=Post	29	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	संयुक्त	संयुक्त	ADJ	JJ	Case=Acc	19	dep	_	ChunkId=6|ChunkType=NP|SpanStart=150
+16	बैठक	बैठक	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=160
+17	में	में	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=6|ChunkType=NP|SpanStart=170
+18	अधिवेशित	अधिवेशित	ADJ	JJ	_	19	dep	_	ChunkId=7|ChunkType=JJP|SpanStart=180
+19	होने	हो	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	29	dep	_	ChunkId=8|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=190
+20	के	के	ADP	PSP	AdpType=Post	29	dep	_	ChunkId=8|ChunkType=VGNN|SpanStart=200
+21	लिए	लिए	ADP	PSP	AdpType=Post	29	dep	_	ChunkId=8|ChunkType=VGNN|SpanStart=210
+22	आहूत	आहूत	ADJ	JJ	_	0	dep	_	ChunkId=9|ChunkType=JJP|SpanStart=220
+23	करने	कर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=230
+24	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=10|ChunkType=VGNN|SpanStart=240
+25	अपने	अपना	PRON	PR_PRF	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=250
+26	आशय	आशय	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=260
+27	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=12|ChunkType=NP|SpanStart=270
+28	सूचना	सूचना	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=280
+29	दे	दे	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=14|ChunkType=VGF|Tam=0|SpanStart=290
+30	दी	दे	AUX	V_VAUX	Aspect=Perf|Gender=Fem|VerbForm=Part|Voice=Act	4	dep	_	ChunkId=14|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=300
+31	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=14|ChunkType=VGF|Tam=0|SpanStart=310
+32	तो	तो	SCONJ	CC_CCS	_	0	dep	_	ChunkId=15|ChunkType=CCP|SpanStart=320
+33	कोई	कोई	DM_DMI	DM_DMI	Case=Nom|Number=Sing|Person=3	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=330
+34	भी	भी	PART	RP_RPD	_	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=340
+35	सदन	सदन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=350
+36	विधेयक	विधेयक	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=360
+37	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=370
+38	आगे	आगे	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	nmod	_	ChunkId=18|ChunkType=NP|SpanStart=380
+39	कार्यवाही	कार्यवाही	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=390
+40	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=20|ChunkType=VGF|SpanStart=400
+41	करेगा	कर	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=410
+42	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=21|ChunkType=BLK|SpanStart=420
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s47
+# text = 
+1	किन्तु	किन्तु	CCONJ	CC_CCD	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	राष्ट्रपति	राष्ट्रपति	PROPN	N_NNP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	27	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	अपनी	अपना	PRON	PR_PRF	Case=Acc|Gender=Fem|Mood=Imp|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=30
+4	अधिसूचना	अधिसूचना	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=40
+5	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=50
+6	तारीख	तारीख	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	27	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=60
+7	के	के	ADP	PSP	AdpType=Post	27	dep	_	ChunkId=5|ChunkType=NP|SpanStart=70
+8	पश्चात	पश्चात	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	27	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	किसी	कोई	DM_DMI	DM_DMI	Case=Acc|Number=Sing|Person=3	27	dep	_	ChunkId=6|ChunkType=NP|SpanStart=90
+10	समय	समय	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	27	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=100
+11	सदनों	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	27	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=110
+12	को	को	ADP	PSP	AdpType=Post	27	dep	_	ChunkId=7|ChunkType=NP|SpanStart=120
+13	अधिसूचना	अधिसूचना	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=130
+14	में	में	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=8|ChunkType=NP|SpanStart=140
+15	विनिर्दिष्ट	विनिर्दिष्ट	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=9|ChunkType=JJP|SpanStart=150
+16	प्रयोजन	प्रयोजन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	27	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=160
+17	के	के	ADP	PSP	AdpType=Post	27	dep	_	ChunkId=10|ChunkType=NP|SpanStart=170
+18	लिए	लिए	ADP	PSP	AdpType=Post	27	dep	_	ChunkId=10|ChunkType=NP|SpanStart=180
+19	संयुक्त	संयुक्त	ADJ	JJ	Case=Acc	23	dep	_	ChunkId=11|ChunkType=NP|SpanStart=190
+20	बैठक	बैठक	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=200
+21	में	में	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=11|ChunkType=NP|SpanStart=210
+22	अधिवेशित	अधिवेशित	ADJ	JJ	_	23	dep	_	ChunkId=12|ChunkType=JJP|SpanStart=220
+23	होने	हो	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	27	dep	_	ChunkId=13|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=230
+24	के	के	ADP	PSP	AdpType=Post	27	dep	_	ChunkId=13|ChunkType=VGNN|SpanStart=240
+25	लिए	लिए	ADP	PSP	AdpType=Post	27	dep	_	ChunkId=13|ChunkType=VGNN|SpanStart=250
+26	आहूत	आहूत	ADJ	JJ	_	27	dep	_	ChunkId=14|ChunkType=JJP|SpanStart=260
+27	कर	कर	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Tam=0|SpanStart=270
+28	सकेगा	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=280
+29	और	और	CCONJ	CC_CCD	_	29	dep	_	ChunkId=16|ChunkType=CCP|SpanStart=290
+30	,	&comma	PUNCT	RD_PUNC	_	29	dep	_	ChunkId=16|ChunkType=CCP|SpanStart=300
+31	यदि	यदि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=17|ChunkType=CCP|SpanStart=310
+32	वह	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=320
+33	ऐसा	ऐसा	PRON	PR_PRP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=330
+34	करता	कर	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=340
+35	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=VGF|Tam=0|SpanStart=350
+36	तो	तो	SCONJ	CC_CCS	_	0	dep	_	ChunkId=21|ChunkType=CCP|SpanStart=360
+37	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=21|ChunkType=CCP|SpanStart=370
+38	सदन	सदन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=22|ChunkType=NP|Tam=0|SpanStart=380
+39	तदनुसार	तदनुसार	ADV	RB	_	0	dep	_	ChunkId=23|ChunkType=RBP|SpanStart=390
+40	अधिवेशित	अधिवेशित	ADJ	JJ	_	0	dep	_	ChunkId=24|ChunkType=JJP|SpanStart=400
+41	होंगे	हो	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=25|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=410
+42	।	।	PUNCT	RD_PUNC	_	1	dep	_	ChunkId=26|ChunkType=BLK|SpanStart=420
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s48
+# text = 
+1	(	(	PUNCT	RD_SYM	_	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	4	4	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	)	)	PUNCT	RD_SYM	_	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	यदि	यदि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=40
+5	सदनों	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	संयुक्त	संयुक्त	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	बैठक	बैठक	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	विधेयक	विधेयक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	ऐसे	ऐसा	DET	DM_DMD	Case=Acc|Gender=Masc|Number=Plur|Person=3	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=110
+12	संशोधनों	संशोधन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	सहित	सहित	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=130
+14	,	&comma	PUNCT	RD_PUNC	_	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	यदि	यदि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=150
+16	कोई	कोई	PR_PRI	PR_PRI	Case=Nom|Mood=Imp|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	हों	हो	VERB	V_VM	Mood=Imp|Number=Plur|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Tam=0|SpanStart=170
+18	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=9|ChunkType=VGF|SpanStart=180
+19	जिन	जो	PR_PRL	PR_PRL	Case=Acc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=190
+20	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=200
+21	संयुक्त	संयुक्त	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=210
+22	बैठक	बैठक	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=220
+23	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=230
+24	सहमति	सहमति	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=240
+25	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Tam=0|SpanStart=250
+26	जाती	जा	AUX	V_VAUX	Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=260
+27	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Tam=0|SpanStart=270
+28	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=13|ChunkType=VGF|SpanStart=280
+29	दोनों	दो	NUM	QT_QTC	Case=Acc|NumType=Card|Number=Plur	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=290
+30	सदनों	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=300
+31	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=310
+32	उपस्थित	उपस्थित	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=15|ChunkType=JJP|SpanStart=320
+33	और	और	CCONJ	CC_CCD	_	0	nmod	_	ChunkId=16|ChunkType=CCP|SpanStart=330
+34	मत	मत	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	35	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=340
+35	देने	दे	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=350
+36	वाले	वाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=18|ChunkType=VGNN|SpanStart=360
+37	सदस्यों	सदस्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=NP|Tam=0|SpanStart=370
+38	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=19|ChunkType=NP|SpanStart=380
+39	कुल	कुल	DET	QT_QTF	_	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=390
+40	संख्या	संख्या	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=400
+41	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=410
+42	बहुमत	बहुमत	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=NP|Tam=0|SpanStart=420
+43	द्वारा	द्वारा	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=21|ChunkType=NP|SpanStart=430
+44	पारित	पारित	ADJ	JJ	_	0	dep	_	ChunkId=22|ChunkType=JJP|SpanStart=440
+45	हो	हो	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=23|ChunkType=VGF|Tam=0|SpanStart=450
+46	जाता	जा	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=23|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=460
+47	है	है	AUX	V_VAUX	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=23|ChunkType=VGF|Tam=0|SpanStart=470
+48	तो	तो	SCONJ	CC_CCS	_	0	dep	_	ChunkId=24|ChunkType=CCP|SpanStart=10
+49	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	0	dep	_	ChunkId=25|ChunkType=NP|SpanStart=20
+50	संविधान	संविधान	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=25|ChunkType=NP|Tam=0|SpanStart=30
+51	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=25|ChunkType=NP|SpanStart=40
+52	प्रयोजनों	प्रयोजन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=26|ChunkType=NP|Tam=0|SpanStart=50
+53	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=26|ChunkType=NP|SpanStart=60
+54	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=26|ChunkType=NP|SpanStart=70
+55	वह	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=27|ChunkType=NP|Tam=0|SpanStart=80
+56	दोनों	दो	NUM	QT_QTC	Case=Acc|NumType=Card|Number=Plur	60	dep	_	ChunkId=28|ChunkType=NP|SpanStart=90
+57	सदनों	सदन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	60	dep	_	ChunkId=28|ChunkType=NP|Tam=0|SpanStart=100
+58	द्वारा	द्वारा	ADP	PSP	AdpType=Post	60	dep	_	ChunkId=28|ChunkType=NP|SpanStart=110
+59	पारित	पारित	ADJ	JJ	_	60	dep	_	ChunkId=29|ChunkType=JJP|SpanStart=120
+60	किया	कर	VERB	V_VM	Aspect=Perf|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=30|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=130
+61	गया	जा	AUX	V_VAUX	Aspect=Perf|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=30|ChunkType=VGNF|Vib=या1|Tam=yA1|SpanStart=140
+62	समझा	समझ	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=31|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=150
+63	जाएगा	जा	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=31|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=160
+64	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=32|ChunkType=BLK|SpanStart=170
+
+
+
+# sent_id = mor-judiciary-hindi-pos-chunk-601-650-posn-name-s49
+# text = 
+1	परन्तु	परन्तु	CCONJ	CC_CCD	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	संयुक्त	संयुक्त	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	बैठक	बैठक	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+

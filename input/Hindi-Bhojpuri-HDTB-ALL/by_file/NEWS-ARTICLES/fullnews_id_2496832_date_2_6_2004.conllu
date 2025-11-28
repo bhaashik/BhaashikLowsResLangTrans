@@ -1,0 +1,256 @@
+# sent_id = fullnews_id_2496832_date_2_6_2004-s1
+# text = 
+1	दलाई	दलाई	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	लामा	लामा	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	ने	ने	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	कांची	कांची	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	शंकराचार्य	शंकराचार्य	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	जयेंद्र	जयेंद्र	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	सरस्वती	सरस्वती	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	गिरफ्तारी	गिरफ्तारी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	को	को	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	बहुत	बहुत	ADV	INTF	AdvType=Deg	14	dep	_	ChunkId=6|ChunkType=JJP|SpanStart=120
+13	दुखद	दुखद	ADJ	JJ	_	14	dep	_	ChunkId=6|ChunkType=JJP|SpanStart=130
+14	बताया	बता	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=140
+15	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=150
+16	।	।	PUNCT	SYM	_	14	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=160
+
+
+
+# sent_id = fullnews_id_2496832_date_2_6_2004-s2
+# text = 
+1	लेकिन	लेकिन	CCONJ	CC	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	इसके	यह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	dep	_	ChunkId=2|ChunkType=NP|Vib=के|Tam=ke|SpanStart=20
+3	साथ	साथ	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	ही	ही	PART	RP	_	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	उन्होंने	वह	PRON	PRP	Case=Acc|Number=Sing|PronType=Prs	6	dep	_	ChunkId=3|ChunkType=NP|Vib=ने|Tam=ne|SpanStart=50
+6	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	1	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=60
+7	कि	कि	SCONJ	CC	_	6	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=70
+8	कानून	कानून	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=80
+9	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=90
+10	अपना	अपना	PRON	PRP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=100
+11	काम	काम	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=110
+12	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=120
+13	देना	दे	AUX	VAUX	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=130
+14	चाहिए	चाहिए	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Tam=0|SpanStart=140
+15	।	।	PUNCT	SYM	_	1	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=150
+
+
+
+# sent_id = fullnews_id_2496832_date_2_6_2004-s3
+# text = 
+1	उधर	उधर	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	,	COMMA	PUNCT	SYM	_	14	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	जमात	जमात	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	ए	ए	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	इस्लामी	इस्लामी	PROPN	NNPC	Case=Acc	14	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	हिंद	हिंद	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	(	(	PUNCT	SYM	_	14	dep	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	जेआईएच	जेआईएच	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=80
+9	)	)	PUNCT	SYM	_	14	dep	_	ChunkId=2|ChunkType=NP|SpanStart=90
+10	ने	ने	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=2|ChunkType=NP|SpanStart=100
+11	भी	भी	PART	RP	_	14	dep	_	ChunkId=2|ChunkType=NP|SpanStart=110
+12	जोर	जोर	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=120
+13	देकर	दे	VERB	VM	VerbForm=Conv|Voice=Act	14	dep	_	ChunkId=4|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=130
+14	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=140
+15	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=150
+16	कि	कि	SCONJ	CC	_	14	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=160
+17	कानून	कानून	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=170
+18	सबके	सब	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	0	dep	_	ChunkId=8|ChunkType=NP|Vib=के|Tam=ke|SpanStart=180
+19	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=190
+20	बराबर	बराबर	ADJ	JJ	_	0	dep	_	ChunkId=9|ChunkType=JJP|SpanStart=200
+21	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=210
+22	और	और	CCONJ	CC	_	22	dep	_	ChunkId=11|ChunkType=CCP|SpanStart=220
+23	आपराधिक	आपराधिक	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=230
+24	मामले	मामला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=240
+25	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=250
+26	फंसे	फँस	VERB	VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGNF|Vib=एं|Tam=eM|SpanStart=260
+27	किसी	कोई	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=270
+28	धार्मिक	धार्मिक	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=280
+29	नेता	नेता	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=290
+30	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=300
+31	साथ	साथ	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=310
+32	विशेष	विशेष	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=320
+33	बर्ताव	बर्ताव	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=330
+34	नहीं	नहीं	PART	NEG	_	0	dep	_	ChunkId=16|ChunkType=VGF|SpanStart=340
+35	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=350
+36	जाना	जा	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=360
+37	चाहिए	चाहिए	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Tam=0|SpanStart=370
+38	।	।	PUNCT	SYM	_	14	dep	_	ChunkId=17|ChunkType=BLK|SpanStart=380
+
+
+
+# sent_id = fullnews_id_2496832_date_2_6_2004-s4
+# text = 
+1	तिब्बतियों	तिब्बति	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	निर्वासित	निर्वासित	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	धर्मगुरु	धर्मगुरु	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	दलाई	दलाई	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	लामा	लामा	PROPN	NNP	Gender=Masc|Number=Sing|Person=3	15	dep	_	ChunkId=3|ChunkType=NP|Vib=o|SpanStart=60
+7	ने	ने	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	बंगलोर	बंगलोर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	में	में	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	पत्रकारों	पत्रकार	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	से	से	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	चर्चा	चर्चा	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	करते	कर	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=7|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=130
+14	हुए	हो	AUX	VAUX	Mood=Sub|Number=Sing|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=7|ChunkType=VGNF|Vib=एं|Tam=eM|SpanStart=140
+15	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=150
+16	कि	कि	SCONJ	CC	_	15	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=160
+17	शंकराचार्य	शंकराचार्य	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=170
+18	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=180
+19	गिरफ्तारी	गिरफ्तारी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=190
+20	बहुत	बहुत	ADV	INTF	AdvType=Deg	0	dep	_	ChunkId=12|ChunkType=JJP|SpanStart=200
+21	दुखद	दुखद	ADJ	JJ	_	0	dep	_	ChunkId=12|ChunkType=JJP|SpanStart=210
+22	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=220
+23	।	।	PUNCT	SYM	_	15	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=230
+
+
+
+# sent_id = fullnews_id_2496832_date_2_6_2004-s5
+# text = 
+1	लेकिन	लेकिन	CCONJ	CC	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	उन्होंने	वह	PRON	PRP	Case=Acc|Number=Sing|PronType=Prs	3	dep	_	ChunkId=2|ChunkType=NP|Vib=ने|Tam=ne|SpanStart=20
+3	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	1	dep	_	ChunkId=3|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=30
+4	,	COMMA	PUNCT	SYM	_	1	dep	_	ChunkId=3|ChunkType=VGF|SpanStart=40
+5	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+6	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	आपके	आप	PRON	PRP	Case=Acc|Number=Sing|PronType=Prs	0	dep	_	ChunkId=5|ChunkType=NP|Vib=के|Tam=ke|SpanStart=70
+8	पास	पास	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	एक	एक	NUM	QC	NumType=Card	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=90
+10	अच्छी	अच्छा	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=100
+11	प्रजातांत्रिक	प्रजातांत्रिक	NOUN	NNC	Case=Nom	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+12	व्यवस्था	व्यवस्था	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	और	और	CCONJ	CC	_	0	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=130
+14	स्वतंत्र	स्वतंत्र	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=140
+15	न्यायपालिका	न्यायपालिका	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=160
+17	,	COMMA	PUNCT	SYM	_	16	dep	_	ChunkId=9|ChunkType=VGF|SpanStart=170
+18	कानून	कानून	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=180
+19	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=190
+20	शासन	शासन	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=200
+21	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=12|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=210
+22	।	।	PUNCT	SYM	_	1	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=220
+
+
+
+# sent_id = fullnews_id_2496832_date_2_6_2004-s6
+# text = 
+1	जेआईएच	जेआईएच	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	अध्यक्ष	अध्यक्ष	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	मोहम्मद	मोहम्मद	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	अब्दुल	अब्दुल	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	हक	हक	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	अंसारी	अंसारी	PROPN	NNP	Case=Acc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	ने	ने	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	दिल्ली	दिल्ली	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	में	में	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	पत्रकारों	पत्रकार	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	से	से	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=130
+14	कि	कि	SCONJ	CC	_	13	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=140
+15	आपराधिक	आपराधिक	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+16	मामलों	मामला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	धार्मिक	धार्मिक	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=9|ChunkType=NP|SpanStart=180
+19	नेताओं	नेता	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=190
+20	के	के	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=9|ChunkType=NP|SpanStart=200
+21	साथ	साथ	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	nmod	_	ChunkId=9|ChunkType=NP|SpanStart=210
+22	अलग	अलग	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=220
+23	बर्ताव	बर्ताव	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=230
+24	नहीं	नहीं	PART	NEG	_	14	dep	_	ChunkId=11|ChunkType=VGF|SpanStart=240
+25	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	14	dep	_	ChunkId=11|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=250
+26	जाना	जा	AUX	VAUX	Gender=Masc|Number=Sing|Person=3|VerbForm=Inf|Voice=Act	14	dep	_	ChunkId=11|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=260
+27	चाहिए	चाहिए	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=11|ChunkType=VGF|Tam=0|SpanStart=270
+28	।	।	PUNCT	SYM	_	13	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=280
+
+
+
+# sent_id = fullnews_id_2496832_date_2_6_2004-s7
+# text = 
+1	उन्होंने	वह	PRON	PRP	Case=Acc|Number=Sing|PronType=Prs	2	dep	_	ChunkId=1|ChunkType=NP|Vib=ने|Tam=ne|SpanStart=10
+2	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=20
+3	कि	कि	SCONJ	CC	_	2	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=30
+4	आपराधिक	आपराधिक	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=40
+5	मामले	मामला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+6	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	किसी	कोई	PRON	PRP	Case=Acc|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=70
+8	खलीफा	खलीफा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	कोर्ट	कोर्ट	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=100
+11	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+12	पेश	पेश	ADJ	JJ	_	0	dep	_	ChunkId=7|ChunkType=JJP|SpanStart=120
+13	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=130
+14	जाए	जा	AUX	VAUX	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=एं|Tam=eM|SpanStart=140
+15	तो	तो	SCONJ	CC	_	15	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=150
+16	काजी	काजी	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=160
+17	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=170
+18	उसके	वह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	22	dep	_	ChunkId=11|ChunkType=NP|Vib=के|Tam=ke|SpanStart=180
+19	प्रति	प्रति	ADP	PSP	AdpType=Post	22	dep	_	ChunkId=11|ChunkType=NP|SpanStart=190
+20	विशेष	विशेष	ADJ	JJ	Case=Nom	22	dep	_	ChunkId=12|ChunkType=NP|SpanStart=200
+21	कृपा	कृपा	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=210
+22	दिखाने	दिखा	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=220
+23	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=13|ChunkType=VGNN|SpanStart=230
+24	जरूरत	जरूरत	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=240
+25	नहीं	नहीं	PART	NEG	_	0	dep	_	ChunkId=15|ChunkType=VGF|SpanStart=250
+26	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=260
+27	।	।	PUNCT	SYM	_	2	dep	_	ChunkId=16|ChunkType=BLK|SpanStart=270
+
+
+
+# sent_id = fullnews_id_2496832_date_2_6_2004-s8
+# text = 
+1	कोर्ट	कोर्ट	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	में	में	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	वह	वह	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	सिर्फ	सिर्फ	PART	RP	_	7	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	एक	एक	NUM	QC	NumType=Card	7	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	व्यक्ति	व्यक्ति	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=70
+8	और	और	CCONJ	CC	_	0	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=80
+9	कानून	कानून	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=90
+10	सबके	सब	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	0	dep	_	ChunkId=7|ChunkType=NP|Vib=के|Tam=ke|SpanStart=100
+11	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=110
+12	बराबर	बराबर	ADJ	JJ	_	0	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=120
+13	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=130
+14	।	।	PUNCT	SYM	_	8	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=140
+
+
+
+# sent_id = fullnews_id_2496832_date_2_6_2004-s9
+# text = 
+1	उनसे	वह	PRON	PRP	Case=Acc|Number=Sing|PronType=Prs	2	dep	_	ChunkId=1|ChunkType=NP|Vib=से|Tam=se|SpanStart=10
+2	पूछा	पूछ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=20
+3	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=या१|Tam=yA1|SpanStart=30
+4	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=40
+5	कि	कि	SCONJ	CC	_	2	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=50
+6	क्या	क्या	PRON	WQ	PronType=Int	0	dep	_	ChunkId=4|ChunkType=RBP|SpanStart=60
+7	हत्या	हत्या	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=70
+8	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	मामले	मामला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=90
+10	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=100
+11	शंकराचार्य	शंकराचार्य	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=110
+12	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=120
+13	गिरफ्तारी	गिरफ्तारी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=130
+14	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=140
+15	मद्देनजर	मद्देनजर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+16	आपराधिक	आपराधिक	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=160
+17	मामलों	मामला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=170
+18	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=180
+19	आरोपी	आरोपी	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=190
+20	धार्मिक	धार्मिक	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=200
+21	नेताओं	नेता	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=210
+22	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=220
+23	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=230
+24	अलग	अलग	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=240
+25	कानूनी	कानूनी	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=250
+26	प्रक्रिया	प्रक्रिया	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=260
+27	बनाई	बना	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Act	5	dep	_	ChunkId=13|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=270
+28	जानी	जा	AUX	VAUX	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	5	dep	_	ChunkId=13|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=280
+29	चाहिए	चाहिए	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=13|ChunkType=VGF|Tam=0|SpanStart=290
+30	।	।	PUNCT	SYM	_	2	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=300
+

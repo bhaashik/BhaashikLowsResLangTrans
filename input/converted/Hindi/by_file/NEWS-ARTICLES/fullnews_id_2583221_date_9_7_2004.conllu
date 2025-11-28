@@ -1,0 +1,518 @@
+# sent_id = fullnews_id_2583221_date_9_7_2004-s1
+# text = 
+1	भारत	भारत	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	और	और	CCONJ	CC	_	8	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=20
+3	पाकिस्तान	पाकिस्तान	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=30
+4	के	के	ADP	PSP	AdpType=Post	2	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	बीच	बीच	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	आपसी	आपसी	ADJ	JJ	Case=Nom	8	dep	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	विश्वास	विश्वास	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	बढ़ाने	बढा	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=VGNN|SpanStart=90
+10	प्रक्रिया	प्रक्रिया	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	26	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=100
+11	के	के	ADP	PSP	AdpType=Post	26	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+12	तहत	तहत	ADP	PSP	AdpType=Post	26	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	पाकिस्तान	पाकिस्तान	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	26	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	ने	ने	ADP	PSP	AdpType=Post	26	dep	_	ChunkId=7|ChunkType=NP|SpanStart=140
+15	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	26	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	से	से	ADP	PSP	AdpType=Post	26	dep	_	ChunkId=8|ChunkType=NP|SpanStart=160
+17	जम्मू	जम्मू	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=170
+18	कश्मीर	कश्मीर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=190
+20	सैनिकों	सैनिक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	कटौती	कटौती	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=220
+23	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	26	dep	_	ChunkId=12|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=230
+24	के	के	ADP	PSP	AdpType=Post	26	dep	_	ChunkId=12|ChunkType=VGNN|SpanStart=240
+25	लिए	लिए	ADP	PSP	AdpType=Post	26	dep	_	ChunkId=12|ChunkType=VGNN|SpanStart=250
+26	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=260
+27	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=270
+28	।	।	PUNCT	SYM	_	26	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=280
+
+
+
+# sent_id = fullnews_id_2583221_date_9_7_2004-s2
+# text = 
+1	दोनों	दो	NUM	QC	NumType=Card|Number=Plur	13	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	देशों	देश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	के	के	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	बीच	बीच	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	ऐतिहासिक	ऐतिहासिक	ADJ	JJ	Case=Nom	13	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	कश्मीर	कश्मीर	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	बस	बस	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=70
+8	सेवा	सेवा	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=80
+9	7	7	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=90
+10	अप्रैल	अप्रैल	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=100
+11	से	से	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=3|ChunkType=NP|SpanStart=110
+12	शुरू	शुरू	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=120
+13	होने	हो	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=130
+14	वाली	वाला	AUX	VAUX	Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Tam=0|SpanStart=140
+15	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=150
+16	।	।	PUNCT	SYM	_	13	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=160
+
+
+
+# sent_id = fullnews_id_2583221_date_9_7_2004-s3
+# text = 
+1	पाकिस्तान	पाकिस्तान	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	5	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	यह	यह	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	भी	भी	PART	RP	_	5	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	कहना	कह	VERB	VM	Case=Nom|VerbForm=Inf|Voice=Act	6	dep	_	ChunkId=3|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=50
+6	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=60
+7	कि	कि	SCONJ	CC	_	0	nmod	_	ChunkId=5|ChunkType=CCP|SpanStart=70
+8	भारत	भारत	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=80
+9	अगर	अगर	SCONJ	CC	_	0	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=90
+10	निषेधात्मक	निषेधात्मक	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=100
+11	व्यापार	व्यापार	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=110
+12	नीति	नीति	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=120
+13	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=130
+14	हटा	हटा	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Tam=0|SpanStart=140
+15	लेता	ले	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=150
+16	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=160
+17	तो	तो	SCONJ	CC	_	17	dep	_	ChunkId=10|ChunkType=CCP|SpanStart=170
+18	उसे	वह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	0	dep	_	ChunkId=11|ChunkType=NP|Vib=को|Tam=ko|SpanStart=180
+19	सर्वाधिक	सर्वाधिक	PROPN	NNPC	Case=Nom	0	nmod	_	ChunkId=12|ChunkType=NP|SpanStart=170
+20	वरीयता	वरीयता	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=200
+21	प्राप्त	प्राप्त	PROPN	NNPC	Case=Acc	0	nmod	_	ChunkId=12|ChunkType=NP|SpanStart=170
+22	राष्ट्र	राष्ट्र	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=220
+23	(	(	PUNCT	SYM	_	0	nmod	_	ChunkId=13|ChunkType=NP|SpanStart=230
+24	एमएफएन	एमएफएन	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=240
+25	)	)	PUNCT	SYM	_	0	nmod	_	ChunkId=13|ChunkType=NP|SpanStart=250
+26	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=14|ChunkType=FRAGP|SpanStart=260
+27	दर्जा	दर्जा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=270
+28	देने	दे	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=280
+29	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=16|ChunkType=VGNN|SpanStart=290
+30	विचार	विचार	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=300
+31	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=310
+32	जा	जा	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Tam=0|SpanStart=320
+33	सकता	सक	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=330
+34	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=340
+35	।	।	PUNCT	SYM	_	6	dep	_	ChunkId=19|ChunkType=BLK|SpanStart=350
+
+
+
+# sent_id = fullnews_id_2583221_date_9_7_2004-s4
+# text = 
+1	पाकिस्तानी	पाकिस्तानी	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	अखबार	अखबार	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	दि	दि	PROPN	NNPC	_	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	नेशन	नेशन	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	राजनयिक	राजनयिक	ADJ	JJ	Case=Acc	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	सूत्रों	सूत्र	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	हवाले	हवाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	से	से	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=100
+11	छपी	छप	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=110
+12	खबर	खबर	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	के	के	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	मुताबिक	मुताबिक	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	पाकिस्तान	पाकिस्तान	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=150
+16	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	17	dep	_	ChunkId=6|ChunkType=NP|SpanStart=160
+17	मानना	मान	VERB	VM	Case=Nom|VerbForm=Inf|Voice=Act	18	dep	_	ChunkId=7|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=170
+18	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=180
+19	कि	कि	SCONJ	CC	_	17	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=190
+20	जम्मू	जम्मू	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	कश्मीर	कश्मीर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=210
+22	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=220
+23	सैनिकों	सैनिक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=230
+24	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=240
+25	कटौती	कटौती	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=250
+26	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=260
+27	दोनों	दो	NUM	QC	NumType=Card|Number=Plur	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=270
+28	देशों	देश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=280
+29	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=290
+30	बीच	बीच	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=300
+31	विश्वास	विश्वास	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=310
+32	बहाली	बहाली	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=320
+33	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=330
+34	मदद	मदद	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=340
+35	मिलेगी	मिल	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=16|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=350
+36	।	।	PUNCT	SYM	_	18	dep	_	ChunkId=17|ChunkType=BLK|SpanStart=360
+
+
+
+# sent_id = fullnews_id_2583221_date_9_7_2004-s5
+# text = 
+1	साथ	साथ	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	ही	ही	PART	RP	_	22	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	22	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	कदम	कदम	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	से	से	ADP	PSP	AdpType=Post	22	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	कश्मीर	कश्मीर	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	समस्या	समस्या	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	स्थाई	स्थाई	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	समाधान	समाधान	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	दिशा	दिशा	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=140
+15	में	में	ADP	PSP	AdpType=Post	22	dep	_	ChunkId=6|ChunkType=NP|SpanStart=150
+16	मजबूत	मजबूत	ADJ	JJ	Case=Nom	19	dep	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	आधार	आधार	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=170
+18	तैयार	तैयार	ADJ	JJ	_	19	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=180
+19	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	22	dep	_	ChunkId=9|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=190
+20	में	में	ADP	PSP	AdpType=Post	22	dep	_	ChunkId=9|ChunkType=VGNN|SpanStart=200
+21	सहूलियत	सहूलियत	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=210
+22	होगी	हो	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=220
+23	।	।	PUNCT	SYM	_	22	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=230
+
+
+
+# sent_id = fullnews_id_2583221_date_9_7_2004-s6
+# text = 
+1	अखबार	अखबार	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	के	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	मुताबिक	मुताबिक	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	जम्मू	जम्मू	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	-	-	PUNCT	SYM	_	12	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	कश्मीर	कश्मीर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	में	में	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	60	60	NUM	QCC	NumType=Card	12	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	हजार	हजार	NUM	QC	NumType=Card	12	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	सैनिक	सैनिक	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=100
+11	तैनात	तैनात	ADJ	JJ	_	12	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=110
+12	हैं	है	VERB	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=120
+13	और	और	CCONJ	CC	_	0	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=130
+14	इनमें	यह	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	0	nmod	_	ChunkId=7|ChunkType=NP|Vib=में|Tam=meM|SpanStart=140
+15	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	ज्यादातर	ज्यादातर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	तैनाती	तैनाती	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	कश्मीर	कश्मीर	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=190
+20	घाटी	घाटी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	13	dep	_	ChunkId=11|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=220
+23	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	13	dep	_	ChunkId=11|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=230
+24	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=11|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=240
+25	।	।	PUNCT	SYM	_	13	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=250
+
+
+
+# sent_id = fullnews_id_2583221_date_9_7_2004-s7
+# text = 
+1	दूसरी	दूसरा	ADJ	QO	Case=Nom|Gender=Fem|Number=Sing	6	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	ओर	ओर	NOUN	NST	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	5	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	कहना	कह	VERB	VM	Case=Nom|VerbForm=Inf|Voice=Act	6	dep	_	ChunkId=3|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=50
+6	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=60
+7	कि	कि	SCONJ	CC	_	5	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=70
+8	पाकिस्तान	पाकिस्तान	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=80
+9	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=90
+10	नियंत्रण	नियंत्रण	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=100
+11	वाले	वाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=110
+12	कश्मीर	कश्मीर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=120
+13	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=130
+14	आंतकवादी	आंतकवादी	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=140
+15	कैंपों	कैंप	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=150
+16	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=160
+17	खत्म	खत्म	ADJ	JJ	_	0	dep	_	ChunkId=10|ChunkType=JJP|SpanStart=170
+18	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=180
+19	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=VGNN|SpanStart=190
+20	बाद	बाद	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=11|ChunkType=VGNN|SpanStart=200
+21	ही	ही	PART	RP	_	0	dep	_	ChunkId=11|ChunkType=VGNN|SpanStart=210
+22	सेना	सेना	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=220
+23	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=230
+24	कटौती	कटौती	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=240
+25	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=13|ChunkType=NP|SpanStart=250
+26	विचार	विचार	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=260
+27	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	dep	_	ChunkId=15|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=270
+28	जाएगा	जा	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=15|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=280
+29	।	।	PUNCT	SYM	_	6	dep	_	ChunkId=16|ChunkType=BLK|SpanStart=290
+
+
+
+# sent_id = fullnews_id_2583221_date_9_7_2004-s8
+# text = 
+1	इससे	यह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	23	dep	_	ChunkId=1|ChunkType=NP|Vib=से|Tam=se|SpanStart=10
+2	पहले	पहले	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	ने	ने	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	दोनों	दो	NOUN	NN	Case=Acc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	के	के	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	बीच	बीच	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	विश्वास	विश्वास	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	बहाली	बहाली	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	उपायों	उपाय	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	के	के	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	तहत	तहत	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	जम्मू	जम्मू	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=140
+15	-	-	PUNCT	SYM	_	23	dep	_	ChunkId=6|ChunkType=NP|SpanStart=150
+16	कश्मीर	कश्मीर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=160
+17	से	से	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=6|ChunkType=NP|SpanStart=170
+18	सेना	सेना	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=180
+19	में	में	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=7|ChunkType=NP|SpanStart=190
+20	कटौती	कटौती	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=200
+21	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=210
+22	घोषणा	घोषणा	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=220
+23	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=230
+24	थी	था	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=240
+25	।	।	PUNCT	SYM	_	23	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=250
+
+
+
+# sent_id = fullnews_id_2583221_date_9_7_2004-s9
+# text = 
+1	तब	तब	PRON	PRP	Case=Nom|PronType=Prs	13	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	जम्मू	जम्मू	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	डिवीजन	डिवीजन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	और	और	CCONJ	CC	_	13	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=40
+5	अनंतनाग	अनंतनाग	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+6	से	से	ADP	PSP	AdpType=Post	4	dep	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	तकरीबन	तकरीबन	PART	RP	_	13	dep	_	ChunkId=5|ChunkType=NP|SpanStart=70
+8	6	6	NUM	QCC	NumType=Card	13	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	हजार	हजार	NUM	QC	NumType=Card	13	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	जवानों	जवान	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	को	को	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	वापस	वापस	ADJ	JJ	_	13	dep	_	ChunkId=6|ChunkType=JJP|SpanStart=120
+13	बुला	बुला	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Tam=0|SpanStart=130
+14	लिया	ले	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=140
+15	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=150
+16	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=160
+17	।	।	PUNCT	SYM	_	13	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=170
+
+
+
+# sent_id = fullnews_id_2583221_date_9_7_2004-s10
+# text = 
+1	अखबार	अखबार	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	लिखता	लिख	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=20
+3	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=30
+4	कि	कि	SCONJ	CC	_	2	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=40
+5	कश्मीर	कश्मीर	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+6	घाटी	घाटी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=60
+7	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	बड़ी	बड़ा	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	तादाद	तादाद	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	सैनिकों	सैनिक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	कटौती	कटौती	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=140
+15	बाद	बाद	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	ही	ही	PART	RP	_	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	कश्मीरी	कश्मीरी	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	लोगों	लोग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=180
+19	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=190
+20	विश्वास	विश्वास	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=200
+21	जीता	जीत	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	dep	_	ChunkId=10|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=210
+22	जा	जा	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=10|ChunkType=VGF|Tam=0|SpanStart=220
+23	सकता	सक	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=10|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=230
+24	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=240
+25	।	।	PUNCT	SYM	_	2	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=250
+
+
+
+# sent_id = fullnews_id_2583221_date_9_7_2004-s11
+# text = 
+1	NULL	NULL	PRON	PRP	PronType=Prs	0	dep	_	ChunkId=1|ChunkType=NULL__NP
+2	मालूम	मालूम	ADJ	JJ	_	3	dep	_	ChunkId=2|ChunkType=JJP|SpanStart=10
+3	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Tam=0|SpanStart=20
+4	कि	कि	SCONJ	CC	_	1	nmod	_	ChunkId=4|ChunkType=CCP|SpanStart=30
+5	कश्मीर	कश्मीर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=40
+6	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=50
+7	सभी	सभी	DET	QF	PronType=Ind	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=60
+8	प्रतिनिधियों	प्रतिनिधि	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=70
+9	ने	ने	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=80
+10	कश्मीर	कश्मीर	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=90
+11	बस	बस	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=100
+12	सेवा	सेवा	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=110
+13	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=120
+14	शुरुआत	शुरुआत	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=130
+15	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=140
+16	स्वागत	स्वागत	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=150
+17	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	dep	_	ChunkId=10|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=160
+18	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=170
+19	।	।	PUNCT	SYM	_	3	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=180
+
+
+
+# sent_id = fullnews_id_2583221_date_9_7_2004-s12
+# text = 
+1	सर्वाधिक	सर्वाधिक	ADV	INTF	_	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	वरीयता	वरीयता	ADJ	JJC	Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	प्राप्त	प्राप्त	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	देश	देश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=40
+5	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=50
+6	दर्जा	दर्जा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	देने	दे	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=70
+8	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=VGNN|SpanStart=80
+9	मामले	मामला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	में	में	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	पाकिस्तान	पाकिस्तान	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	वाणिज्य	वाणिज्य	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	मंत्री	मंत्री	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=140
+15	हुमायूँ	हुमायूँ	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=150
+16	अख्तर	अख्तर	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	खान	खान	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=170
+18	ने	ने	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=7|ChunkType=NP|SpanStart=180
+19	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=190
+20	कि	कि	SCONJ	CC	_	19	dep	_	ChunkId=9|ChunkType=CCP|SpanStart=200
+21	हमने	हम	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	0	dep	_	ChunkId=10|ChunkType=NP|Vib=ने|Tam=ne|SpanStart=210
+22	ऐसे	ऐसा	DET	DEM	Case=Acc|Gender=Masc|PronType=Dem	0	nmod	_	ChunkId=11|ChunkType=NP|SpanStart=220
+23	क्षेत्रों	क्षेत्र	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=230
+24	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=11|ChunkType=NP|SpanStart=240
+25	पहचान	पहचान	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=250
+26	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	20	dep	_	ChunkId=13|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=260
+27	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=270
+28	जो	जो	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=280
+29	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=290
+30	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=300
+31	वाणिज्यिक	वाणिज्यिक	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=310
+32	नीति	नीति	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=320
+33	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=330
+34	कारण	कारण	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=340
+35	कुप्रभावित	कुप्रभावित	ADJ	JJ	_	0	dep	_	ChunkId=17|ChunkType=JJP|SpanStart=350
+36	रहे	रह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=360
+37	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=370
+38	।	।	PUNCT	SYM	_	19	dep	_	ChunkId=19|ChunkType=BLK|SpanStart=380
+
+
+
+# sent_id = fullnews_id_2583221_date_9_7_2004-s13
+# text = 
+1	पाकिस्तान	पाकिस्तान	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	के	के	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	खिलाफ	खिलाफ	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	शुल्क	शुल्क	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	,	COMMA	PUNCT	SYM	_	10	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	गैर	गैर	NOUN	NNC	Case=Nom	10	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	-	-	PUNCT	SYM	_	10	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	शुल्क	शुल्क	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	और	और	CCONJ	CC	_	0	nmod	_	ChunkId=5|ChunkType=CCP|SpanStart=100
+11	अर्ध	अर्ध	NOUN	NNC	Case=Nom	10	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+12	-	-	PUNCT	SYM	_	10	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	शुल्क	शुल्क	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	अवरोधों	अवरोध	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=140
+15	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=150
+16	शिकायत	शिकायत	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	करता	कर	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=170
+18	रहा	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=180
+19	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=190
+20	।	।	PUNCT	SYM	_	17	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=200
+
+
+
+# sent_id = fullnews_id_2583221_date_9_7_2004-s14
+# text = 
+1	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	13	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	रवैये	रवैया	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	13	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	कारण	कारण	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	13	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	पाकिस्तानी	पाकिस्तानी	ADJ	JJ	Case=Acc	13	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	निर्यातकों	निर्यातक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	को	को	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	भारी	भारी	ADJ	JJ	Case=Nom	13	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	वित्तीय	वित्तीय	ADJ	JJ	Case=Nom	13	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	नुक़सान	नुकसान	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=120
+13	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Tam=0|SpanStart=130
+14	रहा	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=140
+15	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=150
+16	।	।	PUNCT	SYM	_	13	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=160
+
+
+
+# sent_id = fullnews_id_2583221_date_9_7_2004-s15
+# text = 
+1	पाकिस्तान	पाकिस्तान	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	3	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	कहना	कह	VERB	VM	Case=Nom|VerbForm=Inf|Voice=Act	4	dep	_	ChunkId=2|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=30
+4	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=40
+5	कि	कि	SCONJ	CC	_	3	dep	_	ChunkId=4|ChunkType=CCP|SpanStart=50
+6	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=60
+7	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=70
+8	ओर	ओर	NOUN	NST	Case=Acc|Gender=Fem|Number=Sing|Person=3	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	भले	भला	PART	RP	_	0	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=100
+11	ही	ही	PART	RP	_	0	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=110
+12	उसे	वह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	0	dep	_	ChunkId=7|ChunkType=NP|Vib=को|Tam=ko|SpanStart=120
+13	एमएफएन	एमएफएन	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=130
+14	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=140
+15	दर्जा	दर्जा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=150
+16	मिला	मिल	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=160
+17	हुआ	हो	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=170
+18	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=180
+19	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=10|ChunkType=VGF|SpanStart=190
+20	लेकिन	लेकिन	CCONJ	CC	_	20	dep	_	ChunkId=11|ChunkType=CCP|SpanStart=200
+21	जमीनी	जमीनी	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=210
+22	हकीक़त	हकीकत	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=220
+23	यह	यह	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=230
+24	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=240
+25	कि	कि	SCONJ	CC	_	0	nmod	_	ChunkId=15|ChunkType=CCP|SpanStart=250
+26	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=260
+27	ने	ने	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=270
+28	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|Mood=Imp|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=280
+29	आर्थिक	आर्थिक	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=290
+30	हितों	हित	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=300
+31	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=310
+32	साधने	साध	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=19|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=320
+33	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=19|ChunkType=VGNN|SpanStart=330
+34	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=19|ChunkType=VGNN|SpanStart=340
+35	द्विपक्षीय	द्विपक्षीय	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=350
+36	कारोबार	कारोबार	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=360
+37	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=20|ChunkType=NP|SpanStart=370
+38	कई	कई	DET	QF	PronType=Ind	0	dep	_	ChunkId=21|ChunkType=NP|SpanStart=380
+39	अवरोध	अवरोध	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=21|ChunkType=NP|Tam=0|SpanStart=390
+40	खड़े	खडा	ADJ	JJ	Gender=Masc|Number=Plur	0	dep	_	ChunkId=22|ChunkType=JJP|SpanStart=400
+41	कर	कर	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=23|ChunkType=VGF|Tam=0|SpanStart=410
+42	दिए	दे	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=23|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=420
+43	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=23|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=430
+44	।	।	PUNCT	SYM	_	4	dep	_	ChunkId=24|ChunkType=BLK|SpanStart=440
+
+
+
+# sent_id = fullnews_id_2583221_date_9_7_2004-s16
+# text = 
+1	उन्होंने	वह	PRON	PRP	Case=Acc|Number=Sing|PronType=Prs	2	dep	_	ChunkId=1|ChunkType=NP|Vib=ने|Tam=ne|SpanStart=10
+2	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=20
+3	कि	कि	SCONJ	CC	_	2	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=30
+4	NULL	NULL	ADV	RB	_	0	dep	_	ChunkId=4|ChunkType=NULL__RBP
+5	इसी	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=40
+6	नीति	नीति	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=50
+7	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=60
+8	कारण	कारण	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=70
+9	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=80
+10	ने	ने	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=90
+11	2003	2003	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=100
+12	-	-	PUNCT	SYM	_	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=110
+13	04	04	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=120
+14	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=130
+15	पाकिस्तान	पाकिस्तान	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=140
+16	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+17	38.24	38.24	NUM	QCC	NumType=Card	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=160
+18	करोड़	करोड	NUM	QC	NumType=Card	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=170
+19	डॉलर	डॉलर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+20	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=190
+21	उत्पादों	उत्पाद	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+22	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=210
+23	निर्यात	निर्यात	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=220
+24	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	26	dep	_	ChunkId=12|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=230
+25	,	COMMA	PUNCT	SYM	_	26	dep	_	ChunkId=12|ChunkType=VGF|SpanStart=240
+26	वहीं	वहीं	ADV	RB	_	0	dep	_	ChunkId=13|ChunkType=RBP|SpanStart=250
+27	पाकिस्तानी	पाकिस्तानी	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=260
+28	निर्यातक	निर्यातक	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=270
+29	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=280
+30	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=290
+31	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=300
+32	राशि	राशि	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=310
+33	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=16|ChunkType=NP|SpanStart=320
+34	एक	एक	NUM	QCC	NumType=Card	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=330
+35	-	-	PUNCT	SYM	_	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=340
+36	तिहाई	तिहाई	NUM	QC	NumType=Card	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=350
+37	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=360
+38	बराबर	बराबर	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=370
+39	भी	भी	PART	RP	_	0	dep	_	ChunkId=17|ChunkType=NP|SpanStart=380
+40	निर्यात	निर्यात	ADJ	JJ	_	0	dep	_	ChunkId=18|ChunkType=JJP|SpanStart=390
+41	नहीं	नहीं	PART	NEG	_	3	dep	_	ChunkId=19|ChunkType=VGF|SpanStart=400
+42	कर	कर	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=19|ChunkType=VGF|Tam=0|SpanStart=410
+43	पाए	पा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	3	dep	_	ChunkId=19|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=420
+44	।	।	PUNCT	SYM	_	2	dep	_	ChunkId=20|ChunkType=BLK|SpanStart=430
+

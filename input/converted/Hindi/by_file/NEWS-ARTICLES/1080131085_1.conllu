@@ -1,0 +1,638 @@
+# sent_id = 1080131085_1-s1
+# text = 
+1	प्राचीनकाल	प्राचीनकाल	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	सोलह	सोलह	NUM	QC	NumType=Card	0	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	महाजनपदों	महाजनपद	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	में	में	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	एक	एक	NUM	QC	NumType=Card	0	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	'	SINGLE_QUOTE	PUNCT	SYM	_	34	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	कुशीनारा	कुशीनारा	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	34	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	'	SINGLE_QUOTE	PUNCT	SYM	_	34	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	(	(	PUNCT	SYM	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	आज	आज	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	कुशीनगर	कुशीनगर	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=140
+15	)	)	PUNCT	SYM	_	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=150
+16	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|Mood=Imp|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	प्राचीन	प्राचीन	ADJ	JJ	Case=Acc	19	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=170
+18	,	COMMA	PUNCT	SYM	_	19	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=180
+19	NULL	NULL	X	NULL	_	0	dep	_	ChunkId=9|ChunkType=NULL__CCP
+20	वैभवशाली	वैभवशाली	ADJ	JJ	Case=Acc	19	dep	_	ChunkId=10|ChunkType=JJP|SpanStart=190
+21	,	COMMA	PUNCT	SYM	_	19	dep	_	ChunkId=10|ChunkType=JJP|SpanStart=200
+22	धर्म	धर्म	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=210
+23	और	और	CCONJ	CC	_	34	dep	_	ChunkId=12|ChunkType=CCP|SpanStart=220
+24	शांति	शान्ति	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=230
+25	के	के	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=13|ChunkType=NP|SpanStart=240
+26	लिए	लिए	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=13|ChunkType=NP|SpanStart=250
+27	विश्‍व	विश्व	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=260
+28	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=270
+29	धार्मिक	धार्मिक	ADJ	JJ	Case=Acc	34	dep	_	ChunkId=15|ChunkType=NP|SpanStart=280
+30	मानचित्र	मानचित्र	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	34	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=290
+31	पर	पर	ADP	PSP	AdpType=Post	34	dep	_	ChunkId=15|ChunkType=NP|SpanStart=300
+32	विशिष्‍ट	विशिष्ट	ADJ	JJ	Case=Nom	34	dep	_	ChunkId=16|ChunkType=NP|SpanStart=310
+33	स्‍थान	स्थान	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	34	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=320
+34	रखता	रख	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=330
+35	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=340
+36	।	।	PUNCT	SYM	_	34	dep	_	ChunkId=18|ChunkType=BLK|SpanStart=350
+
+
+
+# sent_id = 1080131085_1-s2
+# text = 
+1	रामायण	रामायण	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	काल	काल	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	भगवान	भगवान	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	राम	राम	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	पुत्र	पुत्र	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	कुश	कुश	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	राजधानी	राजधानी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	कुशावती	कुशावती	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	को	को	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	483	483	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	ईसा	ईसा	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=140
+15	पूर्व	पूर्व	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=150
+16	बुद्ध	बुद्ध	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	ने	ने	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|Mood=Imp|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	अंतिम	अंतिम	ADJ	JJ	Case=Acc	23	dep	_	ChunkId=10|ChunkType=NP|SpanStart=190
+20	विश्राम	विश्राम	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	के	के	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	लिए	लिए	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=10|ChunkType=NP|SpanStart=220
+23	चुना	चुन	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=230
+24	।	।	PUNCT	SYM	_	23	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=240
+
+
+
+# sent_id = 1080131085_1-s3
+# text = 
+1	मल्‍लों	मल्ला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	राजधानी	राजधानी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	होने	हो	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	14	dep	_	ChunkId=3|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=40
+5	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	14	dep	_	ChunkId=3|ChunkType=VGNN|SpanStart=50
+6	कारण	कारण	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	14	dep	_	ChunkId=3|ChunkType=VGNN|SpanStart=60
+7	प्राचीनकाल	प्राचीनकाल	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	में	में	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	स्‍थान	स्थान	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	अत्‍यंत	अत्यंत	ADJ	JJ	Case=Nom	14	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	महत्‍व	महत्व	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	था	था	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=140
+15	।	।	PUNCT	SYM	_	14	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=150
+
+
+
+# sent_id = 1080131085_1-s4
+# text = 
+1	बौद्ध	बौद्ध	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+2	धर्मावलंबियों	धर्मावलंबी	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	के	के	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	अनुसार	अनुसार	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	लुंबनी	लुंबनी	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	,	COMMA	PUNCT	SYM	_	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	बोधगया	बोधगया	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	और	और	CCONJ	CC	_	18	nmod	_	ChunkId=4|ChunkType=CCP|SpanStart=80
+9	सारनाथ	सारनाथ	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	के	के	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	साथ	साथ	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	ही	ही	PART	RP	_	8	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=130
+14	स्‍थान	स्थान	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=140
+15	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=150
+16	विशद्	विशद्	ADJ	JJ	Case=Nom	18	dep	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	महत्‍व	महत्व	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=170
+18	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=180
+19	।	।	PUNCT	SYM	_	18	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=190
+
+
+
+# sent_id = 1080131085_1-s5
+# text = 
+1	हिंदू	हिंदू	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	राजाओं	राजा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	काल	काल	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	में	में	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	चीन	चीन	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	से	से	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	ह्वेन	ह्वेन	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	सांग	सांग	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	,	COMMA	PUNCT	SYM	_	12	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	फाह्यान	फाह्यान	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	और	और	CCONJ	CC	_	25	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=120
+13	इत्‍सिंग	इत्त्‍सिंग	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	ने	ने	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=7|ChunkType=NP|SpanStart=140
+15	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|Mood=Imp|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	यात्रा	यात्रा	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=160
+17	वृत्तांत	वृत्तान्त	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=170
+18	में	में	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=9|ChunkType=NP|SpanStart=180
+19	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=190
+20	स्‍थान	स्थान	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	गौरव	गौरव	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=220
+23	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=11|ChunkType=NP|SpanStart=230
+24	वर्णन	वर्णन	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=240
+25	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=250
+26	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=260
+27	।	।	PUNCT	SYM	_	25	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=270
+
+
+
+# sent_id = 1080131085_1-s6
+# text = 
+1	कुशीनगर	कुशीनगर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	सबसे	सबसे	ADV	INTF	AdvType=Deg	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	ज्‍यादा	ज्यादा	DET	QF	PronType=Ind	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	महत्‍व	महत्व	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	बौद्ध	बौद्ध	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	तीर्थ	तीर्थ	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	रूप	रूप	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=100
+11	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=110
+12	।	।	PUNCT	SYM	_	11	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=120
+
+
+
+# sent_id = 1080131085_1-s7
+# text = 
+1	1876	1876	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	में	में	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	यह	यह	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	10	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	स्‍थान	स्थान	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	एक	एक	NUM	QC	NumType=Card	7	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	बार	बार	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	फिर	फिर	ADV	RB	_	10	dep	_	ChunkId=4|ChunkType=RBP|SpanStart=70
+8	प्रकाश	प्रकाश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	में	में	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	आया	आ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=100
+11	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=6|ChunkType=VGF|SpanStart=110
+12	जब	जब	PRON	PRP	Case=Nom|PronType=Prs	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=120
+13	तत्‍कालीन	तत्कालीन	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=130
+14	पुरातत्‍ववेत्‍ता	पुरातत्ववेत्ता	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=140
+15	लॉर्ड	लॉर्ड	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=150
+16	कर्निंघम	कर्निंघम	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=160
+17	ने	ने	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=170
+18	महापरिनिर्वाण	महापरिनिर्वाण	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=180
+19	मूर्ति	मूर्ति	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=190
+20	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=200
+21	खोज	खोज	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=210
+22	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	1	dep	_	ChunkId=12|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=220
+23	।	।	PUNCT	SYM	_	10	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=230
+
+
+
+# sent_id = 1080131085_1-s8
+# text = 
+1	आइए	आ	VERB	VM	Mood=Sub|Number=Sing|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=VGF|Vib=एं|Tam=eM|SpanStart=10
+2	करें	कर	VERB	VM	Mood=Sub|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=एं|Tam=eM|SpanStart=20
+3	सैर	सैर	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=30
+4	-	-	PUNCT	SYM	_	0	dep	_	ChunkId=4|ChunkType=BLK|SpanStart=40
+
+
+
+# sent_id = 1080131085_1-s9
+# text = 
+1	कुशीनगर	कुशीनगर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=50
+2	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=60
+3	सीमा	सीमा	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=70
+4	में	में	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=80
+5	प्रवेश	प्रवेश	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=90
+6	करते	कर	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=4|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=100
+7	ही	ही	PART	RP	_	12	dep	_	ChunkId=4|ChunkType=VGNF|SpanStart=110
+8	भव्‍य	भव्	ADJ	JJ	Case=Nom	12	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+9	प्रवेशद्वार	प्रवेशद्वार	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=130
+10	आपका	आप	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	0	nmod	_	ChunkId=6|ChunkType=NP|Vib=का|Tam=kA|SpanStart=140
+11	स्वागत	स्वागत	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=150
+12	करता	कर	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=160
+13	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=170
+14	।	।	PUNCT	SYM	_	12	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=180
+
+
+
+# sent_id = 1080131085_1-s10
+# text = 
+1	इसके	यह	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	dep	_	ChunkId=1|ChunkType=NP|Vib=के|Tam=ke|SpanStart=10
+2	बाद	बाद	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	आम	आम	ADJ	JJ	Case=Acc	13	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	तौर	तौर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	पर	पर	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	पर्यटकों	पर्यटक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	निगाह	निगाह	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	महापरिनिर्वाण	महापरिनिर्वाण	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	मंदिर	मंदिर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	13	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	ओर	ओर	NOUN	NST	Case=Nom|Gender=Fem|Number=Sing|Person=3	13	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	पड़ती	पड़	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=130
+14	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=140
+15	।	।	PUNCT	SYM	_	13	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=150
+
+
+
+# sent_id = 1080131085_1-s11
+# text = 
+1	वैसे	वैसे	ADV	RB	_	5	dep	_	ChunkId=1|ChunkType=RBP|SpanStart=10
+2	दूर	दूर	NOUN	NST	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	से	से	ADP	PSP	AdpType=Post	5	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	ही	ही	PART	RP	_	5	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	दिखता	दिख	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGNF|Vib=ता|Tam=wA|SpanStart=50
+6	पगोडा	पगोडा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=60
+7	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|Mood=Imp|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=70
+8	सुनहरे	सुनहरा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	15	dep	_	ChunkId=6|ChunkType=NP|SpanStart=80
+9	आकर्षण	आकर्षण	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=90
+10	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	15	dep	_	ChunkId=6|ChunkType=NP|SpanStart=100
+11	कारण	कारण	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	15	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+12	सभी	सब	PRON	PRP	Case=Acc|Mood=Imp|Number=Plur|PronType=Prs|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=120
+13	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=130
+14	मन	मन	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=140
+15	मोह	मोह	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Tam=0|SpanStart=150
+16	लेता	ले	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=160
+17	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=170
+18	।	।	PUNCT	SYM	_	15	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=180
+
+
+
+# sent_id = 1080131085_1-s12
+# text = 
+1	कुशीनगर	कुशीनगर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=40
+2	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=50
+3	महत्‍व	महत्व	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+4	महापरिनिर्वाण	महापरिनिर्वाण	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+5	मंदिर	मंदिर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+6	से	से	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+7	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=100
+8	।	।	PUNCT	SYM	_	7	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=110
+
+
+
+# sent_id = 1080131085_1-s13
+# text = 
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	स्‍थापत्‍य	स्थापत्य	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	अजंता	अजंता	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	गुफाओं	गुफा	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	से	से	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	प्रेरित	प्रेरित	ADJ	JJ	_	10	dep	_	ChunkId=5|ChunkType=JJP|SpanStart=90
+10	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=100
+11	।	।	PUNCT	SYM	_	10	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=110
+
+
+
+# sent_id = 1080131085_1-s14
+# text = 
+1	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	डाट	डाट	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	हूबहू	हूबहू	ADV	RB	_	12	dep	_	ChunkId=3|ChunkType=RBP|SpanStart=40
+5	अजंता	अजंता	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+6	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	गुफाओं	गुफा	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=70
+8	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	डाट	डाट	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=90
+10	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	12	dep	_	ChunkId=6|ChunkType=NP|SpanStart=100
+11	तरह	तरह	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	12	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+12	हैं	है	VERB	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=120
+13	।	।	PUNCT	SYM	_	12	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=130
+
+
+
+# sent_id = 1080131085_1-s15
+# text = 
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	19	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	भगवान	भगवान	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	बुद्ध	बुद्ध	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	लेटी	लेट	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=70
+8	हुई	हो	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=80
+9	(	(	PUNCT	SYM	_	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	भू	भू	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	-	-	PUNCT	SYM	_	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	स्‍पर्श	स्पर्श	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=120
+13	मुद्रा	मुद्रा	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=130
+14	)	)	PUNCT	SYM	_	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=140
+15	6	6	NUM	QC	NumType=Card	17	dep	_	ChunkId=5|ChunkType=NP|SpanStart=150
+16	मीटर	मीटर	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=160
+17	लंबी	लंबा	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=6|ChunkType=JJP|SpanStart=170
+18	मूर्ति	मूर्ति	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=180
+19	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=190
+20	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=8|ChunkType=VGF|SpanStart=200
+21	जो	जो	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=210
+22	लाल	लाल	ADJ	JJ	Case=Acc	26	dep	_	ChunkId=10|ChunkType=NP|SpanStart=220
+23	बलुई	बलुई	ADJ	JJ	Case=Acc	26	dep	_	ChunkId=10|ChunkType=NP|SpanStart=230
+24	मिट्टी	मिट्टी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	26	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=240
+25	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	26	dep	_	ChunkId=10|ChunkType=NP|SpanStart=250
+26	NULL	NULL	NOUN	NN	_	0	dep	_	ChunkId=11|ChunkType=NULL__NP
+27	बनी	बन	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=260
+28	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=270
+29	।	।	PUNCT	SYM	_	19	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=280
+
+
+
+# sent_id = 1080131085_1-s16
+# text = 
+1	यह	यह	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	6	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	मंदिर	मंदिर	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	उसी	वह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	स्‍थान	स्थान	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	पर	पर	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	बनाया	बना	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=60
+7	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=70
+8	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=80
+9	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=3|ChunkType=VGF|SpanStart=90
+10	जहाँ	जहाँ	PRON	PRP	Case=Acc|PronType=Prs	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	यह	यह	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	मूर्ति	मूर्ति	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=130
+14	निकाली	निकाल	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=140
+15	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=150
+16	थी	था	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=160
+17	।	।	PUNCT	SYM	_	6	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=170
+
+
+
+# sent_id = 1080131085_1-s17
+# text = 
+1	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	पूर्व	पूर्व	ADJ	JJ	Case=Acc	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+4	हिस्‍से	हिस्सा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	में	में	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	एक	एक	NUM	QC	NumType=Card	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	स्‍तूप	स्तूप	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=80
+9	।	।	PUNCT	SYM	_	8	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=90
+
+
+
+# sent_id = 1080131085_1-s18
+# text = 
+1	यहाँ	यहाँ	PRON	PRP	Case=Acc|PronType=Prs	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	पर	पर	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	भगवान	भगवान	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	बुद्ध	बुद्ध	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अंतिम	अंतिम	ADJ	JJ	Case=Nom	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	संस्‍कार	संस्कार	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=80
+9	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=90
+10	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=100
+11	।	।	PUNCT	SYM	_	8	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=110
+
+
+
+# sent_id = 1080131085_1-s19
+# text = 
+1	मूर्ति	मूर्ति	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	भी	भी	PART	RP	_	12	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	अजंता	अजंता	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	भगवान	भगवान	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	बुद्ध	बुद्ध	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	महापरिनिर्वाण	महापरिनिर्वाण	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	मूर्ति	मूर्ति	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	प्रतिकृति	प्रतिकृति	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=120
+13	।	।	PUNCT	SYM	_	12	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=130
+
+
+
+# sent_id = 1080131085_1-s20
+# text = 
+1	वैसे	वैसे	ADV	RB	_	9	dep	_	ChunkId=1|ChunkType=RBP|SpanStart=10
+2	मूर्ति	मूर्ति	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	काल	काल	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	अजंता	अजंता	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+6	से	से	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	पूर्व	पूर्व	NOUN	NST	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	9	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=90
+10	।	।	PUNCT	SYM	_	9	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=100
+
+
+
+# sent_id = 1080131085_1-s21
+# text = 
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	आसपास	आसपास	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	कई	कई	DET	QF	PronType=Ind	15	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	विहार	विहार	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	(	(	PUNCT	SYM	_	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	जहाँ	जहाँ	PRON	PRP	Case=Nom|PronType=Prs	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	बौद्ध	बौद्ध	ADJ	JJ	Case=Nom	11	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	भिक्षु	भिक्षु	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	रहा	रह	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=VGF|Tam=0|SpanStart=110
+12	करते	कर	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=120
+13	थे	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=130
+14	)	)	PUNCT	SYM	_	0	nmod	_	ChunkId=5|ChunkType=VGF|SpanStart=140
+15	और	और	CCONJ	CC	_	0	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=150
+16	चैत्‍य	चैत्य	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=160
+17	(	(	PUNCT	SYM	_	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	जहाँ	जहाँ	PRON	PRP	Case=Nom|PronType=Prs	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=180
+19	भिक्षु	भिक्षु	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=190
+20	पूजा	पूजा	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	करते	कर	VERB	VM	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=210
+22	थे	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=220
+23	या	या	CCONJ	CC	_	0	nmod	_	ChunkId=12|ChunkType=CCP|SpanStart=230
+24	ध्‍यान	ध्यान	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=240
+25	लगाते	लगा	VERB	VM	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=250
+26	थे	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=260
+27	)	)	PUNCT	SYM	_	0	dep	_	ChunkId=14|ChunkType=VGF|SpanStart=270
+28	भग्‍नावशेष	भग्	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=280
+29	और	और	CCONJ	CC	_	0	dep	_	ChunkId=16|ChunkType=CCP|SpanStart=290
+30	खंडहर	खंडहर	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=NP|Tam=0|SpanStart=300
+31	मौजूद	मौजूद	ADJ	JJ	_	0	dep	_	ChunkId=18|ChunkType=JJP|SpanStart=310
+32	हैं	है	VERB	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=19|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=320
+33	जो	जो	PRON	PRP	Case=Nom|Mood=Imp|Number=Plur|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=20|ChunkType=NP|Tam=0|SpanStart=330
+34	अशोककालीन	अशोककालीन	ADJ	JJ	_	0	dep	_	ChunkId=21|ChunkType=JJP|SpanStart=340
+35	बताए	बता	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=22|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=350
+36	जाते	जा	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=22|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=360
+37	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=22|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=370
+38	।	।	PUNCT	SYM	_	0	dep	_	ChunkId=23|ChunkType=BLK|SpanStart=380
+
+
+
+# sent_id = 1080131085_1-s22
+# text = 
+1	मंदिर	मंदिर	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	परिसर	परिसर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	से	से	ADP	PSP	AdpType=Post	4	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	लगा	लग	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=40
+5	काफी	काफी	DET	QF	PronType=Ind	9	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	बड़ा	बड़ा	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	9	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	सा	सा	PART	RP	Case=Nom|Gender=Masc|Number=Sing	9	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	पार्क	पार्क	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=90
+10	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=4|ChunkType=VGF|SpanStart=100
+11	जहाँ	जहाँ	PRON	PRP	Case=Nom|PronType=Prs	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	पर्यटकों	पर्यटक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=130
+14	जमावड़ा	जमावड़ा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=140
+15	लगा	लग	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=150
+16	रहता	रह	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=160
+17	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=170
+18	।	।	PUNCT	SYM	_	9	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=180
+
+
+
+# sent_id = 1080131085_1-s23
+# text = 
+1	वैसे	वैसे	ADV	RB	_	10	dep	_	ChunkId=1|ChunkType=RBP|SpanStart=10
+2	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	10	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	पूरे	पूरा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	10	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	परिसर	परिसर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	में	में	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अलौकिक	अलौकिक	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	शांति	शान्ति	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	वातावरण	वातावरण	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=100
+11	।	।	PUNCT	SYM	_	10	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=110
+
+
+
+# sent_id = 1080131085_1-s24
+# text = 
+1	सुबह	सुबह	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	और	और	CCONJ	CC	_	19	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=20
+3	शाम	शाम	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=30
+4	सुगंधित	सुगंधित	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=40
+5	अगरबत्‍तियों	अगरबत्ती	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+6	और	और	CCONJ	CC	_	19	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=60
+7	बुद्धम्	बुद्धम्	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=70
+8	शरणम्	शरणम्	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=80
+9	गच्‍छामि	गच्छामि	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=90
+10	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=100
+11	घोष	घोष	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=110
+12	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=120
+13	वातावरण	वातावरण	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=130
+14	और	और	DET	QF	PronType=Ind	16	dep	_	ChunkId=9|ChunkType=NP|SpanStart=140
+15	भी	भी	PART	RP	_	16	dep	_	ChunkId=9|ChunkType=NP|SpanStart=150
+16	पवित्र	पवित्र	ADJ	JJ	_	0	dep	_	ChunkId=10|ChunkType=JJP|SpanStart=160
+17	और	और	CCONJ	CC	_	19	dep	_	ChunkId=11|ChunkType=CCP|SpanStart=170
+18	शांतिदायक	शांतिदायक	ADJ	JJ	_	0	dep	_	ChunkId=12|ChunkType=JJP|SpanStart=180
+19	लगता	लग	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=190
+20	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=200
+21	।	।	PUNCT	SYM	_	19	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=210
+
+
+
+# sent_id = 1080131085_1-s25
+# text = 
+1	महापरिनिर्वाण	महापरिनिर्वाण	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=50
+2	मंदिर	मंदिर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=60
+3	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=70
+4	कुछ	कुछ	DET	QF	PronType=Ind	0	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=80
+5	दूर	दूर	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=90
+6	आगे	आगे	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=100
+7	माथा	माथा	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=110
+8	कुँवर	कुँवर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=120
+9	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=130
+10	मंदिर	मंदिर	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=140
+11	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=150
+12	।	।	PUNCT	SYM	_	11	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=160
+
+
+
+# sent_id = 1080131085_1-s26
+# text = 
+1	इसके	यह	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	dep	_	ChunkId=1|ChunkType=NP|Vib=का|Tam=kA|SpanStart=10
+2	स्‍थानीय	स्थानीय	ADJ	JJ	Case=Acc	9	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	लोगों	लोग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	में	में	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	भगवान	भगवान	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	विष्‍णु	विष्णु	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	अवतार	अवतार	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	होने	हो	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=90
+10	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=VGNN|SpanStart=100
+11	मान्‍यता	मान्यता	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	भी	भी	PART	RP	_	14	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	प्रचलित	प्रचलित	ADJ	JJ	_	14	dep	_	ChunkId=7|ChunkType=JJP|SpanStart=130
+14	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=140
+15	।	।	PUNCT	SYM	_	14	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=150
+
+
+
+# sent_id = 1080131085_1-s27
+# text = 
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	10	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	मूर्ति	मूर्ति	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	10	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	भी	भी	PART	RP	_	10	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	करीब	करीब	PART	RP	_	10	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	पाँच	पाँच	NUM	QCC	NumType=Card	10	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	सौ	सौ	NUM	QC	NumType=Card	10	dep	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	वर्ष	वर्ष	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=80
+9	पुराना	पुराना	ADJ	JJ	Gender=Masc|Number=Sing	10	dep	_	ChunkId=3|ChunkType=JJP|SpanStart=90
+10	होने	हो	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=100
+11	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=4|ChunkType=VGNN|SpanStart=110
+12	प्रमाण	प्रमाण	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	मिलता	मिल	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=130
+14	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=140
+15	।	।	PUNCT	SYM	_	13	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=150
+
+
+
+# sent_id = 1080131085_1-s28
+# text = 
+1	माथा	माथा	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	कुँवर	कुँवर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	मूर्ति	मूर्ति	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	काले	काला	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	पत्‍थर	पत्थर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	से	से	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	बनी	बन	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=80
+9	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=90
+10	।	।	PUNCT	SYM	_	8	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=100
+
+
+
+# sent_id = 1080131085_1-s29
+# text = 
+1	इसकी	यह	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	dep	_	ChunkId=1|ChunkType=NP|Vib=का|Tam=kA|SpanStart=10
+2	ऊँचाई	ऊँचाई	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	करीब	करीब	PART	RP	_	6	dep	_	ChunkId=3|ChunkType=NP|SpanStart=30
+4	तीन	तीन	NUM	QC	NumType=Card	6	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	मीटर	मीटर	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=60
+7	।	।	PUNCT	SYM	_	6	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=70
+
+
+
+# sent_id = 1080131085_1-s30
+# text = 
+1	मूर्ति	मूर्ति	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	भगवान	भगवान	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	बुद्ध	बुद्ध	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	बोधि	बोधि	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	प्राप्‍त	प्राप्त	ADJ	JJ	_	7	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=60
+7	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=70
+8	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=VGNN|SpanStart=80
+9	पूर्व	पूर्व	NOUN	NST	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=5|ChunkType=VGNN|SpanStart=90
+10	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=VGNN|SpanStart=100
+11	ध्‍यान	ध्यान	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	मुद्रा	मुद्रा	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	में	में	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=6|ChunkType=NP|SpanStart=130
+14	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=140
+15	।	।	PUNCT	SYM	_	14	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=150
+

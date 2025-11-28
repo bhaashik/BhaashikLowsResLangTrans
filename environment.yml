@@ -1,0 +1,14 @@
+name: bhaashik-translation
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip>=24.0
+  - pip:
+    - openai>=2.8.0
+    - conllu>=6.0.0
+    - pyyaml>=6.0
+    - python-dotenv>=1.0.0
+    - requests>=2.31.0
+    - tqdm>=4.65.0

@@ -1,0 +1,479 @@
+# sent_id = fullnews_id_3351953_date_17_6_2005-s1
+# text = 
+1	नैनीताल	नैनीताल	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	से	से	ADP	PSP	AdpType=Post	4	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	खबर	खबर	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=40
+5	कि	कि	SCONJ	CC	_	0	nmod	_	ChunkId=4|ChunkType=CCP|SpanStart=50
+6	कुमाऊं	कुमाऊं	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=60
+7	भर	भर	PART	RP	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=70
+8	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	सोमवार	सोमवार	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=90
+10	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=100
+11	मौसम	मौसम	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=110
+12	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=120
+13	रुख	रुख	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=130
+14	में	में	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=8|ChunkType=NP|SpanStart=140
+15	अचानक	अचानक	ADV	RB	_	17	dep	_	ChunkId=9|ChunkType=RBP|SpanStart=150
+16	तब्दीली	तब्दीली	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=160
+17	आने	आ	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=170
+18	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=VGNN|SpanStart=180
+19	ठंड	ठंड	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=190
+20	बढ़	बढ़	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=13|ChunkType=VGF|Tam=0|SpanStart=200
+21	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	5	dep	_	ChunkId=13|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=210
+22	।	।	PUNCT	SYM	_	4	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=220
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s2
+# text = 
+1	भारी	भारी	ADJ	JJ	Case=Acc	3	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	बारिश	बारिश	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	और	और	CCONJ	CC	_	10	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=30
+4	हिमपात	हिमपात	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	के	के	ADP	PSP	AdpType=Post	3	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	चलते	चलते	ADP	PSP	AdpType=Post	3	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	जनजीवन	जनजीवन	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	घरों	घर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	में	में	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	ठहर	ठहर	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Tam=0|SpanStart=100
+11	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=110
+12	।	।	PUNCT	SYM	_	10	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=120
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s3
+# text = 
+1	नैनीताल	नैनीताल	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	न्यूनतम	न्यूनतम	ADJ	JJ	Case=Nom	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	तापमान	तापमान	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	करीब	करीब	PART	RP	_	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	चार	चार	NUM	QC	NumType=Card	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	डिग्री	डिग्री	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	बताया	बता	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=80
+9	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=90
+10	।	।	PUNCT	SYM	_	8	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=100
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s4
+# text = 
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	मौसम	मौसम	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	पहली	पहला	ADJ	QO	Case=Nom|Gender=Fem|Number=Sing	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	बर्फबारी	बर्फबारी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	होने	हो	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=60
+7	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=VGNN|SpanStart=70
+8	भी	भी	PART	RP	_	0	dep	_	ChunkId=3|ChunkType=VGNN|SpanStart=80
+9	खबर	खबर	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=100
+11	।	।	PUNCT	SYM	_	10	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=110
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s5
+# text = 
+1	पिथौरागढ़	पिथौरागढ़	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	जिले	जिला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	भारी	भारी	ADJ	JJ	Case=Acc	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	बारिश	बारिश	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	और	और	CCONJ	CC	_	19	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=60
+7	ऊंचाई	ऊंचाई	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	वाले	वाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	स्थानों	स्थान	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	पर	पर	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	हिमपात	हिमपात	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	6	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	कारण	कारण	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	6	dep	_	ChunkId=6|ChunkType=NP|SpanStart=130
+14	सामान्य	सामान्य	ADJ	JJ	Case=Nom	19	dep	_	ChunkId=7|ChunkType=NP|SpanStart=140
+15	जनजीवन	जनजीवन	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=150
+16	अस्त	अस्त	ADJ	JJC	Case=Nom	19	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=160
+17	-	-	PUNCT	SYM	_	19	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=170
+18	व्यस्त	व्यस्त	ADJ	JJ	_	19	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=180
+19	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Tam=0|SpanStart=190
+20	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=200
+21	।	।	PUNCT	SYM	_	19	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=210
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s6
+# text = 
+1	लोग	लोग	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|Mood=Imp|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	घरों	घर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=30
+4	में	में	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	ही	ही	PART	RP	_	6	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	दुबके	दुबक	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=60
+7	रहे	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=70
+8	।	।	PUNCT	SYM	_	6	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=80
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s7
+# text = 
+1	मुनस्यारी	मुनस्यारी	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	सुबह	सुबह	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	से	से	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	ही	ही	PART	RP	_	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	बर्फ	बर्फ	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	गिरने	गिर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=70
+8	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=4|ChunkType=VGNN|SpanStart=80
+9	सिलसिला	सिलसिला	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	शुरू	शुरू	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=100
+11	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Tam=0|SpanStart=110
+12	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=120
+13	जो	जो	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=130
+14	देर	देर	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=140
+15	तक	तक	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=150
+16	चलता	चल	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=160
+17	रहा	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=170
+18	।	।	PUNCT	SYM	_	11	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=180
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s8
+# text = 
+1	वहां	वहाँ	PRON	PRP	Case=Acc|PronType=Prs	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	पर	पर	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	तापमान	तापमान	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	शून्य	शून्य	NUM	QC	NumType=Card	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	डिग्री	डिग्री	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	के	के	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	आसपास	आसपास	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	पहुंच	पहुंच	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Tam=0|SpanStart=80
+9	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=90
+10	।	।	PUNCT	SYM	_	8	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=100
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s9
+# text = 
+1	बारिश	बारिश	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	और	और	CCONJ	CC	_	11	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=20
+3	बर्फबारी	बर्फबारी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=30
+4	से	से	ADP	PSP	AdpType=Post	2	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	मुनस्यारी	मुनस्यारी	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+6	के	के	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	लिए	लिए	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	सड़क	सड़क	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	यातायात	यातायात	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	बंद	बंद	ADJ	JJ	_	11	dep	_	ChunkId=6|ChunkType=JJP|SpanStart=100
+11	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Tam=0|SpanStart=110
+12	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=120
+13	।	।	PUNCT	SYM	_	11	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=130
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s10
+# text = 
+1	धारचूला	धारचूला	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	ऊंचाई	ऊंचाई	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	वाले	वाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	इलाकों	इलाका	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	में	में	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	लगातार	लगातार	ADV	RB	_	9	dep	_	ChunkId=4|ChunkType=RBP|SpanStart=70
+8	बर्फ	बर्फ	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	गिर	गिर	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Tam=0|SpanStart=90
+10	रही	रह	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=100
+11	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=110
+12	।	।	PUNCT	SYM	_	9	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=120
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s11
+# text = 
+1	प्रसिद्ध	प्रसिद्ध	ADJ	JJ	Case=Nom	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	पर्यटक	पर्यटक	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	स्थल	स्थल	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+4	नारायण	नारायण	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	आश्रम	आश्रम	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	छह	छह	NUM	QC	NumType=Card	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	इंच	इंच	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	तक	तक	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	बर्फ	बर्फ	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	गिर	गिर	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Tam=0|SpanStart=110
+12	चुकी	चुक	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=120
+13	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=130
+14	।	।	PUNCT	SYM	_	11	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=140
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s12
+# text = 
+1	उधर	उधर	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	33	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	,	COMMA	PUNCT	SYM	_	33	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	गढ़वाल	गढ़वाल	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Plur	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	ऊंची	ऊंचा	ADJ	JJ	Case=Nom|Gender=Fem|Number=Plur	10	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	चोटियों	चोटी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	गंगोत्री	गंगोत्री	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	,	COMMA	PUNCT	SYM	_	10	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	यमुनोत्री	यमुनोत्री	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	तथा	तथा	CCONJ	CC	_	33	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=100
+11	टौंस	टौंस	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=110
+12	घाटी	घाटी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=120
+13	में	में	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=7|ChunkType=NP|SpanStart=130
+14	ऊंचाई	ऊंचाई	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=140
+15	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+16	आबादी	आबादी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=160
+17	वाले	वाला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=9|ChunkType=NP|SpanStart=170
+18	क्षेत्रों	क्षेत्र	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=180
+19	में	में	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=190
+20	भारी	भारी	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=200
+21	बर्फबारी	बर्फबारी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=210
+22	तथा	तथा	CCONJ	CC	_	33	dep	_	ChunkId=12|ChunkType=CCP|SpanStart=220
+23	निचले	निचला	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=13|ChunkType=NP|SpanStart=230
+24	क्षेत्रों	क्षेत्र	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=240
+25	में	में	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=13|ChunkType=NP|SpanStart=250
+26	वर्षा	वर्षा	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=260
+27	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=270
+28	चलते	चलते	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=280
+29	जनजीवन	जनजीवन	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	33	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=290
+30	अस्त	अस्त	ADJ	JJC	Case=Nom	33	dep	_	ChunkId=16|ChunkType=JJP|SpanStart=300
+31	-	-	PUNCT	SYM	_	33	dep	_	ChunkId=16|ChunkType=JJP|SpanStart=310
+32	व्यस्त	व्यस्त	ADJ	JJ	_	33	dep	_	ChunkId=16|ChunkType=JJP|SpanStart=320
+33	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGF|Tam=0|SpanStart=330
+34	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=340
+35	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=350
+36	।	।	PUNCT	SYM	_	33	dep	_	ChunkId=18|ChunkType=BLK|SpanStart=360
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s13
+# text = 
+1	गंगोत्री	गंगोत्री	PROPN	NNP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	व	व	CCONJ	CC	_	0	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=20
+3	यमुनोत्री	यमुनोत्री	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=30
+4	राष्ट्रीय	राष्ट्रीय	PROPN	NNPC	Case=Acc	25	dep	_	ChunkId=4|ChunkType=NP|SpanStart=170
+5	राजमार्ग	राजमार्ग	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+6	सहित	सहित	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	उत्तरकाशी	उत्तरकाशी	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=70
+8	-	-	PUNCT	SYM	_	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	लंबगांव	लंबगांव	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	एवं	एवं	CCONJ	CC	_	0	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=100
+11	सिल्क्यारा	सिल्क्यारा	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=110
+12	-	-	PUNCT	SYM	_	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=120
+13	बणगांव	बणगांव	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	मोटर	मोटर	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=140
+15	मार्ग	मार्ग	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	पर	पर	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=8|ChunkType=NP|SpanStart=160
+17	भारी	भारी	ADJ	JJ	Case=Acc	25	dep	_	ChunkId=9|ChunkType=NP|SpanStart=170
+18	बर्फबारी	बर्फबारी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	25	dep	_	ChunkId=9|ChunkType=NP|SpanStart=190
+20	कारण	कारण	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	25	dep	_	ChunkId=9|ChunkType=NP|SpanStart=200
+21	कई	कई	DET	QF	PronType=Ind	25	dep	_	ChunkId=10|ChunkType=NP|SpanStart=210
+22	जगह	जगह	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=220
+23	यातायात	यातायात	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=230
+24	अवरुद्ध	अवरुद्ध	ADJ	JJ	_	25	dep	_	ChunkId=12|ChunkType=JJP|SpanStart=240
+25	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Tam=0|SpanStart=250
+26	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=260
+27	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=270
+28	।	।	PUNCT	SYM	_	25	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=280
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s14
+# text = 
+1	गंगोत्री	गंगोत्री	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	राष्ट्रीय	राष्ट्रीय	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	राजमार्ग	राजमार्ग	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+4	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	उत्तरकाशी	उत्तरकाशी	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	55	55	NUM	QC	NumType=Card	0	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	किमी	किमी	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	गंगोत्री	गंगोत्री	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	18	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	ओर	ओर	NOUN	NST	Case=Nom|Gender=Fem|Number=Sing|Person=3	18	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	सुक्की	सुक्की	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	के	के	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	पास	पास	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	बर्फबारी	बर्फबारी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=150
+16	से	से	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=6|ChunkType=NP|SpanStart=160
+17	अवरुद्ध	अवरुद्ध	ADJ	JJ	_	18	dep	_	ChunkId=7|ChunkType=JJP|SpanStart=170
+18	होने	हो	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	39	dep	_	ChunkId=8|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=180
+19	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	39	dep	_	ChunkId=8|ChunkType=VGNN|SpanStart=190
+20	कारण	कारण	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	39	dep	_	ChunkId=8|ChunkType=VGNN|SpanStart=200
+21	उपला	उपला	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=210
+22	टकनौर	टकनौर	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=220
+23	क्षेत्र	क्षेत्र	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=230
+24	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=240
+25	हर्लि	हर्लि	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=250
+26	,	COMMA	PUNCT	SYM	_	29	dep	_	ChunkId=10|ChunkType=NP|SpanStart=260
+27	मुखबा	मुखबा	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=270
+28	,	COMMA	PUNCT	SYM	_	29	dep	_	ChunkId=11|ChunkType=NP|SpanStart=280
+29	NULL	NULL	CCONJ	CC	_	0	dep	_	ChunkId=12|ChunkType=NULL__CCP
+30	धराली	धराली	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=290
+31	आदि	आदि	PART	RP	_	29	dep	_	ChunkId=13|ChunkType=NP|SpanStart=300
+32	गांवों	गांव	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=310
+33	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=14|ChunkType=NP|SpanStart=320
+34	जिला	जिला	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	39	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=330
+35	मुख्यालय	मुख्यालय	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	39	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=340
+36	से	से	ADP	PSP	AdpType=Post	39	dep	_	ChunkId=15|ChunkType=NP|SpanStart=350
+37	सड़क	सड़क	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	39	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=360
+38	संपर्क	संपर्क	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	39	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=370
+39	कट	कट	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGF|Tam=0|SpanStart=380
+40	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=390
+41	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=400
+42	।	।	PUNCT	SYM	_	39	dep	_	ChunkId=18|ChunkType=BLK|SpanStart=410
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s15
+# text = 
+1	प्रतापनगर	प्रतापनगर	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	खैट	खैट	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	पीड़ी	पीड़ी	PROPN	NNP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	सेम	सेम	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	-	-	PUNCT	SYM	_	21	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	मुखेम	मुखेम	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	खाद	खाद	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	-	-	PUNCT	SYM	_	21	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	कागुड़ा	कागुड़ा	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=130
+14	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	सुरकंडा	सुरकंडा	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=150
+16	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=6|ChunkType=NP|SpanStart=160
+17	चंद्रबदनी	चंद्रबदनी	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=170
+18	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=7|ChunkType=NP|SpanStart=180
+19	गंगी	गंगी	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=190
+20	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=8|ChunkType=NP|SpanStart=200
+21	NULL	NULL	CCONJ	CC	_	0	dep	_	ChunkId=9|ChunkType=NULL__CCP
+22	पिनस्वाड़	पिनस्वाड़	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=210
+23	आदि	आदि	PART	RP	_	21	dep	_	ChunkId=10|ChunkType=NP|SpanStart=220
+24	इलाकों	इलाका	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=230
+25	तथा	तथा	CCONJ	CC	_	35	dep	_	ChunkId=12|ChunkType=CCP|SpanStart=240
+26	ऊंची	ऊंचा	ADJ	JJ	Case=Acc|Gender=Fem|Number=Plur	25	dep	_	ChunkId=13|ChunkType=NP|SpanStart=250
+27	पहाड़ियों	पहाडी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=260
+28	पर	पर	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=13|ChunkType=NP|SpanStart=270
+29	बड़ी	बड़ा	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	35	dep	_	ChunkId=14|ChunkType=NP|SpanStart=280
+30	मात्रा	मात्रा	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	35	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=290
+31	में	में	ADP	PSP	AdpType=Post	35	dep	_	ChunkId=14|ChunkType=NP|SpanStart=300
+32	हिमपात	हिमपात	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=310
+33	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=15|ChunkType=NP|SpanStart=320
+34	खबर	खबर	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	35	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=330
+35	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=17|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=340
+36	।	।	PUNCT	SYM	_	35	dep	_	ChunkId=18|ChunkType=BLK|SpanStart=350
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s16
+# text = 
+1	केदारनाथ	केदारनाथ	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	तुंगनाथ	तुंगनाथ	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	मदमहेश्वर	मदमहेश्वर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	पवांलीकांठा	पवांलीकांठा	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	पटागणियां	पटागणियां	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	चिरबटिया	चिरबटिया	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	कालीशिला	कालीशिला	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=7|ChunkType=NP|SpanStart=140
+15	हरियाली	हरियाली	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	डांडा	डांडा	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	देवरियाताल	देवरियाताल	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=180
+19	,	COMMA	PUNCT	SYM	_	21	dep	_	ChunkId=9|ChunkType=NP|SpanStart=190
+20	चोपता	चोपता	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=200
+21	व	व	CCONJ	CC	_	0	dep	_	ChunkId=11|ChunkType=CCP|SpanStart=210
+22	दुगलबिट्टा	दुगलबिट्टा	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=220
+23	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Plur	21	dep	_	ChunkId=12|ChunkType=NP|SpanStart=230
+24	पहाड़ियां	पहाड़ी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	27	dep	_	ChunkId=13|ChunkType=NP|Tam=0|SpanStart=240
+25	बर्फ	बर्फ	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	27	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=250
+26	से	से	ADP	PSP	AdpType=Post	27	dep	_	ChunkId=14|ChunkType=NP|SpanStart=260
+27	ढंकी	ढंक	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=270
+28	हैं	है	AUX	VAUX	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Tam=0|SpanStart=280
+29	।	।	PUNCT	SYM	_	27	dep	_	ChunkId=16|ChunkType=BLK|SpanStart=290
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s17
+# text = 
+1	हिमपात	हिमपात	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	कारण	कारण	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	चोपता	चोपता	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	-	-	PUNCT	SYM	_	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	मंडल	मंडल	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	-	-	PUNCT	SYM	_	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	गोपेश्वर	गोपेश्वर	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=80
+9	मार्ग	मार्ग	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=90
+10	अवरुद्ध	अवरुद्ध	ADJ	JJ	_	11	dep	_	ChunkId=3|ChunkType=JJP|SpanStart=100
+11	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Tam=0|SpanStart=110
+12	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=120
+13	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=130
+14	।	।	PUNCT	SYM	_	11	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=140
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s18
+# text = 
+1	सैलानी	सैलानी	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	मक्कू	मक्कू	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	बैण्ड	बैंड	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	से	से	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	आगे	आगे	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	नहीं	नहीं	PART	NEG	_	0	dep	_	ChunkId=3|ChunkType=VGF|SpanStart=60
+7	बढ़	बढ़	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Tam=0|SpanStart=70
+8	पा	पा	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Tam=0|SpanStart=80
+9	रहे	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=90
+10	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=100
+11	।	।	PUNCT	SYM	_	6	dep	_	ChunkId=4|ChunkType=BLK|SpanStart=110
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s19
+# text = 
+1	बदरीनाथ	बदरीनाथ	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	बर्फ	बर्फ	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	पांच	पांच	NUM	QC	NumType=Card	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	फीट	फुट	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	से	से	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	ज्यादा	ज्यादा	DET	QF	PronType=Ind	0	nmod	_	ChunkId=4|ChunkType=JJP|SpanStart=80
+9	मोटी	मोटा	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	11	dep	_	ChunkId=5|ChunkType=NP|SpanStart=90
+10	पर्त	पर्त	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	जम	जम	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Tam=0|SpanStart=110
+12	चुकी	चुक	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=120
+13	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=130
+14	।	।	PUNCT	SYM	_	11	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=140
+
+
+
+# sent_id = fullnews_id_3351953_date_17_6_2005-s20
+# text = 
+1	औली	औली	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	सहित	सहित	ADP	PSP	AdpType=Post	17	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	जिले	जिला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Plur	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	सभी	सभी	DET	QF	PronType=Ind	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	ऊंचे	ऊंचा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	पहाड़	पहाड	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	और	और	CCONJ	CC	_	17	dep	_	ChunkId=4|ChunkType=CCP|SpanStart=80
+9	जिला	जिला	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	मुख्यालय	मुख्यालय	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	से	से	ADP	PSP	AdpType=Post	12	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	लगी	लग	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur|Person=3|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGNF|Vib=या|Tam=yA|SpanStart=120
+13	पहाड़ियां	पहाड़ी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	आज	आज	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=140
+15	बर्फ	बर्फ	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=150
+16	से	से	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=9|ChunkType=NP|SpanStart=160
+17	ढक	ढक	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Tam=0|SpanStart=170
+18	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=180
+19	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=190
+20	।	।	PUNCT	SYM	_	17	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=200
+

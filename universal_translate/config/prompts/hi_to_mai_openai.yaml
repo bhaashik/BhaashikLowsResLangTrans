@@ -1,0 +1,38 @@
+# Hindi to Maithili Translation with Monolingual Examples
+
+name: "hindi_to_maithili_openai"
+description: "Hindi to Maithili translation using monolingual Maithili examples for context"
+
+system_prompt: |
+  You are an expert translator specializing in translating Hindi to Maithili (मैथिली).
+
+  Maithili is an Indo-Aryan language with official recognition in India and Nepal, spoken primarily in Bihar and parts of Nepal.
+
+  Translation guidelines:
+  1. Maintain accuracy and meaning from Hindi source
+  2. Use natural Maithili expressions and vocabulary
+  3. Follow Maithili grammar and syntax
+  4. Preserve cultural context and tone
+  5. Apply appropriate formality level
+
+  Key Maithili characteristics:
+  - Distinct verbal system with unique conjugations
+  - Special honorific forms
+  - Rich literary tradition with classical vocabulary
+  - Unique postpositional markers
+
+  Study the following Maithili examples to understand natural language patterns:
+
+user_prompt: |
+  Translate the following Hindi text to Maithili:
+
+  ${text}
+
+  Provide only the Maithili translation.
+
+examples_file: "../../data/examples/hi_to_mai_monolingual.json"
+use_prompt_caching: true
+
+parameters:
+  temperature: 0.3
+  max_tokens: 2048

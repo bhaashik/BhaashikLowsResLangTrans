@@ -1,0 +1,210 @@
+# BhaashikLowsResLangTrans Configuration
+
+# Supported Languages
+languages:
+  # IndicTrans2 Supported (22 languages) - FREE
+  indictrans2_supported:
+    - as  # Assamese
+    - bn  # Bengali
+    - gu  # Gujarati
+    - hi  # Hindi
+    - kn  # Kannada
+    - ks  # Kashmiri
+    - kok # Konkani
+    - ml  # Malayalam
+    - mni # Manipuri
+    - mr  # Marathi
+    - ne  # Nepali
+    - or  # Odia
+    - pa  # Punjabi
+    - sa  # Sanskrit
+    - sd  # Sindhi
+    - ta  # Tamil
+    - te  # Telugu
+    - ur  # Urdu
+    - brx # Bodo
+    - sat # Santhali
+    - mai # Maithili
+    - doi # Dogri
+
+  # Not Supported - Require Budget
+  unsupported:
+    bhojpuri:
+      code: bho
+      speakers: 51000000
+      family: Indo-Aryan
+      pivot: hi  # Use Hindi as pivot
+    magahi:
+      code: mag
+      speakers: 13000000
+      family: Indo-Aryan
+      pivot: hi
+    awadhi:
+      code: awa
+      speakers: 38000000
+      family: Indo-Aryan
+      pivot: hi
+    braj:
+      code: bra
+      speakers: 1000000
+      family: Indo-Aryan
+      pivot: hi
+    marwari:
+      code: mwr
+      speakers: 13000000
+      family: Indo-Aryan
+      pivot: hi
+    bundeli:
+      code: bns
+      speakers: 3000000
+      family: Indo-Aryan
+      pivot: hi
+
+# Data Sources
+data_sources:
+  samanantar:
+    dataset_id: "ai4bharat/samanantar"
+    total_pairs: 49700000
+    languages: [as, bn, gu, hi, kn, ml, mr, or, pa, ta, te]
+    approximate_size_gb: 60
+
+# Translation Models
+models:
+  indictrans2:
+    en_to_indic_1b: "ai4bharat/indictrans2-en-indic-1B"
+    indic_to_en_1b: "ai4bharat/indictrans2-indic-en-1B"
+    indic_to_indic_1b: "ai4bharat/indictrans2-indic-indic-1B"
+    en_to_indic_200m: "ai4bharat/indictrans2-en-indic-dist-200M"
+    indic_to_en_200m: "ai4bharat/indictrans2-indic-en-dist-200M"
+    default: "ai4bharat/indictrans2-en-indic-dist-200M"
+
+  nllb:
+    distilled_600m: "facebook/nllb-200-distilled-600M"
+    base_1_3b: "facebook/nllb-200-1.3B"
+    large_3_3b: "facebook/nllb-200-3.3B"
+    default: "facebook/nllb-200-distilled-600M"
+
+  llms:
+    llama: "meta-llama/Llama-3.1-8B-Instruct"
+    mistral: "mistralai/Mistral-7B-Instruct-v0.3"
+    aya: "CohereForAI/aya-101"
+
+# Translation Strategy
+strategy:
+  # For supported languages - use IndicTrans2 directly
+  supported_strategy: "indictrans2_direct"
+
+  # For unsupported languages - tiered approach
+  unsupported_strategy:
+    method: "tiered"
+    tiers:
+      - name: "free_pivot"
+        percentage: 70
+        method: "indictrans2_pivot"
+        cost_per_million_chars: 0
+        description: "Hindi pivot using IndicTrans2"
+
+      - name: "quality_enhancement"
+        percentage: 20
+        method: "claude_haiku_3_5"
+        cost_per_million_chars: 408  # INR (68 input + 340 output)
+        description: "Claude Haiku 3.5 for quality improvement"
+
+      - name: "premium_quality"
+        percentage: 10
+        method: "claude_haiku_4_5"
+        cost_per_million_chars: 510  # INR (85 input + 425 output)
+        description: "Claude Haiku 4.5 for premium quality"
+
+# API Configuration
+api:
+  anthropic:
+    models:
+      haiku_3:
+        input_cost_per_1m_tokens: 21  # INR
+        output_cost_per_1m_tokens: 106
+      haiku_3_5:
+        input_cost_per_1m_tokens: 68
+        output_cost_per_1m_tokens: 340
+      haiku_4_5:
+        input_cost_per_1m_tokens: 85
+        output_cost_per_1m_tokens: 425
+      sonnet_4_5:
+        input_cost_per_1m_tokens: 255
+        output_cost_per_1m_tokens: 1275
+    batch_api_discount: 0.5  # 50% off output
+    prompt_cache_discount: 0.9  # 90% off cached input
+
+  openai:
+    models:
+      gpt_3_5_turbo:
+        cost_per_1m_chars: 2  # USD
+      gpt_4_turbo:
+        cost_per_1m_chars: 20
+
+  google:
+    cost_per_1m_chars: 20  # USD
+
+  azure:
+    cost_per_1m_chars: 10  # USD
+    free_tier_chars: 2000000  # 2M chars/month free
+
+# Processing Configuration
+processing:
+  batch_size: 32
+  max_length: 512
+  num_beams: 5
+  temperature: 0.7
+  top_p: 0.9
+
+  # Parallel processing
+  num_workers: 4
+  use_gpu: true
+  device: "cuda"  # or "cpu"
+
+  # Checkpointing
+  checkpoint_every: 10000  # Save every N samples
+  resume_from_checkpoint: true
+
+# Quality Assessment
+quality:
+  enable_scoring: true
+  metrics:
+    - bleu
+    - chrf
+    - ter
+  min_threshold: 0.7
+
+  # Sampling for manual review
+  sample_rate: 0.01  # 1% random sampling
+
+# Cost Tracking
+cost_tracking:
+  enabled: true
+  currency: "INR"
+  usd_to_inr_rate: 85
+  log_file: "logs/cost_tracking.json"
+
+  # Budget alerts
+  enable_alerts: true
+  daily_budget_inr: 5000
+  total_budget_inr: 100000
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/translation.log"
+  console: true
+
+  # Rich progress bars
+  use_rich: true
+
+# Paths (relative to BASE_DIR)
+paths:
+  datasets: "datasets"
+  models: "models"
+  cache: "cache"
+  logs: "logs"
+  output: "output"
+  checkpoints: "checkpoints"

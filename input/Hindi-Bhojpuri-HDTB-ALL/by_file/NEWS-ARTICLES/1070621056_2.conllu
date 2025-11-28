@@ -1,0 +1,466 @@
+# sent_id = 1070621056_2-s1
+# text = 
+1	तूफानों	तूफान	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	बीच	बीच	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	थीम	थीम	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	पार्क	पार्क	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	सुंदर	सुन्दर	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	दुनिया	दुनिया	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	यूनिवर्सल	यूनिवर्सल	PROPN	NNPC	Case=Nom	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	स्टूडियो	स्टूडियो	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	-	-	PUNCT	SYM	_	0	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=110
+
+
+
+# sent_id = 1070621056_2-s2
+# text = 
+1	यह	यह	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	फिल्म	फिल्म	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	और	और	CCONJ	CC	_	0	nmod	_	ChunkId=3|ChunkType=CCP|SpanStart=30
+4	टीवी	टीवी	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=40
+5	सीरियल	सीरियल	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+6	बेस	बेस	ADJ	JJ	Case=Nom	9	dep	_	ChunkId=5|ChunkType=NP|SpanStart=60
+7	थीम	थीम	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=70
+8	पार्क	पार्क	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=90
+10	।	।	PUNCT	SYM	_	9	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=100
+
+
+
+# sent_id = 1070621056_2-s3
+# text = 
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	थीम	थीम	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	पार्क	पार्क	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+4	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	सबसे	सबसे	ADV	INTF	AdvType=Deg	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	मजेदार	मजेदार	ADJ	JJ	Case=Nom	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	बात	बात	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=70
+8	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=80
+9	कि	कि	SCONJ	CC	_	0	nmod	_	ChunkId=4|ChunkType=CCP|SpanStart=90
+10	यहाँ	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	आप	आप	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	स्क्रीन	स्क्रीन	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=120
+13	के	के	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=7|ChunkType=NP|SpanStart=130
+14	अंदर	अंदर	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	dep	_	ChunkId=7|ChunkType=NP|SpanStart=140
+15	जाकर	जा	VERB	VM	VerbForm=Conv|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=150
+16	रियल	रियल	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=160
+17	लाइफ	लाइफ	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=170
+18	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=180
+19	एक्शन	एक्शन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=190
+20	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=10|ChunkType=NP|SpanStart=200
+21	लुत्‍फ	लुत्फ	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=210
+22	ले	ले	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=12|ChunkType=VGF|Tam=0|SpanStart=220
+23	सकते	सक	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=12|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=230
+24	हैं	है	AUX	VAUX	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=12|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=240
+25	।	।	PUNCT	SYM	_	8	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=250
+
+
+
+# sent_id = 1070621056_2-s4
+# text = 
+1	यहाँ	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	15	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	आप	आप	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|PronType=Prs|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	शार्क	शार्क	PROPN	NNPC	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=30
+4	फोर	फोर	PROPN	NNPC	Case=Nom	0	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	डी	डी	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	जैसी	जैसा	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	ऑस्कर	ऑस्कर	ADJ	JJC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	विनिंग	विनिंग	ADJ	JJ	Case=Acc	15	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	फिल्म	फिल्म	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	में	में	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	प्रिंसेस	प्रिंसेस	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	फियोना	फियोना	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	साथ	साथ	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	दे	दे	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Tam=0|SpanStart=150
+16	सकते	सक	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=160
+17	हैं	है	AUX	VAUX	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=170
+18	।	।	PUNCT	SYM	_	15	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=180
+
+
+
+# sent_id = 1070621056_2-s5
+# text = 
+1	यहाँ	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	7	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	सारी	सारा	DET	QF	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	7	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	फिल्में	फिल्म	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	इंटरेक्टिव	इंटरेक्टिव	ADJ	JJ	Case=Acc	7	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	सेक्शन	सेक्शन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	में	में	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	रखी	रख	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=70
+8	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=80
+9	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=90
+10	।	।	PUNCT	SYM	_	7	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=100
+
+
+
+# sent_id = 1070621056_2-s6
+# text = 
+1	जैसे	जैसे	ADV	RB	_	6	dep	_	ChunkId=1|ChunkType=RBP|SpanStart=10
+2	शार्क	शार्क	PROPN	NNP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	थ्री	थ्री	NUM	QC	NumType=Card	6	dep	_	ChunkId=3|ChunkType=NP|SpanStart=30
+4	डी	डी	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	फिल्म	फिल्म	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=60
+7	,	COMMA	PUNCT	SYM	_	8	dep	_	ChunkId=4|ChunkType=VGF|SpanStart=70
+8	लेकिन	लेकिन	CCONJ	CC	_	0	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=80
+9	यहाँ	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=90
+10	उसे	वह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	15	dep	_	ChunkId=7|ChunkType=NP|Vib=को|Tam=ko|SpanStart=100
+11	फोर	फोर	NUM	QC	NumType=Card	0	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=110
+12	डी	डी	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=120
+13	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=8|ChunkType=NP|SpanStart=130
+14	रूप	रूप	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=140
+15	देकर	दे	VERB	VM	VerbForm=Conv|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=150
+16	नन्हे	नन्हा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=160
+17	मेहमानों	मेहमान	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=170
+18	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=180
+19	लिए	लिए	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=190
+20	खास	खास	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=200
+21	डायमेंशन	डायमेंशन	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=210
+22	बनाया	बना	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	8	dep	_	ChunkId=13|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=220
+23	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	8	dep	_	ChunkId=13|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=230
+24	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=240
+25	।	।	PUNCT	SYM	_	8	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=250
+
+
+
+# sent_id = 1070621056_2-s7
+# text = 
+1	शार्क	शार्क	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	29	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	ही	ही	PART	RP	_	29	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	तरह	तरह	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	29	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	यहाँ	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	29	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	'	SINGLE_QUOTE	PUNCT	SYM	_	20	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	रिवेंज	रिवेंज	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	ऑफ	ऑफ	PROPN	NNPC	_	20	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	द	द	PROPN	NNPC	_	20	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	ममी	ममी	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=100
+11	,	COMMA	PUNCT	SYM	_	20	dep	_	ChunkId=3|ChunkType=NP|SpanStart=110
+12	फियर	फियर	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=120
+13	फेक्टर	फेक्टर	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=130
+14	लाइव	लाइव	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=140
+15	,	COMMA	PUNCT	SYM	_	20	dep	_	ChunkId=4|ChunkType=NP|SpanStart=150
+16	मेन	मेन	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=160
+17	इन	इन	PROPN	NNPC	_	20	dep	_	ChunkId=5|ChunkType=NP|SpanStart=170
+18	ब्लैक	ब्लैक	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=180
+19	,	COMMA	PUNCT	SYM	_	20	dep	_	ChunkId=5|ChunkType=NP|SpanStart=190
+20	NULL	NULL	CCONJ	CC	_	0	dep	_	ChunkId=6|ChunkType=NULL__CCP
+21	ईटी	ईटी	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=200
+22	एडवेंचर	एडवेंचर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=210
+23	जैसी	जैसा	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Plur	20	dep	_	ChunkId=7|ChunkType=NP|SpanStart=220
+24	फिल्में	फिल्म	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=230
+25	इंटरेक्टिव	इंटरेक्टिव	ADJ	JJ	Case=Acc	29	dep	_	ChunkId=9|ChunkType=NP|SpanStart=240
+26	सेक्शन	सेक्शन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	29	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=250
+27	में	में	ADP	PSP	AdpType=Post	29	dep	_	ChunkId=9|ChunkType=NP|SpanStart=260
+28	शामिल	शामिल	ADJ	JJ	_	29	dep	_	ChunkId=10|ChunkType=JJP|SpanStart=270
+29	हैं	है	VERB	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=280
+30	।	।	PUNCT	SYM	_	29	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=290
+
+
+
+# sent_id = 1070621056_2-s8
+# text = 
+1	डिजनीलैंड	डिजनीलैंड	PROPN	NNP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	-	-	PUNCT	SYM	_	0	dep	_	ChunkId=2|ChunkType=BLK|SpanStart=20
+
+
+
+# sent_id = 1070621056_2-s9
+# text = 
+1	ओरलैंडो	ओरलैंडो	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+2	को	को	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+3	बच्चों	बच्चा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+4	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+5	स्वर्ग	स्वर्ग	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+6	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=80
+7	जाए	जा	AUX	VAUX	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=एं|Tam=eM|SpanStart=90
+8	तो	तो	SCONJ	CC	_	0	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=100
+9	गलत	गलत	ADJ	JJ	_	0	dep	_	ChunkId=6|ChunkType=JJP|SpanStart=110
+10	न	न	PART	NEG	_	8	dep	_	ChunkId=7|ChunkType=VGF|SpanStart=120
+11	होगा	हो	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=7|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=130
+12	।	।	PUNCT	SYM	_	8	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=140
+
+
+
+# sent_id = 1070621056_2-s10
+# text = 
+1	यहाँ	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	7	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	बच्चों	बच्चा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	के	के	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	लिए	लिए	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	काफी	काफी	DET	QF	PronType=Ind	7	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	कुछ	कुछ	PRON	PRP	Case=Nom|Mood=Imp|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=70
+8	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=4|ChunkType=VGF|SpanStart=80
+9	इनमें	यह	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	0	dep	_	ChunkId=5|ChunkType=NP|Vib=में|Tam=meM|SpanStart=90
+10	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	एक	एक	NUM	QC	NumType=Card	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+12	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=120
+13	डिजनी	डिजनी	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=130
+14	लैंड	लैंड	PROPN	NNP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=140
+15	।	।	PUNCT	SYM	_	7	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=150
+
+
+
+# sent_id = 1070621056_2-s11
+# text = 
+1	यहाँ	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	2	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	आकर	आ	VERB	VM	VerbForm=Conv|Voice=Act	12	dep	_	ChunkId=2|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=20
+3	बच्चे	बच्चा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=30
+4	कार्टून	कार्टून	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=40
+5	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=50
+6	रंग	रंग	ADJ	JJC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=60
+7	-	-	PUNCT	SYM	_	12	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=70
+8	बिरंगी	बिरंगा	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	दुनिया	दुनिया	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	से	से	ADP	PSP	AdpType=Post	12	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	रूबरू	रूबरू	ADV	RB	_	12	dep	_	ChunkId=6|ChunkType=RBP|SpanStart=100
+12	होंगे	हो	VERB	VM	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=120
+13	।	।	PUNCT	SYM	_	12	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=130
+
+
+
+# sent_id = 1070621056_2-s12
+# text = 
+1	बच्चे	बच्चा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	यहाँ	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	न	न	PART	NEG	_	20	dep	_	ChunkId=3|ChunkType=NEGP|SpanStart=30
+4	सिर्फ	सिर्फ	PART	RP	_	20	dep	_	ChunkId=3|ChunkType=NEGP|SpanStart=40
+5	खूबसूरत	खूबसूरत	ADJ	JJ	Case=Acc	20	dep	_	ChunkId=4|ChunkType=NP|SpanStart=50
+6	कार्टून	कार्टून	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=60
+7	कैरेक्टर	कैरेक्टर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	20	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	जैसे	जैसा	PART	RP	_	15	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+9	मिक्की	मिक्की	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	-	-	PUNCT	SYM	_	15	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	माउस	माउस	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	,	COMMA	PUNCT	SYM	_	15	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	एरियल	एरियल	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	,	COMMA	PUNCT	SYM	_	15	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	NULL	NULL	CCONJ	CC	_	0	dep	_	ChunkId=7|ChunkType=NULL__CCP
+16	चिकिन	चिकिन	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+17	लिटल	लिटल	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+18	आदि	आदि	PART	RP	_	15	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+19	से	से	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=8|ChunkType=NP|SpanStart=180
+20	मिल	मिल	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=9|ChunkType=VGF|Tam=0|SpanStart=190
+21	सकते	सक	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=9|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=200
+22	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=210
+23	,	COMMA	PUNCT	SYM	_	24	dep	_	ChunkId=9|ChunkType=VGF|SpanStart=220
+24	बल्कि	बल्कि	CCONJ	CC	_	0	nmod	_	ChunkId=10|ChunkType=CCP|SpanStart=230
+25	कार्टून	कार्टून	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=240
+26	फिल्म	फिल्म	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=250
+27	कैसे	कैसे	PRON	WQ	PronType=Int	0	dep	_	ChunkId=12|ChunkType=RBP|SpanStart=260
+28	बनाई	बना	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	24	dep	_	ChunkId=13|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=270
+29	जाती	जा	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=13|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=280
+30	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=290
+31	आदि	आदि	PART	RP	_	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=300
+32	प्रकियाएँ	प्रकिया	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=310
+33	भी	भी	PART	RP	_	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=320
+34	देख	देख	VMC	VMC	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Tam=0|SpanStart=330
+35	-	-	PUNCT	SYM	_	0	dep	_	ChunkId=15|ChunkType=VGF|SpanStart=340
+36	समझ	समझ	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Tam=0|SpanStart=350
+37	सकते	सक	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=360
+38	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=370
+39	।	।	PUNCT	SYM	_	0	dep	_	ChunkId=16|ChunkType=BLK|SpanStart=380
+
+
+
+# sent_id = 1070621056_2-s13
+# text = 
+1	यहाँ	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	9	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	वे	वह	PRON	PRP	Case=Nom|Mood=Imp|Number=Plur|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	वॉल्टडिजनी	वॉल्टडिजनी	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=30
+4	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	कल्पनाओँ	कल्पना	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	9	nmod	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+6	से	से	ADP	PSP	AdpType=Post	9	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	भी	भी	PART	RP	_	9	nmod	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	रुबरू	रुबरू	ADV	RB	_	9	dep	_	ChunkId=5|ChunkType=RBP|SpanStart=70
+9	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Tam=0|SpanStart=90
+10	सकते	सक	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=100
+11	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=110
+12	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=6|ChunkType=VGF|SpanStart=120
+13	जो	जो	PRON	PRP	Case=Nom|Mood=Imp|Number=Plur|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	मिकी	मिकी	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=140
+15	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+16	चरित्र	चरित्र	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=160
+17	को	को	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=9|ChunkType=NP|SpanStart=170
+18	रचते	रच	VERB	VM	Case=Acc|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGNN|Vib=ता|Tam=wA|SpanStart=180
+19	समय	समय	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	0	dep	_	ChunkId=10|ChunkType=VGNN|SpanStart=190
+20	उनके	वह	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	0	dep	_	ChunkId=11|ChunkType=NP|Vib=का|Tam=kA|SpanStart=200
+21	जेहन	जेहन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=210
+22	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=220
+23	थीं	था	VERB	VM	Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=230
+24	।	।	PUNCT	SYM	_	9	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=240
+
+
+
+# sent_id = 1070621056_2-s14
+# text = 
+1	यहाँ	यहाँ	PRON	PRP	Case=Acc|PronType=Prs	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	मैजिकल	मैजिकल	PROPN	NNPC	Case=Acc	17	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	कासल	कासल	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	में	में	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	'	SINGLE_QUOTE	PUNCT	SYM	_	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	विश	विश	PROPN	NNPC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	कम	कम	PROPN	NNPC	_	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	ट्रू	ट्रू	PROPN	NNP	_	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	'	SINGLE_QUOTE	PUNCT	SYM	_	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=100
+11	नामक	नामक	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=4|ChunkType=JJP|SpanStart=110
+12	12	12	NUM	QC	NumType=Card	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	मिनट	मिनट	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=130
+14	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	खूबसूरत	खूबसूरत	ADJ	JJ	Case=Nom	17	dep	_	ChunkId=6|ChunkType=NP|SpanStart=150
+16	फिल्म	फिल्म	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=160
+17	दिखाई	दिखा	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=170
+18	जाती	जा	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=180
+19	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=190
+20	।	।	PUNCT	SYM	_	17	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=200
+
+
+
+# sent_id = 1070621056_2-s15
+# text = 
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	17	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	फिल्म	फिल्म	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	डिज़नी	डिज़नी	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	क्लासिकल	क्लासिकल	ADJ	JJ	Case=Acc	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	गानों	गाना	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	और	और	CCONJ	CC	_	14	dep	_	ChunkId=4|ChunkType=CCP|SpanStart=80
+9	कार्टून	कार्टून	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	कैरक्टरों	कैरक्टर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	संवादों	संवाद	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=120
+13	को	को	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=6|ChunkType=NP|SpanStart=130
+14	मिलाकर	मिला	VERB	VM	VerbForm=Conv|Voice=Act	17	dep	_	ChunkId=7|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=140
+15	दिलचस्प	दिलचस्प	ADJ	JJ	Case=Nom	17	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+16	फिल्म	फिल्म	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=160
+17	दिखाई	दिखा	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=170
+18	जाती	जा	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=180
+19	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=190
+20	।	।	PUNCT	SYM	_	17	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=200
+
+
+
+# sent_id = 1070621056_2-s16
+# text = 
+1	इसके	यह	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	dep	_	ChunkId=1|ChunkType=NP|Vib=के|Tam=ke|SpanStart=10
+2	अलावा	अलावा	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	यहाँ	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	हर	हर	DET	QF	PronType=Ind	6	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	रात	रात	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	होने	हो	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=60
+7	वाला	वाला	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=4|ChunkType=VGNN|SpanStart=70
+8	फायर	फायर	NOUN	NNC	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	वर्क्‍स	वर्क	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	शो	शो	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	बच्चों	बच्चा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	को	को	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	काफी	काफी	DET	QF	PronType=Ind	15	dep	_	ChunkId=7|ChunkType=JJP|SpanStart=130
+14	पसंद	पसंद	ADJ	JJ	_	15	dep	_	ChunkId=7|ChunkType=JJP|SpanStart=140
+15	आता	आ	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=150
+16	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=160
+17	।	।	PUNCT	SYM	_	15	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=170
+
+
+
+# sent_id = 1070621056_2-s17
+# text = 
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	शो	शो	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	आधे	आधा	DET	QF	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	घंटे	घंटा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	तक	तक	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	तेज	तेज	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	रोशनी	रोशनी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	वाले	वाला	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	पटाखे	पटाखा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=100
+11	जलाए	जला	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=110
+12	जाते	जा	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=120
+13	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=130
+14	।	।	PUNCT	SYM	_	11	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=140
+
+
+
+# sent_id = 1070621056_2-s18
+# text = 
+1	वॉटर	वॉटर	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	पार्क	पार्क	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	-	-	PUNCT	SYM	_	1	dep	_	ChunkId=2|ChunkType=BLK|SpanStart=30
+
+
+
+# sent_id = 1070621056_2-s19
+# text = 
+1	कुछ	कुछ	DET	QF	PronType=Ind	5	dep	_	ChunkId=1|ChunkType=JJP|SpanStart=10
+2	एक्साइटिंग	एक्साइटिंग	ADJ	JJ	_	3	dep	_	ChunkId=2|ChunkType=JJP|SpanStart=20
+3	और	और	CCONJ	CC	_	5	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=30
+4	एडवेंचरस	एडवेंचरस	ADJ	JJ	_	3	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=40
+5	चाहिए	चाहिए	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Tam=0|SpanStart=50
+6	तो	तो	SCONJ	CC	_	0	dep	_	ChunkId=6|ChunkType=CCP|SpanStart=60
+7	डिजनी	डिजनी	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=70
+8	लैंड	लैंड	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=80
+9	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=90
+10	वॉटर	वॉटर	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=100
+11	पार्क	पार्क	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=110
+12	आपकी	आप	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs	0	dep	_	ChunkId=9|ChunkType=NP|Vib=का|Tam=kA|SpanStart=120
+13	सही	सही	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=130
+14	मंजिल	मंजिल	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=140
+15	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=150
+16	।	।	PUNCT	SYM	_	0	dep	_	ChunkId=12|ChunkType=BLK|SpanStart=160
+
+
+
+# sent_id = 1070621056_2-s20
+# text = 
+1	यहाँ	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	7	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	कई	कई	DET	QF	PronType=Ind	7	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	फन	फन	ADJ	JJC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	पैक्ड	पैक्ड	ADJ	JJ	Case=Nom	7	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	वॉटर	वॉटर	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	राइड्स	राइड	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	हैं	है	VERB	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=70
+8	।	।	PUNCT	SYM	_	7	dep	_	ChunkId=4|ChunkType=BLK|SpanStart=80
+
+
+
+# sent_id = 1070621056_2-s21
+# text = 
+1	बड़ों	बड़ा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	और	और	CCONJ	CC	_	7	dep	_	ChunkId=2|ChunkType=CCP|SpanStart=20
+3	बच्चों	बच्चा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=30
+4	दोनों	दो	NOUN	NN	Case=Acc|Number=Plur	7	dep	_	ChunkId=4|ChunkType=NP|SpanStart=40
+5	को	को	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=4|ChunkType=NP|SpanStart=50
+6	ध्यान	ध्यान	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=60
+7	रखकर	रख	VERB	VM	VerbForm=Conv|Voice=Act	10	dep	_	ChunkId=6|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=70
+8	वॉटर	वॉटर	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=80
+9	स्लाइड्स	स्लाइड	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=90
+10	बनाई	बना	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=100
+11	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=110
+12	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=120
+13	।	।	PUNCT	SYM	_	10	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=130
+
+
+
+# sent_id = 1070621056_2-s22
+# text = 
+1	यहाँ	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	2	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	आकर	आ	VERB	VM	VerbForm=Conv|Voice=Act	4	dep	_	ChunkId=2|ChunkType=VGNF|Vib=कर|Tam=kara|SpanStart=20
+3	आपको	आप	PRON	PRP	Case=Acc|Number=Sing|PronType=Prs	4	dep	_	ChunkId=3|ChunkType=NP|Vib=को|Tam=ko|SpanStart=30
+4	लगेगा	लग	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=40
+5	कि	कि	SCONJ	CC	_	4	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=50
+6	आप	आप	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=60
+7	वॉटर	वॉटर	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=70
+8	वर्ल्ड	वर्ल्ड	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=80
+9	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=90
+10	आ	आ	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=8|ChunkType=VGF|Tam=0|SpanStart=100
+11	गए	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	5	dep	_	ChunkId=8|ChunkType=VGF|Vib=या1|Tam=yA1|SpanStart=110
+12	हैं	है	AUX	VAUX	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=120
+13	।	।	PUNCT	SYM	_	4	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=130
+

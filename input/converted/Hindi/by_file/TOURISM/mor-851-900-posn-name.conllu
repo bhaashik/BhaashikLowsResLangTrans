@@ -1,0 +1,998 @@
+# sent_id = mor-851-900-posn-name-s1
+# text = 
+1	बेक्कल	बेक्कल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	किला	किला	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	केरल	केरल	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP
+5	सबसे	सबसे	ADV	RP_INTF	AdvType=Deg	9	dep	_	ChunkId=3|ChunkType=NP
+6	अधिक	अधिक	DET	QT_QTF	_	9	dep	_	ChunkId=3|ChunkType=NP
+7	प्रसिद्ध	प्रसिद्ध	ADJ	JJ	Case=Nom	9	dep	_	ChunkId=3|ChunkType=NP
+8	किला	किला	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+9	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE
+10	।	।	PUNCT	RD_PUNC	_	9	dep	_	ChunkId=5|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s2
+# text = 
+1	बेक्कल	बेक्कल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	किले	किला	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	से	से	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=1|ChunkType=NP
+4	समुद्र	समुद्र	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP
+6	गहरी	गहरा	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	9	dep	_	ChunkId=3|ChunkType=NP
+7	नीलिमा	नीलिमा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+8	को	को	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=3|ChunkType=NP
+9	देखने	देख	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGNN|Vib=ना|Tam=nA
+10	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=VGNN
+11	अनुभूति	अनुभूति	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+12	अविस्मरणीय	अविस्मरणीय	ADJ	JJ	_	13	dep	_	ChunkId=6|ChunkType=JJP
+13	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE
+14	।	।	PUNCT	RD_PUNC	_	13	dep	_	ChunkId=8|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s3
+# text = 
+1	मलयालम	मलयालम	PROPN	N_NNP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	,	&comma	PUNCT	RD_PUNC	_	5	dep	_	ChunkId=1|ChunkType=NP
+3	तमिल	तमिल	PROPN	N_NNP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	,	&comma	PUNCT	RD_PUNC	_	5	dep	_	ChunkId=2|ChunkType=NP
+5	NULL	NULL	CCONJ	CC_CCD	_	0	dep	_	ChunkId=3|ChunkType=NULL__CCP
+6	बॉलीवुड	बॉलीवुड	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+7	सिनेमाओं	सिनेमा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+8	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP
+9	शूटिंग	शूटिंग	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+10	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP
+11	प्रिय	प्रिय	ADJ	JJ	Case=Nom	13	dep	_	ChunkId=7|ChunkType=NP
+12	लोकेशन	लोकेशन	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+13	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE
+14	बेक्कल	बेक्कल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=9|ChunkType=NP|Tam=0
+15	किला	किला	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=9|ChunkType=NP|Tam=0
+16	।	।	PUNCT	RD_PUNC	_	13	dep	_	ChunkId=10|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s4
+# text = 
+1	केरल	केरल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	सरकार	सरकार	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	ने	ने	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=1|ChunkType=NP
+4	बेक्कल	बेक्कल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	किला	किला	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	,	&comma	PUNCT	RD_PUNC	_	8	dep	_	ChunkId=2|ChunkType=NP
+7	समुद्रतट	समुद्रतट	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+8	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=4|ChunkType=CCP
+9	सम्बद्ध	सम्बद्ध	ADJ	JJ	Case=Acc	8	dep	_	ChunkId=5|ChunkType=NP
+10	पर्यटन	पर्यटन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+11	केन्द्रों	केन्द्र	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+12	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	8	dep	_	ChunkId=5|ChunkType=NP
+13	विकास	विकास	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+14	के	के	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=6|ChunkType=NP
+15	लिए	लिए	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=6|ChunkType=NP
+16	बेक्कल	बेक्कल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=7|ChunkType=NP|Tam=0
+17	रिसोर्ट	रिसोर्ट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=7|ChunkType=NP|Tam=0
+18	,	&comma	PUNCT	RD_PUNC	_	0	nmod	_	ChunkId=7|ChunkType=NP
+19	डेवलेपमेंट	डेवलेपमेंट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=8|ChunkType=NP|Tam=0
+20	कॉर्पोरेशन	कॉर्पोरेशन	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=8|ChunkType=NP|Tam=0
+21	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=8|ChunkType=NP
+22	गठन	गठन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=9|ChunkType=NP|Tam=0
+23	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=या|Tam=yA
+24	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE
+25	।	।	PUNCT	RD_PUNC	_	23	dep	_	ChunkId=11|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s5
+# text = 
+1	साथ	साथ	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	dep	_	ChunkId=1|ChunkType=NP
+2	ही	ही	PART	RP_RPD	_	14	dep	_	ChunkId=1|ChunkType=NP
+3	बेक्कल	बेक्कल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	समुद्रतट	समुद्रतट	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP
+6	कमनीयता	कमनीयता	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+7	बढ़ाने	बढ़ा	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	14	dep	_	ChunkId=4|ChunkType=VGNN|Vib=ना|Tam=nA
+8	के	के	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=4|ChunkType=VGNN
+9	लिए	लिए	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=4|ChunkType=VGNN
+10	अनेक	अनेक	DET	QT_QTF	_	14	dep	_	ChunkId=5|ChunkType=NP
+11	योजनाओं	योजना	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+12	को	को	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=5|ChunkType=NP
+13	शुरू	शुरू	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+14	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA
+15	गया	जा	AUX	V_VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या1|Tam=yA1
+16	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE
+17	।	।	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=8|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s6
+# text = 
+1	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	17	dep	_	ChunkId=1|ChunkType=NP
+2	योजना	योजना	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	के	के	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=1|ChunkType=NP
+4	अंतर्गत	अंतर्गत	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=1|ChunkType=NP
+5	तेय्यम	तेय्यम	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	शिल्प	शिल्प	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+7	,	&comma	PUNCT	RD_PUNC	_	10	dep	_	ChunkId=2|ChunkType=NP
+8	भित्तिचित्र	भित्तिचित्र	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+9	,	&comma	PUNCT	RD_PUNC	_	10	dep	_	ChunkId=3|ChunkType=NP
+10	NULL	NULL	CCONJ	CC_CCD	_	0	dep	_	ChunkId=4|ChunkType=NULL__CCP
+11	शिल्पोद्यान	शिल्पोद्यान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+12	आदि	आदि	PART	RP_RPD	_	10	dep	_	ChunkId=5|ChunkType=NP
+13	कलाओं	कला	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+14	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP
+15	विकास	विकास	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+16	भी	भी	PART	RP_RPD	_	17	dep	_	ChunkId=7|ChunkType=NP
+17	आता	आ	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=ता|Tam=wA
+18	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE
+19	।	।	PUNCT	RD_PUNC	_	17	dep	_	ChunkId=9|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s7
+# text = 
+1	पार्किंग	पार्किंग	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	-	-	PUNCT	RD_SYM	_	13	dep	_	ChunkId=1|ChunkType=NP
+3	तट	तट	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+4	के	के	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=1|ChunkType=NP
+5	पास	पास	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	dep	_	ChunkId=1|ChunkType=NP
+6	7000	7000	NUM	QT_QTC	NumType=Card	13	dep	_	ChunkId=2|ChunkType=NP
+7	वर्ग	वर्ग	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+8	मी.	मी.	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+9	विस्तार	विस्तार	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+10	में	में	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=2|ChunkType=NP
+11	पार्किंग	पार्किंग	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+12	स्थान	स्थान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+13	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE
+14	।	।	PUNCT	RD_PUNC	_	13	dep	_	ChunkId=5|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s8
+# text = 
+1	विश्राम	विश्राम	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	के	के	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=1|ChunkType=NP
+3	लिए	लिए	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=1|ChunkType=NP
+4	ट्री	ट्री	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	हाउस	हाउस	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	और	और	CCONJ	CC_CCD	_	0	nmod	_	ChunkId=3|ChunkType=CCP
+7	डोरमिटरी	डोरमिटरी	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+8	सुविधा	सुविधा	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+9	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE
+10	।	।	PUNCT	RD_PUNC	_	9	dep	_	ChunkId=7|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s9
+# text = 
+1	बच्चों	बच्चा	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP
+3	पार्क	पार्क	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	-	-	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=2|ChunkType=NP
+
+
+
+# sent_id = mor-851-900-posn-name-s10
+# text = 
+1	14	14	NUM	QT_QTC	NumType=Card	4	dep	_	ChunkId=1|ChunkType=NP
+2	वर्ष	वर्ष	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	से	से	ADP	PSP	AdpType=Post	4	dep	_	ChunkId=1|ChunkType=NP
+4	कम	कम	DET	QT_QTF	_	0	nmod	_	ChunkId=2|ChunkType=JJP
+5	आयुवाले	आयुवाले	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+6	बच्चों	बच्चा	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+7	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP
+8	विनोद	विनोद	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+9	के	के	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=4|ChunkType=NP
+10	लिए	लिए	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=4|ChunkType=NP
+11	यह	यह	DET	DM_DMD	Case=Nom|Number=Sing|Person=3	14	dep	_	ChunkId=5|ChunkType=NP
+12	पार्क	पार्क	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+13	उपयुक्त	उपयुक्त	ADJ	JJ	_	14	dep	_	ChunkId=6|ChunkType=JJP
+14	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE
+15	।	।	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=8|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s11
+# text = 
+1	बेक्कल	बेक्कल	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	समुद्रतट	समुद्रतट	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	पर	पर	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=1|ChunkType=NP
+4	प्रवेश	प्रवेश	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	के	के	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=2|ChunkType=NP
+6	लिए	लिए	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=2|ChunkType=NP
+7	एक	एक	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=3|ChunkType=NP
+8	रुपया	रुपया	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+9	प्रति	प्रति	PART	RP_RPD	_	0	dep	_	ChunkId=3|ChunkType=NP
+10	व्यक्ति	व्यक्ति	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+11	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP
+12	दर	दर	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+13	से	से	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=4|ChunkType=NP
+14	टिकट	टिकट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+15	लेना	ले	VERB	V_VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=ना|Tam=nA
+16	पड़ता	पड़	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=ता|Tam=wA
+17	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE
+18	।	।	PUNCT	RD_PUNC	_	15	dep	_	ChunkId=7|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s12
+# text = 
+1	पार्किंग	पार्किंग	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	शुल्क	शुल्क	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	भी	भी	PART	RP_RPD	_	4	dep	_	ChunkId=1|ChunkType=NP
+4	देना	दे	VERB	V_VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=ना|Tam=nA
+5	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=है|Tam=hE
+6	जो	जो	PR_PRL	PR_PRL	_	0	dep	_	ChunkId=3|ChunkType=NP
+7	अधिक	अधिक	DET	QT_QTF	_	0	dep	_	ChunkId=4|ChunkType=JJP
+8	नहीं	नहीं	PART	RP_NEG	_	1	dep	_	ChunkId=5|ChunkType=VGF
+9	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE
+10	।	।	PUNCT	RD_PUNC	_	4	dep	_	ChunkId=6|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s13
+# text = 
+1	यहाँ	यहाँ	PRON	PR_PRP	Case=Acc	0	dep	_	ChunkId=1|ChunkType=NP
+2	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP
+3	11	11	NUM	QT_QTC	NumType=Card	18	dep	_	ChunkId=2|ChunkType=NP
+4	एकड़	एकड	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	ज़मीन	ज़मीन	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	में	में	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=2|ChunkType=NP
+7	एक	एक	NUM	QT_QTC	NumType=Card	11	dep	_	ChunkId=3|ChunkType=NP
+8	वाटर	वाटर	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+9	थीम	थीम	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+10	पार्क	पार्क	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+11	बनवाने	बन	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGNN|Vib=ना|Tam=nA
+12	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=VGNN
+13	योजना	योजना	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+14	भी	भी	PART	RP_RPD	_	18	dep	_	ChunkId=5|ChunkType=NP
+15	आरडीसी	आरडीसी	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+16	के	के	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=6|ChunkType=NP
+17	पास	पास	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	dep	_	ChunkId=6|ChunkType=NP
+18	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE
+19	।	।	PUNCT	RD_PUNC	_	18	dep	_	ChunkId=8|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s14
+# text = 
+1	बेक्कल	बेक्कल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	किले	किला	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP
+4	निकटतम	निकटतम	ADJ	JJ	Case=Nom	8	dep	_	ChunkId=2|ChunkType=NP
+5	रेलवे	रेलवे	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	स्टेशन	स्टेशन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+7	कासरगोड	कासरगोड	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+8	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE
+9	।	।	PUNCT	RD_PUNC	_	8	dep	_	ChunkId=5|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s15
+# text = 
+1	बेक्कल	बेक्कल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	किले	किला	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	से	से	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=1|ChunkType=NP
+4	निकटतम	निकटतम	ADJ	JJ	Case=Nom	0	nmod	_	ChunkId=2|ChunkType=NP
+5	एयरपोर्ट	एयरपोर्ट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0
+6	-	-	PUNCT	RD_PUNC	_	0	nmod	_	ChunkId=2|ChunkType=NP
+7	मंगलूर	मंगलूर	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+8	,	&comma	PUNCT	RD_PUNC	_	12	dep	_	ChunkId=3|ChunkType=NP
+9	50	50	NUM	QT_QTC	NumType=Card	12	dep	_	ChunkId=4|ChunkType=NP
+10	कि.मी.	कि.	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+11	,	&comma	PUNCT	RD_PUNC	_	12	dep	_	ChunkId=4|ChunkType=NP
+12	NULL	NULL	VERB	V_VM	_	0	dep	_	ChunkId=5|ChunkType=NULL__VGF
+13	NULL	NULL	CCONJ	CC_CCD	_	0	dep	_	ChunkId=6|ChunkType=NULL__CCP
+14	करिप्पूर	करिप्पूर	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=7|ChunkType=NP|Tam=0
+15	अन्तर्राष्ट्रीय	अंतर्राष्ट्रीय	ADJ	JJ	Case=Nom	22	dep	_	ChunkId=8|ChunkType=NP
+16	हवाई	हवाई	ADJ	JJ	Case=Nom	22	dep	_	ChunkId=8|ChunkType=NP
+17	अड्डा	अड्डा	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=8|ChunkType=NP|Tam=0
+18	,	&comma	PUNCT	RD_PUNC	_	22	dep	_	ChunkId=8|ChunkType=NP
+19	200	200	NUM	QT_QTC	NumType=Card	22	dep	_	ChunkId=9|ChunkType=NP
+20	कि.मी.	कि.	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=9|ChunkType=NP|Tam=0
+21	दूर	दूर	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	dep	_	ChunkId=9|ChunkType=NP
+22	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE
+23	।	।	PUNCT	RD_PUNC	_	13	dep	_	ChunkId=11|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s16
+# text = 
+1	चन्द्रगिरिप्पुष़ा	चन्द्रगिरिप्पुष़ा	PROPN	N_NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	(	(	PUNCT	RD_SYM	_	2	nmod	_	ChunkId=2|ChunkType=NP
+3	नदी	नदी	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	nmod	_	ChunkId=2|ChunkType=NP|Tam=0
+4	)	)	PUNCT	RD_SYM	_	2	nmod	_	ChunkId=2|ChunkType=NP
+5	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	1	dep	_	ChunkId=3|ChunkType=FRAGP
+6	तट	तट	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+7	पर	पर	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=4|ChunkType=NP
+8	17वीं	17वाँ	ADJ	QT_QTO	Gender=Fem	11	dep	_	ChunkId=5|ChunkType=NP
+9	सदी	सदी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+10	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=5|ChunkType=NP
+11	निर्मित	निर्मित	ADJ	JJ	Case=Nom	0	nmod	_	ChunkId=6|ChunkType=JJP
+12	एक	एक	NUM	QT_QTC	NumType=Card	14	dep	_	ChunkId=7|ChunkType=NP
+13	किला	किला	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+14	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE
+15	।	।	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=9|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s17
+# text = 
+1	उस	वह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	14	dep	_	ChunkId=1|ChunkType=NP
+2	किले	किला	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	से	से	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=1|ChunkType=NP
+4	अरब	अरब	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	सागर	सागर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	तथा	तथा	CCONJ	CC_CCD	_	0	dep	_	ChunkId=3|ChunkType=CCP
+7	चन्द्रगिरि	चन्द्रगिरि	PROPN	N_NNP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+8	नदी	नदी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+9	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	6	dep	_	ChunkId=4|ChunkType=NP
+10	अद्‌भुत	अद्‌भुत	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=5|ChunkType=NP
+11	दृश्य	दृश्य	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0
+12	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=5|ChunkType=NP
+13	आस्वादन	आस्वादन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+14	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA
+15	जा	जा	AUX	V_VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Tam=0
+16	सकता	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=ता|Tam=wA
+17	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE
+18	।	।	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=8|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s18
+# text = 
+1	नदी	नदी	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	तट	तट	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=1|ChunkType=NP
+4	पास	पास	NOUN	N_NST	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=1|ChunkType=NP
+5	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP
+6	किष़ूर	किष़ूर	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+7	मंदिर	मंदिर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+8	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP
+9	गीतोत्सव	गीतोत्सव	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+10	अति	अति	ADV	RP_INTF	_	12	dep	_	ChunkId=4|ChunkType=JJP
+11	प्रसिद्ध	प्रसिद्ध	ADJ	JJ	_	12	dep	_	ChunkId=4|ChunkType=JJP
+12	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE
+13	।	।	PUNCT	RD_PUNC	_	12	dep	_	ChunkId=6|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s19
+# text = 
+1	बेक्कल	बेक्कल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	रिसोर्ट	रिसोर्ट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	डिवलेपमेंट	डिवलेपमेंट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+4	कॉर्पोरेशन	कॉर्पोरेशन	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+5	ने	ने	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=1|ChunkType=NP
+6	चन्द्रगिरि	चन्द्रगिरि	PROPN	N_NNP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+7	नदी	नदी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+8	में	में	ADP	PSP	AdpType=Post	13	dep	_	ChunkId=2|ChunkType=NP
+9	बोटिंग	बोटिंग	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+10	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP
+11	सुविधा	सुविधा	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+12	उपलब्ध	उपलब्ध	ADJ	JJ	_	13	dep	_	ChunkId=5|ChunkType=JJP
+13	कराई	करा	VERB	V_VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA
+14	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE
+15	।	।	PUNCT	RD_PUNC	_	13	dep	_	ChunkId=7|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s20
+# text = 
+1	चन्द्रगिरि	चन्द्रगिरि	PROPN	N_NNP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	कासरगोड	कासरगोड	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	टाउन	टाउन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	के	के	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=2|ChunkType=NP
+5	बहुत	बहुत	DET	QT_QTF	_	7	dep	_	ChunkId=3|ChunkType=NP
+6	निकट	निकट	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	dep	_	ChunkId=3|ChunkType=NP
+7	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE
+8	।	।	PUNCT	RD_PUNC	_	7	dep	_	ChunkId=5|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s21
+# text = 
+1	निकटतम	निकटतम	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=1|ChunkType=NP
+2	रेलवे	रेलवे	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	स्टेशन	स्टेशन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+4	-	-	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=1|ChunkType=NP
+5	कासरगोड	कासरगोड	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=3|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s22
+# text = 
+1	निकटतम	निकटतम	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=1|ChunkType=NP
+2	एयरपोर्ट	एयरपोर्ट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	-	-	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=1|ChunkType=NP
+4	मंगलूर	मंगलूर	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	,	&comma	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=2|ChunkType=NP
+6	50	50	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=3|ChunkType=NP
+7	कि.मी.	कि.	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+8	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=4|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s23
+# text = 
+1	चित्तारि	चित्तारि	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	हरियाली	हरियाली	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	से	से	ADP	PSP	AdpType=Post	4	dep	_	ChunkId=2|ChunkType=NP
+4	ढका	ढक	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGNF|Vib=या|Tam=yA
+5	एक	एक	NUM	QT_QTC	NumType=Card	8	dep	_	ChunkId=4|ChunkType=NP
+6	छोटा	छोटा	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	8	dep	_	ChunkId=4|ChunkType=NP
+7	द्वीप	द्वीप	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+8	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE
+9	।	।	PUNCT	RD_PUNC	_	8	dep	_	ChunkId=6|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s24
+# text = 
+1	चित्तारि	चित्तारि	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP
+3	तटीय	तटीय	ADJ	JJ	Case=Nom	6	dep	_	ChunkId=2|ChunkType=NP
+4	भाग	भाग	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	विशाल	विशाल	ADJ	JJ	_	6	dep	_	ChunkId=3|ChunkType=JJP
+6	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE
+7	।	।	PUNCT	RD_PUNC	_	6	dep	_	ChunkId=5|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s25
+# text = 
+1	चित्तारि	चित्तारि	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	बेक्कल	बेक्कल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	पर्यटन	पर्यटन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	परियोजना	परियोजना	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP
+6	हिस्सा	हिस्सा	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+7	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE
+8	।	।	PUNCT	RD_PUNC	_	7	dep	_	ChunkId=5|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s26
+# text = 
+1	पर्यटन	पर्यटन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP
+3	शोर	शोर	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	-	-	PUNCT	RD_SYM	_	12	dep	_	ChunkId=2|ChunkType=NP
+5	शराबे	शराबे	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	ने	ने	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=2|ChunkType=NP
+7	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	12	dep	_	ChunkId=3|ChunkType=NP
+8	द्वीप	द्वीप	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+9	को	को	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=3|ChunkType=NP
+10	स्पर्श	स्पर्श	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+11	तक	तक	PART	RP_RPD	_	12	dep	_	ChunkId=4|ChunkType=NP
+12	नहीं	नहीं	PART	RP_NEG	_	0	dep	_	ChunkId=5|ChunkType=VGF
+13	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या|Tam=yA
+14	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE
+15	।	।	PUNCT	RD_PUNC	_	12	dep	_	ChunkId=6|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s27
+# text = 
+1	शांति	शांति	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	से	से	ADP	PSP	AdpType=Post	4	dep	_	ChunkId=1|ChunkType=NP
+3	समय	समय	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	बिताने	बिता	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	10	dep	_	ChunkId=3|ChunkType=VGNN|Vib=ना|Tam=nA
+5	के	के	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=3|ChunkType=VGNN
+6	लिए	लिए	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=3|ChunkType=VGNN
+7	चित्तारि	चित्तारि	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+8	उपयुक्त	उपयुक्त	ADJ	JJ	Case=Nom	10	dep	_	ChunkId=5|ChunkType=NP
+9	स्थान	स्थान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+10	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE
+11	।	।	PUNCT	RD_PUNC	_	10	dep	_	ChunkId=7|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s28
+# text = 
+1	चित्तारि	चित्तारि	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	से	से	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=1|ChunkType=NP
+3	निकटतम	निकटतम	ADJ	JJ	Case=Nom	0	nmod	_	ChunkId=2|ChunkType=NP
+4	रेलवे	रेलवे	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0
+5	स्टेशन	स्टेशन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0
+6	-	-	PUNCT	RD_PUNC	_	0	nmod	_	ChunkId=2|ChunkType=NP
+7	काजंगाडु	काजंगाडु	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+8	,	&comma	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=3|ChunkType=NP
+9	5	5	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=4|ChunkType=NP
+10	कि.मी.	कि.	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+11	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP
+12	दूरी	दूरी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+13	पर	पर	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=5|ChunkType=NP
+14	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE
+15	।	।	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=7|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s29
+# text = 
+1	बेक्कल	बेक्कल	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP
+3	भीड़	भीड़	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	-	-	PUNCT	RD_SYM	_	6	dep	_	ChunkId=2|ChunkType=NP
+5	भाड़	भाड़	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	भरी	भर	VERB	V_VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGNF|Vib=या|Tam=yA
+7	यात्रा	यात्रा	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+8	के	के	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=4|ChunkType=NP
+9	बाद	बाद	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	dep	_	ChunkId=4|ChunkType=NP
+10	यदि	यदि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=5|ChunkType=CCP
+11	शांत	शांत	ADJ	JJ	Case=Acc	16	dep	_	ChunkId=6|ChunkType=NP
+12	वातावरण	वातावरण	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+13	में	में	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=6|ChunkType=NP
+14	थोड़ा	थोड़ा	DET	QT_QTF	Case=Nom|Gender=Masc|Number=Sing	16	dep	_	ChunkId=7|ChunkType=NP
+15	समय	समय	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+16	गुजारना	गुजार	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	17	dep	_	ChunkId=8|ChunkType=VGNN|Vib=ना|Tam=nA
+17	चाहें	चाह	VERB	V_VM	Mood=Sub|Number=Sing|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=9|ChunkType=VGF|Vib=ए|Tam=e
+18	तो	तो	SCONJ	CC_CCS	_	0	dep	_	ChunkId=10|ChunkType=CCP
+19	काप्पिल	काप्पिल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0
+20	समुद्र	समुद्र	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0
+21	तट	तट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0
+22	उपयुक्त	उपयुक्त	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=12|ChunkType=NP
+23	जगह	जगह	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0
+24	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE
+25	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=14|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s30
+# text = 
+1	काप्पिल	काप्पिल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	बेक्कल	बेक्कल	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	से	से	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=2|ChunkType=NP
+4	छह	छह	NUM	QT_QTC	NumType=Card	8	dep	_	ChunkId=3|ChunkType=NP
+5	कि.मी.	कि.	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+6	दूर	दूर	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	dep	_	ChunkId=3|ChunkType=NP
+7	स्थित	स्थित	ADJ	JJ	_	8	dep	_	ChunkId=4|ChunkType=JJP
+8	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE
+9	,	&comma	PUNCT	RD_PUNC	_	10	dep	_	ChunkId=5|ChunkType=VGF
+10	तथा	तथा	CCONJ	CC_CCD	_	0	dep	_	ChunkId=6|ChunkType=CCP
+11	अत्यन्त	अत्यन्त	ADV	RP_INTF	_	0	dep	_	ChunkId=7|ChunkType=NP
+12	शांत	शांत	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=7|ChunkType=NP
+13	स्थल	स्थल	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+14	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE
+15	।	।	PUNCT	RD_PUNC	_	10	dep	_	ChunkId=9|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s31
+# text = 
+1	यहाँ	यहाँ	PRON	PR_PRP	Case=Acc	0	dep	_	ChunkId=1|ChunkType=NP
+2	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP
+3	आकर्षण	आकर्षण	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE
+5	धूप	धूप	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+6	में	में	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=4|ChunkType=NP
+7	चमकता	चमक	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGNF|Vib=ता|Tam=wA
+8	समुद्रतट	समुद्रतट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+9	और	और	CCONJ	CC_CCD	_	4	dep	_	ChunkId=7|ChunkType=CCP
+10	शान्त	शान्त	ADJ	JJ	Case=Nom	9	dep	_	ChunkId=8|ChunkType=NP
+11	वातावरण	वातावरण	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=8|ChunkType=NP|Tam=0
+12	।	।	PUNCT	RD_PUNC	_	4	dep	_	ChunkId=9|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s32
+# text = 
+1	जो	जो	PR_PRL	PR_PRL	_	3	dep	_	ChunkId=1|ChunkType=NP
+2	साहसी	साहसी	ADJ	JJ	_	3	dep	_	ChunkId=2|ChunkType=JJP
+3	हैं	है	VERB	V_VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE
+4	वे	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+5	पास	पास	NOUN	N_NST	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	dep	_	ChunkId=5|ChunkType=NP
+6	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP
+7	कोडिक्कुन्नु	कोडिक्कुन्नु	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+8	पर	पर	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=6|ChunkType=NP
+9	चढ़कर	चढ़	VERB	V_VM	VerbForm=Conv|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGNF|Vib=कर|Tam=kara
+10	अरब	अरब	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0
+11	सागर	सागर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0
+12	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=8|ChunkType=NP
+13	फैलाव	फैलाव	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0
+14	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP
+15	देख	देख	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Tam=0
+16	सकते	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=ता|Tam=wA
+17	हैं	है	AUX	V_VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE
+18	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=11|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s33
+# text = 
+1	काप्पिल	काप्पिल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	बीच	बीच	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP
+4	निकटतम	निकटतम	ADJ	JJ	Case=Nom	0	nmod	_	ChunkId=2|ChunkType=NP
+5	रेलवे	रेलवे	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0
+6	स्टेशन	स्टेशन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0
+7	कासरगोड	कासरगोड	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+8	,	&comma	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=3|ChunkType=NP
+9	12	12	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=4|ChunkType=NP
+10	कि.मी.	कि.	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+11	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP
+12	दूरी	दूरी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+13	पर	पर	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=5|ChunkType=NP
+14	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE
+15	।	।	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=7|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s34
+# text = 
+1	काप्पिल	काप्पिल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	बीच	बीच	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	से	से	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=1|ChunkType=NP
+4	निकटतम	निकटतम	ADJ	JJ	Case=Nom	0	nmod	_	ChunkId=2|ChunkType=NP
+5	एयरपोर्ट	एयरपोर्ट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0
+6	मंगलूर	मंगलूर	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+7	,	&comma	PUNCT	RD_PUNC	_	11	dep	_	ChunkId=3|ChunkType=NP
+8	50	50	NUM	QT_QTC	NumType=Card	11	dep	_	ChunkId=4|ChunkType=NP
+9	कि.मी.	कि.	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+10	दूर	दूर	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	dep	_	ChunkId=4|ChunkType=NP
+11	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE
+12	।	।	PUNCT	RD_PUNC	_	11	dep	_	ChunkId=6|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s35
+# text = 
+1	उत्तर	उत्तर	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	केरल	केरल	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	में	में	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=1|ChunkType=NP
+4	यदि	यदि	SCONJ	CC_CCS	_	0	dep	_	ChunkId=2|ChunkType=CCP
+5	आप	आप	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+6	आलप्पुष़ा	आलप्पुष़ा	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=NP|Tam=0
+7	जैसा	जैसा	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=4|ChunkType=NP
+8	वातावरण	वातावरण	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+9	देखना	देख	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	10	dep	_	ChunkId=6|ChunkType=VGNN|Vib=ना|Tam=nA
+10	चाहे	चाह	VERB	V_VM	Aspect=Perf|Number=Sing|VerbForm=Part|Voice=Act	4	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA
+11	तो	तो	SCONJ	CC_CCS	_	0	dep	_	ChunkId=8|ChunkType=CCP
+12	पडन्ना	पडन्ना	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0
+13	जाइए	जा	VERB	V_VM	Mood=Sub|Number=Sing|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=ए|Tam=e
+14	।	।	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=11|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s36
+# text = 
+1	पडन्ना	पडन्ना	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	क्षेत्र	क्षेत्र	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	को	को	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=1|ChunkType=NP
+4	लेक	लेक	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	टूरिज़्म	टूरिज़्म	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	के	के	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=2|ChunkType=NP
+7	लिए	लिए	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=2|ChunkType=NP
+8	अनुकूल	अनुकूल	ADJ	JJ	_	9	dep	_	ChunkId=3|ChunkType=JJP
+9	बनाने	बना	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=VGNN|Vib=ना|Tam=nA
+10	वाले	वाला	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=4|ChunkType=VGNN
+11	घटक	घटक	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+12	हैं	है	VERB	V_VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE
+13	-	-	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=6|ChunkType=VGF
+14	वलियपरम्बु	वलियपरम्बु	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+15	झील	झील	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+16	,	&comma	PUNCT	RD_PUNC	_	22	dep	_	ChunkId=7|ChunkType=NP
+17	हरियाली	हरियाली	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0
+18	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP
+19	आच्छादित	आच्छादित	ADJ	JJ	Case=Nom	0	nmod	_	ChunkId=9|ChunkType=JJP
+20	द्वीप	द्वीप	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=10|ChunkType=NP|Tam=0
+21	,	&comma	PUNCT	RD_PUNC	_	22	dep	_	ChunkId=10|ChunkType=NP
+22	NULL	NULL	CCONJ	CC_CCD	_	0	dep	_	ChunkId=11|ChunkType=NULL__CCP
+23	नहरें	नहर	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=12|ChunkType=NP|Tam=0
+24	आदि	आदि	PART	RP_RPD	_	22	dep	_	ChunkId=12|ChunkType=NP
+25	।	।	PUNCT	RD_PUNC	_	12	dep	_	ChunkId=13|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s37
+# text = 
+1	सीपी	सीपी	PROPN	N_NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP
+3	कृषि	कृषि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	ने	ने	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP
+5	दुनिया	दुनिया	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0
+6	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=3|ChunkType=NP
+7	ध्यान	ध्यान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+8	इस	यह	DET	DM_DMD	Case=Acc|Number=Sing|Person=3	11	dep	_	ChunkId=5|ChunkType=NP
+9	ओर	ओर	NOUN	N_NST	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	dep	_	ChunkId=5|ChunkType=NP
+10	आकृष्ट	आकृष्ट	ADJ	JJ	_	11	dep	_	ChunkId=6|ChunkType=JJP
+11	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA
+12	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE
+13	।	।	PUNCT	RD_PUNC	_	11	dep	_	ChunkId=8|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s38
+# text = 
+1	इसके	यह	PRON	PR_PRP	Case=Acc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|Vib=का|Tam=kA
+2	किसान	किसान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	गुल	गुल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+4	मुहम्मद	मुहम्मद	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+5	हैं	है	VERB	V_VM	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE
+6	।	।	PUNCT	RD_PUNC	_	5	dep	_	ChunkId=5|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s39
+# text = 
+1	गुल	गुल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	मुहम्मद	मुहम्मद	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	ने	ने	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=1|ChunkType=NP
+4	सीपी	सीपी	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	कृषि	कृषि	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	को	को	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=2|ChunkType=NP
+7	पर्यटन	पर्यटन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+8	अंग	अंग	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+9	बनाकर	बना	VERB	V_VM	VerbForm=Conv|Voice=Act	16	dep	_	ChunkId=4|ChunkType=VGNF|Vib=कर|Tam=kara
+10	अपनी	अपना	PRON	PR_PRF	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+11	कल्पना	कल्पना	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=NP|Tam=0
+12	शक्ति	शक्ति	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=NP|Tam=0
+13	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=6|ChunkType=NP
+14	परिचय	परिचय	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+15	ही	ही	PART	RP_RPD	_	16	dep	_	ChunkId=7|ChunkType=NP
+16	नहीं	नहीं	PART	RP_NEG	_	18	dep	_	ChunkId=8|ChunkType=VGF
+17	दिया	दे	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	18	dep	_	ChunkId=8|ChunkType=VGF|Vib=या|Tam=yA
+18	बल्कि	बल्कि	CCONJ	CC_CCD	_	0	dep	_	ChunkId=9|ChunkType=CCP
+19	पूरे	पूरा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=10|ChunkType=NP
+20	गाँव	गाँव	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0
+21	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP
+22	प्रगति	प्रगति	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0
+23	पथ	पथ	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0
+24	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP
+25	अग्रसर	अग्रसर	ADJ	JJ	_	0	dep	_	ChunkId=12|ChunkType=JJP
+26	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	18	dep	_	ChunkId=13|ChunkType=VGF|Vib=या|Tam=yA
+27	।	।	PUNCT	RD_PUNC	_	18	dep	_	ChunkId=14|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s40
+# text = 
+1	गुल	गुल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	मुहम्मद	मुहम्मद	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	ने	ने	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=1|ChunkType=NP
+4	अपने	अपना	PRON	PR_PRF	Case=Acc|Gender=Masc|Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	ग्रामीणों	ग्रामीण	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+6	को	को	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=3|ChunkType=NP
+7	यह	यह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+8	सिखाया	सिखा	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या|Tam=yA
+9	कि	कि	SCONJ	CC_CCS	_	0	nmod	_	ChunkId=6|ChunkType=CCP
+10	वे	वह	PRON	PR_PRP	Case=Nom|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+11	जीवन	जीवन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0
+12	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=8|ChunkType=NP
+13	यापन	यापन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0
+14	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=8|ChunkType=NP
+15	परंपरागत	परंपरागत	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=9|ChunkType=NP
+16	मार्ग	मार्ग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=9|ChunkType=NP|Tam=0
+17	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	nmod	_	ChunkId=9|ChunkType=NP
+18	उपेक्षा	उपेक्षा	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=10|ChunkType=NP|Tam=0
+19	किए	कर	VERB	V_VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGNF|Vib=ए|Tam=e
+20	बिना	बिना	PART	RP_NEG	_	0	dep	_	ChunkId=11|ChunkType=VGNF
+21	कैसे	कैसे	ADV	RB	_	0	dep	_	ChunkId=12|ChunkType=RBP
+22	पर्यटन	पर्यटन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0
+23	उद्योग	उद्योग	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=NP|Tam=0
+24	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=13|ChunkType=NP
+25	लाभ	लाभ	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0
+26	प्राप्त	प्राप्त	ADJ	JJ	_	0	dep	_	ChunkId=15|ChunkType=JJP
+27	कर	कर	VERB	V_VM	Mood=Imp|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=16|ChunkType=VGF|Tam=0
+28	सकते	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=16|ChunkType=VGF|Vib=ता|Tam=wA
+29	हैं	है	AUX	V_VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=16|ChunkType=VGF|Vib=है|Tam=hE
+30	।	।	PUNCT	RD_PUNC	_	8	dep	_	ChunkId=17|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s41
+# text = 
+1	ओयस्टर	ओयस्टर	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	ओपरा	ओपरा	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	नामक	नामक	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=2|ChunkType=JJP
+4	अभियान	अभियान	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+5	को	को	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=3|ChunkType=NP
+6	चलाते	चला	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=4|ChunkType=VGNF|Vib=ता|Tam=wA
+7	हुए	हो	AUX	V_VAUX	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=4|ChunkType=VGNF|Vib=ए|Tam=e
+8	गुल	गुल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+9	मुहम्मद	मुहम्मद	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+10	ने	ने	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=5|ChunkType=NP
+11	अपना	अपना	PRON	PR_PRF	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+12	पर्यटन	पर्यटन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+13	सिद्धांत	सिद्धांत	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+14	प्रस्तुत	प्रस्तुत	ADJ	JJ	_	15	dep	_	ChunkId=8|ChunkType=JJP
+15	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=या|Tam=yA
+16	।	।	PUNCT	RD_PUNC	_	15	dep	_	ChunkId=10|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s42
+# text = 
+1	पडन्ना	पडन्ना	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	आने	आ	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	10	dep	_	ChunkId=2|ChunkType=VGNN|Vib=ना|Tam=nA
+3	पर	पर	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=2|ChunkType=VGNN
+4	कृषकों	कृषक	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+5	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP
+6	जीवन	जीवन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+7	को	को	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=4|ChunkType=NP
+8	निकट	निकट	NOUN	N_NST	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	dep	_	ChunkId=5|ChunkType=NP
+9	से	से	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=5|ChunkType=NP
+10	देखा	देख	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA
+11	-	-	PUNCT	RD_SYM	_	0	dep	_	ChunkId=6|ChunkType=VGF
+12	समझा	समझ	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA
+13	जा	जा	AUX	V_VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Tam=0
+14	सकता	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=ता|Tam=wA
+15	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE
+16	।	।	PUNCT	RD_PUNC	_	10	dep	_	ChunkId=7|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s43
+# text = 
+1	ओयस्टर	ओयस्टर	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	ओपरा	ओपरा	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=1|ChunkType=NP
+4	साफ	साफ	ADJ	JJ	Case=Nom	7	dep	_	ChunkId=2|ChunkType=NP
+5	सुथरा	सुथरा	ADJ	JJ	Case=Nom	7	dep	_	ChunkId=2|ChunkType=NP
+6	माहौल	माहौल	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+7	व	व	SCONJ	CC_CCS	_	11	dep	_	ChunkId=3|ChunkType=CCP
+8	उत्तम	उत्तम	ADJ	JJ	Case=Nom	7	dep	_	ChunkId=4|ChunkType=NP
+9	आवासीय	आवासीय	ADJ	JJ	Case=Nom	7	dep	_	ChunkId=4|ChunkType=NP
+10	सुविधा	सुविधा	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+11	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE
+12	।	।	PUNCT	RD_PUNC	_	11	dep	_	ChunkId=6|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s44
+# text = 
+1	पडन्ना	पडन्ना	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	में	में	ADP	PSP	AdpType=Post	3	dep	_	ChunkId=1|ChunkType=NP
+3	ठहरकर	ठहर	VERB	V_VM	VerbForm=Conv|Voice=Act	10	dep	_	ChunkId=2|ChunkType=VGNF|Vib=कर|Tam=kara
+4	सामूहिक	सामूहिक	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=3|ChunkType=NP
+5	पर्यटन	पर्यटन	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+6	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP
+7	अनुभूति	अनुभूति	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=4|ChunkType=NP|Tam=0
+8	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=4|ChunkType=NP
+9	अनुभव	अनुभव	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+10	किया	कर	VERB	V_VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA
+11	जा	जा	AUX	V_VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Tam=0
+12	सकता	सक	AUX	V_VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=ता|Tam=wA
+13	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE
+14	।	।	PUNCT	RD_PUNC	_	10	dep	_	ChunkId=7|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s45
+# text = 
+1	पडन्ना	पडन्ना	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	के	के	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=1|ChunkType=NP
+3	पास	पास	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	dep	_	ChunkId=1|ChunkType=NP
+4	द्वीपों	द्वीप	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	तक	तक	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=2|ChunkType=NP
+6	बोटिंग	बोटिंग	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+7	की	कर	VERB	V_VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA
+8	जा	जा	AUX	V_VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Tam=0
+9	सकती	सक	AUX	V_VAUX	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=ता|Tam=wA
+10	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE
+11	।	।	PUNCT	RD_PUNC	_	7	dep	_	ChunkId=5|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s46
+# text = 
+1	पडन्ना	पडन्ना	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	क्षेत्र	क्षेत्र	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Plur	0	dep	_	ChunkId=1|ChunkType=NP
+4	विशेषताएँ	विशेषता	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	हैं	है	VERB	V_VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE
+6	-	-	PUNCT	RD_PUNC	_	0	dep	_	ChunkId=3|ChunkType=VGF
+7	विशाल	विशाल	ADJ	JJ	Case=Nom	10	dep	_	ChunkId=4|ChunkType=NP
+8	समुद्र	समुद्र	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+9	तट	तट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+10	एवं	एवं	CCONJ	CC_CCD	_	5	dep	_	ChunkId=5|ChunkType=CCP
+11	सागर	सागर	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+12	-	-	PUNCT	RD_SYM	_	10	dep	_	ChunkId=6|ChunkType=NP
+13	मुहाने	मुहाना	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+14	।	।	PUNCT	RD_PUNC	_	5	dep	_	ChunkId=7|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s47
+# text = 
+1	समीपवर्ती	समीपवर्ती	ADJ	JJ	Case=Acc	6	dep	_	ChunkId=1|ChunkType=NP
+2	तेजस्विनी	तेजस्विनी	PROPN	N_NNP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	नदी	नदी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+4	से	से	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=1|ChunkType=NP
+5	यात्रा	यात्रा	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	करने	कर	VERB	V_VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGNN|Vib=ना|Tam=nA
+7	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=3|ChunkType=VGNN
+8	अवसर	अवसर	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+9	भी	भी	PART	RP_RPD	_	13	dep	_	ChunkId=4|ChunkType=NP
+10	ओयस्टर	ओयस्टर	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+11	ओपरा	ओपरा	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+12	प्रदान	प्रदान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+13	करता	कर	VERB	V_VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=ता|Tam=wA
+14	है	है	AUX	V_VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE
+15	।	।	PUNCT	RD_PUNC	_	13	dep	_	ChunkId=8|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s48
+# text = 
+1	परश्शिनिक्कडवु	परश्शिनिक्कडवु	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	,	&comma	PUNCT	RD_PUNC	_	3	dep	_	ChunkId=1|ChunkType=NP
+3	NULL	NULL	CCONJ	CC_CCD	_	0	dep	_	ChunkId=2|ChunkType=NULL__CCP
+4	बेक्कल	बेक्कल	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+5	किला	किला	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+6	आदि	आदि	PART	RP_RPD	_	3	dep	_	ChunkId=3|ChunkType=NP
+7	स्थान	स्थान	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+8	इसके	यह	PRON	PR_PRP	Case=Acc|Number=Sing|Person=3	10	dep	_	ChunkId=5|ChunkType=NP|Vib=के|Tam=ke
+9	करीब	करीब	NOUN	N_NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	dep	_	ChunkId=5|ChunkType=NP
+10	हैं	है	VERB	V_VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE
+11	।	।	PUNCT	RD_PUNC	_	10	dep	_	ChunkId=7|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s49
+# text = 
+1	पडन्ना	पडन्ना	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	से	से	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=1|ChunkType=NP
+3	निकटतम	निकटतम	ADJ	JJ	Case=Nom	6	dep	_	ChunkId=2|ChunkType=NP
+4	बस	बस	NOUN	N_NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	अड्डा	अड्डा	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	एवं	एवं	CCONJ	CC_CCD	_	14	dep	_	ChunkId=3|ChunkType=CCP
+7	रेलवे	रेलवे	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+8	स्टेशन	स्टेशन	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+9	9	9	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=5|ChunkType=NP
+10	कि.मी.	कि.	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+11	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP
+12	दूरी	दूरी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+13	पर	पर	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=6|ChunkType=NP
+14	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE
+15	।	।	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=8|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s50
+# text = 
+1	पडन्ना	पडन्ना	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	से	से	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=1|ChunkType=NP
+3	निकटतम	निकटतम	ADJ	JJ	_	0	nmod	_	ChunkId=2|ChunkType=NP
+4	एयरपोर्ट	एयरपोर्ट	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0
+5	-	-	PUNCT	RD_PUNC	_	0	nmod	_	ChunkId=2|ChunkType=NP
+6	मंगलूर	मंगलूर	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+7	,	&comma	PUNCT	RD_PUNC	_	10	dep	_	ChunkId=3|ChunkType=NP
+8	120	120	NUM	QT_QTC	NumType=Card	10	dep	_	ChunkId=4|ChunkType=NP
+9	कि.मी.	कि.	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+10	NULL	NULL	VERB	V_VM	_	0	dep	_	ChunkId=5|ChunkType=NULL__VGF
+11	और	और	CCONJ	CC_CCD	_	0	dep	_	ChunkId=6|ChunkType=CCP
+12	करिप्पूर	करिप्पूर	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=7|ChunkType=NP|Tam=0
+13	अन्तर्राष्ट्रीय	अंतर्राष्ट्रीय	ADJ	JJ	Case=Nom	22	dep	_	ChunkId=8|ChunkType=NP
+14	हवाई	हवाई	ADJ	JJ	Case=Nom	22	dep	_	ChunkId=8|ChunkType=NP
+15	अड्डा	अड्डा	NOUN	N_NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=8|ChunkType=NP|Tam=0
+16	,	&comma	PUNCT	RD_PUNC	_	22	dep	_	ChunkId=8|ChunkType=NP
+17	180	180	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=9|ChunkType=NP
+18	कि.मी.	कि.	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0
+19	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=9|ChunkType=NP
+20	दूरी	दूरी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	22	dep	_	ChunkId=10|ChunkType=NP|Tam=0
+21	पर	पर	ADP	PSP	AdpType=Post	22	dep	_	ChunkId=10|ChunkType=NP
+22	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=11|ChunkType=VGF|Vib=है|Tam=hE
+23	।	।	PUNCT	RD_PUNC	_	11	dep	_	ChunkId=12|ChunkType=BLK
+
+
+
+# sent_id = mor-851-900-posn-name-s51
+# text = 
+1	समुद्रतल	समुद्रतल	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	से	से	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=1|ChunkType=NP
+3	1890	1890	NUM	QT_QTC	NumType=Card	0	dep	_	ChunkId=2|ChunkType=NP
+4	मीटर	मीटर	NOUN	N_NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP
+6	ऊँचाई	ऊँचाई	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+7	पर	पर	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=3|ChunkType=NP
+8	सह्याद्रि	सह्याद्रि	PROPN	N_NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+9	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP
+10	चोटी	चोटी	NOUN	N_NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+11	पर	पर	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=5|ChunkType=NP
+12	अगस्त्यारकूडम	अगस्त्यारकूडम	PROPN	N_NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+13	स्थित	स्थित	ADJ	JJ	_	14	dep	_	ChunkId=7|ChunkType=JJP
+14	है	है	VERB	V_VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE
+15	।	।	PUNCT	RD_PUNC	_	14	dep	_	ChunkId=9|ChunkType=BLK
+

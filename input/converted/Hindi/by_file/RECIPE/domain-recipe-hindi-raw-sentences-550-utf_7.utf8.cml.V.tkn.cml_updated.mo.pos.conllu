@@ -1,0 +1,930 @@
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s1
+# text = 
+1	यह	यह	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	तीन	तीन	NUM	QC	Case=Acc|Gender=Masc|Mood=Imp|NumType=Card|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	रंगों	रंग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	5	dep	_	ChunkId=2|ChunkType=NP|Vib=का|Tam=kA
+5	NULL	NULL	NOUN	NN	_	6	dep	_	ChunkId=3|ChunkType=NULL__NP
+6	दिखेगा	दिख	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=गा|Tam=gA
+7	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=4|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s2
+# text = 
+1	गणतंत्र	गणतंत्र	PROPN	NNPC	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	दिवस	दिवस	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	पर	पर	ADP	PSP	AdpType=Post	5	dep	_	ChunkId=1|ChunkType=NP
+4	तैयार	तैयार	ADJ	JJ	_	5	dep	_	ChunkId=2|ChunkType=JJP
+5	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE
+6	स्वादिष्ट	स्वादिष्ट	ADJ	JJ	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+7	तिरंगा	तिरंगा	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+8	केक	केक	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+9	।	&dot;	PUNCT	SYM	_	5	dep	_	ChunkId=4|ChunkType=NP
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s3
+# text = 
+1	सबसे	सबसे	ADV	INTF	AdvType=Deg	17	dep	_	ChunkId=1|ChunkType=NP
+2	पहले	पहला	NOUN	NST	Case=Acc|Gender=Masc|Number=Plur	17	dep	_	ChunkId=1|ChunkType=NP
+3	पालक	पालक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	,	&comma;	PUNCT	SYM	_	8	dep	_	ChunkId=2|ChunkType=NP
+5	मिर्च	मिर्च	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+6	,	&comma;	PUNCT	SYM	_	8	dep	_	ChunkId=3|ChunkType=NP
+7	अदरक	अदरक	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+8	एवं	एवं	CCONJ	CC	_	14	dep	_	ChunkId=5|ChunkType=CCP
+9	हरे	हरा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	8	dep	_	ChunkId=6|ChunkType=NP
+10	धनिए	धनिए	NOUN	NN	_	8	dep	_	ChunkId=6|ChunkType=NP
+11	को	को	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=6|ChunkType=NP
+12	मिक्सी	मिक्सी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+13	में	में	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=7|ChunkType=NP
+14	पीस	पीस	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=8|ChunkType=VGNF|Tam=0
+15	कर	कर	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=8|ChunkType=VGNF|Tam=0
+16	पेस्ट	पेस्ट	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=9|ChunkType=NP|Tam=0
+17	बना	बन	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=या|Tam=yA
+18	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=इए|Tam=ie
+19	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=10|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s4
+# text = 
+1	अब	अब	PRON	PRP	PronType=Prs	5	dep	_	ChunkId=1|ChunkType=NP
+2	आटे	आटा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	में	में	ADP	PSP	AdpType=Post	5	dep	_	ChunkId=2|ChunkType=NP
+4	नमक	नमक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+5	मिलाकर	मिला	VERB	VM	VerbForm=Conv|Voice=Act	6	dep	_	ChunkId=4|ChunkType=VGNF|Vib=कर|Tam=kara
+6	छानें	छान	VERB	VM	Number=Plur|Person=3	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=इए|Tam=ie
+7	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=5|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s5
+# text = 
+1	इसमें	यह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	dep	_	ChunkId=1|ChunkType=NP|Vib=में|Tam=meM
+2	पालक	पालक	NOUN	NNC	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	पेस्ट	पेस्ट	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	एवं	एवं	CCONJ	CC	_	6	dep	_	ChunkId=3|ChunkType=CCP
+5	पानी	पा	NOUN	NN	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	4	dep	_	ChunkId=4|ChunkType=NP|Vib=ना|Tam=nA
+6	मिलाकर	मिला	VERB	VM	VerbForm=Conv|Voice=Act	12	dep	_	ChunkId=5|ChunkType=VGNF|Vib=कर|Tam=kara
+7	थोड़ा	थोडा	DET	QF	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|PronType=Ind|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+8	-	&minus;	PUNCT	SYM	_	12	dep	_	ChunkId=6|ChunkType=NP
+9	सा	सा	PART	RP	Case=Nom|Gender=Masc|Number=Sing	12	dep	_	ChunkId=6|ChunkType=NP|Vib=का|Tam=kA
+10	कड़ा	कडा	ADJ	JJ	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+11	आटा	आटा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+12	गूंथ	गूंथ	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Tam=0
+13	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=इए|Tam=ie
+14	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=7|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s6
+# text = 
+1	तत्पश्चात	तत्पश्चात	ADV	RB	_	2	dep	_	ChunkId=1|ChunkType=RBP
+2	गूंथे	गूंथ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	3	dep	_	ChunkId=2|ChunkType=VGNF|Vib=या|Tam=yA
+3	आटे	आटा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+4	की	कर	ADP	PSP	AdpType=Post|Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Vib=या|Tam=yA
+5	लोइयां	लोइयां	NOUN	NN	_	0	dep	_	ChunkId=4|ChunkType=NP
+6	बनाकर	बनाकर	VERB	VM	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=5|ChunkType=VGNF|Tam=0
+7	पूरियां	पूरियां	NOUN	NN	_	8	dep	_	ChunkId=6|ChunkType=NP
+8	बेलें	बेल	VERB	VM	Number=Plur|Person=3	9	dep	_	ChunkId=7|ChunkType=VGF|Vib=इए|Tam=ie
+9	एवं	एवं	CCONJ	CC	_	0	dep	_	ChunkId=8|ChunkType=CCP
+10	गरम	गरम	ADJ	JJ	_	0	dep	_	ChunkId=9|ChunkType=NP
+11	तेल	तेल	NOUN	NN	_	0	dep	_	ChunkId=9|ChunkType=NP
+12	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP
+13	कुरकुरी	कुरकुरी	ADJ	JJ	_	0	dep	_	ChunkId=10|ChunkType=JJP
+14	तल	तल	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=11|ChunkType=VGF|Tam=0
+15	लें	ले	AUX	VAUX	Number=Plur|Person=3	9	dep	_	ChunkId=11|ChunkType=VGF|Vib=इए|Tam=ie
+16	।	&dot;	PUNCT	SYM	_	9	dep	_	ChunkId=11|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s7
+# text = 
+1	तैयार	तैयार	ADJ	JJ	_	5	nmod	_	ChunkId=1|ChunkType=JJP
+2	कुरकुरी	कुरकुरी	ADJ	JJ	_	3	dep	_	ChunkId=2|ChunkType=JJP
+3	एवं	एवं	CCONJ	CC	_	5	nmod	_	ChunkId=3|ChunkType=CCP
+4	लजीज	लजीज	ADJ	JJ	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=4|ChunkType=JJP|Tam=0
+5	पालक	पालक	NOUN	NNC	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+6	पूरी	पूरी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	23	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+7	को	को	ADP	PSP	AdpType=Post	23	dep	_	ChunkId=5|ChunkType=NP
+8	हरी	हरी	ADJ	JJ	Gender=Fem	0	dep	_	ChunkId=6|ChunkType=NP
+9	चटनी	चट	NOUN	NN	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Vib=ना|Tam=nA
+10	,	&comma;	PUNCT	SYM	_	0	dep	_	ChunkId=6|ChunkType=NP
+11	नींबू	नींबू	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+12	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=7|ChunkType=NP|Vib=का|Tam=kA
+13	अचार	अचार	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0
+14	,	&comma;	PUNCT	SYM	_	0	dep	_	ChunkId=8|ChunkType=NP
+15	अथवा	अथवा	CCONJ	CC	_	23	nmod	_	ChunkId=9|ChunkType=CCP
+16	गरमा	गरमा	ADJ	JJC	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0
+17	-	&minus;	PUNCT	SYM	_	0	dep	_	ChunkId=10|ChunkType=NP
+18	गरम	गरम	ADJ	JJ	_	0	dep	_	ChunkId=10|ChunkType=NP
+19	कढ़ी	कढी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0
+20	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=10|ChunkType=NP|Vib=का|Tam=kA
+21	साथ	साथ	NOUN	NST	_	0	dep	_	ChunkId=10|ChunkType=NP
+22	सर्व	सर्व	NOUN	NN	_	23	dep	_	ChunkId=11|ChunkType=NP
+23	करें	कर	VERB	VM	Number=Plur|Person=3	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=इए|Tam=ie
+24	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=12|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s8
+# text = 
+1	गाजर	गाजर	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	को	को	ADP	PSP	AdpType=Post	4	dep	_	ChunkId=1|ChunkType=NP
+3	छीलकर	छील	VERB	VM	VerbForm=Conv|Voice=Act	4	dep	_	ChunkId=2|ChunkType=VGNF|Vib=कर|Tam=kara
+4	घिस	किस	VERB	VM	_	0	dep	_	ChunkId=3|ChunkType=VGF
+5	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=इए|Tam=ie
+6	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=3|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s9
+# text = 
+1	दही	दह	NOUN	NN	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	6	dep	_	ChunkId=1|ChunkType=NP|Vib=या|Tam=yA
+2	को	को	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=1|ChunkType=NP
+3	अच्छी	अच्छी	ADJ	JJ	Gender=Fem	6	dep	_	ChunkId=2|ChunkType=NP
+4	तरह	तरह	NOUN	NN	_	6	dep	_	ChunkId=2|ChunkType=NP
+5	से	सा	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	6	dep	_	ChunkId=2|ChunkType=NP|Vib=का|Tam=kA
+6	मथ	मथ	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Tam=0
+7	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=इए|Tam=ie
+8	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=3|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s10
+# text = 
+1	इसमें	यह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	dep	_	ChunkId=1|ChunkType=NP|Vib=में|Tam=meM
+2	सेंधा	सेँधा	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	नमक	नमक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	,	&comma;	PUNCT	SYM	_	8	dep	_	ChunkId=2|ChunkType=NP
+5	काली	काली	ADJ	JJ	Gender=Fem	8	dep	_	ChunkId=3|ChunkType=NP
+6	मिर्च	मिर्च	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+7	,	&comma;	PUNCT	SYM	_	8	dep	_	ChunkId=3|ChunkType=NP
+8	NULL	NULL	CCONJ	CC	_	0	dep	_	ChunkId=4|ChunkType=NULL__CCP
+9	शक्कर	शक्कर	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+10	डालकर	डाल	VERB	VM	VerbForm=Conv|Voice=Act	13	dep	_	ChunkId=6|ChunkType=VGNF|Vib=कर|Tam=kara
+11	अच्छी	अच्छी	ADJ	JJ	Gender=Fem	13	dep	_	ChunkId=7|ChunkType=NP
+12	तरह	तरह	NOUN	NN	_	13	dep	_	ChunkId=7|ChunkType=NP
+13	मिलाएं	मिला	VERB	VM	Mood=Sub|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=एं|Tam=eM
+14	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=8|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s11
+# text = 
+1	गाजर	गाजर	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	को	को	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=1|ChunkType=NP
+3	हाथ	हाथ	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	से	सा	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	5	dep	_	ChunkId=2|ChunkType=NP|Vib=का|Tam=kA
+5	दबा	दब	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	dep	_	ChunkId=3|ChunkType=VGNF|Vib=या|Tam=yA
+6	कर	कर	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=VGNF|Tam=0
+7	निचोड़	निचोड	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=4|ChunkType=VGF|Tam=0
+8	लें	ले	AUX	VAUX	Number=Plur|Person=3	9	dep	_	ChunkId=4|ChunkType=VGF|Vib=इए|Tam=ie
+9	और	और	CCONJ	CC	_	0	dep	_	ChunkId=5|ChunkType=CCP
+10	दही	दह	NOUN	NN	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Vib=या|Tam=yA
+11	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP
+12	मिला	मिल	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	9	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA
+13	दें	दे	AUX	VAUX	Number=Plur|Person=3	9	dep	_	ChunkId=7|ChunkType=VGF|Vib=इए|Tam=ie
+14	।	&dot;	PUNCT	SYM	_	9	dep	_	ChunkId=7|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s12
+# text = 
+1	अब	अब	PRON	PRP	PronType=Prs	11	dep	_	ChunkId=1|ChunkType=NP
+2	इसमें	यह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	dep	_	ChunkId=2|ChunkType=NP|Vib=में|Tam=meM
+3	किशमिश	किशमिश	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+4	,	&comma;	PUNCT	SYM	_	6	dep	_	ChunkId=3|ChunkType=NP
+5	अदरक	अदरक	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+6	और	और	CCONJ	CC	_	0	dep	_	ChunkId=5|ChunkType=CCP
+7	हरी	हरी	ADJ	JJ	Gender=Fem	6	dep	_	ChunkId=6|ChunkType=NP
+8	मिर्च	मिर्च	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+9	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	6	dep	_	ChunkId=6|ChunkType=NP|Vib=का|Tam=kA
+10	पेस्ट	पेस्ट	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+11	मिला	मिल	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	13	dep	_	ChunkId=8|ChunkType=VGNF|Vib=या|Tam=yA
+12	कर	कर	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=8|ChunkType=VGNF|Tam=0
+13	हिलाएं	हिला	VERB	VM	Mood=Sub|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=एं|Tam=eM
+14	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=9|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s13
+# text = 
+1	हरे	हरा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	3	dep	_	ChunkId=1|ChunkType=NP
+2	धनिए	धनिए	NOUN	NN	_	3	dep	_	ChunkId=1|ChunkType=NP
+3	और	और	CCONJ	CC	_	0	dep	_	ChunkId=2|ChunkType=CCP
+4	भुने	भुन	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGNF|Vib=या|Tam=yA
+5	जीरे	जीरा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+6	से	सा	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	3	dep	_	ChunkId=4|ChunkType=NP|Vib=का|Tam=kA
+7	सजाकर	सजा	AUX	VAUX	VerbForm=Conv|Voice=Act	17	dep	_	ChunkId=5|ChunkType=VGNF|Vib=कर|Tam=kara
+8	गरमा	गरमा	ADJ	JJC	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+9	-	&minus;	PUNCT	SYM	_	0	dep	_	ChunkId=6|ChunkType=NP
+10	गरम	गरम	ADJ	JJ	_	0	dep	_	ChunkId=6|ChunkType=NP
+11	आलू	आलू	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+12	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=6|ChunkType=NP|Vib=का|Tam=kA
+13	पराठों	पराठा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	17	nmod	_	ChunkId=7|ChunkType=NP|Tam=0
+14	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	17	nmod	_	ChunkId=7|ChunkType=NP|Vib=का|Tam=kA
+15	साथ	साथ	NOUN	NST	_	17	nmod	_	ChunkId=7|ChunkType=NP
+16	पेश	पेश	ADJ	JJ	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=8|ChunkType=JJP|Tam=0
+17	करें	कर	VERB	VM	Number=Plur|Person=3	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=इए|Tam=ie
+18	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=9|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s14
+# text = 
+1	बनाने	बना	VERB	VM	Gender=Masc|Number=Plur|VerbForm=Inf|Voice=Act	14	dep	_	ChunkId=1|ChunkType=VGNN|Vib=ना|Tam=nA
+2	से	सा	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	14	dep	_	ChunkId=1|ChunkType=VGNN|Vib=का|Tam=kA
+3	पूर्व	पूर्व	NOUN	NST	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=1|ChunkType=VGNN|Tam=0
+4	रात्रि	रात्रि	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP
+6	मूंग	मूंग	NOUN	NNC	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+7	दाल	दाल	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+8	की	कर	ADP	PSP	AdpType=Post|Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Vib=या|Tam=yA
+9	चूरी	चूरी	NOUN	NN	_	11	dep	_	ChunkId=4|ChunkType=NP
+10	को	को	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=4|ChunkType=NP
+11	धोकर	धो	VERB	VM	VerbForm=Conv|Voice=Act	14	dep	_	ChunkId=5|ChunkType=VGNF|Vib=कर|Tam=kara
+12	पानी	पा	NOUN	NN	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	14	dep	_	ChunkId=6|ChunkType=NP|Vib=ना|Tam=nA
+13	में	में	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=6|ChunkType=NP
+14	भिगो	भिगो	VERB	VM	Mood=Sub|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=एं|Tam=e
+15	दें	दे	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=इए|Tam=ie
+16	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=7|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s15
+# text = 
+1	सुबह	सुबह	NOUN	NN	_	4	dep	_	ChunkId=1|ChunkType=NP
+2	उसका	उसका	PRON	PRP	Mood=Imp|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	पानी	पा	NOUN	NN	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	4	dep	_	ChunkId=3|ChunkType=NP|Vib=ना|Tam=nA
+4	निथार	निथार	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Tam=0
+5	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=इए|Tam=ie
+6	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=4|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s16
+# text = 
+1	अब	अब	PRON	PRP	PronType=Prs	10	dep	_	ChunkId=1|ChunkType=NP
+2	आटे	आटा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	में	में	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=2|ChunkType=NP
+4	बेसन	बेसन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+5	एवं	एवं	CCONJ	CC	_	10	dep	_	ChunkId=4|ChunkType=CCP
+6	सभी	सभी	DET	QF	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|PronType=Ind|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+7	मसाले	मसाला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+8	अच्छी	अच्छी	ADJ	JJ	Gender=Fem	10	dep	_	ChunkId=6|ChunkType=NP
+9	तरह	तरह	NOUN	NN	_	10	dep	_	ChunkId=6|ChunkType=NP
+10	मिला	मिल	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA
+11	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=इए|Tam=ie
+12	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=7|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s17
+# text = 
+1	इसमें	यह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	12	dep	_	ChunkId=1|ChunkType=NP|Vib=में|Tam=meM
+2	दाल	दाल	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	की	कर	ADP	PSP	AdpType=Post|Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Vib=या|Tam=yA
+4	चूरी	चूरी	NOUN	NN	_	5	dep	_	ChunkId=3|ChunkType=NP
+5	एवं	एवं	CCONJ	CC	_	12	dep	_	ChunkId=4|ChunkType=CCP
+6	थोड़ा	थोडा	DET	QF	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|PronType=Ind|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+7	-	&minus;	PUNCT	SYM	_	0	dep	_	ChunkId=5|ChunkType=NP
+8	सा	सा	PART	RP	Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|Vib=का|Tam=kA
+9	तेल	तेल	NOUN	NN	_	0	dep	_	ChunkId=5|ChunkType=NP
+10	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|Vib=का|Tam=kA
+11	मोयन	मोयन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+12	डालकर	डाल	VERB	VM	VerbForm=Conv|Voice=Act	16	dep	_	ChunkId=7|ChunkType=VGNF|Vib=कर|Tam=kara
+13	अच्छी	अच्छी	ADJ	JJ	Gender=Fem	16	dep	_	ChunkId=8|ChunkType=NP
+14	तरह	तरह	NOUN	NN	_	16	dep	_	ChunkId=8|ChunkType=NP
+15	मिक्स	मिक्स	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=9|ChunkType=NP|Tam=0
+16	कर	कर	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Tam=0
+17	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=इए|Tam=ie
+18	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=10|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s18
+# text = 
+1	अब	अब	PRON	PRP	PronType=Prs	4	dep	_	ChunkId=1|ChunkType=NP
+2	आवश्यकतानुसार	आवश्यकतानुसार	NOUN	NN	_	4	dep	_	ChunkId=2|ChunkType=NP
+3	पानी	पा	NOUN	NN	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	4	dep	_	ChunkId=3|ChunkType=NP|Vib=ना|Tam=nA
+4	लेकर	ले	VERB	VM	VerbForm=Conv|Voice=Act	6	dep	_	ChunkId=4|ChunkType=VGNF|Vib=कर|Tam=kara
+5	आटा	आटा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+6	गूंथ	गूंथ	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Tam=0
+7	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=इए|Tam=ie
+8	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=6|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s19
+# text = 
+1	तत्पश्चात	तत्पश्चात	ADV	RB	_	0	dep	_	ChunkId=1|ChunkType=RBP
+2	गूंधे	गूँध	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	3	dep	_	ChunkId=2|ChunkType=VGNF|Vib=या|Tam=yA
+3	आटे	आटा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+4	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=3|ChunkType=NP
+5	गीले	गीला	ADJ	JJ	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+6	कपड़े	कपडा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+7	से	सा	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=4|ChunkType=NP|Vib=का|Tam=kA
+8	आधा	आधा	DET	QF	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|PronType=Ind|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+9	घंटा	घंटा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+10	दबाकर	दबा	VERB	VM	VerbForm=Conv|Voice=Act	11	dep	_	ChunkId=6|ChunkType=VGNF|Vib=कर|Tam=kara
+11	रखें	रख	VERB	VM	Number=Plur|Person=3	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=इए|Tam=ie
+12	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=7|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s20
+# text = 
+1	फिर	फिर	ADV	RB	_	4	dep	_	ChunkId=1|ChunkType=RBP
+2	इसकी	यह	PRON	PRP	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	0	dep	_	ChunkId=2|ChunkType=NP|Vib=का|Tam=kA
+3	लोइयां	लोइयां	NOUN	NN	_	4	dep	_	ChunkId=3|ChunkType=NP
+4	बनाकर	बनाकर	VERB	VM	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=4|ChunkType=VGNF|Tam=0
+5	पूरी	पूरी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+6	बेलें	बेल	VERB	VM	Number=Plur|Person=3	7	dep	_	ChunkId=6|ChunkType=VGF|Vib=इए|Tam=ie
+7	एवं	एवं	CCONJ	CC	_	0	dep	_	ChunkId=7|ChunkType=CCP
+8	गर्म	गर्म	ADJ	JJ	_	0	dep	_	ChunkId=8|ChunkType=NP
+9	तेल	तेल	NOUN	NN	_	0	dep	_	ChunkId=8|ChunkType=NP
+10	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP
+11	सुनहरी	सुनहरी	ADJ	JJ	Gender=Fem	0	dep	_	ChunkId=9|ChunkType=JJP
+12	भूरी	भूरी	ADJ	JJ	_	0	dep	_	ChunkId=9|ChunkType=JJP
+13	तल	तल	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=10|ChunkType=VGF|Tam=0
+14	लें	ले	AUX	VAUX	Number=Plur|Person=3	7	dep	_	ChunkId=10|ChunkType=VGF|Vib=इए|Tam=ie
+15	।	&dot;	PUNCT	SYM	_	7	dep	_	ChunkId=10|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s21
+# text = 
+1	स्वादिष्ट	स्वादिष्ट	ADJ	JJ	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	मूंग	मूंग	NOUN	NNC	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	छिल्का	छिल्का	NOUN	NNC	_	14	dep	_	ChunkId=1|ChunkType=NP
+4	पूरी	पूरी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+5	को	को	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=1|ChunkType=NP
+6	अचार	अचार	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+7	,	&comma;	PUNCT	SYM	_	9	dep	_	ChunkId=2|ChunkType=NP
+8	रायता	रायता	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+9	या	या	CCONJ	CC	_	14	nmod	_	ChunkId=4|ChunkType=CCP
+10	कढ़ी	कढी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+11	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	9	dep	_	ChunkId=5|ChunkType=NP|Vib=का|Tam=kA
+12	साथ	साथ	NOUN	NST	_	9	dep	_	ChunkId=5|ChunkType=NP
+13	सर्व	सर्व	NOUN	NN	_	14	dep	_	ChunkId=6|ChunkType=NP
+14	करें	कर	VERB	VM	Number=Plur|Person=3	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=इए|Tam=ie
+15	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=7|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s22
+# text = 
+1	हरे	हरा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=1|ChunkType=NP
+2	धनिए	धनिए	NOUN	NN	_	0	dep	_	ChunkId=1|ChunkType=NP
+3	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=1|ChunkType=NP|Vib=का|Tam=kA
+4	डंठल	डंठल	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	साफ	साफ	ADJ	JJ	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=JJP|Tam=0
+6	करके	कर	VERB	VM	VerbForm=Conv|Voice=Act	18	dep	_	ChunkId=4|ChunkType=VGNF|Vib=कर|Tam=kara
+7	नरम	नरम	ADJ	JJ	_	0	nmod	_	ChunkId=5|ChunkType=NP
+8	-	&minus;	PUNCT	SYM	_	0	nmod	_	ChunkId=5|ChunkType=NP
+9	नरम	नरम	PART	RDP	_	0	nmod	_	ChunkId=5|ChunkType=NP
+10	डंडी	डंडी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0
+11	वाला	वाला	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0
+12	धनिया	धनिया	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+13	बारीक	बारीक	ADJ	JJ	_	0	dep	_	ChunkId=7|ChunkType=JJP
+14	काट	काट	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=8|ChunkType=VGNF|Tam=0
+15	कर	कर	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=8|ChunkType=VGNF|Tam=0
+16	अच्छी	अच्छी	ADJ	JJ	Gender=Fem	18	dep	_	ChunkId=9|ChunkType=NP
+17	तरह	तरह	NOUN	NN	_	18	dep	_	ChunkId=9|ChunkType=NP
+18	धो	धो	VERB	VM	Mood=Sub|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=एं|Tam=e
+19	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=इए|Tam=ie
+20	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=10|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s23
+# text = 
+1	लहसुन	लहसुन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	छील	छील	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGF|Tam=0
+3	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=2|ChunkType=VGF|Vib=इए|Tam=ie
+4	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=2|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s24
+# text = 
+1	उपरोक्त	उपरोक्त	ADJ	JJ	_	5	dep	_	ChunkId=1|ChunkType=NP
+2	सभी	सभी	DET	QF	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|PronType=Ind|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	सामग्री	सामग्री	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+4	को	को	ADP	PSP	AdpType=Post	5	dep	_	ChunkId=1|ChunkType=NP
+5	मिलाकर	मिला	VERB	VM	VerbForm=Conv|Voice=Act	9	dep	_	ChunkId=2|ChunkType=VGNF|Vib=कर|Tam=kara
+6	मिक्सी	मिक्सी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+7	में	में	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=3|ChunkType=NP
+8	चटनी	चट	NOUN	NN	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	9	dep	_	ChunkId=4|ChunkType=NP|Vib=ना|Tam=nA
+9	पीस	पीस	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Tam=0
+10	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=इए|Tam=ie
+11	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=5|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s25
+# text = 
+1	तपश्चात	तपश्चात	ADV	RB	_	4	dep	_	ChunkId=1|ChunkType=RBP
+2	इसमें	यह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	dep	_	ChunkId=2|ChunkType=NP|Vib=में|Tam=meM
+3	नींबू	नींबू	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+4	निचोड़	निचोड	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Tam=0
+5	दें	दे	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=इए|Tam=ie
+6	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=4|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s26
+# text = 
+1	गुड़	गुड	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	-	&minus;	PUNCT	SYM	_	0	dep	_	ChunkId=1|ChunkType=NP
+3	लहसुन	लहसुन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+4	की	कर	ADP	PSP	AdpType=Post|Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Vib=या|Tam=yA
+5	स्वादिष्ट	स्वादिष्ट	ADJ	JJ	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	चटनी	चट	NOUN	NN	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	14	dep	_	ChunkId=2|ChunkType=NP|Vib=ना|Tam=nA
+7	गरमा	गरमा	ADJ	JJC	Mood=Imp|VerbForm=Fin|Voice=Act	14	nmod	_	ChunkId=3|ChunkType=NP|Tam=0
+8	-	&minus;	PUNCT	SYM	_	14	nmod	_	ChunkId=3|ChunkType=NP
+9	गरम	गरम	ADJ	JJ	_	14	nmod	_	ChunkId=3|ChunkType=NP
+10	भोजन	भोजन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	14	nmod	_	ChunkId=3|ChunkType=NP|Tam=0
+11	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	14	nmod	_	ChunkId=3|ChunkType=NP|Vib=का|Tam=kA
+12	साथ	साथ	NOUN	NST	_	14	nmod	_	ChunkId=3|ChunkType=NP
+13	सर्व	सर्व	NOUN	NN	_	14	dep	_	ChunkId=4|ChunkType=NP
+14	करें	कर	VERB	VM	Number=Plur|Person=3	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=इए|Tam=ie
+15	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=5|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s27
+# text = 
+1	सोयाबीन	सोयाबीन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	को	को	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=1|ChunkType=NP
+3	सबसे	सबसे	ADV	INTF	AdvType=Deg	11	dep	_	ChunkId=2|ChunkType=NP
+4	पहले	पहला	NOUN	NST	Case=Acc|Gender=Masc|Number=Plur	11	dep	_	ChunkId=2|ChunkType=NP
+5	10	10	NUM	QC	NumType=Card	11	dep	_	ChunkId=3|ChunkType=NP
+6	-	&minus;	PUNCT	SYM	_	11	dep	_	ChunkId=3|ChunkType=NP
+7	15	15	NUM	QC	NumType=Card	11	dep	_	ChunkId=3|ChunkType=NP
+8	मिनट	मिनट	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+9	पानी	पा	NOUN	NN	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Vib=ना|Tam=nA
+10	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=4|ChunkType=NP
+11	भिगो	भिगो	VERB	VM	Mood=Sub|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=एं|Tam=e
+12	दें	दे	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=इए|Tam=ie
+13	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=5|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s28
+# text = 
+1	अब	अब	PRON	PRP	PronType=Prs	0	dep	_	ChunkId=1|ChunkType=NP
+2	कटे	कट	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGNF|Vib=या|Tam=yA
+3	पालक	पालक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+4	,	&comma;	PUNCT	SYM	_	16	dep	_	ChunkId=3|ChunkType=NP
+5	लहसुन	लहसुन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+6	,	&comma;	PUNCT	SYM	_	16	dep	_	ChunkId=4|ChunkType=NP
+7	हरा	हरा	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	16	dep	_	ChunkId=5|ChunkType=NP
+8	धनिया	धनिया	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+9	,	&comma;	PUNCT	SYM	_	16	dep	_	ChunkId=5|ChunkType=NP
+10	मिर्च	मिर्च	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+11	,	&comma;	PUNCT	SYM	_	16	dep	_	ChunkId=6|ChunkType=NP
+12	मूंग	मूंग	NOUN	NNC	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+13	दाल	दाल	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+14	,	&comma;	PUNCT	SYM	_	16	dep	_	ChunkId=7|ChunkType=NP
+15	ब्रेड	ब्रेड	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=8|ChunkType=NP|Tam=0
+16	तथा	तथा	CCONJ	CC	_	0	dep	_	ChunkId=9|ChunkType=CCP
+17	जीरा	जीरा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=10|ChunkType=NP|Tam=0
+18	,	&comma;	PUNCT	SYM	_	16	dep	_	ChunkId=10|ChunkType=NP
+19	नमक	नमक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0
+20	,	&comma;	PUNCT	SYM	_	0	dep	_	ChunkId=11|ChunkType=NP
+21	चाट	चाट	NOUN	NNC	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0
+22	मसाला	मसाला	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0
+23	और	और	CCONJ	CC	_	0	dep	_	ChunkId=13|ChunkType=CCP
+24	भीगे	भीग	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGNF|Vib=या|Tam=yA
+25	हुए	हो	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=14|ChunkType=VGNF|Vib=या|Tam=yA
+26	सोयाबीन	सोयाबीन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=15|ChunkType=NP|Tam=0
+27	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=15|ChunkType=NP
+28	एक	एक	NUM	QC	Case=Acc|Gender=Masc|Mood=Imp|NumType=Card|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=NP|Tam=0
+29	साथ	साथ	NOUN	NST	_	0	dep	_	ChunkId=16|ChunkType=NP
+30	मिलाकर	मिला	VERB	VM	VerbForm=Conv|Voice=Act	41	dep	_	ChunkId=17|ChunkType=VGNF|Vib=कर|Tam=kara
+31	छोटे	छोटा	ADJ	JJ	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=18|ChunkType=JJP|Tam=0
+32	-	&minus;	PUNCT	SYM	_	0	nmod	_	ChunkId=18|ChunkType=JJP
+33	छोटे	छोटा	PART	RDP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=18|ChunkType=JJP|Tam=0
+34	चपटे	चपटा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=18|ChunkType=JJP
+35	(	&rcbrs;	PUNCT	SYM	_	0	nmod	_	ChunkId=19|ChunkType=NP
+36	टिकिया	टिकिया	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=19|ChunkType=NP|Tam=0
+37	की	कर	ADP	PSP	AdpType=Post|Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	nmod	_	ChunkId=19|ChunkType=NP|Vib=या|Tam=yA
+38	तरह	तरह	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=19|ChunkType=NP
+39	)	&lcbrs;	PUNCT	SYM	_	0	nmod	_	ChunkId=19|ChunkType=NP
+40	गोले	गोला	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	41	dep	_	ChunkId=20|ChunkType=NP|Tam=0
+41	बना	बन	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=21|ChunkType=VGF|Vib=या|Tam=yA
+42	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=21|ChunkType=VGF|Vib=इए|Tam=ie
+43	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=21|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s29
+# text = 
+1	तत्पश्चात	तत्पश्चात	ADV	RB	_	9	dep	_	ChunkId=1|ChunkType=RBP
+2	एक	एक	NUM	QC	Case=Acc|Gender=Masc|Mood=Imp|NumType=Card|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	पैन	पैन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP
+5	हल्का	हल्का	ADJ	JJ	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+6	-	&minus;	PUNCT	SYM	_	9	dep	_	ChunkId=3|ChunkType=NP
+7	सा	सा	PART	RP	Case=Nom|Gender=Masc|Number=Sing	9	dep	_	ChunkId=3|ChunkType=NP|Vib=का|Tam=kA
+8	तेल	तेल	NOUN	NN	_	9	dep	_	ChunkId=3|ChunkType=NP
+9	लगाकर	लगा	VERB	VM	VerbForm=Conv|Voice=Act	11	dep	_	ChunkId=4|ChunkType=VGNN|Vib=कर|Tam=kara
+10	गर्म	गर्म	ADJ	JJ	_	11	dep	_	ChunkId=5|ChunkType=JJP
+11	करें	कर	VERB	VM	Number=Plur|Person=3	13	dep	_	ChunkId=6|ChunkType=VGNF|Vib=इए|Tam=ie
+12	,	&comma;	PUNCT	SYM	_	13	dep	_	ChunkId=6|ChunkType=VGNF
+13	NULL	NULL	CCONJ	CC	_	0	dep	_	ChunkId=7|ChunkType=NULL__CCP
+14	फिर	फिर	ADV	RB	_	25	dep	_	ChunkId=8|ChunkType=RBP
+15	तैयार	तैयार	ADJ	JJ	_	0	dep	_	ChunkId=9|ChunkType=NP
+16	गोलों	गोल	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0
+17	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP
+18	उलट	उलट	VMC	VMC	Mood=Imp|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=10|ChunkType=VGNF|Tam=0
+19	-	&minus;	PUNCT	SYM	_	25	dep	_	ChunkId=10|ChunkType=VGNF
+20	पलट	पलट	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=10|ChunkType=VGNF|Tam=0
+21	कर	कर	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	25	dep	_	ChunkId=10|ChunkType=VGNF|Tam=0
+22	सुनहरा	सुनहरा	ADJ	JJ	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=JJP|Tam=0
+23	होने	हो	VERB	VM	Gender=Masc|Number=Plur|VerbForm=Inf|Voice=Act	25	dep	_	ChunkId=12|ChunkType=VGNN|Vib=ना|Tam=nA
+24	तक	तक	ADP	PSP	AdpType=Post	25	dep	_	ChunkId=12|ChunkType=VGNN
+25	तल	तल	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=13|ChunkType=VGF|Tam=0
+26	लें	ले	AUX	VAUX	Number=Plur|Person=3	13	dep	_	ChunkId=13|ChunkType=VGF|Vib=इए|Tam=ie
+27	।	&dot;	PUNCT	SYM	_	13	dep	_	ChunkId=13|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s30
+# text = 
+1	हरे	हरा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=1|ChunkType=NP
+2	धनिए	धनिए	NOUN	NN	_	0	dep	_	ChunkId=1|ChunkType=NP
+3	की	कर	ADP	PSP	AdpType=Post|Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Vib=या|Tam=yA
+4	चटनी	चट	NOUN	NN	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	15	nmod	_	ChunkId=2|ChunkType=NP|Vib=ना|Tam=nA
+5	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	15	nmod	_	ChunkId=2|ChunkType=NP|Vib=का|Tam=kA
+6	साथ	साथ	NOUN	NST	_	15	nmod	_	ChunkId=2|ChunkType=NP
+7	गरमा	गरमा	ADJ	JJC	Mood=Imp|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0
+8	-	&minus;	PUNCT	SYM	_	0	nmod	_	ChunkId=3|ChunkType=NP
+9	गरम	गरम	ADJ	JJ	_	0	nmod	_	ChunkId=3|ChunkType=NP
+10	चटपटे	चटपटा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	0	nmod	_	ChunkId=3|ChunkType=NP
+11	हरियाले	हरियाले	PROPN	NNPC	_	0	nmod	_	ChunkId=3|ChunkType=NP
+12	कबाब	कबाब	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0
+13	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	nmod	_	ChunkId=3|ChunkType=NP|Vib=का|Tam=kA
+14	मजा	मजा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+15	उठाएं	उठा	VERB	VM	Mood=Sub|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=एं|Tam=eM
+16	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=5|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s31
+# text = 
+1	सबसे	सबसे	ADV	INTF	AdvType=Deg	15	dep	_	ChunkId=1|ChunkType=NP
+2	पहले	पहला	NOUN	NST	Case=Acc|Gender=Masc|Number=Plur	15	dep	_	ChunkId=1|ChunkType=NP
+3	चावल	चावल	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	,	&comma;	PUNCT	SYM	_	7	dep	_	ChunkId=2|ChunkType=NP
+5	उड़द	उडद	NOUN	NNC	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+6	दाल	दाल	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+7	और	और	CCONJ	CC	_	15	dep	_	ChunkId=4|ChunkType=CCP
+8	चना	चना	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+9	दाल	दाल	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+10	को	को	ADP	PSP	AdpType=Post	7	dep	_	ChunkId=5|ChunkType=NP
+11	रात	रात	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+12	भर	भर	PART	RP	_	15	dep	_	ChunkId=6|ChunkType=NP
+13	पानी	पा	NOUN	NN	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	15	dep	_	ChunkId=7|ChunkType=NP|Vib=ना|Tam=nA
+14	में	में	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=7|ChunkType=NP
+15	भिगो	भिगो	VERB	VM	Mood=Sub|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=8|ChunkType=VGNF|Vib=एं|Tam=e
+16	कर	कर	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=8|ChunkType=VGNF|Tam=0
+17	रखें	रख	VERB	VM	Number=Plur|Person=3	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=इए|Tam=ie
+18	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=9|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s32
+# text = 
+1	फिर	फिर	ADV	RB	_	7	dep	_	ChunkId=1|ChunkType=RBP
+2	उसमें	वह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	dep	_	ChunkId=2|ChunkType=NP|Vib=में|Tam=meM
+3	नमक	नमक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+4	मिलाकर	मिला	VERB	VM	VerbForm=Conv|Voice=Act	7	dep	_	ChunkId=4|ChunkType=VGNF|Vib=कर|Tam=kara
+5	अच्छे	अच्छा	ADV	RB	Case=Acc|Gender=Masc|Number=Plur	7	dep	_	ChunkId=5|ChunkType=RBP
+6	से	सा	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	7	dep	_	ChunkId=5|ChunkType=RBP|Vib=का|Tam=kA
+7	पीस	पीस	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=6|ChunkType=VGF|Tam=0
+8	लें	ले	AUX	VAUX	Number=Plur|Person=3	10	dep	_	ChunkId=6|ChunkType=VGF|Vib=इए|Tam=ie
+9	,	&comma;	PUNCT	SYM	_	10	dep	_	ChunkId=6|ChunkType=VGF
+10	NULL	NULL	CCONJ	CC	_	0	dep	_	ChunkId=7|ChunkType=NULL__CCP
+11	आपका	आप	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	0	dep	_	ChunkId=8|ChunkType=NP|Vib=का|Tam=kA
+12	मिश्रण	मिश्रण	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0
+13	पकौड़े	पकौडा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0
+14	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=10|ChunkType=NP|Vib=का|Tam=kA
+15	पेस्ट	पेस्ट	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0
+16	समान	समान	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=11|ChunkType=NP
+17	होना	हो	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	10	dep	_	ChunkId=12|ChunkType=VGF|Vib=ना|Tam=nA
+18	चाहिए	चाह	AUX	VAUX	Mood=Sub|Number=Plur|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=12|ChunkType=VGF|Vib=एं|Tam=eM
+19	।	&dot;	PUNCT	SYM	_	10	dep	_	ChunkId=12|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s33
+# text = 
+1	अब	अब	PRON	PRP	PronType=Prs	8	dep	_	ChunkId=1|ChunkType=NP
+2	तवे	तवा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	पर	पर	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=2|ChunkType=NP
+4	एक	एक	NUM	QC	Case=Acc|Gender=Masc|Mood=Imp|NumType=Card|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0
+5	छोटा	छोटा	ADJ	JJ	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0
+6	चम्मच	चम्मच	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0
+7	तेल	तेल	NOUN	NN	_	8	dep	_	ChunkId=4|ChunkType=NP
+8	फैला	फैल	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	11	dep	_	ChunkId=5|ChunkType=VGNF|Vib=या|Tam=yA
+9	कर	कर	NOUN	NN	Mood=Imp|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=5|ChunkType=VGNF|Tam=0
+10	गर्म	गर्म	ADJ	JJ	_	11	dep	_	ChunkId=6|ChunkType=JJP
+11	कर	कर	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=7|ChunkType=VGF|Tam=0
+12	लें	ले	AUX	VAUX	Number=Plur|Person=3	14	dep	_	ChunkId=7|ChunkType=VGF|Vib=इए|Tam=ie
+13	,	&comma;	PUNCT	SYM	_	14	dep	_	ChunkId=7|ChunkType=VGF
+14	NULL	NULL	X	NULL	_	0	dep	_	ChunkId=8|ChunkType=NULL__CCP
+15	फिर	फिर	ADV	RB	_	0	dep	_	ChunkId=9|ChunkType=RBP
+16	बड़े	बडा	ADJ	JJ	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0
+17	चम्मच	चम्मच	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0
+18	की	कर	ADP	PSP	AdpType=Post|Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Vib=या|Tam=yA
+19	सहायता	सहायता	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=11|ChunkType=NP|Tam=0
+20	से	सा	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=11|ChunkType=NP|Vib=का|Tam=kA
+21	एक	एक	NUM	QC	Case=Acc|Gender=Masc|Mood=Imp|NumType=Card|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0
+22	चम्मच	चम्मच	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0
+23	पेस्ट	पेस्ट	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0
+24	को	को	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=12|ChunkType=NP
+25	धीरे	धीरा	ADV	RB	Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=13|ChunkType=RBP
+26	-	&minus;	PUNCT	SYM	_	0	dep	_	ChunkId=13|ChunkType=RBP
+27	धीरे	धीरा	PART	RDP	Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=13|ChunkType=RBP
+28	पूरे	पूरा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=14|ChunkType=NP
+29	तवे	तवा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0
+30	पर	पर	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=14|ChunkType=NP
+31	फैला	फैल	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	14	dep	_	ChunkId=15|ChunkType=VGF|Vib=या|Tam=yA
+32	दें	दे	AUX	VAUX	Number=Plur|Person=3	14	dep	_	ChunkId=15|ChunkType=VGF|Vib=इए|Tam=ie
+33	।	&dot;	PUNCT	SYM	_	14	dep	_	ChunkId=15|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s34
+# text = 
+1	ऊपर	ऊपर	NOUN	NST	_	9	dep	_	ChunkId=1|ChunkType=NP
+2	से	सा	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	9	dep	_	ChunkId=1|ChunkType=NP|Vib=का|Tam=kA
+3	चिली	चिली	NOUN	NNC	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	फ्लेक्स	फ्लेक्स	NOUN	NN	_	5	dep	_	ChunkId=2|ChunkType=NP
+5	और	और	CCONJ	CC	_	9	dep	_	ChunkId=3|ChunkType=CCP
+6	चीज	चीज	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+7	को	को	ADP	PSP	AdpType=Post	5	dep	_	ChunkId=4|ChunkType=NP
+8	ग्रेट	ग्रेट	NOUN	NN	_	9	dep	_	ChunkId=5|ChunkType=NP
+9	कर	कर	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Tam=0
+10	दें	दे	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=इए|Tam=ie
+11	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=6|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s35
+# text = 
+1	नीचे	नीचा	NOUN	NST	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	की	कर	ADP	PSP	AdpType=Post|Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	7	dep	_	ChunkId=1|ChunkType=NP|Vib=या|Tam=yA
+3	ओर	ओर	NOUN	NST	_	7	dep	_	ChunkId=1|ChunkType=NP
+4	से	सा	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	7	dep	_	ChunkId=1|ChunkType=NP|Vib=का|Tam=kA
+5	डोसा	डोसा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	कुरकुरा	कुरकुरा	ADJ	JJ	Mood=Imp|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=3|ChunkType=JJP|Tam=0
+7	होने	हो	VERB	VM	Gender=Masc|Number=Plur|VerbForm=Inf|Voice=Act	18	dep	_	ChunkId=4|ChunkType=VGNN|Vib=ना|Tam=nA
+8	पर	पर	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=4|ChunkType=VGNN
+9	पलटे	पलट	NOUN	NN	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	18	dep	_	ChunkId=5|ChunkType=NP|Vib=या|Tam=yA
+10	से	सा	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	18	dep	_	ChunkId=5|ChunkType=NP|Vib=का|Tam=kA
+11	हल्के	हल्का	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+12	से	सा	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	18	dep	_	ChunkId=6|ChunkType=NP|Vib=का|Tam=kA
+13	धीरे	धीरा	ADV	RB	Case=Acc|Gender=Masc|Number=Plur	18	dep	_	ChunkId=7|ChunkType=RBP
+14	-	&minus;	PUNCT	SYM	_	18	dep	_	ChunkId=7|ChunkType=RBP
+15	धीरे	धीरा	PART	RDP	Case=Acc|Gender=Masc|Number=Plur	18	dep	_	ChunkId=7|ChunkType=RBP
+16	डोसे	डोसा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	dep	_	ChunkId=8|ChunkType=NP|Tam=0
+17	को	को	ADP	PSP	AdpType=Post	18	dep	_	ChunkId=8|ChunkType=NP
+18	लपेट	लपेट	VERB	VM	_	0	dep	_	ChunkId=9|ChunkType=VGF
+19	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=इए|Tam=ie
+20	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=9|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s36
+# text = 
+1	अब	अब	PRON	PRP	PronType=Prs	24	dep	_	ChunkId=1|ChunkType=NP
+2	तैयार	तैयार	ADJ	JJ	_	24	dep	_	ChunkId=2|ChunkType=NP
+3	चीज	चीज	PROPN	NNPC	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	चिली	चिली	PROPN	NNPC	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	डोसा	डोसा	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	को	को	ADP	PSP	AdpType=Post	24	dep	_	ChunkId=2|ChunkType=NP
+7	नारियल	नारियल	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+8	की	कर	ADP	PSP	AdpType=Post|Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Vib=या|Tam=yA
+9	गीली	गीली	ADJ	JJ	Gender=Fem	16	dep	_	ChunkId=4|ChunkType=NP
+10	चटनी	चट	NOUN	NN	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	16	dep	_	ChunkId=4|ChunkType=NP|Vib=ना|Tam=nA
+11	,	&comma;	PUNCT	SYM	_	16	dep	_	ChunkId=4|ChunkType=NP
+12	हरे	हरा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=5|ChunkType=NP
+13	धनिए	धनिए	NOUN	NN	_	0	dep	_	ChunkId=5|ChunkType=NP
+14	की	कर	ADP	PSP	AdpType=Post|Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Vib=या|Tam=yA
+15	चटनी	चट	NOUN	NN	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	16	dep	_	ChunkId=6|ChunkType=NP|Vib=ना|Tam=nA
+16	और	और	CCONJ	CC	_	24	nmod	_	ChunkId=7|ChunkType=CCP
+17	सांभर	सांभर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=8|ChunkType=NP|Tam=0
+18	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	16	dep	_	ChunkId=8|ChunkType=NP|Vib=का|Tam=kA
+19	साथ	साथ	NOUN	NST	_	16	dep	_	ChunkId=8|ChunkType=NP
+20	गरमा	गरमा	ADJ	JJC	Mood=Imp|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=9|ChunkType=JJP|Tam=0
+21	-	&minus;	PUNCT	SYM	_	24	dep	_	ChunkId=9|ChunkType=JJP
+22	गरम	गरम	ADJ	JJ	_	24	dep	_	ChunkId=9|ChunkType=JJP
+23	पेश	पेश	ADJ	JJ	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	24	dep	_	ChunkId=10|ChunkType=JJP|Tam=0
+24	करें	कर	VERB	VM	Number=Plur|Person=3	0	dep	_	ChunkId=11|ChunkType=VGF|Vib=इए|Tam=ie
+25	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=11|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s37
+# text = 
+1	बादाम	बादाम	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	व	व	CCONJ	CC	_	14	dep	_	ChunkId=2|ChunkType=CCP
+3	खसखस	खसखस	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+4	को	को	ADP	PSP	AdpType=Post	2	dep	_	ChunkId=3|ChunkType=NP
+5	2	2	NUM	QC	NumType=Card	14	dep	_	ChunkId=4|ChunkType=NP
+6	घंटे	घंटा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+7	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	14	dep	_	ChunkId=4|ChunkType=NP|Vib=का|Tam=kA
+8	लिए	ले	ADP	PSP	AdpType=Post|Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	14	dep	_	ChunkId=4|ChunkType=NP|Vib=या|Tam=yA
+9	अलग	अलग	ADJ	JJ	_	14	dep	_	ChunkId=5|ChunkType=NP
+10	-	&minus;	PUNCT	SYM	_	14	dep	_	ChunkId=5|ChunkType=NP
+11	अलग	अलग	PART	RDP	_	14	dep	_	ChunkId=5|ChunkType=NP
+12	पानी	पा	NOUN	NN	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	14	dep	_	ChunkId=5|ChunkType=NP|Vib=ना|Tam=nA
+13	में	में	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=5|ChunkType=NP
+14	भिगो	भिगो	VERB	VM	Mood=Sub|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=एं|Tam=e
+15	दें	दे	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=इए|Tam=ie
+16	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=6|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s38
+# text = 
+1	फिर	फिर	ADV	RB	_	3	dep	_	ChunkId=1|ChunkType=RBP
+2	बादाम	बादाम	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	छीलकर	छील	VERB	VM	VerbForm=Conv|Voice=Act	8	dep	_	ChunkId=3|ChunkType=VGNF|Vib=कर|Tam=kara
+4	खसखस	खसखस	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	nmod	_	ChunkId=4|ChunkType=NP|Tam=0
+5	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	ChunkId=4|ChunkType=NP|Vib=का|Tam=kA
+6	साथ	साथ	NOUN	NST	_	8	nmod	_	ChunkId=4|ChunkType=NP
+7	महीन	महीन	ADJ	JJ	_	8	dep	_	ChunkId=5|ChunkType=JJP
+8	पीस	पीस	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Tam=0
+9	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=इए|Tam=ie
+10	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=6|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s39
+# text = 
+1	अदरक	अदरक	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	को	को	ADP	PSP	AdpType=Post	3	dep	_	ChunkId=1|ChunkType=NP
+3	छीलकर	छील	VERB	VM	VerbForm=Conv|Voice=Act	5	dep	_	ChunkId=2|ChunkType=VGNF|Vib=कर|Tam=kara
+4	कद्दूकस	कद्दूकस	NOUN	NN	_	5	dep	_	ChunkId=3|ChunkType=NP
+5	करें	कर	VERB	VM	Number=Plur|Person=3	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=इए|Tam=ie
+6	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=4|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s40
+# text = 
+1	केसर	केसर	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	को	को	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=1|ChunkType=NP
+3	एक	एक	NUM	QC	Case=Acc|Gender=Masc|Mood=Imp|NumType=Card|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	बड़ा	बडा	ADJ	JJ	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	चम्मच	चम्मच	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+6	दूध	दूध	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+7	में	में	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=2|ChunkType=NP
+8	भिगो	भिगो	VERB	VM	Mood=Sub|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=एं|Tam=e
+9	दें	दे	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=इए|Tam=ie
+10	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=3|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s41
+# text = 
+1	ताजा	ताजा	ADJ	JJ	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	नारियल	नारियल	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	को	को	ADP	PSP	AdpType=Post	5	dep	_	ChunkId=1|ChunkType=NP
+4	कद्दूकस	कद्दूकस	NOUN	NN	_	5	dep	_	ChunkId=2|ChunkType=NP
+5	कर	कर	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Tam=0
+6	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=इए|Tam=ie
+7	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=3|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s42
+# text = 
+1	इसमें	यह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	dep	_	ChunkId=1|ChunkType=NP|Vib=में|Tam=meM
+2	डेढ़	डेढ	NUM	QC	NumType=Card	5	dep	_	ChunkId=2|ChunkType=NP
+3	कप	कप	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+4	पानी	पा	NOUN	NN	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Vib=ना|Tam=nA
+5	डालकर	डाल	VERB	VM	VerbForm=Conv|Voice=Act	8	dep	_	ChunkId=3|ChunkType=VGNF|Vib=कर|Tam=kara
+6	मिक्सी	मिक्सी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+7	में	में	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=4|ChunkType=NP
+8	पीस	पीस	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Tam=0
+9	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=इए|Tam=ie
+10	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=5|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s43
+# text = 
+1	छलनी	छलनी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	में	में	ADP	PSP	AdpType=Post	3	dep	_	ChunkId=1|ChunkType=NP
+3	छानकर	छान	VERB	VM	VerbForm=Conv|Voice=Act	6	dep	_	ChunkId=2|ChunkType=VGNF|Vib=कर|Tam=kara
+4	दूध	दूध	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+5	अलग	अलग	ADJ	JJ	_	6	dep	_	ChunkId=4|ChunkType=JJP
+6	निकाल	निकाल	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Tam=0
+7	लें	ले	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=इए|Tam=ie
+8	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=5|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s44
+# text = 
+1	एक	एक	NUM	QC	Case=Acc|Gender=Masc|Mood=Imp|NumType=Card|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	कड़ाही	कडाही	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+3	में	में	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=1|ChunkType=NP
+4	घी	घी	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	गरम	गरम	ADJ	JJ	_	6	dep	_	ChunkId=3|ChunkType=JJP
+6	करें	कर	VERB	VM	Number=Plur|Person=3	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=इए|Tam=ie
+7	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=4|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s45
+# text = 
+1	उसमें	वह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	dep	_	ChunkId=1|ChunkType=NP|Vib=में|Tam=meM
+2	पिसी	पिस	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=2|ChunkType=VGNF|Vib=या|Tam=yA
+3	बादाम	बादाम	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+4	डाल	डाल	VERB	VM	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Tam=0
+5	दें	दे	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=इए|Tam=ie
+6	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=4|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s46
+# text = 
+1	अदरक	अदरक	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	2	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	भूनें	भून	VERB	VM	Number=Plur|Person=3	3	dep	_	ChunkId=2|ChunkType=VGF|Vib=इए|Tam=ie
+3	NULL	NULL	X	NULL	_	0	dep	_	ChunkId=3|ChunkType=NULL__CCP
+4	फिर	फिर	ADV	RB	_	2	dep	_	ChunkId=4|ChunkType=RBP
+5	काजू	काजू	NOUN	NNC	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+6	पावडर	पावडर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0
+7	डाल	डाल	VERB	VM	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=6|ChunkType=VGF|Tam=0
+8	दें	दे	AUX	VAUX	Number=Plur|Person=3	3	dep	_	ChunkId=6|ChunkType=VGF|Vib=इए|Tam=ie
+9	।	&dot;	PUNCT	SYM	_	3	dep	_	ChunkId=6|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s47
+# text = 
+1	दही	दह	NOUN	NN	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	2	dep	_	ChunkId=1|ChunkType=NP|Vib=या|Tam=yA
+2	डालकर	डाल	VERB	VM	VerbForm=Conv|Voice=Act	4	dep	_	ChunkId=2|ChunkType=VGNF|Vib=कर|Tam=kara
+3	फ्राय	फ्राय	NOUN	NN	_	4	dep	_	ChunkId=3|ChunkType=NP
+4	करें	कर	VERB	VM	Number=Plur|Person=3	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=इए|Tam=ie
+5	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=4|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s48
+# text = 
+1	फिर	फिर	ADV	RB	_	8	dep	_	ChunkId=1|ChunkType=RBP
+2	नमक	नमक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	-	&minus;	PUNCT	SYM	_	5	dep	_	ChunkId=2|ChunkType=NP
+4	मिर्च	मिर्च	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+5	व	व	CCONJ	CC	_	8	dep	_	ChunkId=3|ChunkType=CCP
+6	जीरा	जीरा	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+7	पावडर	पावडर	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=4|ChunkType=NP|Tam=0
+8	डालें	डाल	VERB	VM	Number=Plur|Person=3	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=इए|Tam=ie
+9	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=5|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s49
+# text = 
+1	थोड़ा	थोडा	DET	QF	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|PronType=Ind|VerbForm=Fin|Voice=Act	3	dep	_	ChunkId=1|ChunkType=NP|Tam=0
+2	फ्राय	फ्राय	NOUN	NN	_	3	dep	_	ChunkId=1|ChunkType=NP
+3	करके	कर	VERB	VM	VerbForm=Conv|Voice=Act	5	dep	_	ChunkId=2|ChunkType=VGNF|Vib=कर|Tam=kara
+4	मलाई	मलाई	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=3|ChunkType=NP|Tam=0
+5	डाल	डाल	VERB	VM	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Tam=0
+6	दें	दे	AUX	VAUX	Number=Plur|Person=3	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=इए|Tam=ie
+7	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=4|ChunkType=VGF
+
+
+
+# sent_id = domain-recipe-hindi-raw-sentences-550-utf_7.utf8.cml.V.tkn.cml_updated.mo.pos-s50
+# text = 
+1	जब	जब	PRON	PRP	PronType=Prs	5	dep	_	ChunkId=1|ChunkType=NP
+2	मसाला	मसाला	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0
+3	अच्छी	अच्छी	ADJ	JJ	Gender=Fem	5	dep	_	ChunkId=3|ChunkType=NP
+4	तरह	तरह	NOUN	NN	_	5	dep	_	ChunkId=3|ChunkType=NP
+5	भुन	भुन	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Tam=0
+6	जाए	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA
+7	तब	तब	PRON	PRP	PronType=Prs	0	dep	_	ChunkId=5|ChunkType=NP
+8	मटर	मटर	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0
+9	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=6|ChunkType=NP|Vib=का|Tam=kA
+10	दाने	दाना	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=7|ChunkType=NP|Tam=0
+11	,	&comma;	PUNCT	SYM	_	15	dep	_	ChunkId=7|ChunkType=NP
+12	नारियल	नारियल	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0
+13	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=8|ChunkType=NP|Vib=का|Tam=kA
+14	दूध	दूध	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=9|ChunkType=NP|Tam=0
+15	व	व	CCONJ	CC	_	0	dep	_	ChunkId=10|ChunkType=CCP
+16	गरम	गरम	NOUN	NNC	_	15	dep	_	ChunkId=11|ChunkType=NP
+17	मसाला	मसाला	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=11|ChunkType=NP|Tam=0
+18	डालें	डाल	VERB	VM	Number=Plur|Person=3	0	dep	_	ChunkId=12|ChunkType=VGF|Vib=इए|Tam=ie
+19	।	&dot;	PUNCT	SYM	_	0	dep	_	ChunkId=12|ChunkType=VGF
+

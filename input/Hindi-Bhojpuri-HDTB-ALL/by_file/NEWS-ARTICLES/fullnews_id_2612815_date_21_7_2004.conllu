@@ -1,0 +1,749 @@
+# sent_id = fullnews_id_2612815_date_21_7_2004-s1
+# text = 
+1	देश	देश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	एक	एक	NUM	QCC	NumType=Card	10	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	तिहाई	तिहाई	NUM	QC	NumType=Card	10	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	हिस्सा	हिस्सा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	सूखे	सूखा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	चपेट	चपेट	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	में	में	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	आ	आ	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Tam=0|SpanStart=100
+11	चुका	चुक	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=110
+12	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=120
+13	।	।	PUNCT	SYM	_	10	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=130
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s2
+# text = 
+1	इसमें	यह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	dep	_	ChunkId=1|ChunkType=NP|Vib=में|Tam=meM|SpanStart=10
+2	हिमाचल	हिमाचल	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	प्रदेश	प्रदेश	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	और	और	CCONJ	CC	_	8	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=40
+5	उत्तरांचल	उत्तरांचल	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+6	भी	भी	PART	RP	_	4	dep	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	शामिल	शामिल	ADJ	JJ	_	8	dep	_	ChunkId=5|ChunkType=JJP|SpanStart=70
+8	हैं	है	VERB	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=80
+9	जबकि	जबकि	SCONJ	CC	_	8	dep	_	ChunkId=7|ChunkType=CCP|SpanStart=90
+10	पंजाब	पंजाब	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=100
+11	,	COMMA	PUNCT	SYM	_	16	dep	_	ChunkId=8|ChunkType=NP|SpanStart=110
+12	पश्चिमी	पश्चिमी	ADJ	JJ	Case=Acc	16	dep	_	ChunkId=9|ChunkType=NP|SpanStart=120
+13	उत्तर	उत्तर	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=130
+14	प्रदेश	प्रदेश	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=140
+15	,	COMMA	PUNCT	SYM	_	16	dep	_	ChunkId=9|ChunkType=NP|SpanStart=150
+16	NULL	NULL	CCONJ	CC	_	0	dep	_	ChunkId=10|ChunkType=NULL__CCP
+17	हरियाणा	हरियाणा	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=11|ChunkType=NP|Tam=0|SpanStart=160
+18	में	में	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=11|ChunkType=NP|SpanStart=170
+19	औसत	औसत	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=180
+20	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=12|ChunkType=NP|SpanStart=190
+21	कम	कम	DET	QF	PronType=Ind	0	nmod	_	ChunkId=13|ChunkType=JJP|SpanStart=200
+22	बारिश	बारिश	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=210
+23	दर्ज	दर्ज	ADJ	JJ	_	0	dep	_	ChunkId=15|ChunkType=JJP|SpanStart=220
+24	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=230
+25	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Vib=या१|Tam=yA1|SpanStart=240
+26	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=16|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=250
+27	।	।	PUNCT	SYM	_	8	dep	_	ChunkId=17|ChunkType=BLK|SpanStart=260
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s3
+# text = 
+1	उत्तरी	उत्तरी	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	राज्यों	राज्य	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	जम्मू	जम्मू	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	कश्मीर	कश्मीर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	और	और	CCONJ	CC	_	16	dep	_	ChunkId=3|ChunkType=CCP|SpanStart=60
+7	पूर्वी	पूर्वी	ADJ	JJ	Case=Acc	6	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	उत्तर	उत्तर	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	प्रदेश	प्रदेश	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	में	में	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	ही	ही	PART	RP	_	6	dep	_	ChunkId=4|ChunkType=NP|SpanStart=110
+12	ठीक	ठीक	ADJ	JJC	Case=Nom	16	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	-	-	PUNCT	SYM	_	16	dep	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	ठाक	ठाक	ADJ	JJ	Case=Nom	16	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	बारिश	बारिश	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=150
+16	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Tam=0|SpanStart=160
+17	पाई	पा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=170
+18	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=180
+19	।	।	PUNCT	SYM	_	16	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=190
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s4
+# text = 
+1	देश	देश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	में	में	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	मानसून	मानसून	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	सीज़न	सीजन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	में	में	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	अब	अब	PRON	PRP	Case=Acc|PronType=Prs	15	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	तक	तक	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	औसत	औसत	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	से	से	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	१४	१४	NUM	QC	NumType=Card	0	nmod	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	फीसदी	फीसदी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	कम	कम	DET	QF	PronType=Ind	0	nmod	_	ChunkId=6|ChunkType=JJP|SpanStart=120
+13	बारिश	बारिश	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	दर्ज	दर्ज	ADJ	JJ	_	15	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=140
+15	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=150
+16	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=या१|Tam=yA1|SpanStart=160
+17	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=170
+18	।	।	PUNCT	SYM	_	15	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=180
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s5
+# text = 
+1	पिछले	पिछला	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	सप्ताह	सप्ताह	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	कमी	कमी	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	आँकड़ा	आँकड़ा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	१०	१०	NUM	QC	NumType=Card	8	dep	_	ChunkId=4|ChunkType=NP|SpanStart=60
+7	फीसदी	फीसदी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	था	था	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=था|Tam=WA|SpanStart=80
+9	।	।	PUNCT	SYM	_	8	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=90
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s6
+# text = 
+1	मौसम	मौसम	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	वैज्ञानिकों	वैज्ञानिक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	ने	ने	ADP	PSP	AdpType=Post	5	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	आशंका	आशंका	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	जताई	जता	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=50
+6	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=60
+7	कि	कि	SCONJ	CC	_	0	nmod	_	ChunkId=4|ChunkType=CCP|SpanStart=70
+8	मानसून	मानसून	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=80
+9	एक	एक	NUM	QC	NumType=Card	11	dep	_	ChunkId=6|ChunkType=NP|SpanStart=90
+10	बार	बार	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=100
+11	फिर	फिर	ADV	RB	_	0	dep	_	ChunkId=7|ChunkType=RBP|SpanStart=110
+12	से	से	PART	RP	_	0	dep	_	ChunkId=7|ChunkType=RBP|SpanStart=120
+13	कमजोर	कमजोर	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=130
+14	चरण	चरण	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=140
+15	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=150
+16	प्रवेश	प्रवेश	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=160
+17	कर	कर	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=10|ChunkType=VGF|Tam=0|SpanStart=170
+18	सकता	सक	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=10|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=180
+19	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=190
+20	।	।	PUNCT	SYM	_	5	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=200
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s7
+# text = 
+1	मौसम	मौसम	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	विभाग	विभाग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	१	१	PROPN	NNPC	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	जून	जून	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	से	से	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	१९	१९	PROPN	NNPC	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	जुलाई	जुलाई	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	तक	तक	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=100
+11	बारिश	बारिश	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=110
+12	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=120
+13	आंकड़ों	आंकड़ा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=130
+14	के	के	ADP	PSP	AdpType=Post	19	dep	_	ChunkId=5|ChunkType=NP|SpanStart=140
+15	अनुसार	अनुसार	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	19	dep	_	ChunkId=5|ChunkType=NP|SpanStart=150
+16	सूखे	सूखा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=160
+17	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=170
+18	खतरा	खतरा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=180
+19	बढ़ता	बढ़	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=ता|Tam=wA|SpanStart=190
+20	जा	जा	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Tam=0|SpanStart=200
+21	रहा	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=210
+22	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=220
+23	।	।	PUNCT	SYM	_	19	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=230
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s8
+# text = 
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	अवधि	अवधि	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	कुल	कुल	DET	QF	PronType=Ind	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	२९२.३	२९२.३	NUM	QC	NumType=Card	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	मिमी	मिमी	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	बारिश	बारिश	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=70
+8	हुई	हो	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=80
+9	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=90
+10	जबकि	जबकि	SCONJ	CC	_	8	dep	_	ChunkId=4|ChunkType=CCP|SpanStart=100
+11	३४०	३४०	NUM	QC	NumType=Card	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	मिमी	मिमी	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	बारिश	बारिश	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=130
+14	होनी	हो	VERB	VM	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	10	dep	_	ChunkId=6|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=140
+15	चाहिए	चाहिए	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=6|ChunkType=VGF|Tam=0|SpanStart=150
+16	।	।	PUNCT	SYM	_	8	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=160
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s9
+# text = 
+1	उत्तरी	उत्तरी	ADJ	JJ	Case=Acc	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	राज्यों	राज्य	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	हिमाचल	हिमाचल	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	प्रदेश	प्रदेश	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	कुल	कुल	DET	QF	PronType=Ind	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	२०४	२०४	NUM	QC	NumType=Card	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	मिमी	मिमी	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=90
+10	बारिश	बारिश	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=100
+11	हुई	हो	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=110
+12	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=120
+13	जबकि	जबकि	SCONJ	CC	_	11	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=130
+14	अब	अब	PRON	PRP	Case=Acc|PronType=Prs	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	तक	तक	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=150
+16	२५४	२५४	NUM	QC	NumType=Card	0	dep	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	मिमी	मिमी	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=170
+18	होनी	हो	VERB	VM	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Act	13	dep	_	ChunkId=8|ChunkType=VGF|Vib=ना|Tam=nA|SpanStart=180
+19	चाहिए	चाहिए	AUX	VAUX	Mood=Imp|VerbForm=Fin|Voice=Act	13	dep	_	ChunkId=8|ChunkType=VGF|Tam=0|SpanStart=190
+20	।	।	PUNCT	SYM	_	11	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=200
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s10
+# text = 
+1	राज्य	राज्य	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	में	में	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	२०	२०	NUM	QC	NumType=Card	0	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	फीसदी	फीसदी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	कम	कम	DET	QF	PronType=Ind	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	बारिश	बारिश	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	दर्ज	दर्ज	ADJ	JJ	_	8	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=70
+8	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=80
+9	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या१|Tam=yA1|SpanStart=90
+10	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=100
+11	।	।	PUNCT	SYM	_	8	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=110
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s11
+# text = 
+1	उत्तरांचल	उत्तरांचल	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	४१६	४१६	NUM	QC	NumType=Card	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	मिमी	मिमी	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	तुलना	तुलना	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+7	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	३२५	३२५	NUM	QC	NumType=Card	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	मिमी	मिमी	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=90
+10	बारिश	बारिश	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=100
+11	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Tam=0|SpanStart=110
+12	पाई	पा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=120
+13	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=130
+14	जो	जो	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=140
+15	औसत	औसत	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=150
+16	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=160
+17	२२	२२	NUM	QC	NumType=Card	19	dep	_	ChunkId=7|ChunkType=NP|SpanStart=170
+18	फीसदी	फीसदी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=180
+19	कम	कम	DET	QF	PronType=Ind	0	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=190
+20	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=200
+21	।	।	PUNCT	SYM	_	11	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=210
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s12
+# text = 
+1	यानि	यानि	CCONJ	CC	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	दोनों	दो	NUM	QC	NumType=Card|Number=Plur	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	राज्य	राज्य	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	सूखे	सूखा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	चपेट	चपेट	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=60
+7	में	में	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=4|ChunkType=NP|SpanStart=70
+8	हैं	है	VERB	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=80
+9	।	।	PUNCT	SYM	_	1	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=90
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s13
+# text = 
+1	जबकि	जबकि	SCONJ	CC	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	पंजाब	पंजाब	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	सूखे	सूखा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=30
+4	के	के	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	करीब	करीब	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	पहुँच	पहुँच	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	1	dep	_	ChunkId=4|ChunkType=VGF|Tam=0|SpanStart=60
+7	चुका	चुक	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	1	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=70
+8	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=80
+9	।	।	PUNCT	SYM	_	1	dep	_	ChunkId=5|ChunkType=BLK|SpanStart=90
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s14
+# text = 
+1	वहां	वहाँ	PRON	PRP	Case=Nom|PronType=Prs	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	१५३	१५३	NUM	QC	NumType=Card	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	मुकाबले	मुकाबला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	१२४	१२४	NUM	QC	NumType=Card	8	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	मिमी	मिमी	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	बारिश	बारिश	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	हुई	हो	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=80
+9	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=90
+10	जो	जो	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	औसत	औसत	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	१९	१९	NUM	QC	NumType=Card	15	dep	_	ChunkId=7|ChunkType=NP|SpanStart=130
+14	फीसदी	फीसदी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=140
+15	कम	कम	DET	QF	PronType=Ind	0	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=150
+16	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=160
+17	।	।	PUNCT	SYM	_	8	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=170
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s15
+# text = 
+1	पश्चिमी	पश्चिमी	ADJ	JJ	Case=Acc	12	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	उत्तर	उत्तर	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	प्रदेश	प्रदेश	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+4	में	में	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	२२४	२२४	NUM	QC	Case=Acc|NumType=Card	12	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	12	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	तुलना	तुलना	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	12	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+8	में	में	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=2|ChunkType=NP|SpanStart=80
+9	२००	२००	NUM	QC	NumType=Card	12	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	मिमी	मिमी	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=100
+11	बारिश	बारिश	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=110
+12	हुई	हो	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=120
+13	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=130
+14	जो	जो	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=140
+15	औसत	औसत	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=150
+16	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=6|ChunkType=NP|SpanStart=160
+17	११	११	NUM	QC	NumType=Card	19	dep	_	ChunkId=7|ChunkType=NP|SpanStart=170
+18	फीसदी	फीसदी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	19	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=180
+19	कम	कम	DET	QF	PronType=Ind	0	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=190
+20	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=200
+21	।	।	PUNCT	SYM	_	12	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=210
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s16
+# text = 
+1	हरियाणा	हरियाणा	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	,	COMMA	PUNCT	SYM	_	5	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	दिल्ली	दिल्ली	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	,	COMMA	PUNCT	SYM	_	5	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	NULL	NULL	CCONJ	CC	_	0	dep	_	ChunkId=3|ChunkType=NULL__CCP
+6	चंडीगढ़	चंडीगढ़	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=50
+7	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	5	dep	_	ChunkId=4|ChunkType=NP|SpanStart=60
+8	स्थिति	स्थिति	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=70
+9	भी	भी	PART	RP	_	12	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+10	ऐसी	ऐसा	PRON	PRP	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|PronType=Prs|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=90
+11	ही	ही	PART	RP	_	12	dep	_	ChunkId=6|ChunkType=NP|SpanStart=100
+12	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=110
+13	।	।	PUNCT	SYM	_	12	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=120
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s17
+# text = 
+1	इन	यह	DET	DEM	Case=Acc|Number=Plur|Person=3|PronType=Dem	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	राज्यों	राज्य	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	१४४	१४४	NUM	QC	NumType=Card	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	मुकाबले	मुकाबला	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	१२६	१२६	NUM	QC	NumType=Card	11	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	मिमी	मिमी	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	बारिश	बारिश	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=90
+10	दर्ज	दर्ज	ADJ	JJ	_	11	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=100
+11	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=110
+12	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=या१|Tam=yA1|SpanStart=120
+13	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=130
+14	जो	जो	PRON	PRP	Case=Nom|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=140
+15	औसत	औसत	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=150
+16	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=160
+17	१२	१२	NUM	QC	NumType=Card	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=170
+18	फीसदी	फीसदी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=180
+19	कम	कम	DET	QF	PronType=Ind	0	dep	_	ChunkId=9|ChunkType=JJP|SpanStart=190
+20	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=200
+21	।	।	PUNCT	SYM	_	11	dep	_	ChunkId=11|ChunkType=BLK|SpanStart=210
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s18
+# text = 
+1	मौसम	मौसम	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	विभाग	विभाग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	के	के	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	अनुसार	अनुसार	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	16	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	देश	देश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	३६	३६	NUM	QC	NumType=Card	16	dep	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	में	में	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=3|ChunkType=NP|SpanStart=80
+9	से	से	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=3|ChunkType=NP|SpanStart=90
+10	१२	१२	NUM	QC	NumType=Card	16	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	संभाग	संभाग	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=110
+12	सूखे	सूखा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=120
+13	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=130
+14	चपेट	चपेट	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=140
+15	में	में	ADP	PSP	AdpType=Post	16	dep	_	ChunkId=6|ChunkType=NP|SpanStart=150
+16	आ	आ	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Tam=0|SpanStart=160
+17	चुके	चुक	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=170
+18	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=180
+19	।	।	PUNCT	SYM	_	16	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=190
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s19
+# text = 
+1	अन्य	अन्य	ADJ	JJ	Case=Acc	9	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	संभागों	संभाग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	पश्चिमी	पश्चिमी	ADJ	JJ	Case=Acc	9	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	राजस्थान	राजस्थान	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	में	में	ADP	PSP	AdpType=Post	9	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	३९	३९	NUM	QC	NumType=Card	8	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=70
+8	NULL	NULL	NOUN	NN	_	9	dep	_	ChunkId=4|ChunkType=NULL__NP
+9	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=5|ChunkType=NULL__VGF
+10	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=5|ChunkType=NULL__VGF|SpanStart=80
+11	पूर्वी	पूर्वी	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=90
+12	राजस्थान	राजस्थान	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=100
+13	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+14	२८	२८	NUM	QC	NumType=Card	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=120
+15	NULL	NULL	NOUN	NN	_	0	dep	_	ChunkId=8|ChunkType=NULL__NP
+16	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=9|ChunkType=NULL__VGF
+17	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=9|ChunkType=NULL__VGF|SpanStart=130
+18	पश्चिमी	पश्चिमी	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=140
+19	म.प्र.	म.प्र.	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=150
+20	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=10|ChunkType=NP|SpanStart=160
+21	३३	३३	NUM	QC	NumType=Card	0	nmod	_	ChunkId=11|ChunkType=NP|SpanStart=170
+22	NULL	NULL	NOUN	NN	_	0	dep	_	ChunkId=12|ChunkType=NULL__NP
+23	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=13|ChunkType=NULL__VGF
+24	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=13|ChunkType=NULL__VGF|SpanStart=180
+25	पूर्वी	पूर्वी	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=190
+26	म.प्र.	म.प्र.	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=200
+27	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=14|ChunkType=NP|SpanStart=210
+28	४०	४०	NUM	QC	NumType=Card	0	nmod	_	ChunkId=15|ChunkType=NP|SpanStart=220
+29	NULL	NULL	NOUN	NN	_	0	dep	_	ChunkId=16|ChunkType=NULL__NP
+30	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=17|ChunkType=NULL__VGF
+31	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=17|ChunkType=NULL__VGF|SpanStart=230
+32	छत्तीसगढ़	छत्तीसगढ़	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=18|ChunkType=NP|Tam=0|SpanStart=240
+33	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=18|ChunkType=NP|SpanStart=250
+34	३५	३५	NUM	QC	NumType=Card	0	nmod	_	ChunkId=19|ChunkType=NP|SpanStart=260
+35	NULL	NULL	NOUN	NN	_	0	dep	_	ChunkId=20|ChunkType=NULL__NP
+36	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=21|ChunkType=NULL__VGF
+37	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=21|ChunkType=NULL__VGF|SpanStart=270
+38	तेलंगाना	तेलंगाना	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=22|ChunkType=NP|Tam=0|SpanStart=280
+39	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=22|ChunkType=NP|SpanStart=290
+40	४१	४१	NUM	QC	NumType=Card	0	nmod	_	ChunkId=23|ChunkType=NP|SpanStart=300
+41	NULL	NULL	NOUN	NN	_	0	dep	_	ChunkId=24|ChunkType=NULL__NP
+42	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=25|ChunkType=NULL__VGF
+43	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=25|ChunkType=NULL__VGF|SpanStart=310
+44	मराठवाड़ा	मराठवाड़ा	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=26|ChunkType=NP|Tam=0|SpanStart=320
+45	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=26|ChunkType=NP|SpanStart=330
+46	१९	१९	NUM	QC	NumType=Card	0	nmod	_	ChunkId=27|ChunkType=NP|SpanStart=340
+47	NULL	NULL	NOUN	NN	_	0	dep	_	ChunkId=28|ChunkType=NULL__NP
+48	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=29|ChunkType=NULL__VGF
+49	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=29|ChunkType=NULL__VGF|SpanStart=350
+50	तमिलनाडु	तमिलनाडु	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=30|ChunkType=NP|Tam=0|SpanStart=360
+51	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=30|ChunkType=NP|SpanStart=370
+52	२३	२३	NUM	QC	NumType=Card	0	nmod	_	ChunkId=31|ChunkType=NP|SpanStart=380
+53	NULL	NULL	NOUN	NN	_	0	dep	_	ChunkId=32|ChunkType=NULL__NP
+54	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=33|ChunkType=NULL__VGF
+55	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=33|ChunkType=NULL__VGF|SpanStart=390
+56	असम	असम	PROPN	NNP	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=34|ChunkType=NP|Tam=0|SpanStart=400
+57	-	-	PUNCT	SYM	_	0	dep	_	ChunkId=34|ChunkType=NP|SpanStart=410
+58	मेघालय	मेघालय	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=34|ChunkType=NP|Tam=0|SpanStart=420
+59	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=34|ChunkType=NP|SpanStart=430
+60	३७	३७	NUM	QC	NumType=Card	0	nmod	_	ChunkId=35|ChunkType=NP|SpanStart=440
+61	NULL	NULL	NOUN	NN	_	0	dep	_	ChunkId=36|ChunkType=NULL__NP
+62	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=37|ChunkType=NULL__VGF
+63	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=37|ChunkType=NULL__VGF|SpanStart=450
+64	अरुणाचल	अरुणाचल	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=38|ChunkType=NP|Tam=0|SpanStart=460
+65	प्रदेश	प्रदेश	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=38|ChunkType=NP|Tam=0|SpanStart=470
+66	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=38|ChunkType=NP|SpanStart=480
+67	३३	३३	NUM	QC	NumType=Card	0	nmod	_	ChunkId=39|ChunkType=NP|SpanStart=490
+68	NULL	NULL	NOUN	NN	_	0	dep	_	ChunkId=40|ChunkType=NULL__NP
+69	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=41|ChunkType=NULL__VGF
+70	तथा	तथा	CCONJ	CC	_	0	dep	_	ChunkId=42|ChunkType=CCP|SpanStart=500
+71	विदर्भ	विदर्भ	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	77	dep	_	ChunkId=43|ChunkType=NP|Tam=0|SpanStart=510
+72	में	में	ADP	PSP	AdpType=Post	77	dep	_	ChunkId=43|ChunkType=NP|SpanStart=520
+73	१३	१३	NUM	QC	NumType=Card	0	nmod	_	ChunkId=44|ChunkType=NP|SpanStart=530
+74	फीसदी	फीसदी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=44|ChunkType=NP|Tam=0|SpanStart=540
+75	कम	कम	DET	QF	PronType=Ind	77	dep	_	ChunkId=45|ChunkType=NP|SpanStart=550
+76	बारिश	बारिश	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	77	dep	_	ChunkId=45|ChunkType=NP|Tam=0|SpanStart=560
+77	हुई	हो	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	70	dep	_	ChunkId=46|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=570
+78	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	70	dep	_	ChunkId=46|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=580
+79	।	।	PUNCT	SYM	_	70	dep	_	ChunkId=47|ChunkType=BLK|SpanStart=590
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s20
+# text = 
+1	देश	देश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	में	में	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	सर्वाधिक	सर्वाधिक	ADJ	JJ	Case=Acc	15	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	बारिश	बारिश	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	के	के	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	लिए	लिए	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	मशहूर	मशहूर	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=3|ChunkType=JJP|SpanStart=70
+8	मेघालय	मेघालय	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	हालत	हालत	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=100
+11	भी	भी	PART	RP	_	15	dep	_	ChunkId=5|ChunkType=NP|SpanStart=110
+12	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	15	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	बार	बार	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	खराब	खराब	ADJ	JJ	_	15	dep	_	ChunkId=7|ChunkType=JJP|SpanStart=140
+15	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=150
+16	।	।	PUNCT	SYM	_	15	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=160
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s21
+# text = 
+1	बारिश	बारिश	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	हिसाब	हिसाब	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	से	से	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	पिछला	पिछला	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	12	dep	_	ChunkId=3|ChunkType=NP|SpanStart=50
+6	सप्ताह	सप्ताह	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=60
+7	देश	देश	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	के	के	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	लिए	लिए	ADP	PSP	AdpType=Post	12	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	बेहद	बेहद	ADV	INTF	AdvType=Deg	12	dep	_	ChunkId=5|ChunkType=JJP|SpanStart=100
+11	खराब	खराब	ADJ	JJ	_	12	dep	_	ChunkId=5|ChunkType=JJP|SpanStart=110
+12	गुजरा	गुजर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=120
+13	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=130
+14	।	।	PUNCT	SYM	_	12	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=140
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s22
+# text = 
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	दौरान	दौरान	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	सिर्फ	सिर्फ	PART	RP	_	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	११	११	NUM	QC	NumType=Card	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	संभागों	संभाग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	में	में	ADP	PSP	AdpType=Post	8	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	सामान्य	सामान्य	ADJ	JJ	Case=Nom	8	dep	_	ChunkId=3|ChunkType=JJP|SpanStart=70
+8	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=4|ChunkType=NULL__VGF
+9	तथा	तथा	CCONJ	CC	_	0	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=80
+10	२	२	NUM	QC	NumType=Card	15	dep	_	ChunkId=6|ChunkType=NP|SpanStart=90
+11	संभागों	संभाग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=100
+12	में	में	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=6|ChunkType=NP|SpanStart=110
+13	अधिक	अधिक	DET	QF	PronType=Ind	15	dep	_	ChunkId=7|ChunkType=NP|SpanStart=120
+14	वर्षा	वर्षा	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+15	हुई	हो	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	9	dep	_	ChunkId=8|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=140
+16	।	।	PUNCT	SYM	_	9	dep	_	ChunkId=9|ChunkType=BLK|SpanStart=150
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s23
+# text = 
+1	जबकि	जबकि	SCONJ	CC	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	२०	२०	NUM	QC	NumType=Card	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=20
+3	संभागों	संभाग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	में	में	ADP	PSP	AdpType=Post	6	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	सूखा	सूखा	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	पड़ा	पड़	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=4|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=60
+7	और	और	CCONJ	CC	_	7	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=70
+8	१३	१३	NUM	QC	NumType=Card	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=80
+9	संभागों	संभाग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=90
+10	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=100
+11	सूखे	सूखा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=110
+12	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=120
+13	भी	भी	PART	RP	_	0	nmod	_	ChunkId=7|ChunkType=NP|SpanStart=130
+14	बदतर	बदतर	ADJ	JJ	Case=Nom	0	dep	_	ChunkId=8|ChunkType=NP|SpanStart=140
+15	हालत	हालत	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=150
+16	रही	रह	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=160
+17	।	।	PUNCT	SYM	_	1	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=170
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s24
+# text = 
+1	सप्ताह	सप्ताह	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	के	के	ADP	PSP	AdpType=Post	10	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	दौरान	दौरान	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	औसत	औसत	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	से	से	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	३२	३२	NUM	QC	NumType=Card	0	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	फीसदी	फीसदी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	कम	कम	DET	QF	PronType=Ind	0	nmod	_	ChunkId=4|ChunkType=JJP|SpanStart=80
+9	पानी	पानी	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	बरसा	बरस	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=100
+11	।	।	PUNCT	SYM	_	10	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=110
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s25
+# text = 
+1	इनमें	यह	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	0	dep	_	ChunkId=1|ChunkType=NP|Vib=में|Tam=meM|SpanStart=10
+2	हिमाचल	हिमाचल	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	में	में	ADP	PSP	AdpType=Post	5	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	६८	६८	NUM	QC	NumType=Card	5	dep	_	ChunkId=3|ChunkType=NP|SpanStart=40
+5	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=4|ChunkType=NULL__VGF
+6	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=4|ChunkType=NULL__VGF|SpanStart=50
+7	पश्चिमी	पश्चिमी	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=60
+8	उ.प्र.	उ.प्र.	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=70
+9	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=5|ChunkType=NP|SpanStart=80
+10	३४	३४	NUM	QC	NumType=Card	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=90
+11	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=7|ChunkType=NULL__VGF
+12	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=7|ChunkType=NULL__VGF|SpanStart=100
+13	हरियाणा	हरियाणा	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=8|ChunkType=NP|Tam=0|SpanStart=110
+14	,	COMMA	PUNCT	SYM	_	15	dep	_	ChunkId=8|ChunkType=NP|SpanStart=120
+15	NULL	NULL	CCONJ	CC	_	0	dep	_	ChunkId=9|ChunkType=NULL__CCP
+16	दिल्ली	दिल्ली	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=130
+17	में	में	ADP	PSP	AdpType=Post	15	dep	_	ChunkId=10|ChunkType=NP|SpanStart=140
+18	७०	७०	NUM	QC	NumType=Card	0	dep	_	ChunkId=11|ChunkType=NP|SpanStart=150
+19	NULL	NULL	VERB	VM	_	0	dep	_	ChunkId=12|ChunkType=NULL__VGF
+20	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=13|ChunkType=CCP|SpanStart=160
+21	पंजाब	पंजाब	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	27	dep	_	ChunkId=14|ChunkType=NP|Tam=0|SpanStart=170
+22	में	में	ADP	PSP	AdpType=Post	27	dep	_	ChunkId=14|ChunkType=NP|SpanStart=180
+23	२९	२९	NUM	QC	NumType=Card	0	nmod	_	ChunkId=15|ChunkType=NP|SpanStart=190
+24	फीसदी	फीसदी	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=15|ChunkType=NP|Tam=0|SpanStart=200
+25	कम	कम	DET	QF	PronType=Ind	27	dep	_	ChunkId=16|ChunkType=NP|SpanStart=210
+26	बारिश	बारिश	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	27	dep	_	ChunkId=16|ChunkType=NP|Tam=0|SpanStart=220
+27	हुई	हो	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	20	dep	_	ChunkId=17|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=230
+28	।	।	PUNCT	SYM	_	20	dep	_	ChunkId=18|ChunkType=BLK|SpanStart=240
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s26
+# text = 
+1	जबकि	जबकि	SCONJ	CC	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	राजस्थान	राजस्थान	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	,	COMMA	PUNCT	SYM	_	14	dep	_	ChunkId=2|ChunkType=NP|SpanStart=30
+4	मध्य	मध्य	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=40
+5	प्रदेश	प्रदेश	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=50
+6	,	COMMA	PUNCT	SYM	_	14	dep	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	तेलंगाना	तेलंगाना	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	,	COMMA	PUNCT	SYM	_	14	dep	_	ChunkId=4|ChunkType=NP|SpanStart=80
+9	विदर्भ	विदर्भ	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=90
+10	,	COMMA	PUNCT	SYM	_	14	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	रायलसीमा	रायलसीमा	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=110
+12	,	COMMA	PUNCT	SYM	_	14	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	तमिलनाडु	तमिलनाडु	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=130
+14	,	COMMA	PUNCT	SYM	_	0	dep	_	ChunkId=8|ChunkType=NULL__CCP|SpanStart=140
+15	मध्य	मध्य	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=150
+16	महाराष्ट्र	महाराष्ट्र	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=160
+17	में	में	ADP	PSP	AdpType=Post	14	dep	_	ChunkId=9|ChunkType=NP|SpanStart=170
+18	भी	भी	PART	RP	_	14	dep	_	ChunkId=9|ChunkType=NP|SpanStart=180
+19	बारिश	बारिश	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	21	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=190
+20	कम	कम	DET	QF	PronType=Ind	21	dep	_	ChunkId=11|ChunkType=JJP|SpanStart=200
+21	हुई	हो	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	1	dep	_	ChunkId=12|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=210
+22	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	dep	_	ChunkId=12|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=220
+23	।	।	PUNCT	SYM	_	1	dep	_	ChunkId=13|ChunkType=BLK|SpanStart=230
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s27
+# text = 
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	14	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	बीच	बीच	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	,	COMMA	PUNCT	SYM	_	14	dep	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	राजस्थान	राजस्थान	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	0	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	सीमावर्ती	सीमावर्ती	ADJ	JJ	Case=Acc	0	nmod	_	ChunkId=3|ChunkType=NP|SpanStart=60
+7	इलाके	इलाका	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=70
+8	जैसलमेर	जैसलमेर	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	14	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	तरफ	तरफ	NOUN	NST	Case=Nom|Gender=Fem|Number=Sing|Person=3	14	dep	_	ChunkId=4|ChunkType=NP|SpanStart=100
+11	मानसून	मानसून	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	अभी	अभी	PRON	PRP	Case=Nom|PronType=Prs	14	dep	_	ChunkId=6|ChunkType=NP|SpanStart=120
+13	भी	भी	PART	RP	_	14	dep	_	ChunkId=6|ChunkType=NP|SpanStart=130
+14	नहीं	नहीं	PART	NEG	_	0	dep	_	ChunkId=7|ChunkType=VGF|SpanStart=140
+15	पहुँच	पहुँच	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Tam=0|SpanStart=150
+16	सका	सक	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=160
+17	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=7|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=170
+18	।	।	PUNCT	SYM	_	14	dep	_	ChunkId=8|ChunkType=BLK|SpanStart=180
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s28
+# text = 
+1	२०	२०	PROPN	NNPC	Case=Nom|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=10
+2	जुलाई	जुलाई	PROPN	NNP	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	nmod	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=20
+3	को	को	ADP	PSP	AdpType=Post	0	nmod	_	ChunkId=1|ChunkType=NP|SpanStart=30
+4	थोड़ी	थोड़ा	DET	QF	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	प्रगति	प्रगति	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=50
+6	के	के	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=60
+7	बाद	बाद	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	आज	आज	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=80
+9	मानसून	मानसून	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=90
+10	आगे	आगे	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	नहीं	नहीं	PART	NEG	_	0	dep	_	ChunkId=6|ChunkType=VGF|SpanStart=110
+12	बढ़ा	बढ़	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=6|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=120
+13	।	।	PUNCT	SYM	_	11	dep	_	ChunkId=7|ChunkType=BLK|SpanStart=130
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s29
+# text = 
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	17	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	बीच	बीच	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	मौसम	मौसम	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	विभाग	विभाग	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=40
+5	ने	ने	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=2|ChunkType=NP|SpanStart=50
+6	पुनः	पुनः	ADV	RB	_	17	dep	_	ChunkId=3|ChunkType=RBP|SpanStart=60
+7	मध्य	मध्य	PROPN	NNPC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=70
+8	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=4|ChunkType=NP|Tam=0|SpanStart=80
+9	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	0	dep	_	ChunkId=4|ChunkType=NP|SpanStart=90
+10	कुछ	कुछ	DET	QF	PronType=Ind	17	dep	_	ChunkId=5|ChunkType=NP|SpanStart=100
+11	हिस्सों	हिस्सा	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=5|ChunkType=NP|Tam=0|SpanStart=110
+12	में	में	ADP	PSP	AdpType=Post	17	dep	_	ChunkId=5|ChunkType=NP|SpanStart=120
+13	बारिश	बारिश	NOUN	NN	Case=Acc|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=130
+14	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=140
+15	संभावना	संभावना	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=150
+16	व्यक्त	व्यक्त	ADJ	JJ	_	17	dep	_	ChunkId=8|ChunkType=JJP|SpanStart=160
+17	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=170
+18	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=180
+19	।	।	PUNCT	SYM	_	17	dep	_	ChunkId=10|ChunkType=BLK|SpanStart=190
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s30
+# text = 
+1	लेकिन	लेकिन	CCONJ	CC	_	0	dep	_	ChunkId=1|ChunkType=CCP|SpanStart=10
+2	मौसम	मौसम	NOUN	NNC	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=20
+3	वैज्ञानिकों	वैज्ञानिक	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=30
+4	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	5	dep	_	ChunkId=2|ChunkType=NP|SpanStart=40
+5	मानना	मान	VERB	VM	Case=Nom|VerbForm=Inf|Voice=Act	6	dep	_	ChunkId=3|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=50
+6	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	dep	_	ChunkId=4|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=60
+7	कि	कि	SCONJ	CC	_	5	dep	_	ChunkId=5|ChunkType=CCP|SpanStart=70
+8	मानसून	मानसून	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=6|ChunkType=NP|Tam=0|SpanStart=80
+9	के	का	ADP	PSP	AdpType=Post|Case=Acc	0	dep	_	ChunkId=6|ChunkType=NP|SpanStart=90
+10	एक	एक	NUM	QC	NumType=Card	12	dep	_	ChunkId=7|ChunkType=NP|SpanStart=100
+11	बार	बार	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	dep	_	ChunkId=7|ChunkType=NP|Tam=0|SpanStart=110
+12	फिर	फिर	ADV	RB	_	0	dep	_	ChunkId=8|ChunkType=RBP|SpanStart=120
+13	कमजोर	कमजोर	ADJ	JJ	Case=Acc	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=130
+14	चरण	चरण	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=9|ChunkType=NP|Tam=0|SpanStart=140
+15	में	में	ADP	PSP	AdpType=Post	0	dep	_	ChunkId=9|ChunkType=NP|SpanStart=150
+16	प्रवेश	प्रवेश	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=10|ChunkType=NP|Tam=0|SpanStart=160
+17	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	dep	_	ChunkId=11|ChunkType=VGNN|Vib=ना|Tam=nA|SpanStart=170
+18	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	0	dep	_	ChunkId=11|ChunkType=VGNN|SpanStart=180
+19	संकेत	संकेत	NOUN	NN	Case=Nom|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=12|ChunkType=NP|Tam=0|SpanStart=190
+20	मिल	मिल	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Tam=0|SpanStart=200
+21	रहे	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=या|Tam=yA|SpanStart=210
+22	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=13|ChunkType=VGF|Vib=है|Tam=hE|SpanStart=220
+23	।	।	PUNCT	SYM	_	1	dep	_	ChunkId=14|ChunkType=BLK|SpanStart=230
+
+
+
+# sent_id = fullnews_id_2612815_date_21_7_2004-s31
+# text = 
+1	अगले	अगला	ADJ	JJ	Case=Acc|Gender=Masc|Number=Plur	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=10
+2	तीन	तीन	NUM	QC	NumType=Card	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=20
+3	दिनों	दिन	NOUN	NN	Case=Acc|Gender=Masc|Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=1|ChunkType=NP|Tam=0|SpanStart=30
+4	के	के	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=40
+5	बाद	बाद	NOUN	NST	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	dep	_	ChunkId=1|ChunkType=NP|SpanStart=50
+6	इस	यह	PRON	PRP	Case=Acc|Mood=Imp|Number=Sing|Person=3|PronType=Prs|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=2|ChunkType=NP|Tam=0|SpanStart=60
+7	बारे	बारे	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=70
+8	में	में	ADP	PSP	AdpType=Post	11	dep	_	ChunkId=2|ChunkType=NP|SpanStart=80
+9	स्थिति	स्थिति	NOUN	NN	Case=Nom|Gender=Fem|Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	dep	_	ChunkId=3|ChunkType=NP|Tam=0|SpanStart=90
+10	स्पष्ट	स्पष्ट	ADJ	JJ	_	11	dep	_	ChunkId=4|ChunkType=JJP|SpanStart=100
+11	हो	हो	VERB	VM	Mood=Imp|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Tam=0|SpanStart=110
+12	पाएगी	पा	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	dep	_	ChunkId=5|ChunkType=VGF|Vib=गा|Tam=gA|SpanStart=120
+13	।	।	PUNCT	SYM	_	11	dep	_	ChunkId=6|ChunkType=BLK|SpanStart=130
+

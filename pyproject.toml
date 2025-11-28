@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bhaashik-lowres-lang-trans"
+version = "1.0.0"
+description = "Translation system for low-resource Indic languages using OpenAI and IndicTrans2"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Bhaashik Project"}
+]
+keywords = ["translation", "indic-languages", "low-resource", "nlp", "openai", "bhojpuri", "magahi", "maithili"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+dependencies = [
+    "openai>=2.8.0",
+    "conllu>=6.0.0",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "tqdm>=4.65.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=23.0",
+    "flake8>=6.0",
+    "mypy>=1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/bhaashik/BhaashikLowsResLangTrans"
+Documentation = "https://github.com/bhaashik/BhaashikLowsResLangTrans/blob/main/README.md"
+Repository = "https://github.com/bhaashik/BhaashikLowsResLangTrans"
+Issues = "https://github.com/bhaashik/BhaashikLowsResLangTrans/issues"
+
+[tool.setuptools]
+packages = ["universal_translate"]
+
+[tool.setuptools.package-data]
+universal_translate = [
+    "config/**/*.yaml",
+    "data/**/*.json",
+]
+
+[tool.black]
+line-length = 100
+target-version = ['py310', 'py311', 'py312']
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false

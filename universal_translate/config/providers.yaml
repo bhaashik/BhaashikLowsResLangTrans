@@ -1,0 +1,130 @@
+# Translation Provider Configurations
+
+providers:
+  # Anthropic Claude API
+  anthropic:
+    api_key_env: "ANTHROPIC_API_KEY"
+    models:
+      claude-haiku-3:
+        input_cost: 0.21      # INR per 1M tokens
+        output_cost: 1.06
+        max_tokens: 200000
+        supports_caching: false
+
+      claude-haiku-3.5:
+        input_cost: 0.68
+        output_cost: 3.40
+        max_tokens: 200000
+        supports_caching: true
+        cache_write_cost: 1.02
+        cache_read_cost: 0.068
+
+      claude-haiku-4.5:
+        input_cost: 0.85
+        output_cost: 4.25
+        max_tokens: 200000
+        supports_caching: true
+        cache_write_cost: 1.275
+        cache_read_cost: 0.085
+
+      claude-sonnet-4.5:
+        input_cost: 2.55
+        output_cost: 12.75
+        max_tokens: 200000
+        supports_caching: true
+        cache_write_cost: 3.825
+        cache_read_cost: 0.255
+
+    batch_api:
+      enabled: true
+      output_discount: 0.5  # 50% off output tokens
+
+    rate_limits:
+      requests_per_minute: 1000
+      tokens_per_minute: 100000
+
+  # OpenAI API
+  openai:
+    api_key_env: "OPENAI_API_KEY"
+    models:
+      gpt-4o:
+        input_cost: 2.50   # USD per 1M tokens
+        output_cost: 10.00
+        max_tokens: 128000
+
+      gpt-4o-mini:
+        input_cost: 0.15
+        output_cost: 0.60
+        max_tokens: 128000
+
+      gpt-3.5-turbo:
+        input_cost: 0.50
+        output_cost: 1.50
+        max_tokens: 16000
+
+    rate_limits:
+      requests_per_minute: 500
+      tokens_per_minute: 150000
+
+  # Google Cloud Translation API
+  google:
+    credentials_env: "GOOGLE_APPLICATION_CREDENTIALS"
+    api_version: "v3"
+    cost_per_char: 20  # USD per 1M characters
+    supports_batch: true
+    max_chars_per_request: 30000
+
+  # Azure Translator
+  azure:
+    api_key_env: "AZURE_TRANSLATOR_KEY"
+    region_env: "AZURE_TRANSLATOR_REGION"
+    cost_per_char: 10  # USD per 1M characters
+    free_tier_chars: 2000000  # 2M chars/month free
+
+  # DeepL API
+  deepl:
+    api_key_env: "DEEPL_API_KEY"
+    api_type: "pro"  # or "free"
+    cost_per_char: 20  # USD per 1M characters
+    free_tier_chars: 500000  # 500K chars/month on free tier
+
+  # Local Models
+  local:
+    indictrans2:
+      model_path: "ai4bharat/indictrans2-en-indic-dist-200M"
+      device: "cuda"  # or "cpu"
+      batch_size: 32
+      max_length: 512
+      num_beams: 5
+      cost_per_char: 0  # Free (compute only)
+      supported_languages:
+        - as
+        - bn
+        - gu
+        - hi
+        - kn
+        - ks
+        - kok
+        - ml
+        - mni
+        - mr
+        - ne
+        - or
+        - pa
+        - sa
+        - sd
+        - ta
+        - te
+        - ur
+        - brx
+        - sat
+        - mai
+        - doi
+
+    nllb:
+      model_path: "facebook/nllb-200-distilled-600M"
+      device: "cuda"
+      batch_size: 16
+      max_length: 512
+      cost_per_char: 0  # Free (compute only)
+      num_languages: 200  # Supports 200+ languages

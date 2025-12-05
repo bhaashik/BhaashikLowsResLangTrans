@@ -1,2 +1,6 @@
+requirements.txt filter=lfs diff=lfs merge=lfs -text
+*.conllu filter=lfs diff=lfs merge=lfs -text
+*.mo filter=lfs diff=lfs merge=lfs -text
+*.pos.chnk filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
 *.jsonl filter=lfs diff=lfs merge=lfs -text

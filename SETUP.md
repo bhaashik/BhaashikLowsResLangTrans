@@ -1,476 +1,319 @@
 # BhaashikLowsResLangTrans - Setup Guide
 
-Complete guide for setting up this project on a new computer.
+Complete setup guide for the low-resource language translation system.
 
-## Table of Contents
-
-1. [Prerequisites](#prerequisites)
-2. [Quick Setup (5 minutes)](#quick-setup)
-3. [Detailed Setup](#detailed-setup)
-4. [Verification](#verification)
-5. [Troubleshooting](#troubleshooting)
-
----
-
-## Prerequisites
-
-### Required Software
-
-- **Python 3.10+** (3.12 recommended)
-- **Conda** (Miniconda or Anaconda)
-- **Git** (for cloning the repository)
-- **50+ GB free disk space** (for input/output data)
-
-### Optional
-
-- **Screen/Tmux** (for long-running translations)
-
-### Get Prerequisites
-
-**Windows:**
-1. Install Miniconda: https://docs.conda.io/en/latest/miniconda.html
-2. Install Git: https://git-scm.com/download/win
-
-**Linux/WSL:**
-```bash
-# Install Miniconda
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh
-
-# Git (usually pre-installed)
-sudo apt-get install git
-```
-
-**macOS:**
-```bash
-# Install Homebrew if not installed
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# Install Miniconda
-brew install miniconda
-
-# Git (usually pre-installed)
-brew install git
-```
-
----
-
-## Quick Setup (5 minutes)
-
-For users who just want to get started quickly:
+## Quick Start
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/bhaashik/BhaashikLowsResLangTrans.git
+git clone <repository-url>
 cd BhaashikLowsResLangTrans
 
-# 2. Create Conda environment
+# 2. Create conda environment
 conda env create -f environment.yml
+conda activate NLPLResourceDownload
 
-# 3. Activate environment
-conda activate bhaashik-translation
+# 3. Install additional packages
+pip install -r requirements.txt
 
-# 4. Configure API key
+# 4. Configure environment
 cp .env.example .env
-nano .env  # Add your OPENAI_API_KEY
+# Edit .env with your settings
 
-# 5. Test installation
-python scripts/translate_hindi_to_lowres_openai.py \
-  --target-lang bho \
-  --max-files 1
+# 5. Verify setup
+python scripts/verify.py --all
 
-# If successful, you'll see translated output!
+# 6. Download essential resources
+python scripts/download.py --essential
+
+# 7. Test translation
+python scripts/translate.py --src en --tgt hi --text "Hello, how are you?" --indictrans2
 ```
-
----
 
 ## Detailed Setup
 
-### Step 1: Clone Repository
+### 1. System Requirements
+
+- **OS**: Ubuntu 20.04+ (or WSL2 on Windows)
+- **Python**: 3.10+
+- **Disk Space**:
+  - Minimum: 50 GB (essential resources only)
+  - Recommended: 120 GB (full Samanantar + models)
+  - Complete: 500 GB (includes LLMs)
+- **RAM**: 16 GB minimum, 32 GB recommended
+- **GPU**: Optional but recommended (CUDA-compatible)
+
+### 2. Install Conda
+
+If you don't have Conda installed:
 
 ```bash
-# Option A: HTTPS (recommended for most users)
-git clone https://github.com/bhaashik/BhaashikLowsResLangTrans.git
-cd BhaashikLowsResLangTrans
+# Download Miniconda
+cd /tmp
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
-# Option B: SSH (if you have SSH keys configured)
-git clone git@github.com:bhaashik/BhaashikLowsResLangTrans.git
-cd BhaashikLowsResLangTrans
+# Install
+bash Miniconda3-latest-Linux-x86_64.sh
 
-# Check you're on the main branch
-git branch
+# Reload shell
+source ~/.bashrc
+
+# Verify
+conda --version
 ```
 
-### Step 2: Create Python Environment
+### 3. Create Environment
 
-#### Option A: Using Conda (Recommended)
+#### Option A: Using environment.yml (Recommended)
 
 ```bash
-# Create environment from YAML file
 conda env create -f environment.yml
-
-# Activate the environment
-conda activate bhaashik-translation
-
-# Verify installation
-python --version  # Should show Python 3.12.x
-which python     # Should point to conda environment
+conda activate NLPLResourceDownload
 ```
 
-#### Option B: Using venv (Alternative)
+#### Option B: Manual Setup
 
 ```bash
-# Create virtual environment
-python3.12 -m venv venv
+# Create environment
+conda create -n NLPLResourceDownload python=3.10 -y
+conda activate NLPLResourceDownload
 
-# Activate environment
-# On Linux/Mac:
-source venv/bin/activate
-# On Windows:
-venv\Scripts\activate
+# Install PyTorch (with CUDA)
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 
-# Install dependencies
+# Or for CPU only
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+
+# Install other packages
 pip install -r requirements.txt
-
-# Install package in development mode
-pip install -e .
 ```
 
-### Step 3: Configure Environment Variables
+### 4. Configure Environment Variables
 
 ```bash
-# Copy template
+# Copy example env file
 cp .env.example .env
 
-# Edit configuration
-nano .env  # or use your preferred editor
+# Edit .env file
+nano .env
 ```
 
-**Required configuration:**
-```bash
-# Add your OpenAI API key
-OPENAI_API_KEY=sk-your-actual-key-here
-```
-
-Get your API key from: https://platform.openai.com/api-keys
-
-**Optional configurations:**
-```bash
-# Customize paths if needed
-# PROJECT_BASE_DIR=/custom/path/to/project
-# INPUT_DIR=custom_input
-# OUTPUT_DIR=custom_output
-
-# Adjust translation settings
-# OPENAI_MODEL=gpt-4o-mini
-# BATCH_SIZE=20
-```
-
-### Step 4: Install Universal Translate Package
+Required settings in `.env`:
 
 ```bash
-# Install in editable mode (for development)
-pip install -e .
+# Base directory - CHANGE THIS to your preferred location
+BASE_DIR=/mnt/data/nlp_resources
 
-# Or install normally
-# pip install .
+# HuggingFace token (required for Llama and gated models)
+HF_TOKEN=your_token_here
 
-# Verify installation
-python -c "from universal_translate import TranslationRequest; print('✓ Package installed')"
+# Claude API key (optional, only if using API enhancement)
+ANTHROPIC_API_KEY=your_key_here
 ```
 
-### Step 5: Verify Data Structure
+Get your HuggingFace token from: https://huggingface.co/settings/tokens
 
-Ensure input data is in place:
+### 5. Create Directory Structure
+
+The system will create directories automatically, but you can create them manually:
 
 ```bash
-# Check directory structure
-tree -L 3 -d
+# Set your base directory
+export BASE_DIR="/mnt/data/nlp_resources"
 
-# Expected structure:
-# .
-# ├── input/
-# │   └── converted/
-# │       └── Hindi/
-# │           ├── plain-text/
-# │           │   ├── by_file/
-# │           │   └── by_domain/
-# │           └── mappings/
-# ├── output/
-# ├── universal_translate/
-# ├── scripts/
-# └── ...
-
-# Verify Hindi input files exist
-find input/converted/Hindi/plain-text/by_file -name "*.txt" | head -5
+# Create structure
+mkdir -p "$BASE_DIR"/{datasets,models,cache,logs,output,checkpoints}
+mkdir -p "$BASE_DIR"/cache/{datasets,huggingface,transformers}
 ```
 
-If input data is missing, you need to:
-1. Get the original CoNLL-U files
-2. Run the extraction script: `python scripts/extract_plaintext_from_conllu.py`
+### 6. Download Resources
 
----
+#### Essential Resources (~70 GB)
 
-## Verification
-
-### Test 1: Python Environment
+Includes Samanantar major languages and IndicTrans2 models:
 
 ```bash
-conda activate bhaashik-translation
-
-python << 'PYEOF'
-import sys
-print(f"✓ Python {sys.version}")
-
-# Test imports
-try:
-    import openai
-    print(f"✓ OpenAI version: {openai.__version__}")
-except ImportError as e:
-    print(f"✗ OpenAI import failed: {e}")
-
-try:
-    import conllu
-    print(f"✓ CoNLL-U version: {conllu.__version__}")
-except ImportError as e:
-    print(f"✗ CoNLL-U import failed: {e}")
-
-try:
-    import yaml
-    print(f"✓ PyYAML installed")
-except ImportError as e:
-    print(f"✗ PyYAML import failed: {e}")
-
-try:
-    from universal_translate import TranslationRequest
-    print(f"✓ universal_translate package installed")
-except ImportError as e:
-    print(f"✗ universal_translate import failed: {e}")
-
-print("\nAll checks passed! ✓")
-PYEOF
+python scripts/download.py --essential
 ```
 
-### Test 2: API Key Configuration
+#### Specific Languages
+
+Download only the languages you need:
 
 ```bash
-python << 'PYEOF'
-import os
-from dotenv import load_dotenv
+# Download specific languages
+python scripts/download.py --samanantar --languages hi bn ta te mr gu
 
-load_dotenv()
-
-api_key = os.getenv('OPENAI_API_KEY')
-if api_key and api_key.startswith('sk-'):
-    print("✓ OpenAI API key configured")
-    print(f"  Key starts with: {api_key[:15]}...")
-else:
-    print("✗ OpenAI API key not found or invalid")
-    print("  Please set OPENAI_API_KEY in .env file")
-PYEOF
+# Download all Samanantar languages
+python scripts/download.py --samanantar --all-languages
 ```
 
-### Test 3: Translation Pipeline
+#### Models Only
 
 ```bash
-# Test with 1 file (~$0.002 cost)
-python scripts/translate_hindi_to_lowres_openai.py \
-  --target-lang bho \
-  --max-files 1
+# IndicTrans2 models
+python scripts/download.py --models indictrans2
 
-# Check output was created
-ls -lh output/Bhojpuri/plain-text/by_file/AGRICULTURE/ | head -5
+# NLLB models
+python scripts/download.py --models nllb
 
-# Verify translations are not empty
-head -3 output/Bhojpuri/plain-text/by_file/AGRICULTURE/*.txt
+# Both
+python scripts/download.py --models indictrans2 nllb
 ```
 
-Expected output:
-```
-सन 1967 में हमार वैज्ञानिकन ने कपास के पैदावार में बढ़ोत्‍तरी करे खातिर...
-भारत में कपास के खेती के क्षेत्र दुनिया में सबसे अधिक...
-किंतु उत्पादन में भारत के स्थान अमेरिका, रूस आ चीन...
+#### LLMs (Optional, ~200 GB)
+
+```bash
+python scripts/download.py --models llama mistral aya
 ```
 
----
+### 7. Verify Installation
+
+```bash
+# Run all checks
+python scripts/verify.py --all
+
+# Check specific components
+python scripts/verify.py --environment
+python scripts/verify.py --directories
+python scripts/verify.py --samanantar --languages hi bn ta
+python scripts/verify.py --models
+python scripts/verify.py --api-keys
+```
+
+## Configuration
+
+### Main Configuration File
+
+Edit `config/config.yaml` to customize:
+
+- Language settings
+- Model paths
+- Translation strategies
+- Cost tracking
+- Processing parameters
+
+### Tier Percentages
+
+Default: 70% free, 20% enhancement, 10% premium
+
+To change, edit `config/config.yaml`:
+
+```yaml
+strategy:
+  unsupported_strategy:
+    tiers:
+      - name: "free_pivot"
+        percentage: 80  # Change this
+      - name: "quality_enhancement"
+        percentage: 15  # Change this
+      - name: "premium_quality"
+        percentage: 5   # Change this
+```
+
+## Testing
+
+### Test IndicTrans2 (Free)
+
+```bash
+# English to Hindi
+python scripts/translate.py \
+  --src en \
+  --tgt hi \
+  --text "Hello, how are you?" \
+  --indictrans2
+
+# Hindi to Bengali
+python scripts/translate.py \
+  --src hi \
+  --tgt bn \
+  --text "आप कैसे हैं?" \
+  --indictrans2
+```
+
+### Test Hindi Pivot (Free)
+
+```bash
+# English to Bhojpuri (via Hindi)
+python scripts/translate.py \
+  --src en \
+  --tgt bho \
+  --text "Hello, how are you?" \
+  --hindi-pivot
+```
+
+### Test Tiered Strategy (Costs Money)
+
+```bash
+# First, get cost estimate
+python scripts/translate.py \
+  --src en \
+  --tgt bho \
+  --num-samples 1000 \
+  --estimate-only
+
+# Then translate
+python scripts/translate.py \
+  --src en \
+  --tgt bho \
+  --input input.txt \
+  --output output.txt \
+  --tiered
+```
 
 ## Troubleshooting
 
-### Problem: Conda environment creation fails
+### CUDA Out of Memory
 
-**Symptoms:**
-```
-CondaHTTPError: HTTP 000 CONNECTION FAILED
-```
-
-**Solution:**
-```bash
-# Update conda
-conda update -n base -c defaults conda
-
-# Try creating environment again
-conda env create -f environment.yml --force
-```
-
-### Problem: "ModuleNotFoundError: No module named 'openai'"
-
-**Solution:**
-```bash
-# Make sure environment is activated
-conda activate bhaashik-translation
-
-# Reinstall dependencies
-pip install -r requirements.txt
-
-# Verify
-python -c "import openai; print(openai.__version__)"
-```
-
-### Problem: "OpenAI API key not provided"
-
-**Solution:**
-```bash
-# Check .env file exists
-ls -la .env
-
-# Check API key is set
-cat .env | grep OPENAI_API_KEY
-
-# If not set, edit .env
-nano .env
-# Add: OPENAI_API_KEY=sk-your-key-here
-
-# Verify it loads
-python -c "from dotenv import load_dotenv; import os; load_dotenv(); print(os.getenv('OPENAI_API_KEY'))"
-```
-
-### Problem: Empty translation output files
-
-**Symptoms:**
-- Files are created but contain only blank lines
-- Cost shows $0.00
-
-**Solution:**
-This is fixed in the current version. Make sure you're using **GPT-4o-mini** (default model):
+Reduce batch size:
 
 ```bash
-# Should work correctly
-python scripts/translate_hindi_to_lowres_openai.py --target-lang bho --max-files 1
-
-# If you tried GPT-5-nano, use GPT-4o-mini instead
-python scripts/translate_hindi_to_lowres_openai.py --target-lang bho --model gpt-4o-mini
+python scripts/translate.py ... --batch-size 8
 ```
 
-See `GPT-4O-MINI-FIXED.md` for details about the fix.
+Or use CPU:
 
-### Problem: Rate limit errors
-
-**Symptoms:**
-```
-Error: Rate limit exceeded
-```
-
-**Solution:**
 ```bash
-# Option 1: Reduce batch size
-python scripts/translate_hindi_to_lowres_openai.py \
-  --target-lang bho \
-  --batch-size 5
-
-# Option 2: Upgrade your OpenAI account tier
-# Visit: https://platform.openai.com/account/billing
-
-# Option 3: Add delays between batches (requires code modification)
+# Edit config/config.yaml
+processing:
+  use_gpu: false
+  device: "cpu"
 ```
 
-### Problem: Permission denied on Linux/Mac
+### HuggingFace Login Issues
 
-**Symptoms:**
-```
-PermissionError: [Errno 13] Permission denied: 'output/...'
-```
-
-**Solution:**
 ```bash
-# Fix directory permissions
-chmod -R u+w output/
+# Login manually
+huggingface-cli login
 
-# Or recreate output directory
-rm -rf output
-mkdir -p output
+# Or set token in .env
+HF_TOKEN=your_token_here
 ```
 
-### Problem: Input files not found
+### Download Failures
 
-**Symptoms:**
-```
-✗ No .txt files found in input/converted/Hindi/plain-text/by_file
-```
-
-**Solution:**
 ```bash
-# Check if input directory exists
-ls -la input/converted/Hindi/plain-text/
-
-# If missing, you need to extract from CoNLL-U files
-python scripts/extract_plaintext_from_conllu.py
-
-# Or restore from backup/original source
+# Clear cache and retry
+rm -rf $BASE_DIR/cache/*
+python scripts/download.py --essential
 ```
 
----
+### Import Errors
+
+```bash
+# Reinstall packages
+pip install --upgrade -r requirements.txt
+```
 
 ## Next Steps
 
-Once setup is complete:
-
-1. **Read usage documentation:**
-   - `QUICK_START_OPENAI.md` - Quick reference
-   - `FULL_TRANSLATION_GUIDE.md` - Complete guide
-   - `OPENAI_TRANSLATION_USAGE.md` - Detailed usage
-
-2. **Test with small dataset:**
-   ```bash
-   python scripts/translate_hindi_to_lowres_openai.py --target-lang bho --max-files 5
-   ```
-
-3. **Review sample translations:**
-   ```bash
-   head -10 output/Bhojpuri/plain-text/by_file/AGRICULTURE/*.txt
-   ```
-
-4. **Start full translation:**
-   ```bash
-   # For one language (~$4, ~8-10 hours)
-   python scripts/translate_hindi_to_lowres_openai.py --target-lang bho
-   
-   # For all 3 languages (~$12, ~24-30 hours sequential)
-   for lang in bho mag mai; do
-       python scripts/translate_hindi_to_lowres_openai.py --target-lang $lang
-   done
-   ```
-
----
-
-## Additional Resources
-
-- **Project documentation:** `README.md`
-- **Architecture guide:** `CLAUDE.md`
-- **Translation package design:** `TRANSLATION_PACKAGE_DESIGN.md`
-- **Migration guide:** `universal_translate/MIGRATION_GUIDE.md`
-- **GPT-4o-mini fix details:** `GPT-4O-MINI-FIXED.md`
-
----
+1. Read [USAGE.md](USAGE.md) for detailed usage examples
+2. Review [CLAUDE.md](CLAUDE.md) for architecture details
+3. Explore example notebooks (coming soon)
+4. Check cost tracking: `cat $BASE_DIR/logs/cost_tracking.json`
 
 ## Support
 
-If you encounter issues not covered in this guide:
-
-1. Check existing documentation in the project
-2. Review error messages carefully
-3. Verify your environment matches prerequisites
-4. Check OpenAI API status: https://status.openai.com/
-
-## License
-
-This project is licensed under the MIT License. See `LICENSE` file for details.
+- GitHub Issues: [Create an issue](../../issues)
+- Documentation: [CLAUDE.md](CLAUDE.md)
+- Planning Document: [Initial instructions](Initial%20intstructions%20(a%20log%20of%20a%20long%20conversation)%20for%20Claude%20Code.md)

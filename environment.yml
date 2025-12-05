@@ -1,14 +1,42 @@
-name: bhaashik-translation
+name: NLPLResourceDownload
 channels:
   - conda-forge
+  - pytorch
   - defaults
 dependencies:
-  - python=3.12
-  - pip>=24.0
+  - python=3.10
+  - pytorch>=2.0.0
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8  # Use cpuonly for CPU-only systems
+  - transformers
+  - datasets
+  - accelerate
+  - sentencepiece
+  - protobuf
+  - numpy
+  - pandas
+  - tqdm
+  - requests
+  - aiohttp
+  - pyyaml
+  - git-lfs
+  - pip
   - pip:
-    - openai>=2.8.0
-    - conllu>=6.0.0
-    - pyyaml>=6.0
-    - python-dotenv>=1.0.0
-    - requests>=2.31.0
-    - tqdm>=4.65.0
+    - huggingface-hub
+    - hf-transfer
+    - anthropic
+    - openai
+    - google-cloud-translate
+    - azure-ai-translation-text
+    - python-dotenv
+    - colorama
+    - rich
+    - click
+    - loguru
+    - sacrebleu
+    - nltk
+    - httpx
+    - pytest
+    - pytest-asyncio
+    - pytest-cov

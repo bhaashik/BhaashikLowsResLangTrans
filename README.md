@@ -33,116 +33,23 @@ Assamese, Bengali, Gujarati, Hindi, Kannada, Kashmiri, Konkani, Malayalam, Manip
 
 ## 🚀 Quick Start
 
-### Installation (5 minutes)
+### Installation
 
 ```bash
-# 1. Clone repository
-git clone https://github.com/bhaashik/BhaashikLowsResLangTrans.git
+# Clone repository
+git clone <repository-url>
 cd BhaashikLowsResLangTrans
 
-# 2. Create conda environment
+# Create conda environment
 conda env create -f environment.yml
-conda activate bhaashik-translation
+conda activate NLPLResourceDownload
 
-# 3. Install package
-pip install -e .
+# Install dependencies
+pip install -r requirements.txt
 
-# 4. Configure API key
+# Configure environment
 cp .env.example .env
-nano .env  # Add your OPENAI_API_KEY
-
-# 5. Test installation (translates 1 file)
-python scripts/translate_hindi_to_lowres_openai.py \
-  --target-lang bho \
-  --max-files 1
-```
-
-**Detailed setup instructions:** See [SETUP.md](SETUP.md)
-
-### Quick Translation
-
-**Translate to Bhojpuri (66,317 sentences):**
-```bash
-python scripts/translate_hindi_to_lowres_openai.py --target-lang bho
-```
-
-**All 3 configured languages:**
-```bash
-for lang in bho mag mai; do
-    python scripts/translate_hindi_to_lowres_openai.py --target-lang $lang
-done
-```
-
-**Cost:** ~$4 per language (~$12 for all 3) with GPT-4o-mini
-**Time:** ~8-10 hours per language
-
-### Usage Documentation
-
-- **[QUICK_START_OPENAI.md](QUICK_START_OPENAI.md)** - Quick reference guide
-- **[FULL_TRANSLATION_GUIDE.md](FULL_TRANSLATION_GUIDE.md)** - Complete usage guide
-- **[SETUP.md](SETUP.md)** - Detailed setup instructions
-- **[TRANSFER_CHECKLIST.md](TRANSFER_CHECKLIST.md)** - Moving to another computer
-
-## 📦 Project Structure
-
-```
-BhaashikLowsResLangTrans/
-├── environment.yml              # Conda environment specification
-├── pyproject.toml              # Python package configuration
-├── requirements.txt            # Python dependencies
-├── .env.example                # Environment variables template
-├── SETUP.md                    # Complete setup guide
-├── TRANSFER_CHECKLIST.md       # Migration guide
-│
-├── universal_translate/        # Core translation package
-│   ├── core/                   # Base classes and models
-│   ├── providers/              # Translation providers (OpenAI, Anthropic, etc.)
-│   ├── prompts/                # Prompt management
-│   ├── config/                 # Configuration files
-│   │   └── prompts/            # Language-specific prompts
-│   └── data/                   # Example data for prompt caching
-│       └── examples/           # Monolingual examples
-│
-├── scripts/                    # Translation scripts
-│   ├── translate_hindi_to_lowres_openai.py
-│   ├── prepare_monolingual_examples.py
-│   └── extract_plaintext_from_conllu.py
-│
-├── input/                      # Input data
-│   └── converted/Hindi/        # Hindi plain text and CoNLL-U
-│       ├── plain-text/
-│       └── mappings/
-│
-└── output/                     # Translation output
-    ├── Bhojpuri/
-    ├── Magahi/
-    └── Maithili/
-```
-
-## 🔧 Environment Setup
-
-### Prerequisites
-
-- Python 3.10+ (3.12 recommended)
-- Conda (Miniconda or Anaconda)
-- OpenAI API key
-- 50+ GB free disk space
-
-### Files for Environment Setup
-
-| File | Purpose |
-|------|---------|
-| `environment.yml` | Conda environment with all dependencies |
-| `pyproject.toml` | Python package metadata and dependencies |
-| `requirements.txt` | Pip-installable dependencies list |
-| `.env.example` | Environment variables template |
-
-**To recreate environment on any computer:**
-```bash
-conda env create -f environment.yml
-conda activate bhaashik-translation
-pip install -e .
-cp .env.example .env  # Then add your API key
+# Edit .env with your settings
 ```
 
 ### Basic Usage

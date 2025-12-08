@@ -5,16 +5,22 @@ This guide provides instructions for setting up the Bhaashik translation environ
 ## Prerequisites
 
 - Access to an HPC cluster with Slurm
-- Conda or Miniconda installed (or module available)
+- Miniconda installed in your home directory (recommended) or module available
 - Internet access from compute nodes (or pre-downloaded packages)
+
+**Important:** If you're experiencing issues, see [HPC-TROUBLESHOOTING.md](HPC-TROUBLESHOOTING.md) for detailed solutions.
 
 ## Environment Setup
 
 ### Option 1: Using environment.yml (Recommended)
 
 ```bash
-# Load conda module (if required on your cluster)
-module load miniconda3  # or conda, anaconda, etc.
+# If using your own Miniconda installation in home directory
+export PATH="$HOME/miniconda3/bin:$PATH"
+source $HOME/miniconda3/etc/profile.d/conda.sh
+
+# OR if using a module (check with: module avail)
+# module load miniconda3
 
 # Create environment from file
 conda env create -f environment.yml
@@ -22,6 +28,11 @@ conda env create -f environment.yml
 # Activate environment
 conda activate bhaashik-translation
 ```
+
+**Note:** The environment.yml is optimized for HPC clusters with older GCC versions. It uses:
+- Python 3.10 (better compatibility)
+- NumPy and Pandas from conda (pre-built, no compilation)
+- All other packages from pip
 
 ### Option 2: Manual Installation
 

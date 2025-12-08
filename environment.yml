@@ -3,8 +3,10 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.12
-  - pip>=24.0
+  - python=3.10  # More compatible with older HPC systems
+  - pip>=23.0
+  - numpy>=1.24.0,<2.0  # Install from conda to avoid building
+  - pandas>=2.0.0,<2.2  # Install from conda
   - pyyaml>=6.0
   - requests>=2.31.0
   - tqdm>=4.65.0
@@ -26,9 +28,6 @@ dependencies:
 
     # Logging
     - loguru>=0.7.2
-
-    # Data processing (lightweight versions)
-    - pandas>=2.1.0
 
     # Quality assessment
     - sacrebleu>=2.3.1

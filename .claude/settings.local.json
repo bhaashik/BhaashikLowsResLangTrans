@@ -1,21 +1,3 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(mkdir:*)",
-      "Bash(for dir in /mnt/d/projects/Bhaashik/BhaashikLowsResLangTrans/src/*/)",
-      "Bash(do [ ! -f \"$dir__init__.py\" ])",
-      "Bash(echo:*)",
-      "Bash(done)",
-      "Bash(tree:*)",
-      "Bash(chmod:*)",
-      "Bash(ls:*)",
-      "Bash(git add:*)",
-      "Bash(git commit:*)",
-      "WebSearch",
-      "Bash(find:*)",
-      "Bash(wc:*)"
-    ],
-    "deny": [],
-    "ask": []
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:642f4216fc8a37ee259dfb4bc8a1d768382274899ea72741797ebdb3819e491d
+size 452

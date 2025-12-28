@@ -15,6 +15,7 @@ from ..prompts import PromptManager
 from .openai_provider import OpenAIProvider
 from .anthropic_provider import AnthropicProvider
 from .gemini_provider import GeminiProvider
+from .vertex_provider import VertexAIProvider
 
 
 class ProviderRegistry:
@@ -24,21 +25,24 @@ class ProviderRegistry:
     PROVIDERS: Dict[str, Type[BaseTranslator]] = {
         'openai': OpenAIProvider,
         'anthropic': AnthropicProvider,
-        'gemini': GeminiProvider
+        'gemini': GeminiProvider,
+        'vertex': VertexAIProvider
     }
 
     # Default models for each provider
     DEFAULT_MODELS = {
         'openai': 'gpt-4o-mini',
         'anthropic': 'claude-haiku-4.5',
-        'gemini': 'gemini-1.5-flash'
+        'gemini': 'gemini-2.0-flash-exp',  # Free tier
+        'vertex': 'gemini-1.5-flash-002'
     }
 
     # API key environment variable names
     API_KEY_ENV_VARS = {
         'openai': 'OPENAI_API_KEY',
         'anthropic': 'ANTHROPIC_API_KEY',
-        'gemini': 'GOOGLE_API_KEY'
+        'gemini': 'GOOGLE_API_KEY',
+        'vertex': 'GOOGLE_CLOUD_PROJECT'  # Vertex uses project ID + credentials
     }
 
     @classmethod

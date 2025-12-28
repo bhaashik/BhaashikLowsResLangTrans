@@ -276,7 +276,12 @@ def main():
     lang_names = {
         'bho': 'Bhojpuri',
         'mag': 'Magahi',
-        'mai': 'Maithili'
+        'mai': 'Maithili',
+        'awa': 'Awadhi',
+        'bra': 'Braj',
+        'brx': 'Bodo',
+        'mwr': 'Marwari',
+        'nep': 'Nepali'
     }
 
     target_lang_name = lang_names[args.target_lang]

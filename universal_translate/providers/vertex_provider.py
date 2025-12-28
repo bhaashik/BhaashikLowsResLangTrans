@@ -1,4 +1,4 @@
-"""OpenAI API provider with prompt caching support."""
+"""Google Vertex AI provider with support for Gemini models on GCP."""
 
 import os
 from typing import Optional, Dict, Any, List
@@ -15,119 +15,125 @@ from ..core import (
 from ..prompts import PromptManager
 
 
-class OpenAIProvider(BaseTranslator):
+class VertexAIProvider(BaseTranslator):
     """
-    Translation provider using OpenAI API.
+    Translation provider using Google Vertex AI (GCP).
 
     Supports:
-    - Multiple models (GPT-4o, GPT-4o-mini, GPT-3.5-turbo)
-    - Prompt caching for cost optimization (automatic with chat completions)
+    - Gemini models on Vertex AI (enterprise pricing)
+    - Context caching for cost optimization
+    - Regional deployments
+    - Service account authentication
     """
 
-    # Model specifications (USD per 1M tokens)
+    # Model specifications (Vertex AI pricing)
     MODELS = {
-        # Latest GPT-4o models (Dec 2024)
-        'gpt-4o': {
-            'input_cost': 2.50,      # USD per 1M tokens
-            'output_cost': 10.00,
-            'cached_input_cost': 1.25,  # 50% discount
-            'max_tokens': 128000,
+        'gemini-2.0-flash-exp': {
+            'input_cost': 0.0,       # Free tier experimental
+            'output_cost': 0.0,
+            'max_tokens': 1000000,
             'supports_caching': True
         },
-        'gpt-4o-mini': {
-            'input_cost': 0.15,
-            'output_cost': 0.60,
-            'cached_input_cost': 0.075,  # 50% discount
-            'max_tokens': 128000,
+        'gemini-1.5-flash-002': {
+            'input_cost': 1.59,      # INR per 1M tokens (Vertex pricing)
+            'output_cost': 6.37,
+            'cached_input_cost': 0.40,  # 75% discount
+            'max_tokens': 1000000,
             'supports_caching': True
         },
-        # o1 reasoning models (higher quality, reasoning tokens)
-        'o1': {
-            'input_cost': 15.00,     # USD per 1M tokens
-            'output_cost': 60.00,
-            'cached_input_cost': 7.50,  # 50% discount
-            'max_tokens': 200000,
+        'gemini-1.5-pro-002': {
+            'input_cost': 53.13,     # INR per 1M tokens
+            'output_cost': 212.50,
+            'cached_input_cost': 13.28,  # 75% discount
+            'max_tokens': 2000000,
             'supports_caching': True
         },
-        'o1-mini': {
-            'input_cost': 3.00,
-            'output_cost': 12.00,
-            'cached_input_cost': 1.50,  # 50% discount
-            'max_tokens': 128000,
-            'supports_caching': True
-        },
-        # o3 reasoning models (latest, experimental)
-        'o3-mini': {
-            'input_cost': 1.10,      # USD per 1M tokens (low reasoning)
-            'output_cost': 4.40,
-            'cached_input_cost': 0.55,  # 50% discount
-            'max_tokens': 200000,
-            'supports_caching': True
-        },
-        # GPT-4 Turbo
-        'gpt-4-turbo': {
-            'input_cost': 10.00,
-            'output_cost': 30.00,
-            'cached_input_cost': 5.00,
-            'max_tokens': 128000,
-            'supports_caching': True
-        },
-        # GPT-3.5 Turbo (legacy)
-        'gpt-3.5-turbo': {
-            'input_cost': 0.50,
-            'output_cost': 1.50,
-            'cached_input_cost': 0.25,
-            'max_tokens': 16000,
+        'gemini-1.0-pro': {
+            'input_cost': 21.25,
+            'output_cost': 63.75,
+            'max_tokens': 32000,
             'supports_caching': False
         }
     }
 
     def __init__(
         self,
-        model: str = 'gpt-4o-mini',
-        api_key: Optional[str] = None,
+        model: str = 'gemini-1.5-flash-002',
+        project_id: Optional[str] = None,
+        location: str = 'us-central1',
+        credentials_path: Optional[str] = None,
         prompt_manager: Optional[PromptManager] = None,
         config: Optional[Dict[str, Any]] = None,
         use_caching: bool = True
     ):
         """
-        Initialize OpenAI provider.
+        Initialize Vertex AI provider.
 
         Args:
-            model: OpenAI model name (default: gpt-4o-mini)
-            api_key: OpenAI API key (or from OPENAI_API_KEY env var)
+            model: Vertex AI model name
+            project_id: GCP project ID (or from GOOGLE_CLOUD_PROJECT env var)
+            location: GCP region (default: us-central1)
+            credentials_path: Path to service account JSON (or from GOOGLE_APPLICATION_CREDENTIALS env var)
             prompt_manager: PromptManager instance for template rendering
             config: Additional configuration
-            use_caching: Whether to use prompt caching (default: True)
+            use_caching: Whether to use context caching (default: True)
         """
-        super().__init__(name='openai', model=model, config=config or {})
+        super().__init__(name='vertex', model=model, config=config or {})
 
         if model not in self.MODELS:
             raise ValueError(f"Unknown model: {model}. Choose from {list(self.MODELS.keys())}")
 
-        self.api_key = api_key or os.getenv('OPENAI_API_KEY')
-        if not self.api_key:
-            raise AuthenticationError("OpenAI API key not provided")
+        self.project_id = project_id or os.getenv('GOOGLE_CLOUD_PROJECT')
+        if not self.project_id:
+            raise AuthenticationError(
+                "GCP project ID not provided. Set GOOGLE_CLOUD_PROJECT environment variable "
+                "or pass project_id parameter."
+            )
+
+        self.location = location
+        self.credentials_path = credentials_path or os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
+
+        if self.credentials_path and not os.path.exists(self.credentials_path):
+            raise AuthenticationError(
+                f"Credentials file not found: {self.credentials_path}"
+            )
 
         self.prompt_manager = prompt_manager
         self.use_caching = use_caching and self.MODELS[model]['supports_caching']
         self.client = None
+        self.vertexai = None
 
     def initialize(self):
-        """Initialize OpenAI client."""
+        """Initialize Vertex AI client."""
         try:
-            from openai import OpenAI
-            self.client = OpenAI(api_key=self.api_key)
+            import vertexai
+            from vertexai.generative_models import GenerativeModel
+
+            # Initialize Vertex AI
+            vertexai.init(
+                project=self.project_id,
+                location=self.location
+            )
+
+            self.vertexai = vertexai
+            self.client = GenerativeModel(self.model)
             self._initialized = True
+
         except ImportError:
             raise TranslationError(
-                "openai package not installed. Run: pip install openai",
+                "google-cloud-aiplatform package not installed. "
+                "Run: pip install google-cloud-aiplatform",
                 provider=self.name
+            )
+        except Exception as e:
+            raise AuthenticationError(
+                f"Failed to initialize Vertex AI: {e}. "
+                f"Ensure GOOGLE_APPLICATION_CREDENTIALS is set and valid."
             )
 
     async def translate(self, request: TranslationRequest) -> TranslationResponse:
         """
-        Translate using OpenAI API (async).
+        Translate using Vertex AI (async).
 
         Args:
             request: Translation request
@@ -141,8 +147,8 @@ class OpenAIProvider(BaseTranslator):
         results = []
         total_cost = 0.0
 
-        # Build system message (cached if using examples)
-        system_content = self._build_system_message(request)
+        # Build system instruction
+        system_instruction = self._build_system_instruction(request)
 
         # For batch translation, combine all texts
         if len(request.units) > 1:
@@ -155,35 +161,43 @@ Provide ONLY the translations, one per line, numbered to match the input.
 
 Provide only the {request.tgt_lang} translations without explanations."""
 
-            # Build messages array
-            messages = []
-            if system_content:
-                messages.append({"role": "system", "content": system_content})
-            messages.append({"role": "user", "content": user_content})
-
             try:
+                # Configure generation
+                generation_config = self._get_generation_config(request)
+
+                # Create model with system instruction if provided
+                if system_instruction:
+                    from vertexai.generative_models import GenerativeModel
+                    model = GenerativeModel(
+                        self.model,
+                        system_instruction=system_instruction
+                    )
+                else:
+                    model = self.client
+
                 # Call API
-                params = self._get_api_params(request)
-                response = self.client.chat.completions.create(
-                    **params,
-                    messages=messages
+                response = model.generate_content(
+                    user_content,
+                    generation_config=generation_config
                 )
 
                 # Extract translation
-                translation_text = response.choices[0].message.content if response.choices else ""
+                translation_text = response.text
+
+                # Get usage
+                usage = self._get_usage(response)
 
                 # Calculate cost
-                cost = self._calculate_cost(response.usage)
+                cost = self._calculate_cost(usage)
                 total_cost += cost
 
-                # Parse batch translations (split by newlines and remove numbering)
+                # Parse batch translations
                 translation_lines = translation_text.strip().split('\n')
                 translations = []
                 for line in translation_lines:
-                    # Remove numbering like "1. ", "2. ", etc.
                     line = line.strip()
                     if line:
-                        # Try to remove number prefix
+                        # Remove number prefix
                         import re
                         cleaned = re.sub(r'^\d+\.\s*', '', line)
                         translations.append(cleaned)
@@ -191,23 +205,17 @@ Provide only the {request.tgt_lang} translations without explanations."""
                 # Match translations to units
                 for i, unit in enumerate(request.units):
                     if i < len(translations):
-                        # Extract cached tokens info
-                        cached_tokens = 0
-                        if hasattr(response.usage, 'prompt_tokens_details') and response.usage.prompt_tokens_details:
-                            cached_tokens = getattr(response.usage.prompt_tokens_details, 'cached_tokens', 0)
-
                         results.append(TranslationResult(
                             source=unit.text,
                             translation=translations[i],
                             index=unit.index,
-                            cost=cost / len(request.units),  # Distribute cost evenly
+                            cost=cost / len(request.units),
                             status=TranslationStatus.COMPLETED,
                             metadata={
                                 'model': self.model,
-                                'prompt_tokens': response.usage.prompt_tokens,
-                                'completion_tokens': response.usage.completion_tokens,
-                                'total_tokens': response.usage.total_tokens,
-                                'cached_tokens': cached_tokens
+                                'project': self.project_id,
+                                'location': self.location,
+                                **usage
                             }
                         ))
                     else:
@@ -234,32 +242,36 @@ Provide only the {request.tgt_lang} translations without explanations."""
             # Single translation
             unit = request.units[0]
             try:
-                # Build user message
+                # Build user prompt
                 user_content = self._build_user_message(unit.text, request)
 
-                # Build messages array
-                messages = []
-                if system_content:
-                    messages.append({"role": "system", "content": system_content})
-                messages.append({"role": "user", "content": user_content})
+                # Configure generation
+                generation_config = self._get_generation_config(request)
+
+                # Create model with system instruction if provided
+                if system_instruction:
+                    from vertexai.generative_models import GenerativeModel
+                    model = GenerativeModel(
+                        self.model,
+                        system_instruction=system_instruction
+                    )
+                else:
+                    model = self.client
 
                 # Call API
-                params = self._get_api_params(request)
-                response = self.client.chat.completions.create(
-                    **params,
-                    messages=messages
+                response = model.generate_content(
+                    user_content,
+                    generation_config=generation_config
                 )
 
                 # Extract translation
-                translation = response.choices[0].message.content if response.choices else ""
+                translation = response.text
+
+                # Get usage
+                usage = self._get_usage(response)
 
                 # Calculate cost
-                cost = self._calculate_cost(response.usage)
-
-                # Extract cached tokens info
-                cached_tokens = 0
-                if hasattr(response.usage, 'prompt_tokens_details') and response.usage.prompt_tokens_details:
-                    cached_tokens = getattr(response.usage.prompt_tokens_details, 'cached_tokens', 0)
+                cost = self._calculate_cost(usage)
 
                 results.append(TranslationResult(
                     source=unit.text,
@@ -269,10 +281,9 @@ Provide only the {request.tgt_lang} translations without explanations."""
                     status=TranslationStatus.COMPLETED,
                     metadata={
                         'model': self.model,
-                        'prompt_tokens': response.usage.prompt_tokens,
-                        'completion_tokens': response.usage.completion_tokens,
-                        'total_tokens': response.usage.total_tokens,
-                        'cached_tokens': cached_tokens
+                        'project': self.project_id,
+                        'location': self.location,
+                        **usage
                     }
                 ))
 
@@ -292,7 +303,11 @@ Provide only the {request.tgt_lang} translations without explanations."""
             total_cost=total_cost,
             provider=self.name,
             model=self.model,
-            metadata={'use_caching': self.use_caching}
+            metadata={
+                'use_caching': self.use_caching,
+                'project': self.project_id,
+                'location': self.location
+            }
         )
 
     def translate_sync(self, request: TranslationRequest) -> TranslationResponse:
@@ -300,8 +315,8 @@ Provide only the {request.tgt_lang} translations without explanations."""
         import asyncio
         return asyncio.run(self.translate(request))
 
-    def _build_system_message(self, request: TranslationRequest) -> Optional[str]:
-        """Build system message with examples for caching."""
+    def _build_system_instruction(self, request: TranslationRequest) -> Optional[str]:
+        """Build system instruction with examples for caching."""
         if not self.prompt_manager:
             return None
 
@@ -333,45 +348,49 @@ Provide only the {request.tgt_lang} translations without explanations."""
             # Fallback simple prompt
             return f"Translate the following {request.src_lang} text to {request.tgt_lang}:\n\n{text}\n\nProvide only the translation."
 
-    def _get_api_params(self, request: TranslationRequest) -> Dict[str, Any]:
-        """Get API parameters."""
-        # o1 and o3 models are reasoning models that use tokens for internal reasoning
-        if self.model in ['o1', 'o1-mini', 'o3-mini']:
-            # Reasoning models use max_completion_tokens instead of max_tokens
-            # Default to 16000 to allow for both reasoning and output
-            params = {
-                'model': self.model,
-                'max_completion_tokens': request.parameters.get('max_tokens', 16000)
-                # Note: Reasoning models only support temperature=1 (default), so we omit it
-            }
-        else:
-            params = {
-                'model': self.model,
-                'max_tokens': request.parameters.get('max_tokens', 2048),
-                'temperature': request.parameters.get('temperature', 0.3)
-            }
+    def _get_generation_config(self, request: TranslationRequest):
+        """Get generation configuration."""
+        from vertexai.generative_models import GenerationConfig
 
-        return params
+        return GenerationConfig(
+            temperature=request.parameters.get('temperature', 0.3),
+            max_output_tokens=request.parameters.get('max_tokens', 2048),
+            top_p=request.parameters.get('top_p', 0.9)
+        )
 
-    def _calculate_cost(self, usage) -> float:
+    def _get_usage(self, response) -> Dict[str, int]:
+        """Extract usage statistics from response."""
+        usage = {
+            'prompt_tokens': 0,
+            'completion_tokens': 0,
+            'total_tokens': 0,
+            'cached_tokens': 0
+        }
+
+        if hasattr(response, 'usage_metadata'):
+            metadata = response.usage_metadata
+            usage['prompt_tokens'] = getattr(metadata, 'prompt_token_count', 0)
+            usage['completion_tokens'] = getattr(metadata, 'candidates_token_count', 0)
+            usage['total_tokens'] = getattr(metadata, 'total_token_count', 0)
+            usage['cached_tokens'] = getattr(metadata, 'cached_content_token_count', 0)
+
+        return usage
+
+    def _calculate_cost(self, usage: Dict[str, int]) -> float:
         """Calculate cost from usage statistics."""
         model_spec = self.MODELS[self.model]
 
         # Get token counts
-        prompt_tokens = usage.prompt_tokens
-        completion_tokens = usage.completion_tokens
-
-        # Check for cached tokens (OpenAI provides this in prompt_tokens_details)
-        cached_tokens = 0
-        if hasattr(usage, 'prompt_tokens_details') and usage.prompt_tokens_details:
-            cached_tokens = getattr(usage.prompt_tokens_details, 'cached_tokens', 0)
+        prompt_tokens = usage.get('prompt_tokens', 0)
+        completion_tokens = usage.get('completion_tokens', 0)
+        cached_tokens = usage.get('cached_tokens', 0)
 
         # Calculate costs
         regular_input_tokens = prompt_tokens - cached_tokens
         input_cost = (regular_input_tokens / 1_000_000) * model_spec['input_cost']
 
         if self.use_caching and cached_tokens > 0:
-            cached_cost = (cached_tokens / 1_000_000) * model_spec.get('cached_input_cost', model_spec['input_cost'] * 0.5)
+            cached_cost = (cached_tokens / 1_000_000) * model_spec.get('cached_input_cost', model_spec['input_cost'] * 0.25)
             input_cost += cached_cost
 
         output_cost = (completion_tokens / 1_000_000) * model_spec['output_cost']
@@ -401,7 +420,7 @@ Provide only the {request.tgt_lang} translations without explanations."""
             # First request: full cost
             # Subsequent: cached
             regular_input_cost = (avg_input_tokens * request.num_units / 1_000_000) * model_spec['input_cost']
-            cached_input_cost = (system_tokens * (request.num_units - 1) / 1_000_000) * model_spec.get('cached_input_cost', model_spec['input_cost'] * 0.5)
+            cached_input_cost = (system_tokens * (request.num_units - 1) / 1_000_000) * model_spec.get('cached_input_cost', model_spec['input_cost'] * 0.25)
             system_first_cost = (system_tokens / 1_000_000) * model_spec['input_cost']
 
             input_cost = regular_input_cost + cached_input_cost + system_first_cost
@@ -414,18 +433,20 @@ Provide only the {request.tgt_lang} translations without explanations."""
             input_cost=input_cost,
             output_cost=output_cost,
             total_cost=input_cost + output_cost,
-            currency="USD",
+            currency="INR",
             num_units=request.num_units,
             estimated_tokens=total_input_tokens + avg_output_tokens,
             metadata={
                 'model': self.model,
                 'caching': self.use_caching,
-                'estimated_system_tokens': system_tokens
+                'estimated_system_tokens': system_tokens,
+                'project': self.project_id,
+                'location': self.location
             }
         )
 
     def supports_batch(self) -> bool:
-        """OpenAI supports batch processing via Batch API."""
+        """Vertex AI supports batch processing."""
         return True
 
     def supports_prompt_caching(self) -> bool:
@@ -437,8 +458,8 @@ Provide only the {request.tgt_lang} translations without explanations."""
         return self.MODELS[self.model]['max_tokens']
 
     def get_rate_limits(self) -> Dict[str, int]:
-        """Get rate limits."""
+        """Get rate limits (Vertex AI has different limits per region)."""
         return {
-            'requests_per_minute': 500,
-            'tokens_per_minute': 150000
+            'requests_per_minute': 300,
+            'tokens_per_minute': 1000000
         }

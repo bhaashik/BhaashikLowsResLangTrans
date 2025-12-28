@@ -25,14 +25,23 @@ class GeminiProvider(BaseTranslator):
     - Context caching for faster responses
     """
 
-    # Model specifications
+    # Model specifications (INR per 1M tokens via Gemini API)
     MODELS = {
+        # Gemini 2.0 models (latest)
         'gemini-2.0-flash-exp': {
-            'input_cost': 0.0,       # Free tier for now
+            'input_cost': 0.0,       # Free tier experimental
             'output_cost': 0.0,
             'max_tokens': 1000000,
             'supports_caching': True
         },
+        'gemini-2.0-flash': {
+            'input_cost': 3.19,      # INR per 1M tokens
+            'output_cost': 9.56,
+            'cached_input_cost': 0.80,  # 75% discount
+            'max_tokens': 1000000,
+            'supports_caching': True
+        },
+        # Gemini 1.5 models
         'gemini-1.5-flash': {
             'input_cost': 3.19,      # INR per 1M tokens
             'output_cost': 9.56,
@@ -40,15 +49,29 @@ class GeminiProvider(BaseTranslator):
             'max_tokens': 1000000,
             'supports_caching': True
         },
+        'gemini-1.5-flash-8b': {
+            'input_cost': 1.59,      # INR per 1M tokens (smaller, faster)
+            'output_cost': 4.78,
+            'cached_input_cost': 0.40,  # 75% discount
+            'max_tokens': 1000000,
+            'supports_caching': True
+        },
         'gemini-1.5-pro': {
             'input_cost': 106.25,    # INR per 1M tokens
-            'output_cost': 425,
+            'output_cost': 425.00,
             'cached_input_cost': 26.56,  # 75% discount
             'max_tokens': 2000000,
             'supports_caching': True
         },
+        # Gemini 1.0 models (legacy)
         'gemini-1.0-pro': {
             'input_cost': 42.50,
+            'output_cost': 127.50,
+            'max_tokens': 32000,
+            'supports_caching': False
+        },
+        'gemini-pro': {
+            'input_cost': 42.50,     # Alias for gemini-1.0-pro
             'output_cost': 127.50,
             'max_tokens': 32000,
             'supports_caching': False

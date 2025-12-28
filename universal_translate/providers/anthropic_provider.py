@@ -25,8 +25,9 @@ class AnthropicProvider(BaseTranslator):
     - Batch API for additional savings
     """
 
-    # Model specifications
+    # Model specifications (INR per 1M tokens, ~₹85 per USD)
     MODELS = {
+        # Haiku models (fast, cost-effective)
         'claude-haiku-3': {
             'input_cost': 0.21,      # INR per 1M tokens
             'output_cost': 1.06,
@@ -49,6 +50,23 @@ class AnthropicProvider(BaseTranslator):
             'cache_write_cost': 1.275,
             'cache_read_cost': 0.085
         },
+        # Sonnet models (balanced quality and speed)
+        'claude-sonnet-3.5': {
+            'input_cost': 2.55,
+            'output_cost': 12.75,
+            'max_tokens': 200000,
+            'supports_caching': True,
+            'cache_write_cost': 3.825,
+            'cache_read_cost': 0.255
+        },
+        'claude-sonnet-4': {
+            'input_cost': 2.55,
+            'output_cost': 12.75,
+            'max_tokens': 200000,
+            'supports_caching': True,
+            'cache_write_cost': 3.825,
+            'cache_read_cost': 0.255
+        },
         'claude-sonnet-4.5': {
             'input_cost': 2.55,
             'output_cost': 12.75,
@@ -56,6 +74,23 @@ class AnthropicProvider(BaseTranslator):
             'supports_caching': True,
             'cache_write_cost': 3.825,
             'cache_read_cost': 0.255
+        },
+        # Opus models (highest quality)
+        'claude-opus-3': {
+            'input_cost': 12.75,     # INR per 1M tokens
+            'output_cost': 63.75,
+            'max_tokens': 200000,
+            'supports_caching': True,
+            'cache_write_cost': 19.13,
+            'cache_read_cost': 1.28
+        },
+        'claude-opus-4': {
+            'input_cost': 12.75,
+            'output_cost': 63.75,
+            'max_tokens': 200000,
+            'supports_caching': True,
+            'cache_write_cost': 19.13,
+            'cache_read_cost': 1.28
         }
     }
 

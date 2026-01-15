@@ -4,245 +4,362 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-BhaashikLowsResLangTrans is a project for creating synthetic parallel corpora for low-resource Indic languages, particularly those not supported by IndicTrans2's 22 scheduled languages. The project focuses on cost-effective translation strategies using a combination of open-source models and commercial APIs.
+BhaashikLowsResLangTrans is a dual-architecture translation system for low-resource Indic languages:
+
+1. **Legacy System** (`src/`): Original tiered strategy using IndicTrans2 + Claude API
+2. **Universal Translation Framework** (`universal_translate/`): Modern plugin-based architecture supporting multiple LLM providers (OpenAI, Anthropic, Gemini, Vertex AI)
 
 ### Target Languages
 
-**Supported by IndicTrans2 (FREE - 22 languages):**
-Assamese, Bengali, Gujarati, Hindi, Kannada, Kashmiri, Konkani, Malayalam, Manipuri, Marathi, Nepali, Odia, Punjabi, Sanskrit, Sindhi, Tamil, Telugu, Urdu, Bodo, Santhali, Maithili, Dogri
+**22 Free Languages** (via IndicTrans2): Assamese, Bengali, Gujarati, Hindi, Kannada, Kashmiri, Konkani, Malayalam, Manipuri, Marathi, Nepali, Odia, Punjabi, Sanskrit, Sindhi, Tamil, Telugu, Urdu, Bodo, Santhali, Maithili, Dogri
 
-**NOT Supported (6 languages requiring budget):**
-1. Bhojpuri (Indo-Aryan, ~51M speakers)
-2. Magahi (Indo-Aryan, ~13M speakers)
-3. Awadhi (Indo-Aryan, ~38M speakers)
-4. Braj (Indo-Aryan, ~1M speakers)
-5. Marwari (Indo-Aryan, ~13M speakers)
-6. Bundeli (Indo-Aryan, ~3M speakers)
+**6 Low-Resource Languages** (requiring API): Bhojpuri (bho), Magahi (mag), Awadhi (awa), Braj (bra), Marwari (mwr), Bundeli (bns)
 
-## Development Environment
+## Architecture
 
-### System Requirements
-- **Platform**: Ubuntu 24.04 or later
-- **Python**: 3.10+
-- **Disk Space**: 120 GB minimum (150+ GB recommended for full setup)
-- **RAM**: 16 GB minimum (32 GB recommended)
-- **Internet**: 50+ Mbps recommended for downloading large datasets
+### Two Translation Systems
+
+**1. Legacy Tiered System (`src/`)**
+- `src/tiered_orchestrator.py`: Implements 70/20/10 strategy (Hindi pivot / Claude 3.5 / Claude 4.5)
+- `src/translators/`: IndicTrans2, NLLB, Hindi pivot implementations
+- `src/api_clients/`: Claude API client with cost tracking
+- `src/quality/`: BLEU, chrF, TER metrics
+- `src/utils/`: Config, logger, cost tracker
+
+**2. Universal Framework (`universal_translate/`)**
+- `universal_translate/core/`: Abstract `BaseTranslator` interface and request/response models
+- `universal_translate/providers/`: Provider implementations (OpenAI, Anthropic, Gemini, Vertex)
+- `universal_translate/providers/registry.py`: Dynamic provider registration and discovery
+- `universal_translate/prompts/`: Multi-language prompt templates with examples
+- `universal_translate/processors/`: Input/output format handlers (CoNLL-U, plain text)
+
+### Key Design Patterns
+
+**Provider Plugin System**: All providers implement `BaseTranslator` interface defined in `universal_translate/core/base_translator.py`. The registry pattern in `universal_translate/providers/registry.py` allows runtime provider discovery and switching.
+
+**Translation Request Flow**:
+```
+TranslationRequest → BaseTranslator.translate() → Provider-specific API call → TranslationResponse
+```
+
+**Prompt Caching Strategy**: Each provider implements automatic prompt caching:
+- OpenAI: 50% discount on cached prompts (ephemeral storage)
+- Anthropic: 90% discount on cached prompts (persistent)
+- Gemini: 75% discount on cached prompts
+
+**Cost Tracking**: Automatic cost calculation across all providers with provider-specific pricing models defined in each provider class.
+
+## Common Commands
 
 ### Environment Setup
 
 ```bash
-# Create and activate conda environment
-conda create -n NLPLResourceDownload python=3.10 -y
+# Create conda environment
+conda env create -f environment.yml
 conda activate NLPLResourceDownload
 
-# Install core packages
-conda install -c conda-forge -y \
-    pytorch torchvision torchaudio pytorch-cuda=11.8 \
-    transformers datasets accelerate sentencepiece protobuf \
-    numpy pandas tqdm requests aiohttp pyyaml
+# Or install via pip
+pip install -r requirements.txt
 
-# Install additional packages
-pip install huggingface-hub hf-transfer python-dotenv colorama rich
-
-# For CPU-only systems
-conda install -c conda-forge pytorch torchvision torchaudio cpuonly -y
+# Setup API keys (REQUIRED)
+cp .env.example .env
+# Edit .env with your actual API keys
 ```
 
-### Environment Variables
+### Running Translations
 
-These environment variables must be set for the project:
+**Universal CLI (Recommended for new work)**:
+```bash
+# List available providers
+python scripts/translate_cli.py --list-providers
+
+# OpenAI GPT-4o-mini
+python scripts/translate_cli.py --provider openai --source-lang hi --target-lang mwr --text "नमस्ते"
+
+# Anthropic Claude
+python scripts/translate_cli.py --provider anthropic --model claude-haiku-4.5 --source-lang hi --target-lang bho --text "नमस्ते"
+
+# Google Gemini
+python scripts/translate_cli.py --provider gemini --source-lang hi --target-lang awa --text "नमस्ते"
+
+# Batch translation from file
+python scripts/translate_cli.py --provider openai --source-lang hi --target-lang mwr --input input.txt --output output.txt
+
+# Estimate costs before running
+python scripts/translate_cli.py --provider openai --source-lang hi --target-lang mwr --input input.txt --estimate-only
+```
+
+**Legacy CLI (for IndicTrans2 and tiered strategy)**:
+```bash
+# Free IndicTrans2 translation
+python scripts/translate.py --src en --tgt hi --text "Hello" --indictrans2
+
+# Hindi pivot for low-resource languages (FREE)
+python scripts/translate.py --src en --tgt bho --text "Hello" --hindi-pivot
+
+# Tiered strategy (70/20/10 - COSTS MONEY)
+python scripts/translate.py --src en --tgt bho --input texts.txt --output translations.txt --tiered
+
+# Cost estimation
+python scripts/translate.py --src en --tgt bho --num-samples 10000 --estimate-only
+```
+
+**Corpus Translation** (preserves directory structure):
+```bash
+python scripts/translate_corpus.py \
+  --input-dir /path/to/UD_Hindi \
+  --output-dir /path/to/UD_Bhojpuri \
+  --src hi --tgt bho \
+  --format conllu \
+  --hindi-pivot
+```
+
+### Testing
 
 ```bash
-export BASE_DIR="/mnt/data/nlp_resources"  # Adjust to your preferred location
-export HF_DATASETS_CACHE="$BASE_DIR/cache/datasets"
-export HF_HOME="$BASE_DIR/cache/huggingface"
-export TRANSFORMERS_CACHE="$BASE_DIR/cache/transformers"
-export HF_HUB_ENABLE_HF_TRANSFER=1
+# Run tests
+pytest tests/
+
+# Test specific module
+pytest tests/test_config.py
+
+# Run with coverage
+pytest --cov=src --cov=universal_translate tests/
+
+# Test all providers (requires API keys)
+python scripts/test_all_providers.py
 ```
 
-Add these to `~/.bashrc` to make them persistent.
+### Verification and Monitoring
 
-### Directory Structure
+```bash
+# Verify setup
+python scripts/verify.py --all
+
+# View cost tracking summary
+python -c "from src.utils.cost_tracker import CostTracker; CostTracker('logs/cost_tracking.json').print_summary()"
+```
+
+### Code Quality
+
+```bash
+# Format code
+black src/ universal_translate/ scripts/ examples/
+
+# Lint
+flake8 src/ universal_translate/ scripts/
+
+# Type checking
+mypy src/ universal_translate/
+```
+
+## Configuration
+
+### Main Config File: `config/config.yaml`
+
+- **languages**: Defines supported and unsupported languages with pivot strategies
+- **models**: IndicTrans2, NLLB model paths
+- **strategy**: Tiered approach configuration (percentages: free/enhancement/premium)
+- **api**: Provider-specific pricing (Anthropic, OpenAI, Google, Azure)
+- **processing**: Batch size, GPU settings, checkpointing
+- **cost_tracking**: Budget alerts, currency conversion
+
+### Environment Variables (`.env`)
+
+Required for API access:
+```bash
+OPENAI_API_KEY=sk-proj-...
+ANTHROPIC_API_KEY=sk-ant-api03-...
+GOOGLE_API_KEY=...
+GOOGLE_CLOUD_PROJECT=...  # For Vertex AI
+GOOGLE_APPLICATION_CREDENTIALS=...  # For Vertex AI
+```
+
+Optional for local model paths:
+```bash
+BASE_DIR=/mnt/data/nlp_resources
+HF_DATASETS_CACHE=$BASE_DIR/cache/datasets
+HF_HOME=$BASE_DIR/cache/huggingface
+TRANSFORMERS_CACHE=$BASE_DIR/cache/transformers
+```
+
+### Prompt Configuration
+
+Multi-language prompt templates in `universal_translate/config/prompts/`:
+- `awadhi-prompt.yaml`, `braj-prompt.yaml`, `marwari-prompt.yaml`, etc.
+- Each file contains language-specific examples and cultural context
+- Prompts are automatically loaded by `universal_translate/prompts/prompt_manager.py`
+
+## Python API Usage
+
+### Universal Framework (Recommended)
+
+```python
+from universal_translate.providers import OpenAIProvider, AnthropicProvider
+from universal_translate.core import TranslationRequest
+
+# Initialize provider
+translator = OpenAIProvider(model='gpt-4o-mini')
+
+# Create request
+request = TranslationRequest(
+    units=["नमस्ते", "आप कैसे हैं?"],
+    source_lang="hi",
+    target_lang="mwr"
+)
+
+# Translate
+response = translator.translate_sync(request)
+print(response.translations)
+print(f"Cost: {response.cost_info.total_cost} {response.cost_info.currency}")
+```
+
+### Legacy API
+
+```python
+from src.translators import IndicTrans2Translator, HindiPivotTranslator
+from src.tiered_orchestrator import TieredOrchestrator
+
+# IndicTrans2 (free)
+translator = IndicTrans2Translator()
+result = translator.translate("Hello", src_lang='en', tgt_lang='hi')
+
+# Hindi pivot (free)
+pivot_translator = HindiPivotTranslator()
+result = pivot_translator.translate(["Hello"], src_lang='en', tgt_lang='bho')
+
+# Tiered orchestrator (costs money)
+orchestrator = TieredOrchestrator()
+results = orchestrator.translate(
+    texts=["Hello", "Goodbye"],
+    src_lang='en',
+    tgt_lang='bho'
+)
+```
+
+## Project Structure
 
 ```
-$BASE_DIR/
-├── datasets/       # Downloaded parallel corpora
-├── models/         # Translation models
-├── cache/          # HuggingFace cache
-│   ├── datasets/
-│   ├── huggingface/
-│   └── transformers/
-├── logs/           # Download and processing logs
-└── scripts/        # Download and processing scripts
+.
+├── src/                          # Legacy tiered translation system
+│   ├── tiered_orchestrator.py   # 70/20/10 strategy orchestrator
+│   ├── translators/              # IndicTrans2, NLLB, Hindi pivot
+│   ├── api_clients/              # Claude API client
+│   ├── quality/                  # Quality metrics (BLEU, chrF, TER)
+│   └── utils/                    # Config, logger, cost tracker
+├── universal_translate/          # Modern multi-provider framework
+│   ├── core/                     # Abstract interfaces (BaseTranslator)
+│   ├── providers/                # OpenAI, Anthropic, Gemini, Vertex
+│   ├── prompts/                  # Language-specific prompt templates
+│   ├── processors/               # Format handlers (CoNLL-U, text)
+│   └── config/prompts/           # YAML prompt configurations
+├── scripts/
+│   ├── translate_cli.py          # Universal CLI (RECOMMENDED)
+│   ├── translate.py              # Legacy CLI with tiered strategy
+│   ├── translate_corpus.py       # Directory structure preservation
+│   ├── download.py               # Download datasets/models
+│   └── verify.py                 # Verify installation
+├── examples/                     # Python usage examples
+├── config/config.yaml            # Main configuration
+├── environment.yml               # Conda environment
+├── requirements.txt              # Pip dependencies
+└── tests/                        # Test suite
 ```
+
+## Cost Optimization
+
+### Tiered Strategy (Legacy System)
+
+- **Tier 1 (70%)**: Free Hindi pivot using IndicTrans2
+- **Tier 2 (20%)**: Claude Haiku 3.5 (₹408/1M tokens)
+- **Tier 3 (10%)**: Claude Haiku 4.5 (₹510/1M tokens)
+- **Total for 12M pairs**: ~₹62,912 ($740)
+
+### Provider Cost Comparison (Universal Framework)
+
+- **OpenAI GPT-4o-mini**: $0.15/$0.60 per 1M tokens (input/output) - Best balance
+- **Anthropic Claude Haiku 4.5**: $1/$5 per 1M tokens - Best quality, 90% cache discount
+- **Gemini 2.0 Flash Exp**: Free tier available - Best for experimentation
+- **Gemini 1.5 Flash**: $0.075/$0.30 per 1M tokens - Most economical paid option
+
+### Caching Benefits
+
+Prompts with examples are automatically cached:
+- **OpenAI**: 50% discount on cached prompts (ephemeral storage, 5-10 min)
+- **Anthropic**: 90% discount on cached prompts (5 minutes persistent)
+- **Gemini**: 75% discount on cached prompts (1 hour persistent)
+
+For batch translation, the prompt (with examples) is reused, drastically reducing costs.
+
+## Important Notes for Development
+
+### Adding a New Provider
+
+1. Create `universal_translate/providers/{provider_name}_provider.py`
+2. Inherit from `BaseTranslator` in `universal_translate/core/base_translator.py`
+3. Implement required methods: `translate()`, `translate_sync()`, `get_cost_estimate()`
+4. Add provider to registry in `universal_translate/providers/registry.py`
+5. Update `scripts/translate_cli.py` to support new provider
+
+### Adding a New Language
+
+1. Create prompt template: `universal_translate/config/prompts/{language}-prompt.yaml`
+2. Include 5-15 translation examples in the prompt
+3. Add language metadata and cultural context
+4. Test with `scripts/translate_cli.py --target-lang {language}`
+
+### Modifying Tiered Strategy
+
+Edit `config/config.yaml`:
+```yaml
+strategy:
+  unsupported_strategy:
+    tiers:
+      - name: "free_pivot"
+        percentage: 85  # Adjust percentages
+      - name: "quality_enhancement"
+        percentage: 10
+      - name: "premium_quality"
+        percentage: 5
+```
+
+### Translation Quality Assessment
+
+Use `src/quality/metrics.py` for evaluation:
+```python
+from src.quality import QualityMetrics
+
+metrics = QualityMetrics()
+scores = metrics.calculate_all_metrics(
+    hypotheses=translations,
+    references=reference_translations
+)
+# Returns: corpus_bleu, chrf, ter scores
+```
+
+### Working with CoNLL-U Format
+
+Use `scripts/translate_corpus.py` with `--format conllu` to preserve:
+- Sentence boundaries
+- Token indices
+- Morphological features
+- Dependency relations
+
+Only the FORM (word) and LEMMA fields are translated; other annotations are preserved.
 
 ## Data Sources
 
-### Samanantar Corpus
-- **Total pairs**: 49.7 million sentence pairs
-- **Languages**: 11 Indic languages paired with English
-- **Languages available**: as (Assamese), bn (Bengali), gu (Gujarati), hi (Hindi), kn (Kannada), ml (Malayalam), mr (Marathi), or (Odia), pa (Punjabi), ta (Tamil), te (Telugu)
-- **Size**: ~25-30 GB compressed, ~50-60 GB uncompressed
-- **Source**: `ai4bharat/samanantar` on HuggingFace
+- **Samanantar**: 49.7M English-Indic parallel pairs (`ai4bharat/samanantar`)
+- **IndicTrans2 Models**: `ai4bharat/indictrans2-*` (1B and 200M variants)
+- **NLLB Models**: `facebook/nllb-200-*` (600M, 1.3B, 3.3B variants)
 
-### Translation Models
-
-**IndicTrans2 (FREE - Primary)**
-- `ai4bharat/indictrans2-en-indic-1B` - English to Indic
-- `ai4bharat/indictrans2-indic-en-1B` - Indic to English
-- `ai4bharat/indictrans2-indic-indic-1B` - Indic to Indic
-- `ai4bharat/indictrans2-en-indic-dist-200M` - Distilled English to Indic
-- `ai4bharat/indictrans2-indic-en-dist-200M` - Distilled Indic to English
-
-**NLLB-200 (FREE - Secondary)**
-- `facebook/nllb-200-distilled-600M` - Lightweight
-- `facebook/nllb-200-1.3B` - Balanced
-- `facebook/nllb-200-3.3B` - High quality
-
-**LLMs (FREE - Experimental)**
-- `meta-llama/Llama-3.1-8B-Instruct`
-- `mistralai/Mistral-7B-Instruct-v0.3`
-- `CohereForAI/aya-101`
-
-## Translation Strategy
-
-### For 22 Supported Languages
-Use IndicTrans2 directly - completely free (compute costs only).
-
-### For 6 Unsupported Languages (Bhojpuri, Magahi, Awadhi, Braj, Marwari, Bundeli)
-
-**Recommended Approach: Tiered Strategy**
-
-1. **70% IndicTrans2 Hindi Pivot (FREE)**
-   - English → Hindi → Target Language
-   - Hindi is closely related to these languages
-
-2. **20% Claude Haiku 3.5 Enhancement**
-   - For quality improvement on challenging segments
-   - Cost: ₹68 input / ₹340 output per 1M tokens
-
-3. **10% Claude Haiku 4.5 Premium**
-   - For domain-specific or culturally sensitive content
-   - Cost: ₹85 input / ₹425 output per 1M tokens
-
-**Cost Optimization:**
-- Use Batch API (50% discount on output)
-- Enable Prompt Caching (90% discount on cached input)
-- **Estimated cost**: ₹62,912 (~$740) for all 6 languages (12M sentence pairs)
-- **Per-language cost**: ₹10,485 (~$123) for 2M sentence pairs
-
-## Common Commands
-
-### Downloading Data
-
-```bash
-# Activate environment
-conda activate NLPLResourceDownload
-
-# Navigate to scripts directory
-cd "$BASE_DIR/scripts"
-
-# Download all resources (requires 600GB space)
-./master_download.sh all
-
-# Download selectively
-./master_download.sh samanantar
-./master_download.sh indictrans
-./master_download.sh nllb
-./master_download.sh llms
-
-# Verify downloads
-python verify_downloads.py
-```
-
-### Monitoring Downloads
-
-```bash
-# Check disk usage
-du -sh "$BASE_DIR"/*
-df -h "$BASE_DIR"
-
-# Monitor download logs
-tail -f "$BASE_DIR/logs/download_*.log"
-```
-
-### HuggingFace Authentication
-
-Required for gated models (e.g., Llama):
-```bash
-huggingface-cli login
-# Get token from: https://huggingface.co/settings/tokens
-```
-
-## Architecture Principles
-
-### Translation Pipeline Design
-
-1. **Data Loading**: Use HuggingFace `datasets` library with proper caching
-2. **Model Selection**: Choose based on language pair and quality requirements
-3. **Batch Processing**: Process in batches to manage memory
-4. **Quality Control**: Implement validation and post-editing workflows
-5. **Cost Tracking**: Monitor API usage for commercial services
-
-### Hindi Pivot Strategy
-
-For unsupported languages, use Hindi as a pivot language because:
-- Hindi is linguistically related to all 6 target languages (Indo-Aryan family)
-- IndicTrans2 has excellent Hindi support
-- Reduces translation cost while maintaining reasonable quality
-
-### Quality Enhancement
-
-- Use open-source models for bulk translation (70-90%)
-- Apply commercial APIs selectively for:
-  - Complex sentences
-  - Domain-specific content
-  - Cultural nuances
-  - Idiomatic expressions
-
-## Cost Considerations
-
-### Pricing (Indian Rupees)
-
-**Claude API (per 1M tokens):**
-- Haiku 3: ₹21 input / ₹106 output
-- Haiku 3.5: ₹68 input / ₹340 output
-- Haiku 4.5: ₹85 input / ₹425 output
-- Sonnet 4.5: ₹255 input / ₹1,275 output
-
-**Batch API**: 50% discount on output tokens
-**Prompt Caching**: 90% discount on cached input tokens
-
-### Budget Estimation
-
-For 1.2 billion characters (12M sentence pairs) across 6 languages:
-- Pure IndicTrans2: ₹0 (compute only)
-- 90% pivot + 10% Haiku 4.5: ₹45,900 ($540)
-- 80% pivot + 20% Haiku 4.5: ₹91,800 ($1,080)
-- Tiered (70/20/10) with Batch + Cache: ₹62,912 ($740) **RECOMMENDED**
+Download via: `python scripts/download.py`
 
 ## References
 
-### Key Papers
-- **Samanantar**: https://arxiv.org/abs/2104.05596
 - **IndicTrans2**: https://arxiv.org/abs/2305.16307
+- **Samanantar**: https://arxiv.org/abs/2104.05596
 - **NLLB**: https://arxiv.org/abs/2207.04672
-
-### Documentation
-- **AI4Bharat**: https://ai4bharat.org/
-- **Samanantar Dataset**: https://huggingface.co/datasets/ai4bharat/samanantar
-- **IndicTrans2 Models**: https://huggingface.co/ai4bharat
-- **Claude API**: https://docs.anthropic.com/claude/docs
-- **HuggingFace Datasets**: https://huggingface.co/docs/datasets/
-
-## Project Status
-
-**Current Phase**: Initial setup and planning
-**Next Steps**:
-1. Create directory structure
-2. Set up download scripts
-3. Download Samanantar corpus
-4. Download IndicTrans2 models
-5. Implement Hindi pivot translation pipeline
-6. Develop quality assessment metrics
-7. Implement selective API enhancement
+- **OpenAI Prompt Caching**: https://platform.openai.com/docs/guides/prompt-caching
+- **Anthropic Prompt Caching**: https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching
+- **Gemini Context Caching**: https://ai.google.dev/gemini-api/docs/caching

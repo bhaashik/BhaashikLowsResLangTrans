@@ -1,0 +1,150 @@
+# Example training configuration with language embeddings
+# For training NLLB models with typological language features
+
+# Model configuration
+model:
+  model_name_or_path: "facebook/nllb-200-distilled-600M"
+  source_lang: "hi"
+  target_lang: "bho"
+  model_type: "seq2seq"
+  max_length: 256
+  device: "cuda"
+
+# Training configuration
+training:
+  output_dir: "models/nllb-bhojpuri-lang-emb"
+  num_train_epochs: 10
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 16
+  gradient_accumulation_steps: 4
+  learning_rate: 3e-4
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  lr_scheduler_type: "cosine"
+
+  # Evaluation
+  evaluation_strategy: "steps"
+  eval_steps: 500
+  save_steps: 500
+  save_total_limit: 3
+  load_best_model_at_end: true
+  metric_for_best_model: "eval_bleu"
+  greater_is_better: true
+
+  # Early stopping
+  early_stopping_patience: 3
+
+  # Mixed precision
+  fp16: true
+
+  # Logging
+  logging_steps: 100
+  report_to: ["tensorboard"]
+  run_name: "nllb-bhojpuri-lang-emb"
+
+  # Generation
+  generation_max_length: 256
+  generation_num_beams: 5
+
+  # Seeds
+  seed: 42
+  data_seed: 42
+
+# LoRA configuration
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.1
+  target_modules: ["q_proj", "v_proj", "k_proj", "out_proj", "fc1", "fc2"]
+  bias: "none"
+  task_type: "SEQ_2_SEQ_LM"
+
+# Data configuration
+data:
+  train_file: "data/hi_bho_train.tsv"
+  val_file: "data/hi_bho_val.tsv"
+  format: "tsv"
+  source_column: "source"
+  target_column: "target"
+  max_length: 256
+  min_length: 3
+  filter_duplicates: true
+  test_size: 0.0
+  val_size: 0.1
+
+# Language embeddings configuration
+language_embeddings:
+  # Enable language embeddings
+  use_source_embedding: true
+  use_target_embedding: false  # Can enable for bilateral embeddings
+  use_both: false
+
+  # Embedding source
+  embedding_source: "uriel"  # Options: uriel, wals, lang2vec
+  # - uriel: URIEL typological features (7,000+ languages)
+  # - wals: World Atlas of Language Structures (2,000+ languages)
+  # - lang2vec: Learned language embeddings (7,000+ languages)
+
+  # Feature types (for URIEL/WALS)
+  feature_types:
+    - "syntax"       # Syntactic features (word order, etc.)
+    - "phonology"    # Phonological features
+    - "morphology"   # Morphological features
+
+  # Embedding dimension
+  embedding_dim: 64  # Projection dimension for embeddings
+
+  # Integration method
+  integration_method: "concatenate"
+  # Options:
+  # - concatenate: Concatenate language embedding with encoder outputs
+  # - add: Add language embedding to encoder outputs (requires same dimension)
+  # - condition: Use cross-attention to condition on language embedding
+  # - adapter: Use adapter layers conditioned on language embedding
+
+  # Feature selection
+  use_feature_selection: false
+  num_selected_features: 20  # If feature selection enabled
+
+  # Normalization
+  normalize_embeddings: true
+
+  # Caching
+  cache_embeddings: true
+
+# Notes:
+#
+# Language Embeddings:
+# - Represent typological properties of languages (word order, morphology, etc.)
+# - Help the model learn cross-lingual patterns
+# - Especially useful for low-resource languages with similar typology
+#
+# URIEL Features:
+# - Syntax: Word order (SOV, SVO, etc.), adpositions, adjective/genitive order
+# - Phonology: Consonant/vowel inventories, tone systems
+# - Morphology: Case systems, gender, number marking
+#
+# Integration Methods:
+# - concatenate: Simple but effective, adds language info to all encoder states
+# - add: More parameter-efficient, requires embedding_dim = model hidden_dim
+# - condition: Uses cross-attention, allows dynamic weighting
+# - adapter: Most flexible, adds language-specific transformations
+#
+# Expected Improvements:
+# - Better handling of typologically similar languages
+# - Improved zero-shot transfer between related languages
+# - More robust to language-specific phenomena
+# - 0.5-2 BLEU points improvement for low-resource pairs
+#
+# Combining with Linguistic Features:
+# - Can be used together with dependency parsing features
+# - Language embeddings provide language-level information
+# - Linguistic features provide sentence-level syntactic information
+# - Combined effect can be additive (2-4 BLEU improvement total)
+#
+# Requirements:
+# - No external libraries required for URIEL/WALS (embedded data)
+# - Optional: lang2vec library for full URIEL/learned embeddings
+#   Install with: pip install lang2vec
+# - Optional: pywals library for full WALS database
+#   Install with: pip install pywals

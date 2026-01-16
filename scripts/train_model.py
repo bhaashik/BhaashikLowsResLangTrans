@@ -31,6 +31,17 @@ Usage:
         --linguistic-parser stanza \\
         --linguistic-encoding-dim 128
 
+    # Train with language embeddings (typological features)
+    python scripts/train_model.py \\
+        --model nllb-600m \\
+        --source-lang hi \\
+        --target-lang bho \\
+        --train-data data/hi_bho_train.tsv \\
+        --output models/nllb-bhojpuri-lang-emb \\
+        --use-language-embeddings \\
+        --language-embedding-source uriel \\
+        --language-embedding-dim 64
+
     # Train with custom config
     python scripts/train_model.py \\
         --model nllb-1.3b \\
@@ -71,6 +82,7 @@ from src.training.trainers.linguistic_trainer import create_trainer
 from src.training.models import ModelFactory
 from src.training.data import ParallelCorpusLoader
 from src.training.linguistic import LinguisticFeaturesConfig
+from src.training.language_embeddings import LanguageEmbeddingsConfig
 
 # Setup logging
 logging.basicConfig(
@@ -217,6 +229,42 @@ def parse_args():
         help='Use GNN for parse encoding (experimental)'
     )
 
+    # Language embeddings configuration
+    lang_emb_group = parser.add_argument_group('Language Embeddings')
+    lang_emb_group.add_argument(
+        '--use-language-embeddings', action='store_true',
+        help='Enable language embeddings (typological features)'
+    )
+    lang_emb_group.add_argument(
+        '--language-embedding-source',
+        choices=['uriel', 'wals', 'lang2vec'],
+        default='uriel',
+        help='Source of language embeddings (default: uriel)'
+    )
+    lang_emb_group.add_argument(
+        '--language-embedding-dim', type=int, default=64,
+        help='Language embedding dimension (default: 64)'
+    )
+    lang_emb_group.add_argument(
+        '--language-embedding-features', nargs='+',
+        default=['syntax', 'phonology', 'morphology'],
+        help='Feature types to use (default: syntax phonology morphology)'
+    )
+    lang_emb_group.add_argument(
+        '--language-embedding-method',
+        choices=['concatenate', 'add', 'condition', 'adapter'],
+        default='concatenate',
+        help='Integration method (default: concatenate)'
+    )
+    lang_emb_group.add_argument(
+        '--language-use-source', action='store_true', default=True,
+        help='Use source language embedding (default: True)'
+    )
+    lang_emb_group.add_argument(
+        '--language-use-target', action='store_true',
+        help='Use target language embedding'
+    )
+
     # Advanced configuration
     advanced_group = parser.add_argument_group('Advanced Configuration')
     advanced_group.add_argument(
@@ -265,6 +313,11 @@ def create_configs_from_args(args):
         linguistic_config = None
         if 'linguistic' in yaml_config:
             linguistic_config = LinguisticFeaturesConfig.from_dict(yaml_config['linguistic'])
+
+        # Language embeddings config from YAML
+        language_embeddings_config = None
+        if 'language_embeddings' in yaml_config:
+            language_embeddings_config = LanguageEmbeddingsConfig.from_dict(yaml_config['language_embeddings'])
 
     else:
         # Create configs from command-line args
@@ -317,7 +370,19 @@ def create_configs_from_args(args):
                 use_graph_encoder=args.linguistic_use_graph_encoder,
             )
 
-    return model_config, lora_config, training_config, data_config, linguistic_config
+        # Language embeddings config from command-line args
+        language_embeddings_config = None
+        if args.use_language_embeddings:
+            language_embeddings_config = LanguageEmbeddingsConfig(
+                use_source_embedding=args.language_use_source,
+                use_target_embedding=args.language_use_target,
+                embedding_source=args.language_embedding_source,
+                embedding_dim=args.language_embedding_dim,
+                feature_types=args.language_embedding_features,
+                integration_method=args.language_embedding_method,
+            )
+
+    return model_config, lora_config, training_config, data_config, linguistic_config, language_embeddings_config
 
 
 def main():
@@ -329,7 +394,7 @@ def main():
     logger.info("=" * 80)
 
     # Create configurations
-    model_config, lora_config, training_config, data_config, linguistic_config = create_configs_from_args(args)
+    model_config, lora_config, training_config, data_config, linguistic_config, language_embeddings_config = create_configs_from_args(args)
 
     logger.info(f"Model: {model_config.model_name_or_path}")
     logger.info(f"Languages: {args.source_lang} → {args.target_lang}")
@@ -346,6 +411,18 @@ def main():
         logger.info(f"  Source parse: {linguistic_config.use_source_parse}")
         logger.info(f"  Target parse: {linguistic_config.use_target_parse}")
         logger.info(f"  Integration: {linguistic_config.integration_method}")
+        logger.info("=" * 80)
+
+    if language_embeddings_config:
+        logger.info("\n" + "=" * 80)
+        logger.info("Language Embeddings: ENABLED")
+        logger.info("=" * 80)
+        logger.info(f"  Source: {language_embeddings_config.embedding_source}")
+        logger.info(f"  Feature types: {', '.join(language_embeddings_config.feature_types)}")
+        logger.info(f"  Embedding dim: {language_embeddings_config.embedding_dim}")
+        logger.info(f"  Source embedding: {language_embeddings_config.use_source_embedding}")
+        logger.info(f"  Target embedding: {language_embeddings_config.use_target_embedding}")
+        logger.info(f"  Integration: {language_embeddings_config.integration_method}")
         logger.info("=" * 80)
 
     # Load data

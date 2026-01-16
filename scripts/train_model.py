@@ -9,6 +9,7 @@ Supports:
 - Multiple data formats (TSV, CSV, JSON, JSONL, HuggingFace)
 - Configurable training hyperparameters
 - Automatic evaluation and checkpointing
+- Linguistic features integration (dependency parsing)
 
 Usage:
     # Train NLLB with LoRA
@@ -18,6 +19,17 @@ Usage:
         --target-lang bho \\
         --train-data data/hi_bho_train.tsv \\
         --output models/nllb-bhojpuri
+
+    # Train with linguistic features (dependency parsing)
+    python scripts/train_model.py \\
+        --model nllb-600m \\
+        --source-lang hi \\
+        --target-lang bho \\
+        --train-data data/hi_bho_train.tsv \\
+        --output models/nllb-bhojpuri-linguistic \\
+        --use-linguistic-features \\
+        --linguistic-parser stanza \\
+        --linguistic-encoding-dim 128
 
     # Train with custom config
     python scripts/train_model.py \\
@@ -55,8 +67,10 @@ from src.training.config import (
     DataConfig,
 )
 from src.training.trainers import LoRATrainer, CausalLMTrainer
+from src.training.trainers.linguistic_trainer import create_trainer
 from src.training.models import ModelFactory
 from src.training.data import ParallelCorpusLoader
+from src.training.linguistic import LinguisticFeaturesConfig
 
 # Setup logging
 logging.basicConfig(
@@ -169,6 +183,40 @@ def parse_args():
         help='LoRA dropout (default: 0.1)'
     )
 
+    # Linguistic features configuration
+    linguistic_group = parser.add_argument_group('Linguistic Features')
+    linguistic_group.add_argument(
+        '--use-linguistic-features', action='store_true',
+        help='Enable linguistic features (dependency parsing)'
+    )
+    linguistic_group.add_argument(
+        '--linguistic-parser',
+        choices=['stanza', 'spacy', 'trankit', 'udpipe'],
+        default='stanza',
+        help='Parser to use for linguistic features (default: stanza)'
+    )
+    linguistic_group.add_argument(
+        '--linguistic-features', nargs='+',
+        default=['dependency_labels', 'pos_tags', 'tree_depth', 'head_distance'],
+        help='Features to extract from parse (default: dependency_labels pos_tags tree_depth head_distance)'
+    )
+    linguistic_group.add_argument(
+        '--linguistic-encoding-dim', type=int, default=128,
+        help='Encoding dimension for linguistic features (default: 128)'
+    )
+    linguistic_group.add_argument(
+        '--linguistic-use-source', action='store_true', default=True,
+        help='Use source-side parse (default: True)'
+    )
+    linguistic_group.add_argument(
+        '--linguistic-use-target', action='store_true',
+        help='Use target-side parse'
+    )
+    linguistic_group.add_argument(
+        '--linguistic-use-graph-encoder', action='store_true',
+        help='Use GNN for parse encoding (experimental)'
+    )
+
     # Advanced configuration
     advanced_group = parser.add_argument_group('Advanced Configuration')
     advanced_group.add_argument(
@@ -213,6 +261,11 @@ def create_configs_from_args(args):
         model_config = ModelConfig.from_dict(yaml_config.get('model', {}))
         data_config = DataConfig.from_dict(yaml_config.get('data', {}))
 
+        # Linguistic features config from YAML
+        linguistic_config = None
+        if 'linguistic' in yaml_config:
+            linguistic_config = LinguisticFeaturesConfig.from_dict(yaml_config['linguistic'])
+
     else:
         # Create configs from command-line args
 
@@ -252,7 +305,19 @@ def create_configs_from_args(args):
             target_column=args.target_column,
         )
 
-    return model_config, lora_config, training_config, data_config
+        # Linguistic features config from command-line args
+        linguistic_config = None
+        if args.use_linguistic_features:
+            linguistic_config = LinguisticFeaturesConfig(
+                use_source_parse=args.linguistic_use_source,
+                use_target_parse=args.linguistic_use_target,
+                parser=args.linguistic_parser,
+                features=args.linguistic_features,
+                encoding_dim=args.linguistic_encoding_dim,
+                use_graph_encoder=args.linguistic_use_graph_encoder,
+            )
+
+    return model_config, lora_config, training_config, data_config, linguistic_config
 
 
 def main():
@@ -264,12 +329,24 @@ def main():
     logger.info("=" * 80)
 
     # Create configurations
-    model_config, lora_config, training_config, data_config = create_configs_from_args(args)
+    model_config, lora_config, training_config, data_config, linguistic_config = create_configs_from_args(args)
 
     logger.info(f"Model: {model_config.model_name_or_path}")
     logger.info(f"Languages: {args.source_lang} → {args.target_lang}")
     logger.info(f"Training data: {data_config.train_file}")
     logger.info(f"Output: {training_config.output_dir}")
+
+    if linguistic_config:
+        logger.info("\n" + "=" * 80)
+        logger.info("Linguistic Features: ENABLED")
+        logger.info("=" * 80)
+        logger.info(f"  Parser: {linguistic_config.parser}")
+        logger.info(f"  Features: {', '.join(linguistic_config.features)}")
+        logger.info(f"  Encoding dim: {linguistic_config.encoding_dim}")
+        logger.info(f"  Source parse: {linguistic_config.use_source_parse}")
+        logger.info(f"  Target parse: {linguistic_config.use_target_parse}")
+        logger.info(f"  Integration: {linguistic_config.integration_method}")
+        logger.info("=" * 80)
 
     # Load data
     logger.info("\nLoading training data...")
@@ -295,13 +372,11 @@ def main():
     logger.info("\nCreating model...")
     model = ModelFactory.create_from_config(model_config)
 
-    # Prepare for training (apply LoRA)
-    logger.info("\nApplying LoRA adaptation...")
-    model.prepare_for_training(lora_config, training_config)
-
-    # Create trainer
+    # Create trainer (applies LoRA and linguistic features internally)
     logger.info("\nInitializing trainer...")
     if model_config.model_type == "causal_lm":
+        # For causal LMs, use CausalLMTrainer (no linguistic features support yet)
+        model.prepare_for_training(lora_config, training_config)
         trainer = CausalLMTrainer(
             model=model,
             train_dataset=dataset_dict['train'],
@@ -309,11 +384,14 @@ def main():
             training_config=training_config,
         )
     else:
-        trainer = LoRATrainer(
+        # For seq2seq models, use create_trainer() which handles linguistic features
+        trainer = create_trainer(
             model=model,
+            training_config=training_config,
             train_dataset=dataset_dict['train'],
             eval_dataset=dataset_dict.get('validation'),
-            training_config=training_config,
+            lora_config=lora_config,
+            linguistic_config=linguistic_config,
         )
 
     # Train

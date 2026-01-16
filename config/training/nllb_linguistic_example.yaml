@@ -1,0 +1,136 @@
+# Example training configuration with linguistic features
+# For training NLLB models with dependency parsing integration
+
+# Model configuration
+model:
+  model_name_or_path: "facebook/nllb-200-distilled-600M"
+  source_lang: "hi"
+  target_lang: "bho"
+  model_type: "seq2seq"
+  max_length: 256
+  device: "cuda"
+
+# Training configuration
+training:
+  output_dir: "models/nllb-bhojpuri-linguistic"
+  num_train_epochs: 10
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 16
+  gradient_accumulation_steps: 4
+  learning_rate: 3e-4
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  lr_scheduler_type: "cosine"
+
+  # Evaluation
+  evaluation_strategy: "steps"
+  eval_steps: 500
+  save_steps: 500
+  save_total_limit: 3
+  load_best_model_at_end: true
+  metric_for_best_model: "eval_bleu"
+  greater_is_better: true
+
+  # Early stopping
+  early_stopping_patience: 3
+
+  # Mixed precision
+  fp16: true
+
+  # Logging
+  logging_steps: 100
+  report_to: ["tensorboard"]
+  run_name: "nllb-bhojpuri-linguistic"
+
+  # Generation
+  generation_max_length: 256
+  generation_num_beams: 5
+
+  # Seeds
+  seed: 42
+  data_seed: 42
+
+# LoRA configuration
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.1
+  target_modules: ["q_proj", "v_proj", "k_proj", "out_proj", "fc1", "fc2"]
+  bias: "none"
+  task_type: "SEQ_2_SEQ_LM"
+
+# Data configuration
+data:
+  train_file: "data/hi_bho_train.tsv"
+  val_file: "data/hi_bho_val.tsv"
+  format: "tsv"
+  source_column: "source"
+  target_column: "target"
+  max_length: 256
+  min_length: 3
+  filter_duplicates: true
+  test_size: 0.0
+  val_size: 0.1
+
+# Linguistic features configuration
+linguistic:
+  # Enable linguistic features
+  use_source_parse: true
+  use_target_parse: false  # Target-side parsing not yet implemented
+  use_both: false
+
+  # Parser selection
+  parser: "stanza"  # Options: stanza, spacy, trankit, udpipe
+  parser_batch_size: 32
+  parser_use_gpu: true
+
+  # Feature types to extract
+  features:
+    - "dependency_labels"  # DEPREL tags (38 UD relations)
+    - "pos_tags"           # UPOS tags (17 UD tags)
+    - "tree_depth"         # Depth in parse tree
+    - "head_distance"      # Distance to head token
+
+  # Integration method
+  integration_method: "encoder_augmentation"  # Concatenate with word embeddings
+  # Options:
+  # - encoder_augmentation: Concatenate parse features with embeddings
+  # - attention_injection: Bias attention with parse structure (not yet implemented)
+  # - decoder_constraint: Constrain decoder with target parse (not yet implemented)
+
+  # Feature encoding
+  encoding_dim: 128  # Dimension of encoded features
+  use_graph_encoder: false  # Use GNN for parse encoding (experimental, not yet implemented)
+
+  # Caching (speeds up training)
+  cache_parses: true
+  parse_cache_dir: "cache/parses"
+
+# Notes:
+#
+# Linguistic Features:
+# - Uses dependency parsing to extract syntactic features from source sentences
+# - Features are encoded and concatenated with word embeddings before encoder
+# - Expected to improve translation quality for low-resource languages
+#
+# Feature Types:
+# - dependency_labels: Grammatical relations (nsubj, obj, det, etc.)
+# - pos_tags: Part-of-speech tags (NOUN, VERB, ADJ, etc.)
+# - tree_depth: How deep the token is in the parse tree
+# - head_distance: Distance to the head token in the sentence
+#
+# Performance:
+# - Parse caching is enabled to avoid re-parsing during training
+# - First epoch will be slower due to parsing, subsequent epochs use cache
+# - GPU support for Stanza parser recommended for large datasets
+#
+# Expected Improvements:
+# - Better handling of complex syntactic structures
+# - Improved word order in translation
+# - Better preservation of grammatical relations
+# - 1-3 BLEU points improvement for low-resource languages
+#
+# Requirements:
+# - stanza library: pip install stanza
+# - Stanza models: Will be automatically downloaded on first use
+# - For Hindi: ~400MB download

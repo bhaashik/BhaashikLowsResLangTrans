@@ -16,6 +16,7 @@ from .openai_provider import OpenAIProvider
 from .anthropic_provider import AnthropicProvider
 from .gemini_provider import GeminiProvider
 from .vertex_provider import VertexAIProvider
+from .finetuned_provider import FineTunedProvider
 
 
 class ProviderRegistry:
@@ -26,7 +27,8 @@ class ProviderRegistry:
         'openai': OpenAIProvider,
         'anthropic': AnthropicProvider,
         'gemini': GeminiProvider,
-        'vertex': VertexAIProvider
+        'vertex': VertexAIProvider,
+        'finetuned': FineTunedProvider
     }
 
     # Default models for each provider
@@ -34,7 +36,8 @@ class ProviderRegistry:
         'openai': 'gpt-4o-mini',
         'anthropic': 'claude-haiku-4.5',
         'gemini': 'gemini-2.0-flash-exp',  # Free tier
-        'vertex': 'gemini-1.5-flash-002'
+        'vertex': 'gemini-1.5-flash-002',
+        'finetuned': None  # Model path required at creation
     }
 
     # API key environment variable names
@@ -42,7 +45,8 @@ class ProviderRegistry:
         'openai': 'OPENAI_API_KEY',
         'anthropic': 'ANTHROPIC_API_KEY',
         'gemini': 'GOOGLE_API_KEY',
-        'vertex': 'GOOGLE_CLOUD_PROJECT'  # Vertex uses project ID + credentials
+        'vertex': 'GOOGLE_CLOUD_PROJECT',  # Vertex uses project ID + credentials
+        'finetuned': None  # No API key required for local models
     }
 
     @classmethod
@@ -55,6 +59,9 @@ class ProviderRegistry:
         """List available models for a provider."""
         if provider not in cls.PROVIDERS:
             raise ValueError(f"Unknown provider: {provider}")
+
+        if provider == 'finetuned':
+            return ["custom"]  # Finetuned models are custom paths
 
         provider_class = cls.PROVIDERS[provider]
         return list(provider_class.MODELS.keys())
@@ -103,6 +110,22 @@ class ProviderRegistry:
 
         provider_class = cls.PROVIDERS[provider]
 
+        # Special handling for finetuned provider
+        if provider == 'finetuned':
+            # Finetuned provider requires model_path, not API key
+            model_path = kwargs.pop('model_path', model)
+            if not model_path:
+                raise ValueError(
+                    "model_path required for finetuned provider. "
+                    "Pass model_path parameter with path to fine-tuned model or adapter."
+                )
+            return provider_class(
+                model_path=model_path,
+                config=config,
+                **kwargs
+            )
+
+        # Standard API-based providers
         # Get model
         if model is None:
             model = cls.get_default_model(provider)
@@ -147,6 +170,15 @@ class ProviderRegistry:
         if provider not in cls.PROVIDERS:
             raise ValueError(f"Unknown provider: {provider}")
 
+        if provider == 'finetuned':
+            return {
+                'name': provider,
+                'models': ['custom'],
+                'default_model': None,
+                'api_key_env_var': None,
+                'pricing': {'custom': {'input_cost': 0, 'output_cost': 0, 'note': 'Local inference - no API costs'}}
+            }
+
         provider_class = cls.PROVIDERS[provider]
 
         return {
@@ -181,6 +213,10 @@ class ProviderRegistry:
         Returns:
             True if provider is available
         """
+        # Finetuned provider is always available (no API key needed)
+        if provider == 'finetuned':
+            return True
+
         env_var = cls.API_KEY_ENV_VARS.get(provider)
         return bool(os.getenv(env_var)) if env_var else False
 

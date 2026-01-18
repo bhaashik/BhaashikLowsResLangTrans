@@ -1,0 +1,200 @@
+# Example training configuration with Automatic Post-Editing (APE)
+# For training NLLB models with quality-aware automatic refinement
+
+# Model configuration
+model:
+  model_name_or_path: "facebook/nllb-200-distilled-600M"
+  source_lang: "hi"
+  target_lang: "bho"
+  model_type: "seq2seq"
+  max_length: 256
+  device: "cuda"
+
+# Training configuration
+training:
+  output_dir: "models/nllb-bhojpuri-ape"
+  num_train_epochs: 10
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 16
+  gradient_accumulation_steps: 4
+  learning_rate: 3e-4
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  lr_scheduler_type: "cosine"
+
+  # Evaluation
+  evaluation_strategy: "steps"
+  eval_steps: 500
+  save_steps: 500
+  save_total_limit: 3
+  load_best_model_at_end: true
+  metric_for_best_model: "eval_bleu"
+  greater_is_better: true
+
+  # Early stopping
+  early_stopping_patience: 3
+
+  # Mixed precision
+  fp16: true
+
+  # Logging
+  logging_steps: 100
+  report_to: ["tensorboard"]
+  run_name: "nllb-bhojpuri-ape"
+
+  # Generation
+  generation_max_length: 256
+  generation_num_beams: 5
+
+  # Seeds
+  seed: 42
+  data_seed: 42
+
+# LoRA configuration
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.1
+  target_modules: ["q_proj", "v_proj", "k_proj", "out_proj", "fc1", "fc2"]
+  bias: "none"
+  task_type: "SEQ_2_SEQ_LM"
+
+# Data configuration
+data:
+  train_file: "data/hi_bho_train.tsv"
+  val_file: "data/hi_bho_val.tsv"
+  format: "tsv"
+  source_column: "source"
+  target_column: "target"
+  max_length: 256
+  min_length: 3
+  filter_duplicates: true
+  test_size: 0.0
+  val_size: 0.1
+
+# Quality estimation configuration (required for APE)
+quality:
+  use_quality_estimation: true
+  use_adequacy: true
+  use_fluency: true
+  adequacy_method: "sentence_embedding"
+  fluency_method: "perplexity"
+  adequacy_model: "sentence-transformers/LaBSE"
+  fluency_model: "gpt2"
+  adequacy_weight: 0.5
+  fluency_weight: 0.5
+  quality_threshold: 0.7
+  device: "cuda"
+
+# Automatic Post-Editing configuration
+ape:
+  # Enable APE
+  use_ape: true
+
+  # APE method
+  ape_method: "iterative"
+  # Options:
+  # - iterative: Iterative refinement with context (fast, effective)
+  # - backtranslation: Round-trip verification (more reliable, slower)
+  # - multipass: Multiple passes with different strategies (best quality)
+  # - ensemble: Ensemble of different methods (slowest, best results)
+
+  # Quality-based triggering
+  quality_threshold: 0.7
+  # Only apply APE to translations with quality < threshold
+  # This saves computation on already good translations
+
+  # Iterative refinement parameters
+  max_iterations: 3
+  # Maximum number of refinement iterations
+  min_quality_improvement: 0.01
+  # Stop if quality improvement < threshold
+
+  # Quality estimation control
+  use_quality_estimation: true
+  # Use quality estimator to guide refinement decisions
+
+  # Generation parameters
+  beam_size: 5
+  temperature: 1.0
+  top_p: 0.9
+  length_penalty: 1.0
+
+  # Multi-pass specific (if using multipass method)
+  num_passes: 2
+  pass_strategies: ["beam", "sampling"]
+  # Each pass uses different generation strategy
+  # Strategies: beam, sampling, greedy, diverse_beam
+
+  # Processing
+  batch_size: 16
+  device: "cuda"
+
+# Notes:
+#
+# Automatic Post-Editing (APE):
+# - Refines initial translations using model itself or auxiliary models
+# - Quality-aware: only refines low-quality translations
+# - Multiple methods available for different use cases
+#
+# APE Methods:
+#
+# 1. Iterative Refinement:
+#    - Uses model to iteratively improve translation
+#    - Fast and effective for most cases
+#    - Guided by quality estimation
+#    - Stops when quality improvement plateaus
+#
+# 2. Back-Translation:
+#    - Translates target→source (round-trip)
+#    - Verifies quality by comparing with original source
+#    - Refines if back-translation differs significantly
+#    - More reliable but requires backward model
+#
+# 3. Multi-Pass:
+#    - Generates multiple candidates with different strategies
+#    - Selects best based on quality estimation
+#    - Combines beam search, sampling, diverse beams
+#    - Best quality but slowest
+#
+# 4. Ensemble:
+#    - Combines multiple APE methods
+#    - Best overall results
+#    - Most computationally expensive
+#
+# When to Use APE:
+# - Noisy training data with quality issues
+# - Domain adaptation scenarios
+# - Post-processing existing translations
+# - Bootstrapping training data
+#
+# Expected Improvements:
+# - Iterative: +0.5-1.5 BLEU on low-quality translations
+# - Back-translation: +1-2 BLEU with quality verification
+# - Multi-pass: +1.5-2.5 BLEU by selecting best candidate
+# - Overall dataset: +0.3-0.8 BLEU (quality-aware triggering)
+#
+# Computational Cost:
+# - Iterative: ~2x inference time per low-quality example
+# - Back-translation: ~3x (need backward model)
+# - Multi-pass: ~num_passes×inference_time
+# - Only affects examples below quality threshold
+#
+# Combining with Other Features:
+# - Quality estimation: Essential for APE (triggers refinement)
+# - Linguistic features: Can inform what to refine
+# - Language embeddings: Provides language-specific guidance
+# - All combined: up to 7-9 BLEU improvement
+#
+# Best Practices:
+# - Start with iterative refinement (fastest, effective)
+# - Set quality_threshold to refine only bottom 20-30% of translations
+# - Use max_iterations=2-3 (diminishing returns after)
+# - Monitor quality improvement to tune min_quality_improvement
+# - Consider multi-pass for critical translations only
+#
+# Requirements:
+# - Quality estimation must be enabled
+# - sentence-transformers for quality estimation
+# - For back-translation: bidirectional models
+# - GPU recommended for reasonable speed

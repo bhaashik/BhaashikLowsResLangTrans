@@ -1,0 +1,167 @@
+# Example training configuration with SMT-inspired quality components
+# For training NLLB models with quality-aware loss
+
+# Model configuration
+model:
+  model_name_or_path: "facebook/nllb-200-distilled-600M"
+  source_lang: "hi"
+  target_lang: "bho"
+  model_type: "seq2seq"
+  max_length: 256
+  device: "cuda"
+
+# Training configuration
+training:
+  output_dir: "models/nllb-bhojpuri-quality"
+  num_train_epochs: 10
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 16
+  gradient_accumulation_steps: 4
+  learning_rate: 3e-4
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  lr_scheduler_type: "cosine"
+
+  # Evaluation
+  evaluation_strategy: "steps"
+  eval_steps: 500
+  save_steps: 500
+  save_total_limit: 3
+  load_best_model_at_end: true
+  metric_for_best_model: "eval_bleu"
+  greater_is_better: true
+
+  # Early stopping
+  early_stopping_patience: 3
+
+  # Mixed precision
+  fp16: true
+
+  # Logging
+  logging_steps: 100
+  report_to: ["tensorboard"]
+  run_name: "nllb-bhojpuri-quality"
+
+  # Generation
+  generation_max_length: 256
+  generation_num_beams: 5
+
+  # Seeds
+  seed: 42
+  data_seed: 42
+
+# LoRA configuration
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.1
+  target_modules: ["q_proj", "v_proj", "k_proj", "out_proj", "fc1", "fc2"]
+  bias: "none"
+  task_type: "SEQ_2_SEQ_LM"
+
+# Data configuration
+data:
+  train_file: "data/hi_bho_train.tsv"
+  val_file: "data/hi_bho_val.tsv"
+  format: "tsv"
+  source_column: "source"
+  target_column: "target"
+  max_length: 256
+  min_length: 3
+  filter_duplicates: true
+  test_size: 0.0
+  val_size: 0.1
+
+# Quality estimation configuration
+quality:
+  # Enable quality estimation
+  use_quality_estimation: true
+  use_adequacy: true
+  use_fluency: true
+
+  # Adequacy configuration
+  adequacy_method: "sentence_embedding"
+  # Options:
+  # - sentence_embedding: Cosine similarity of sentence embeddings (fast, effective)
+  # - entailment: Cross-lingual entailment probability (more accurate, slower)
+  # - word_alignment: Word alignment coverage (good for morphologically rich languages)
+
+  adequacy_model: "sentence-transformers/LaBSE"
+  # LaBSE: Language-agnostic BERT Sentence Encoder (109 languages)
+  # Alternative: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+
+  # Fluency configuration
+  fluency_method: "perplexity"
+  # Options:
+  # - perplexity: Language model perplexity (fast, effective)
+  # - parse_based: Syntactic well-formedness (more linguistic, slower)
+  # - grammar_checker: Grammar checking (not yet implemented)
+
+  fluency_model: "gpt2"
+  # For perplexity: gpt2 (English), facebook/mbart-large-50 (multilingual)
+  # For parse_based: stanza
+
+  # Quality-weighted training
+  use_quality_weighted_loss: true
+  adequacy_weight: 0.5  # Weight for adequacy in overall quality
+  fluency_weight: 0.5   # Weight for fluency in overall quality
+
+  # Quality filtering (optional)
+  quality_threshold: 0.0  # Filter examples below this quality (0.0 = no filtering)
+  normalize_scores: true
+
+  # Caching
+  cache_quality_scores: true
+  quality_cache_dir: "cache/quality"
+
+  # Processing
+  batch_size: 32
+  device: "cuda"
+
+# Notes:
+#
+# Quality Estimation:
+# - Inspired by Statistical MT decomposition: adequacy + fluency
+# - Adequacy: How well translation preserves source meaning
+# - Fluency: How natural/fluent translation is in target language
+#
+# Adequacy Methods:
+# - sentence_embedding: Fast, works well for most languages
+#   Uses cosine similarity of multilingual embeddings
+# - entailment: More accurate, uses cross-lingual NLI models
+#   Good for detecting semantic divergence
+# - word_alignment: Based on word-level alignment coverage
+#   Good for morphologically rich languages
+#
+# Fluency Methods:
+# - perplexity: Fast, based on language model probability
+#   Lower perplexity = more fluent
+# - parse_based: Uses syntactic well-formedness
+#   Requires dependency parser
+#
+# Quality-Weighted Loss:
+# - Weights training examples by quality score
+# - Focuses learning on high-quality examples
+# - Can filter low-quality examples entirely
+#
+# Expected Improvements:
+# - Better handling of noisy training data
+# - More robust to low-quality parallel data
+# - Improved translation quality on clean test sets
+# - 1-2 BLEU points improvement with quality weighting
+#
+# Combining with Other Features:
+# - Can use with linguistic features (parse augmentation)
+# - Can use with language embeddings (typological features)
+# - Combined effect: up to 5-6 BLEU improvement total
+#
+# Computational Cost:
+# - Adequacy: ~2x training time (need to compute embeddings)
+# - Fluency: ~1.5x training time (need to compute perplexity)
+# - Both: ~3x training time (run in parallel)
+# - Can cache scores to amortize cost across epochs
+#
+# Requirements:
+# - sentence-transformers: pip install sentence-transformers
+# - For entailment: transformers (already installed)
+# - For parse-based fluency: stanza (already available)
